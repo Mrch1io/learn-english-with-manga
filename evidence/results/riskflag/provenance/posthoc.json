@@ -1,0 +1,44 @@
+{
+  "analysis_type": "exploratory_posthoc_after_outcome_seen",
+  "changes_confirmatory_decision": false,
+  "population": {
+    "system": "vntl-gold-c0",
+    "sampled_regions": 151,
+    "labeled": 151,
+    "severe": 18,
+    "null": 0
+  },
+  "groups": {
+    "severe_reference_or_alignment": {
+      "count": 15,
+      "s1_median": 0.2064942313550192,
+      "risk_rank_median": 125,
+      "top46_count": 2
+    },
+    "other_severe": {
+      "count": 3,
+      "s1_median": 0.3319545013841084,
+      "risk_rank_median": 70,
+      "top46_count": 1
+    },
+    "non_severe": {
+      "count": 133,
+      "s1_median": 0.32853967691399777,
+      "risk_rank_median": 72,
+      "top46_count": 43
+    }
+  },
+  "spearman_s1_vs_japanese_length": -0.1458170387912408,
+  "japanese_length_definition": "Python len(raw source_text): Unicode code points including punctuation, whitespace and newlines; no normalization",
+  "risk_rank_definition": "research.risk_flag_pilot.rank_rows: descending S1, then page_id and block_id; unique ranks 1..151",
+  "spearman_definition": "Pearson correlation of average-tie ranks of S1 and raw Japanese length",
+  "top_budget": {
+    "fraction": 0.3,
+    "k": 46
+  },
+  "reference_check": "All provided reference values match at stated precision",
+  "model_calls": 0,
+  "confirmation_analyze_invocations": 0,
+  "bootstrap_invocations": 0,
+  "independent_computation": "matched"
+}

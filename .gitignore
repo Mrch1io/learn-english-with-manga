@@ -1,0 +1,76 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+translated_output/
+.gpu-python
+# Local experiments and video production files are not published.
+/local_dev/
+/demo-video/*
+runtime/
+
+# Local weights, user data and generated artifacts remain on disk.
+*.pt
+# Publish the bubble detector; keep other weight files ignored.
+!/best.pt
+*.pth
+*.gguf
+*.safetensors
+*.bin
+*.sqlite3
+*.db
+*.log
+*.mp4
+!/demo-video/demo-30s-hq-en.mp4
+!/demo-video/demo-30s-hq-zh.mp4
+*.png
+*.jpg
+*.jpeg
+# Selected README examples; all other generated/user images remain ignored.
+!docs/assets/manga-original.jpg
+!docs/assets/manga-translated.png
+# README figures, built locally from saved results.
+!docs/assets/cleanup.png
+!docs/assets/chrf-delta.png
+!docs/assets/comma-case.png
+# README figures with recorded provenance (see docs/assets/provenance.json).
+!docs/assets/risk-ranking.png
+!docs/assets/api-errors.png
+!docs/assets/tojime-p0003-original.jpg
+!docs/assets/tojime-p0003-vntl.png
+!docs/assets/app-reader.png
+!docs/assets/app-tasks.png
+!docs/assets/app-settings.png
+# Vector exports embed their build time; only the PNG figures are published.
+docs/assets/*.pdf
+docs/assets/*.svg
+# Selected desktop application icon (transparent PNG fallback).
+!assets/app-icon.png
+# Licensed, curated desktop sample. Runtime edits live under data/.
+!presentation/original.jpg
+!presentation/daily-life.png
+!presentation/daily-life.clean.png
+!presentation/page-005/original.jpg
+!presentation/page-005/daily-life.png
+!presentation/page-005/daily-life.clean.png
+!presentation/page-006/original.jpg
+!presentation/page-006/daily-life.png
+!presentation/page-006/daily-life.clean.png
+*.wav
+*.mp3
+*.lnk
+*.zip
+*.7z
+.env
+.env.*
+*.pem
+*.key
+manga-lora-adapter/
+output/
+reader_demo/
+voice_demo/
+reader_output/
+glossary.json
+train.jsonl
+
+/research/

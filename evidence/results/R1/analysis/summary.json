@@ -1,0 +1,5596 @@
+{
+  "expected_regions": 48,
+  "expected_candidates": 192,
+  "reviewers": [
+    {
+      "reviewer": "1",
+      "expected": 192,
+      "completed": 188,
+      "human_attested": true,
+      "assistance": {
+        "independent_human_review": true,
+        "reviewed_items": [
+          "item001-1",
+          "item001-2",
+          "item001-3",
+          "item001-4",
+          "item002-1",
+          "item002-2",
+          "item002-3",
+          "item002-4",
+          "item003-1",
+          "item003-2",
+          "item003-3",
+          "item003-4",
+          "item004-1",
+          "item004-2",
+          "item004-3",
+          "item004-4",
+          "item005-1",
+          "item005-2",
+          "item005-3",
+          "item005-4",
+          "item006-1",
+          "item006-2",
+          "item006-3",
+          "item006-4",
+          "item007-1",
+          "item007-2",
+          "item007-3",
+          "item007-4",
+          "item008-1",
+          "item008-2",
+          "item008-3",
+          "item008-4",
+          "item009-1",
+          "item009-2",
+          "item009-3",
+          "item009-4",
+          "item010-1",
+          "item010-2",
+          "item010-3",
+          "item010-4",
+          "item011-1",
+          "item011-2",
+          "item011-3",
+          "item011-4",
+          "item012-1",
+          "item012-2",
+          "item012-3",
+          "item012-4",
+          "item013-1",
+          "item013-2",
+          "item013-3",
+          "item013-4",
+          "item014-1",
+          "item014-2",
+          "item014-3",
+          "item014-4",
+          "item015-1",
+          "item015-2",
+          "item015-3",
+          "item015-4",
+          "item016-1",
+          "item016-2",
+          "item016-3",
+          "item016-4",
+          "item017-1",
+          "item017-2",
+          "item017-3",
+          "item017-4",
+          "item018-1",
+          "item018-2",
+          "item018-3",
+          "item018-4",
+          "item019-1",
+          "item019-2",
+          "item019-3",
+          "item019-4",
+          "item020-1",
+          "item020-2",
+          "item020-3",
+          "item020-4",
+          "item021-1",
+          "item021-2",
+          "item021-3",
+          "item021-4",
+          "item022-1",
+          "item022-2",
+          "item022-3",
+          "item022-4",
+          "item023-1",
+          "item023-2",
+          "item023-3",
+          "item023-4",
+          "item024-1",
+          "item024-2",
+          "item024-3",
+          "item024-4",
+          "item025-1",
+          "item025-2",
+          "item025-3",
+          "item025-4",
+          "item026-1",
+          "item026-2",
+          "item026-3",
+          "item026-4",
+          "item027-1",
+          "item027-2",
+          "item027-3",
+          "item027-4",
+          "item028-1",
+          "item028-2",
+          "item028-3",
+          "item028-4",
+          "item029-1",
+          "item029-2",
+          "item029-3",
+          "item029-4",
+          "item030-1",
+          "item030-2",
+          "item030-3",
+          "item030-4",
+          "item031-1",
+          "item031-2",
+          "item031-3",
+          "item031-4",
+          "item032-1",
+          "item032-2",
+          "item032-3",
+          "item032-4",
+          "item033-1",
+          "item033-2",
+          "item033-3",
+          "item033-4",
+          "item034-1",
+          "item034-2",
+          "item034-3",
+          "item034-4",
+          "item035-1",
+          "item035-2",
+          "item035-3",
+          "item035-4",
+          "item036-1",
+          "item036-2",
+          "item036-3",
+          "item036-4",
+          "item037-1",
+          "item037-2",
+          "item037-3",
+          "item037-4",
+          "item038-1",
+          "item038-2",
+          "item038-3",
+          "item038-4",
+          "item039-1",
+          "item039-2",
+          "item039-3",
+          "item039-4",
+          "item040-1",
+          "item040-2",
+          "item040-3",
+          "item040-4",
+          "item041-1",
+          "item041-2",
+          "item041-3",
+          "item041-4",
+          "item042-1",
+          "item042-2",
+          "item042-3",
+          "item042-4",
+          "item043-1",
+          "item043-2",
+          "item043-3",
+          "item043-4",
+          "item044-1",
+          "item044-2",
+          "item044-3",
+          "item044-4",
+          "item045-1",
+          "item045-2",
+          "item045-3",
+          "item045-4",
+          "item046-1",
+          "item046-2",
+          "item046-3",
+          "item046-4",
+          "item047-1",
+          "item047-2",
+          "item047-3",
+          "item047-4",
+          "item048-1",
+          "item048-2",
+          "item048-3",
+          "item048-4"
+        ]
+      }
+    }
+  ],
+  "completed_judgments": 188,
+  "human_attested_exports": 1,
+  "status": "partial",
+  "systems": {
+    "qwen-gold-c0": {
+      "expected_judgments": 48,
+      "completed": 48,
+      "partial": 0,
+      "unscored": 0,
+      "empty_candidates": 0,
+      "faithfulness_mean": 2.4583333333333335,
+      "naturalness_mean": 2.3541666666666665,
+      "naturalness_denominator": 48,
+      "severe_error_rate": 0.3541666666666667,
+      "tags": {
+        "omission": 8,
+        "addition": 8,
+        "name_term": 6,
+        "reference": 9,
+        "tone": 10,
+        "other": 11,
+        "annotation": 2
+      },
+      "weighting": "completed judgments; use paired metrics for system comparison"
+    },
+    "vntl-gold-c0": {
+      "expected_judgments": 48,
+      "completed": 47,
+      "partial": 1,
+      "unscored": 0,
+      "empty_candidates": 0,
+      "faithfulness_mean": 3.3404255319148937,
+      "naturalness_mean": 2.9361702127659575,
+      "naturalness_denominator": 47,
+      "severe_error_rate": 0.19148936170212766,
+      "tags": {
+        "name_term": 3,
+        "annotation": 2,
+        "omission": 2,
+        "tone": 2,
+        "reference": 7,
+        "negation": 1,
+        "addition": 2
+      },
+      "weighting": "completed judgments; use paired metrics for system comparison"
+    },
+    "vntl-gold-c1200": {
+      "expected_judgments": 48,
+      "completed": 46,
+      "partial": 2,
+      "unscored": 0,
+      "empty_candidates": 0,
+      "faithfulness_mean": 3.4782608695652173,
+      "naturalness_mean": 2.9565217391304346,
+      "naturalness_denominator": 46,
+      "severe_error_rate": 0.06521739130434782,
+      "tags": {
+        "name_term": 6,
+        "omission": 2,
+        "reference": 5,
+        "annotation": 2,
+        "addition": 6,
+        "tone": 1
+      },
+      "weighting": "completed judgments; use paired metrics for system comparison"
+    },
+    "vntl-ocr-c0": {
+      "expected_judgments": 48,
+      "completed": 47,
+      "partial": 1,
+      "unscored": 0,
+      "empty_candidates": 0,
+      "faithfulness_mean": 3.3191489361702127,
+      "naturalness_mean": 2.872340425531915,
+      "naturalness_denominator": 47,
+      "severe_error_rate": 0.1702127659574468,
+      "tags": {
+        "name_term": 3,
+        "annotation": 2,
+        "tone": 2,
+        "reference": 7,
+        "negation": 1,
+        "addition": 2,
+        "other": 2,
+        "omission": 1
+      },
+      "weighting": "completed judgments; use paired metrics for system comparison"
+    }
+  },
+  "comparisons": [
+    {
+      "baseline": "vntl-gold-c0",
+      "candidate": "vntl-ocr-c0",
+      "expected_judgment_pairs": 48,
+      "coverage": {
+        "paired": 47,
+        "baseline_only": 0,
+        "candidate_only": 0,
+        "neither_complete": 1
+      },
+      "metrics": {
+        "faithfulness": {
+          "regions": 47,
+          "pages": 24,
+          "paired_judgments": 47,
+          "baseline": 3.3404255319148937,
+          "candidate": 3.3191489361702127,
+          "delta": -0.02127659574468085,
+          "ci95": [
+            -0.1702127659574468,
+            0.16666666666666666
+          ],
+          "unit": "page; reviewers averaged within each region",
+          "delta_direction": "candidate - baseline",
+          "samples": 2000,
+          "seed": 20261018,
+          "interval_status": "descriptive_small_sample"
+        },
+        "severe_error": {
+          "regions": 47,
+          "pages": 24,
+          "paired_judgments": 47,
+          "baseline": 0.19148936170212766,
+          "candidate": 0.1702127659574468,
+          "delta": -0.02127659574468085,
+          "ci95": [
+            -0.06521739130434782,
+            0.0
+          ],
+          "unit": "page; reviewers averaged within each region",
+          "delta_direction": "candidate - baseline",
+          "samples": 2000,
+          "seed": 20261018,
+          "interval_status": "descriptive_small_sample"
+        },
+        "naturalness": {
+          "regions": 47,
+          "pages": 24,
+          "paired_judgments": 47,
+          "baseline": 2.9361702127659575,
+          "candidate": 2.872340425531915,
+          "delta": -0.06382978723404255,
+          "ci95": [
+            -0.1702127659574468,
+            0.0
+          ],
+          "unit": "page; reviewers averaged within each region",
+          "delta_direction": "candidate - baseline",
+          "samples": 2000,
+          "seed": 20261018,
+          "interval_status": "descriptive_small_sample"
+        }
+      },
+      "severe_transitions": {
+        "both_severe": 8,
+        "resolved": 1,
+        "introduced": 0,
+        "neither_severe": 38
+      },
+      "tag_transitions": {
+        "omission": {
+          "both_flagged": 1,
+          "baseline_only": 1,
+          "candidate_only": 0
+        },
+        "negation": {
+          "both_flagged": 1,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "reference": {
+          "both_flagged": 7,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "name_term": {
+          "both_flagged": 2,
+          "baseline_only": 1,
+          "candidate_only": 1
+        },
+        "alignment": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "ocr_propagation": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "repetition": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "addition": {
+          "both_flagged": 2,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "tone": {
+          "both_flagged": 2,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "order": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "annotation": {
+          "both_flagged": 2,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "other": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 2
+        }
+      },
+      "transitions_denominator": 47,
+      "paired_rows": [
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0001:t000",
+          "page_id": "tojime_no_siora:p0001",
+          "baseline": {
+            "item": "item001-3",
+            "candidate": "The Sealed Eye of Shiora",
+            "source_text": "綴じ眼のシオラ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留シオラ及封闭眼睛的题名信息；英语题名表达通顺。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0001",
+            "block_id": "tojime_no_siora:p0001:t000"
+          },
+          "candidate": {
+            "item": "item001-2",
+            "candidate": "Shibo-ra, the Sealed Eye.",
+            "source_text": "綴じ眼のシオラ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "保留“封住的眼睛”题意，但可见人名シオラ被写为Shibo-ra，多出音节。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0001",
+            "block_id": "tojime_no_siora:p0001:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0001:t001",
+          "page_id": "tojime_no_siora:p0001",
+          "baseline": {
+            "item": "item002-2",
+            "candidate": "Kaku-taka Mitsuki",
+            "source_text": "朽鷹みつき",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "原图署名为「朽鷹みつき」，Mitsuki可核对；姓无读音标注，无法可靠确认Kaku-taka是否为作者采用的读法。",
+            "confidence": "low",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0001",
+            "block_id": "tojime_no_siora:p0001:t001"
+          },
+          "candidate": {
+            "item": "item002-4",
+            "candidate": "Kaku-taka Mitsuki",
+            "source_text": "朽鷹みつき",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "原图署名为「朽鷹みつき」，Mitsuki可核对；姓无读音标注，无法可靠确认Kaku-taka是否为作者采用的读法。",
+            "confidence": "low",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0001",
+            "block_id": "tojime_no_siora:p0001:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0002:t001",
+          "page_id": "tojime_no_siora:p0002",
+          "baseline": {
+            "item": "item003-1",
+            "candidate": "I said I don’t know!",
+            "source_text": "知らないって言ってるだろっ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留“我都说了不知道”的强调和愤怒语气，符合原气泡。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0002",
+            "block_id": "tojime_no_siora:p0002:t001"
+          },
+          "candidate": {
+            "item": "item003-2",
+            "candidate": "I said I don’t know!",
+            "source_text": "知らないって言ってるだろっ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留“我都说了不知道”的强调和愤怒语气，符合原气泡。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0002",
+            "block_id": "tojime_no_siora:p0002:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0002:t003",
+          "page_id": "tojime_no_siora:p0002",
+          "baseline": {
+            "item": "item004-1",
+            "candidate": "Even so, huh?",
+            "source_text": "そうは言ってもなぁ",
+            "faithfulness": 4,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Even so保留“虽说如此／话虽这么说”的让步；句尾huh略生硬，但主要意义正确。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0002",
+            "block_id": "tojime_no_siora:p0002:t003"
+          },
+          "candidate": {
+            "item": "item004-4",
+            "candidate": "Even so, huh?",
+            "source_text": "そうは言ってもなぁ",
+            "faithfulness": 4,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Even so保留“虽说如此／话虽这么说”的让步；句尾huh略生硬，但主要意义正确。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0002",
+            "block_id": "tojime_no_siora:p0002:t003"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0003:t001",
+          "page_id": "tojime_no_siora:p0003",
+          "baseline": {
+            "item": "item005-4",
+            "candidate": "I’m gonna make sure you pay back the money you borrowed from Tortillano.",
+            "source_text": "トルティヤーノに借りた金はちゃんと返して貰わねぇと",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留向对方催还从トルティヤーノ借的钱；借款及还款方向正确，英语威胁口吻合适。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0003",
+            "block_id": "tojime_no_siora:p0003:t001"
+          },
+          "candidate": {
+            "item": "item005-1",
+            "candidate": "I’m gonna make sure you pay back the money you borrowed from Tortillano.",
+            "source_text": "トルティヤーノに借りた金はちゃんと返して貰わねぇと",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留向对方催还从トルティヤーノ借的钱；借款及还款方向正确，英语威胁口吻合适。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0003",
+            "block_id": "tojime_no_siora:p0003:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0003:t010",
+          "page_id": "tojime_no_siora:p0003",
+          "baseline": {
+            "item": "item006-1",
+            "candidate": "Ah.",
+            "source_text": "あっ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "あっ为跌倒瞬间的短促惊呼，Ah保留主要内容；句号只略减急促感。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0003",
+            "block_id": "tojime_no_siora:p0003:t010"
+          },
+          "candidate": {
+            "item": "item006-4",
+            "candidate": "Ah.",
+            "source_text": "あっ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "あっ为跌倒瞬间的短促惊呼，Ah保留主要内容；句号只略减急促感。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0003",
+            "block_id": "tojime_no_siora:p0003:t010"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0004:t007",
+          "page_id": "tojime_no_siora:p0004",
+          "baseline": {
+            "item": "item007-2",
+            "candidate": "Eyes closed, unable to see...",
+            "source_text": "目の見えない閉じ眼が...",
+            "faithfulness": 3,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "保留“看不见”，但把称呼一类人的「閉じ眼」写成眼睛闭着的状态；与下一泡“竟是枪手”衔接较生硬。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0004",
+            "block_id": "tojime_no_siora:p0004:t007"
+          },
+          "candidate": {
+            "item": "item007-1",
+            "candidate": "Eyes closed, unable to see...",
+            "source_text": "目の見えない閉じ眼が...",
+            "faithfulness": 3,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "保留“看不见”，但把称呼一类人的「閉じ眼」写成眼睛闭着的状态；与下一泡“竟是枪手”衔接较生硬。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0004",
+            "block_id": "tojime_no_siora:p0004:t007"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0004:t008",
+          "page_id": "tojime_no_siora:p0004",
+          "baseline": {
+            "item": "item008-4",
+            "candidate": "A gunman...?",
+            "source_text": "ガンマンだって...?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "用疑问复述“枪手”，保留だって的惊讶确认意味。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0004",
+            "block_id": "tojime_no_siora:p0004:t008"
+          },
+          "candidate": {
+            "item": "item008-3",
+            "candidate": "A gunman...?",
+            "source_text": "ガンマンだって...?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "用疑问复述“枪手”，保留だって的惊讶确认意味。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0004",
+            "block_id": "tojime_no_siora:p0004:t008"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0005:t010",
+          "page_id": "tojime_no_siora:p0005",
+          "baseline": {
+            "item": "item009-4",
+            "candidate": "A girl?",
+            "source_text": "女か?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对性别的惊讶询问；girl符合画面中的年轻人物。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0005",
+            "block_id": "tojime_no_siora:p0005:t010"
+          },
+          "candidate": {
+            "item": "item009-1",
+            "candidate": "A girl?",
+            "source_text": "女か?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对性别的惊讶询问；girl符合画面中的年轻人物。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0005",
+            "block_id": "tojime_no_siora:p0005:t010"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0005:t016",
+          "page_id": "tojime_no_siora:p0005",
+          "baseline": {
+            "item": "item010-1",
+            "candidate": "Hey, wait...!",
+            "source_text": "やっちょっと...!",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "画面中被扯开遮眼物时出声制止，Hey, wait保留“哎，等一下”的反应。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0005",
+            "block_id": "tojime_no_siora:p0005:t016"
+          },
+          "candidate": {
+            "item": "item010-3",
+            "candidate": "Hey, wait...!",
+            "source_text": "やっちょっと...!",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "画面中被扯开遮眼物时出声制止，Hey, wait保留“哎，等一下”的反应。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0005",
+            "block_id": "tojime_no_siora:p0005:t016"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0006:t002",
+          "page_id": "tojime_no_siora:p0006",
+          "baseline": {
+            "item": "item011-1",
+            "candidate": "You bastard...",
+            "source_text": "てめぇ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "用英语辱骂表达てめぇ的粗暴称呼，符合紧接的愤怒反应。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0006",
+            "block_id": "tojime_no_siora:p0006:t002"
+          },
+          "candidate": {
+            "item": "item011-3",
+            "candidate": "You bastard...",
+            "source_text": "てめぇ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "用英语辱骂表达てめぇ的粗暴称呼，符合紧接的愤怒反应。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0006",
+            "block_id": "tojime_no_siora:p0006:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0006:t003",
+          "page_id": "tojime_no_siora:p0006",
+          "baseline": {
+            "item": "item012-3",
+            "candidate": "?",
+            "source_text": "?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "原图该泡仅有问号，候选完整保留疑惑符号。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0006",
+            "block_id": "tojime_no_siora:p0006:t003"
+          },
+          "candidate": {
+            "item": "item012-4",
+            "candidate": "?",
+            "source_text": "?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "原图该泡仅有问号，候选完整保留疑惑符号。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0006",
+            "block_id": "tojime_no_siora:p0006:t003"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0007:t006",
+          "page_id": "tojime_no_siora:p0007",
+          "baseline": {
+            "item": "item013-1",
+            "candidate": "He’s one of the Tortiya brothers, the most notorious ruffian in this town.",
+            "source_text": "奴はトルティヤー兄弟の片割れ、この街で一番の荒くれだよ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term",
+              "annotation"
+            ],
+            "notes": "人物为兄弟之一、镇上最凶横的人均保留。原图可见「トルティヤーノ兄弟」，包内转写少了ノ；Tortiya也未保留这个尾音，按轻微名字差异处理。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0007",
+            "block_id": "tojime_no_siora:p0007:t006"
+          },
+          "candidate": {
+            "item": "item013-3",
+            "candidate": "He’s one of the Tortiano brothers, the most notorious ruffian in this town.",
+            "source_text": "奴はトルティヤー兄弟の片割れ、この街で一番の荒くれだよ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "annotation"
+            ],
+            "notes": "保留他为兄弟之一及镇上最凶横者的主要意思。原图姓名可见トルティヤーノ，Tortiano与其接近；包内日文转写少了末尾ノ。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0007",
+            "block_id": "tojime_no_siora:p0007:t006"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0007:t008",
+          "page_id": "tojime_no_siora:p0007",
+          "baseline": {
+            "item": "item014-1",
+            "candidate": "That giant, about seven feet tall, from earlier...",
+            "source_text": "さっきの7フィート程の巨漢が、マフィア兄弟の弟の方...",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "omission"
+            ],
+            "notes": "保留刚才约七英尺高的巨汉，却完全漏掉“是黑手党兄弟中的弟弟”这一身份判断，遗漏该气泡核心命题。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0007",
+            "block_id": "tojime_no_siora:p0007:t008"
+          },
+          "candidate": {
+            "item": "item014-3",
+            "candidate": "That giant, about seven feet tall, from earlier... he’s the younger brother of the mafia brothers...",
+            "source_text": "さっきの7フィート程の巨漢が、マフィア兄弟の弟の方...",
+            "faithfulness": 4,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [],
+            "notes": "巨汉、约七英尺、黑手党兄弟中的弟弟均保留；younger brother of the mafia brothers略显重复生硬。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0007",
+            "block_id": "tojime_no_siora:p0007:t008"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0008:t002",
+          "page_id": "tojime_no_siora:p0008",
+          "baseline": {
+            "item": "item015-3",
+            "candidate": "Nngh...",
+            "source_text": "なっ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "tone"
+            ],
+            "notes": "原图是被说中身体尺寸时的惊讶「なっ」，Nngh更像压抑呻吟，基本保留受惊反应但语气有偏差。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0008",
+            "block_id": "tojime_no_siora:p0008:t002"
+          },
+          "candidate": {
+            "item": "item015-1",
+            "candidate": "Nngh...",
+            "source_text": "なっ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "tone"
+            ],
+            "notes": "原图是被说中身体尺寸时的惊讶「なっ」，Nngh更像压抑呻吟，基本保留受惊反应但语气有偏差。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0008",
+            "block_id": "tojime_no_siora:p0008:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0008:t015",
+          "page_id": "tojime_no_siora:p0008",
+          "baseline": {
+            "item": "item016-1",
+            "candidate": "If you don’t want to be seen, just wrap a towel around yourself or something.",
+            "source_text": "見られたくなかったらタオルでも巻いてな",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "reference"
+            ],
+            "notes": "前一泡明确限定「目元」，此处建议不愿被看见眼部就缠毛巾；around yourself易理解为裹住全身，改变遮盖部位，仍保留遮挡建议。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0008",
+            "block_id": "tojime_no_siora:p0008:t015"
+          },
+          "candidate": {
+            "item": "item016-4",
+            "candidate": "If you don’t want to be seen, just wrap a towel around yourself or something.",
+            "source_text": "見られたくなかったらタオルでも巻いてな",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "reference"
+            ],
+            "notes": "前一泡明确限定「目元」，此处建议不愿被看见眼部就缠毛巾；around yourself易理解为裹住全身，改变遮盖部位，仍保留遮挡建议。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0008",
+            "block_id": "tojime_no_siora:p0008:t015"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0009:t002",
+          "page_id": "tojime_no_siora:p0009",
+          "baseline": {
+            "item": "item017-2",
+            "candidate": "You wouldn’t know how to use someone else’s shower, right?",
+            "source_text": "人の家のシャワーじゃ勝手がわからないだろ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留不熟悉别人家淋浴用法的推测，与提出帮忙洗澡的上下文相符。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0009",
+            "block_id": "tojime_no_siora:p0009:t002"
+          },
+          "candidate": {
+            "item": "item017-3",
+            "candidate": "You wouldn’t know how to use someone else’s shower, right?",
+            "source_text": "人の家のシャワーじゃ勝手がわからないだろ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留不熟悉别人家淋浴用法的推测，与提出帮忙洗澡的上下文相符。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0009",
+            "block_id": "tojime_no_siora:p0009:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0009:t010",
+          "page_id": "tojime_no_siora:p0009",
+          "baseline": {
+            "item": "item018-1",
+            "candidate": "I was drawing naked women just to make money and selling them to Tortiya.",
+            "source_text": "金になるからって女の裸ばかり描いてトルティヤーに卸してた",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "annotation"
+            ],
+            "notes": "上下文和画面说明画裸女并卖画的是父亲；I 将此经历错归说话者本人，人物行动归属发生严重改变。原图专名为トルティヤーノ，包内日文漏了ノ，需修核参考。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0009",
+            "block_id": "tojime_no_siora:p0009:t010"
+          },
+          "candidate": {
+            "item": "item018-2",
+            "candidate": "I was drawing naked women just to make money and selling them to Tortiano.",
+            "source_text": "金になるからって女の裸ばかり描いてトルティヤーに卸してた",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "annotation"
+            ],
+            "notes": "画画卖画的是父亲，I 错归说话者本人，属严重人物指代错误。原图可见トルティヤーノ，包内日文漏了ノ；Tortiano 与原图可对应，不按译名错误扣分。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0009",
+            "block_id": "tojime_no_siora:p0009:t010"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0010:t004",
+          "page_id": "tojime_no_siora:p0010",
+          "baseline": {
+            "item": "item019-3",
+            "candidate": "In the end, he ended up in debt from gambling and tossed himself into the river.",
+            "source_text": "挙句の果てに博打で借金こさえて川にドボン",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整表达最终赌博欠债并投河，口语性的 tossed himself 与原文叙述语气相容。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0010",
+            "block_id": "tojime_no_siora:p0010:t004"
+          },
+          "candidate": {
+            "item": "item019-2",
+            "candidate": "In the end, he ended up in debt from gambling and tossed himself into the river.",
+            "source_text": "挙句の果てに博打で借金こさえて川にドボン",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整表达最终赌博欠债并投河，口语性的 tossed himself 与原文叙述语气相容。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0010",
+            "block_id": "tojime_no_siora:p0010:t004"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0010:t005",
+          "page_id": "tojime_no_siora:p0010",
+          "baseline": {
+            "item": "item020-1",
+            "candidate": "\"What a terrible father, right?\"",
+            "source_text": "ひどい父親だろ?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对父亲的负面评价及向听者确认；外层引号不改变含义。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0010",
+            "block_id": "tojime_no_siora:p0010:t005"
+          },
+          "candidate": {
+            "item": "item020-2",
+            "candidate": "He’s a terrible father, right?",
+            "source_text": "ひどい父親だろ?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "父亲很糟糕及征询认同的语气均保留。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0010",
+            "block_id": "tojime_no_siora:p0010:t005"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0011:t000",
+          "page_id": "tojime_no_siora:p0011",
+          "baseline": {
+            "item": "item021-4",
+            "candidate": "I’m sure you were overjoyed.",
+            "source_text": "さぞ嬉しかったことでしょう",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "结合下泡，原文推测父亲能在失明前画女儿而高兴；you were 将高兴者错换成听者，属严重人物指代错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0011",
+            "block_id": "tojime_no_siora:p0011:t000"
+          },
+          "candidate": {
+            "item": "item021-2",
+            "candidate": "I’m sure you were overjoyed.",
+            "source_text": "さぞ嬉しかったことでしょう",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "结合下泡，原文推测父亲能在失明前画女儿而高兴；you were 将高兴者错换成听者，属严重人物指代错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0011",
+            "block_id": "tojime_no_siora:p0011:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0011:t001",
+          "page_id": "tojime_no_siora:p0011",
+          "baseline": {
+            "item": "item022-4",
+            "candidate": "I was able to draw your daughter before I lost my sight.",
+            "source_text": "目が見えなくなる前に娘さんを描くことができて",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "父亲画自己的女儿，译成说话者失明前画听者的女儿；施事、失明者和亲属关系均错，属严重人物关系错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0011",
+            "block_id": "tojime_no_siora:p0011:t001"
+          },
+          "candidate": {
+            "item": "item022-3",
+            "candidate": "I was able to draw your daughter before I lost my sight.",
+            "source_text": "目が見えなくなる前に娘さんを描くことができて",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "父亲画自己的女儿，译成说话者失明前画听者的女儿；施事、失明者和亲属关系均错，属严重人物关系错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0011",
+            "block_id": "tojime_no_siora:p0011:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0012:t000",
+          "page_id": "tojime_no_siora:p0012",
+          "baseline": {
+            "item": "item023-2",
+            "candidate": "Lene-san?",
+            "source_text": "レーネさん?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Lene 可作为レーネ的音译，保留称呼与问询；未依据未提供的英文定名扣分。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0012",
+            "block_id": "tojime_no_siora:p0012:t000"
+          },
+          "candidate": {
+            "item": "item023-3",
+            "candidate": "Lene-san?",
+            "source_text": "レーネさん?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Lene 可作为レーネ的音译，保留称呼与问询；未依据未提供的英文定名扣分。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0012",
+            "block_id": "tojime_no_siora:p0012:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0012:t011",
+          "page_id": "tojime_no_siora:p0012",
+          "baseline": {
+            "item": "item024-4",
+            "candidate": "At that time, as proof of the crime...",
+            "source_text": "その時に罪の証にと...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "当时作为罪行证明的核心意义准确，未完句形式符合原泡。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0012",
+            "block_id": "tojime_no_siora:p0012:t011"
+          },
+          "candidate": {
+            "item": "item024-2",
+            "candidate": "At that time, as proof of guilt...",
+            "source_text": "その時に罪の証にと...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "当时与罪证含义均保留，省略号延续原文未完句。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0012",
+            "block_id": "tojime_no_siora:p0012:t011"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0013:t002",
+          "page_id": "tojime_no_siora:p0013",
+          "baseline": {
+            "item": "item025-2",
+            "candidate": "How terrible...",
+            "source_text": "なんてひどい...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留对遭遇太糟糕的惊叹。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0013",
+            "block_id": "tojime_no_siora:p0013:t002"
+          },
+          "candidate": {
+            "item": "item025-4",
+            "candidate": "How terrible...",
+            "source_text": "なんてひどい...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留对遭遇太糟糕的惊叹。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0013",
+            "block_id": "tojime_no_siora:p0013:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0013:t005",
+          "page_id": "tojime_no_siora:p0013",
+          "baseline": {
+            "item": "item026-3",
+            "candidate": "It’s not even a fraction of the tragedy your father went through.",
+            "source_text": "あなたの父親のかけらほども悲劇ではないんです",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达自己的遭遇远不及对方父亲悲惨，比较对象与否定均正确。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0013",
+            "block_id": "tojime_no_siora:p0013:t005"
+          },
+          "candidate": {
+            "item": "item026-1",
+            "candidate": "It’s not even a fraction of the tragedy your father went through.",
+            "source_text": "あなたの父親のかけらほども悲劇ではないんです",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达自己的遭遇远不及对方父亲悲惨，比较对象与否定均正确。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0013",
+            "block_id": "tojime_no_siora:p0013:t005"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0014:t000",
+          "page_id": "tojime_no_siora:p0014",
+          "baseline": {
+            "item": "item027-1",
+            "candidate": "I already have enough...",
+            "source_text": "私にはもう",
+            "faithfulness": 0,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "negation",
+              "addition"
+            ],
+            "notes": "后泡明确「只剩枪和闭着的眼睛」；I already have enough 却说已经足够，把匮乏的核心意思反转。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0014",
+            "block_id": "tojime_no_siora:p0014:t000"
+          },
+          "candidate": {
+            "item": "item027-4",
+            "candidate": "I already have enough...",
+            "source_text": "私にはもう",
+            "faithfulness": 0,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "negation",
+              "addition"
+            ],
+            "notes": "后泡明确「只剩枪和闭着的眼睛」；I already have enough 却说已经足够，把匮乏的核心意思反转。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0014",
+            "block_id": "tojime_no_siora:p0014:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0014:t002",
+          "page_id": "tojime_no_siora:p0014",
+          "baseline": {
+            "item": "item028-3",
+            "candidate": "I’ll go prepare dinner.",
+            "source_text": "夕飯の準備してくる",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达离开去准备晚饭的行动。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0014",
+            "block_id": "tojime_no_siora:p0014:t002"
+          },
+          "candidate": {
+            "item": "item028-4",
+            "candidate": "I’ll go prepare dinner.",
+            "source_text": "夕飯の準備してくる",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达离开去准备晚饭的行动。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0014",
+            "block_id": "tojime_no_siora:p0014:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0015:t000",
+          "page_id": "tojime_no_siora:p0015",
+          "baseline": {
+            "item": "item029-4",
+            "candidate": "It’s definitely a lie...",
+            "source_text": "きっと嘘さ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留确信那是谎言的自我劝说和迟疑停顿。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0015",
+            "block_id": "tojime_no_siora:p0015:t000"
+          },
+          "candidate": {
+            "item": "item029-1",
+            "candidate": "It’s definitely a lie...",
+            "source_text": "きっと嘘さ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留确信那是谎言的自我劝说和迟疑停顿。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0015",
+            "block_id": "tojime_no_siora:p0015:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0015:t002",
+          "page_id": "tojime_no_siora:p0015",
+          "baseline": {
+            "item": "item030-1",
+            "candidate": "Of course it is...",
+            "source_text": "そうに決まってる...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "it 可承接前文的谎言判断，表达肯定就是这样。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0015",
+            "block_id": "tojime_no_siora:p0015:t002"
+          },
+          "candidate": {
+            "item": "item030-4",
+            "candidate": "Of course it is...",
+            "source_text": "そうに決まってる...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "it 可承接前文的谎言判断，表达肯定就是这样。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0015",
+            "block_id": "tojime_no_siora:p0015:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0016:t002",
+          "page_id": "tojime_no_siora:p0016",
+          "baseline": {
+            "item": "item031-4",
+            "candidate": "Ah, it smells nice.",
+            "source_text": "あっいいかおり",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达突然闻到好闻气味，与下泡肉饼气味衔接自然。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0016",
+            "block_id": "tojime_no_siora:p0016:t002"
+          },
+          "candidate": {
+            "item": "item031-1",
+            "candidate": "Ah, it smells nice.",
+            "source_text": "あっいいかおり",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达突然闻到好闻气味，与下泡肉饼气味衔接自然。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0016",
+            "block_id": "tojime_no_siora:p0016:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0016:t003",
+          "page_id": "tojime_no_siora:p0016",
+          "baseline": {
+            "item": "item032-2",
+            "candidate": "It’s the smell of hamburgers.",
+            "source_text": "ハンバーグのにおいだ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "闻到食物气味的主干正确；ハンバーグ及上一页餐盘指汉堡肉饼，hamburgers 容易被理解成夹面包汉堡，属轻微菜名不精确。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0016",
+            "block_id": "tojime_no_siora:p0016:t003"
+          },
+          "candidate": {
+            "item": "item032-1",
+            "candidate": "It’s the smell of hamburgers.",
+            "source_text": "ハンバーグのにおいだ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "闻到食物气味的主干正确；ハンバーグ及上一页餐盘指汉堡肉饼，hamburgers 容易被理解成夹面包汉堡，属轻微菜名不精确。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0016",
+            "block_id": "tojime_no_siora:p0016:t003"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0017:t002",
+          "page_id": "tojime_no_siora:p0017",
+          "baseline": {
+            "item": "item033-4",
+            "candidate": "What’s with you all of a sudden?!",
+            "source_text": "いきなりなんだってのさ!",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留突然被抓住时的质问与愤怒语气。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0017",
+            "block_id": "tojime_no_siora:p0017:t002"
+          },
+          "candidate": {
+            "item": "item033-1",
+            "candidate": "What’s with you all of a sudden?!",
+            "source_text": "いきなりなんだってのさ!",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留突然被抓住时的质问与愤怒语气。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0017",
+            "block_id": "tojime_no_siora:p0017:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0017:t004",
+          "page_id": "tojime_no_siora:p0017",
+          "baseline": {
+            "item": "item034-3",
+            "candidate": "I think my little brother already explained the matter thoroughly.",
+            "source_text": "用件はうちの弟が散々伝えたと思うがね",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "弟弟已反复充分说明来意的主要信息完整，英文自然。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0017",
+            "block_id": "tojime_no_siora:p0017:t004"
+          },
+          "candidate": {
+            "item": "item034-4",
+            "candidate": "I think my little brother already explained the matter thoroughly.",
+            "source_text": "用件はうちの弟が散々伝えたと思うがね",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "弟弟已反复充分说明来意的主要信息完整，英文自然。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0017",
+            "block_id": "tojime_no_siora:p0017:t004"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0018:t007",
+          "page_id": "tojime_no_siora:p0018",
+          "baseline": {
+            "item": "item036-2",
+            "candidate": "Rejoice, Lene.",
+            "source_text": "よろこべレーネ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确保留命令对方高兴及对レーネ的称呼。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0018",
+            "block_id": "tojime_no_siora:p0018:t007"
+          },
+          "candidate": {
+            "item": "item036-3",
+            "candidate": "Rejoice, Lene.",
+            "source_text": "よろこべレーネ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确保留命令对方高兴及对レーネ的称呼。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0018",
+            "block_id": "tojime_no_siora:p0018:t007"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0019:t001",
+          "page_id": "tojime_no_siora:p0019",
+          "baseline": {
+            "item": "item037-1",
+            "candidate": "Hmph.",
+            "source_text": "ふっ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "tone"
+            ],
+            "notes": "图中女孩随即说ふざけんな；此处可能是开口停顿，Hmph 表达不满但未体现断续衔接。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0019",
+            "block_id": "tojime_no_siora:p0019:t001"
+          },
+          "candidate": {
+            "item": "item037-3",
+            "candidate": "Hmph.",
+            "source_text": "ふっ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "tone"
+            ],
+            "notes": "图中女孩随即说ふざけんな；此处可能是开口停顿，Hmph 表达不满但未体现断续衔接。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0019",
+            "block_id": "tojime_no_siora:p0019:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0019:t006",
+          "page_id": "tojime_no_siora:p0019",
+          "baseline": {
+            "item": "item038-3",
+            "candidate": "Even if I scream in this warehouse on the outskirts of town, no one’s gonna come.",
+            "source_text": "こんな街外れの倉庫で叫んだって誰も来やしないさ",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "画面是抓人者对女孩说你喊也没人来；I 把叫喊者改成说话人，人物关系错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0019",
+            "block_id": "tojime_no_siora:p0019:t006"
+          },
+          "candidate": {
+            "item": "item038-2",
+            "candidate": "Even if I scream in this warehouse on the outskirts of town, no one’s gonna come.",
+            "source_text": "こんな街外れの倉庫で叫んだって誰も来やしないさ",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "画面是抓人者对女孩说你喊也没人来；I 把叫喊者改成说话人，人物关系错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0019",
+            "block_id": "tojime_no_siora:p0019:t006"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0020:t003",
+          "page_id": "tojime_no_siora:p0020",
+          "baseline": {
+            "item": "item039-1",
+            "candidate": "Wh...",
+            "source_text": "ど...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "与下一泡 What do you mean 的起音相连，保留震惊结巴。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0020",
+            "block_id": "tojime_no_siora:p0020:t003"
+          },
+          "candidate": {
+            "item": "item039-3",
+            "candidate": "Doo...",
+            "source_text": "ど...",
+            "faithfulness": 2,
+            "naturalness": 1,
+            "severe_error": false,
+            "tags": [
+              "other"
+            ],
+            "notes": "只近似日语ど的声音，不能自然衔接英语下一泡的疑问起句。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0020",
+            "block_id": "tojime_no_siora:p0020:t003"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0020:t004",
+          "page_id": "tojime_no_siora:p0020",
+          "baseline": {
+            "item": "item040-2",
+            "candidate": "What do you mean...",
+            "source_text": "どういう意味さ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对刚才暗示的追问，并保留停顿。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0020",
+            "block_id": "tojime_no_siora:p0020:t004"
+          },
+          "candidate": {
+            "item": "item040-1",
+            "candidate": "What do you mean...",
+            "source_text": "どういう意味さ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对刚才暗示的追问，并保留停顿。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0020",
+            "block_id": "tojime_no_siora:p0020:t004"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0021:t002",
+          "page_id": "tojime_no_siora:p0021",
+          "baseline": {
+            "item": "item041-4",
+            "candidate": "Wait a second... So, Father...",
+            "source_text": "待てよ...じゃあ父さんは...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整保留等等及对父亲的未完推问；Father 的称呼风格可接受。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0021",
+            "block_id": "tojime_no_siora:p0021:t002"
+          },
+          "candidate": {
+            "item": "item041-2",
+            "candidate": "Wait a second... So, Dad...",
+            "source_text": "待てよ...じゃあ父さんは...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整保留震惊停顿及对父亲下场的未完推问。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0021",
+            "block_id": "tojime_no_siora:p0021:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0021:t005",
+          "page_id": "tojime_no_siora:p0021",
+          "baseline": {
+            "item": "item042-3",
+            "candidate": "By now, you’re probably drawing some angel’s nude!!",
+            "source_text": "今頃は天使のヌードでも描いてるだろうさ!!",
+            "faithfulness": 2,
+            "naturalness": 2,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "前泡谈已死的父亲，原句画画者是父亲；you 改成面前女孩，关键人物指代错误。angel's nude 搭配生硬。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0021",
+            "block_id": "tojime_no_siora:p0021:t005"
+          },
+          "candidate": {
+            "item": "item042-4",
+            "candidate": "By now, you’re probably drawing some angel’s nude or something!!",
+            "source_text": "今頃は天使のヌードでも描いてるだろうさ!!",
+            "faithfulness": 2,
+            "naturalness": 2,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "原句画画者承接已死的父亲；you 改成面前女孩，关键人物指代错误。or something 可对应でも，非主要问题。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0021",
+            "block_id": "tojime_no_siora:p0021:t005"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0022:t006",
+          "page_id": "tojime_no_siora:p0022",
+          "baseline": {
+            "item": "item043-1",
+            "candidate": "Ahhh...",
+            "source_text": "いやぁ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "可作为尴尬开场的拖长感叹，衔接深夜打扰的道歉。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0022",
+            "block_id": "tojime_no_siora:p0022:t006"
+          },
+          "candidate": {
+            "item": "item043-4",
+            "candidate": "Ahhh...",
+            "source_text": "いやぁ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "可作为尴尬开场的拖长感叹，衔接深夜打扰的道歉。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0022",
+            "block_id": "tojime_no_siora:p0022:t006"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0022:t007",
+          "page_id": "tojime_no_siora:p0022",
+          "baseline": {
+            "item": "item044-4",
+            "candidate": "Sorry for disturbing you so late at night...",
+            "source_text": "夜分遅くにすいません...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整自然地表达深夜前来打扰的歉意。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0022",
+            "block_id": "tojime_no_siora:p0022:t007"
+          },
+          "candidate": {
+            "item": "item044-1",
+            "candidate": "Excuse me for contacting you so late at night...",
+            "source_text": "夜分遅くにすいません...",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "other"
+            ],
+            "notes": "保留深夜道歉，但画面是亲自到场，contacting 比打扰或来访欠贴切。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0022",
+            "block_id": "tojime_no_siora:p0022:t007"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0023:t005",
+          "page_id": "tojime_no_siora:p0023",
+          "baseline": {
+            "item": "item045-4",
+            "candidate": "Did they do it to you?",
+            "source_text": "つけられたのか?",
+            "faithfulness": 1,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "omission"
+            ],
+            "notes": "仅保留有人对你做了什么的问法，漏掉上下文关键的被跟踪事件。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0023",
+            "block_id": "tojime_no_siora:p0023:t005"
+          },
+          "candidate": {
+            "item": "item045-2",
+            "candidate": "Did they do it to you?",
+            "source_text": "つけられたのか?",
+            "faithfulness": 1,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "omission"
+            ],
+            "notes": "仅保留有人对你做了什么的问法，漏掉上下文关键的被跟踪事件。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0023",
+            "block_id": "tojime_no_siora:p0023:t005"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0023:t006",
+          "page_id": "tojime_no_siora:p0023",
+          "baseline": {
+            "item": "item046-4",
+            "candidate": "Even if you try to push me...",
+            "source_text": "つっつけようったって...",
+            "faithfulness": 1,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "addition"
+            ],
+            "notes": "原句谈来者试图尾随；译成你推我，改变关键动作及人物关系。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0023",
+            "block_id": "tojime_no_siora:p0023:t006"
+          },
+          "candidate": {
+            "item": "item046-3",
+            "candidate": "Even if you try to push me...",
+            "source_text": "つっつけようったって...",
+            "faithfulness": 1,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "addition"
+            ],
+            "notes": "原句谈来者试图尾随；译成你推我，改变关键动作及人物关系。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0023",
+            "block_id": "tojime_no_siora:p0023:t006"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0024:t004",
+          "page_id": "tojime_no_siora:p0024",
+          "baseline": {
+            "item": "item047-3",
+            "candidate": "Please let us return peacefully.",
+            "source_text": "どうか穏便に帰して頂けませんか",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "结合来接レーネ的上下文，us 合理；保留请和平放人离开的请求。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0024",
+            "block_id": "tojime_no_siora:p0024:t004"
+          },
+          "candidate": {
+            "item": "item047-1",
+            "candidate": "Please let us return peacefully.",
+            "source_text": "どうか穏便に帰して頂けませんか",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "结合来接レーネ的上下文，us 合理；保留请和平放人离开的请求。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0024",
+            "block_id": "tojime_no_siora:p0024:t004"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0024:t005",
+          "page_id": "tojime_no_siora:p0024",
+          "baseline": {
+            "item": "item048-4",
+            "candidate": "......",
+            "source_text": "......",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留沉默停顿；省略号不视为空译。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0024",
+            "block_id": "tojime_no_siora:p0024:t005"
+          },
+          "candidate": {
+            "item": "item048-3",
+            "candidate": "...",
+            "source_text": "......",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "三点省略号同样表达沉默，点数变化不改变主要意义。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0024",
+            "block_id": "tojime_no_siora:p0024:t005"
+          }
+        }
+      ]
+    },
+    {
+      "baseline": "vntl-gold-c0",
+      "candidate": "vntl-gold-c1200",
+      "expected_judgment_pairs": 48,
+      "coverage": {
+        "paired": 46,
+        "baseline_only": 1,
+        "candidate_only": 0,
+        "neither_complete": 1
+      },
+      "metrics": {
+        "faithfulness": {
+          "regions": 46,
+          "pages": 24,
+          "paired_judgments": 46,
+          "baseline": 3.391304347826087,
+          "candidate": 3.4782608695652173,
+          "delta": 0.08695652173913043,
+          "ci95": [
+            -0.12772895467160036,
+            0.3111458333333331
+          ],
+          "unit": "page; reviewers averaged within each region",
+          "delta_direction": "candidate - baseline",
+          "samples": 2000,
+          "seed": 20261018,
+          "interval_status": "descriptive_small_sample"
+        },
+        "severe_error": {
+          "regions": 46,
+          "pages": 24,
+          "paired_judgments": 46,
+          "baseline": 0.17391304347826086,
+          "candidate": 0.06521739130434782,
+          "delta": -0.10869565217391304,
+          "ci95": [
+            -0.1956521739130435,
+            -0.041666666666666664
+          ],
+          "unit": "page; reviewers averaged within each region",
+          "delta_direction": "candidate - baseline",
+          "samples": 2000,
+          "seed": 20261018,
+          "interval_status": "descriptive_small_sample"
+        },
+        "naturalness": {
+          "regions": 46,
+          "pages": 24,
+          "paired_judgments": 46,
+          "baseline": 2.9347826086956523,
+          "candidate": 2.9565217391304346,
+          "delta": 0.021739130434782608,
+          "ci95": [
+            -0.046539313399778515,
+            0.09090909090909091
+          ],
+          "unit": "page; reviewers averaged within each region",
+          "delta_direction": "candidate - baseline",
+          "samples": 2000,
+          "seed": 20261018,
+          "interval_status": "descriptive_small_sample"
+        }
+      },
+      "severe_transitions": {
+        "both_severe": 3,
+        "resolved": 5,
+        "introduced": 0,
+        "neither_severe": 38
+      },
+      "tag_transitions": {
+        "omission": {
+          "both_flagged": 0,
+          "baseline_only": 1,
+          "candidate_only": 2
+        },
+        "negation": {
+          "both_flagged": 0,
+          "baseline_only": 1,
+          "candidate_only": 0
+        },
+        "reference": {
+          "both_flagged": 3,
+          "baseline_only": 4,
+          "candidate_only": 2
+        },
+        "name_term": {
+          "both_flagged": 3,
+          "baseline_only": 0,
+          "candidate_only": 3
+        },
+        "alignment": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "ocr_propagation": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "repetition": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "addition": {
+          "both_flagged": 2,
+          "baseline_only": 0,
+          "candidate_only": 4
+        },
+        "tone": {
+          "both_flagged": 1,
+          "baseline_only": 1,
+          "candidate_only": 0
+        },
+        "order": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "annotation": {
+          "both_flagged": 2,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "other": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        }
+      },
+      "transitions_denominator": 46,
+      "paired_rows": [
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0001:t000",
+          "page_id": "tojime_no_siora:p0001",
+          "baseline": {
+            "item": "item001-3",
+            "candidate": "The Sealed Eye of Shiora",
+            "source_text": "綴じ眼のシオラ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留シオラ及封闭眼睛的题名信息；英语题名表达通顺。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0001",
+            "block_id": "tojime_no_siora:p0001:t000"
+          },
+          "candidate": {
+            "item": "item001-4",
+            "candidate": "Shiora with the stitched eye.",
+            "source_text": "綴じ眼のシオラ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "stitched eye贴合綴じ眼，Shiora对应シオラ，题名主要信息完整。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0001",
+            "block_id": "tojime_no_siora:p0001:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0001:t001",
+          "page_id": "tojime_no_siora:p0001",
+          "baseline": {
+            "item": "item002-2",
+            "candidate": "Kaku-taka Mitsuki",
+            "source_text": "朽鷹みつき",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "原图署名为「朽鷹みつき」，Mitsuki可核对；姓无读音标注，无法可靠确认Kaku-taka是否为作者采用的读法。",
+            "confidence": "low",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0001",
+            "block_id": "tojime_no_siora:p0001:t001"
+          },
+          "candidate": {
+            "item": "item002-3",
+            "candidate": "Mitsuaki Kuyataga",
+            "source_text": "朽鷹みつき",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "可见名字为みつき（Mitsuki），Mitsuaki多出音节；姓的确切读法缺少标注，暂不据此追加判断。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0001",
+            "block_id": "tojime_no_siora:p0001:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0002:t001",
+          "page_id": "tojime_no_siora:p0002",
+          "baseline": {
+            "item": "item003-1",
+            "candidate": "I said I don’t know!",
+            "source_text": "知らないって言ってるだろっ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留“我都说了不知道”的强调和愤怒语气，符合原气泡。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0002",
+            "block_id": "tojime_no_siora:p0002:t001"
+          },
+          "candidate": {
+            "item": "item003-3",
+            "candidate": "I said I don’t know!",
+            "source_text": "知らないって言ってるだろっ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留“我都说了不知道”的强调和愤怒语气，符合原气泡。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0002",
+            "block_id": "tojime_no_siora:p0002:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0002:t003",
+          "page_id": "tojime_no_siora:p0002",
+          "baseline": {
+            "item": "item004-1",
+            "candidate": "Even so, huh?",
+            "source_text": "そうは言ってもなぁ",
+            "faithfulness": 4,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Even so保留“虽说如此／话虽这么说”的让步；句尾huh略生硬，但主要意义正确。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0002",
+            "block_id": "tojime_no_siora:p0002:t003"
+          },
+          "candidate": {
+            "item": "item004-2",
+            "candidate": "Even so, huh?",
+            "source_text": "そうは言ってもなぁ",
+            "faithfulness": 4,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Even so保留“虽说如此／话虽这么说”的让步；句尾huh略生硬，但主要意义正确。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0002",
+            "block_id": "tojime_no_siora:p0002:t003"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0003:t001",
+          "page_id": "tojime_no_siora:p0003",
+          "baseline": {
+            "item": "item005-4",
+            "candidate": "I’m gonna make sure you pay back the money you borrowed from Tortillano.",
+            "source_text": "トルティヤーノに借りた金はちゃんと返して貰わねぇと",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留向对方催还从トルティヤーノ借的钱；借款及还款方向正确，英语威胁口吻合适。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0003",
+            "block_id": "tojime_no_siora:p0003:t001"
+          },
+          "candidate": {
+            "item": "item005-2",
+            "candidate": "I’m gonna make sure you pay back the money you owe Tortiyano.",
+            "source_text": "トルティヤーノに借りた金はちゃんと返して貰わねぇと",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留催对方偿还欠トルティヤーノ的钱；owe概括借款关系，主要信息正确。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0003",
+            "block_id": "tojime_no_siora:p0003:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0003:t010",
+          "page_id": "tojime_no_siora:p0003",
+          "baseline": {
+            "item": "item006-1",
+            "candidate": "Ah.",
+            "source_text": "あっ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "あっ为跌倒瞬间的短促惊呼，Ah保留主要内容；句号只略减急促感。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0003",
+            "block_id": "tojime_no_siora:p0003:t010"
+          },
+          "candidate": {
+            "item": "item006-2",
+            "candidate": "Ah!",
+            "source_text": "あっ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Ah!准确表达原气泡短促惊呼。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0003",
+            "block_id": "tojime_no_siora:p0003:t010"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0004:t007",
+          "page_id": "tojime_no_siora:p0004",
+          "baseline": {
+            "item": "item007-2",
+            "candidate": "Eyes closed, unable to see...",
+            "source_text": "目の見えない閉じ眼が...",
+            "faithfulness": 3,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "保留“看不见”，但把称呼一类人的「閉じ眼」写成眼睛闭着的状态；与下一泡“竟是枪手”衔接较生硬。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0004",
+            "block_id": "tojime_no_siora:p0004:t007"
+          },
+          "candidate": {
+            "item": "item007-3",
+            "candidate": "A blindfolded man...",
+            "source_text": "目の見えない閉じ眼が...",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "omission",
+              "reference",
+              "name_term"
+            ],
+            "notes": "原句明确说看不见的「閉じ眼」，blindfolded只说蒙眼，未保留不能视物；man还加入原句没有的性别判断。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0004",
+            "block_id": "tojime_no_siora:p0004:t007"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0004:t008",
+          "page_id": "tojime_no_siora:p0004",
+          "baseline": {
+            "item": "item008-4",
+            "candidate": "A gunman...?",
+            "source_text": "ガンマンだって...?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "用疑问复述“枪手”，保留だって的惊讶确认意味。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0004",
+            "block_id": "tojime_no_siora:p0004:t008"
+          },
+          "candidate": {
+            "item": "item008-1",
+            "candidate": "A gunman...?",
+            "source_text": "ガンマンだって...?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "用疑问复述“枪手”，保留だって的惊讶确认意味。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0004",
+            "block_id": "tojime_no_siora:p0004:t008"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0005:t010",
+          "page_id": "tojime_no_siora:p0005",
+          "baseline": {
+            "item": "item009-4",
+            "candidate": "A girl?",
+            "source_text": "女か?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对性别的惊讶询问；girl符合画面中的年轻人物。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0005",
+            "block_id": "tojime_no_siora:p0005:t010"
+          },
+          "candidate": {
+            "item": "item009-3",
+            "candidate": "A woman?",
+            "source_text": "女か?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达“是女人？”的确认问句，woman与原句女对应。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0005",
+            "block_id": "tojime_no_siora:p0005:t010"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0005:t016",
+          "page_id": "tojime_no_siora:p0005",
+          "baseline": {
+            "item": "item010-1",
+            "candidate": "Hey, wait...!",
+            "source_text": "やっちょっと...!",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "画面中被扯开遮眼物时出声制止，Hey, wait保留“哎，等一下”的反应。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0005",
+            "block_id": "tojime_no_siora:p0005:t016"
+          },
+          "candidate": {
+            "item": "item010-4",
+            "candidate": "Hey, wait...!",
+            "source_text": "やっちょっと...!",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "画面中被扯开遮眼物时出声制止，Hey, wait保留“哎，等一下”的反应。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0005",
+            "block_id": "tojime_no_siora:p0005:t016"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0006:t002",
+          "page_id": "tojime_no_siora:p0006",
+          "baseline": {
+            "item": "item011-1",
+            "candidate": "You bastard...",
+            "source_text": "てめぇ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "用英语辱骂表达てめぇ的粗暴称呼，符合紧接的愤怒反应。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0006",
+            "block_id": "tojime_no_siora:p0006:t002"
+          },
+          "candidate": {
+            "item": "item011-4",
+            "candidate": "You bastard...",
+            "source_text": "てめぇ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "用英语辱骂表达てめぇ的粗暴称呼，符合紧接的愤怒反应。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0006",
+            "block_id": "tojime_no_siora:p0006:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0006:t003",
+          "page_id": "tojime_no_siora:p0006",
+          "baseline": {
+            "item": "item012-3",
+            "candidate": "?",
+            "source_text": "?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "原图该泡仅有问号，候选完整保留疑惑符号。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0006",
+            "block_id": "tojime_no_siora:p0006:t003"
+          },
+          "candidate": {
+            "item": "item012-1",
+            "candidate": "?",
+            "source_text": "?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "原图该泡仅有问号，候选完整保留疑惑符号。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0006",
+            "block_id": "tojime_no_siora:p0006:t003"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0007:t006",
+          "page_id": "tojime_no_siora:p0007",
+          "baseline": {
+            "item": "item013-1",
+            "candidate": "He’s one of the Tortiya brothers, the most notorious ruffian in this town.",
+            "source_text": "奴はトルティヤー兄弟の片割れ、この街で一番の荒くれだよ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term",
+              "annotation"
+            ],
+            "notes": "人物为兄弟之一、镇上最凶横的人均保留。原图可见「トルティヤーノ兄弟」，包内转写少了ノ；Tortiya也未保留这个尾音，按轻微名字差异处理。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0007",
+            "block_id": "tojime_no_siora:p0007:t006"
+          },
+          "candidate": {
+            "item": "item013-4",
+            "candidate": "He’s one of the Tortiya brothers, the most ruthless guy in this town.",
+            "source_text": "奴はトルティヤー兄弟の片割れ、この街で一番の荒くれだよ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term",
+              "annotation"
+            ],
+            "notes": "保留兄弟之一和最凶横者；ruthless略偏残酷但基本适合语境。原图姓名トルティヤーノ比包内转写多ノ，Tortiya未保留该尾音，按轻微差异处理。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0007",
+            "block_id": "tojime_no_siora:p0007:t006"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0007:t008",
+          "page_id": "tojime_no_siora:p0007",
+          "baseline": {
+            "item": "item014-1",
+            "candidate": "That giant, about seven feet tall, from earlier...",
+            "source_text": "さっきの7フィート程の巨漢が、マフィア兄弟の弟の方...",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "omission"
+            ],
+            "notes": "保留刚才约七英尺高的巨汉，却完全漏掉“是黑手党兄弟中的弟弟”这一身份判断，遗漏该气泡核心命题。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0007",
+            "block_id": "tojime_no_siora:p0007:t008"
+          },
+          "candidate": {
+            "item": "item014-4",
+            "candidate": "That giant from earlier, about seven feet tall, is the younger brother of the mafia family...",
+            "source_text": "さっきの7フィート程の巨漢が、マフィア兄弟の弟の方...",
+            "faithfulness": 3,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "reference"
+            ],
+            "notes": "保留七英尺巨汉及弟弟身份，但of the mafia family把明确的兄弟二人关系说成整个家族的弟弟，指代略含混。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0007",
+            "block_id": "tojime_no_siora:p0007:t008"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0008:t002",
+          "page_id": "tojime_no_siora:p0008",
+          "baseline": {
+            "item": "item015-3",
+            "candidate": "Nngh...",
+            "source_text": "なっ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "tone"
+            ],
+            "notes": "原图是被说中身体尺寸时的惊讶「なっ」，Nngh更像压抑呻吟，基本保留受惊反应但语气有偏差。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0008",
+            "block_id": "tojime_no_siora:p0008:t002"
+          },
+          "candidate": {
+            "item": "item015-4",
+            "candidate": "What the—",
+            "source_text": "なっ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "What the—自然表达说到一半的惊讶，符合なっ及人物受惊表情。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0008",
+            "block_id": "tojime_no_siora:p0008:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0008:t015",
+          "page_id": "tojime_no_siora:p0008",
+          "baseline": {
+            "item": "item016-1",
+            "candidate": "If you don’t want to be seen, just wrap a towel around yourself or something.",
+            "source_text": "見られたくなかったらタオルでも巻いてな",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "reference"
+            ],
+            "notes": "前一泡明确限定「目元」，此处建议不愿被看见眼部就缠毛巾；around yourself易理解为裹住全身，改变遮盖部位，仍保留遮挡建议。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0008",
+            "block_id": "tojime_no_siora:p0008:t015"
+          },
+          "candidate": {
+            "item": "item016-3",
+            "candidate": "If you don’t want to be seen, just wrap yourself in a towel or something.",
+            "source_text": "見られたくなかったらタオルでも巻いてな",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "reference"
+            ],
+            "notes": "前一泡「目元」说明要遮住眼部，wrap yourself in a towel容易读成裹身体，遮盖部位不准确。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0008",
+            "block_id": "tojime_no_siora:p0008:t015"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0009:t002",
+          "page_id": "tojime_no_siora:p0009",
+          "baseline": {
+            "item": "item017-2",
+            "candidate": "You wouldn’t know how to use someone else’s shower, right?",
+            "source_text": "人の家のシャワーじゃ勝手がわからないだろ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留不熟悉别人家淋浴用法的推测，与提出帮忙洗澡的上下文相符。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0009",
+            "block_id": "tojime_no_siora:p0009:t002"
+          },
+          "candidate": {
+            "item": "item017-1",
+            "candidate": "You wouldn’t know how to use someone else’s shower, right?",
+            "source_text": "人の家のシャワーじゃ勝手がわからないだろ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留不熟悉别人家淋浴用法的推测，与提出帮忙洗澡的上下文相符。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0009",
+            "block_id": "tojime_no_siora:p0009:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0009:t010",
+          "page_id": "tojime_no_siora:p0009",
+          "baseline": {
+            "item": "item018-1",
+            "candidate": "I was drawing naked women just to make money and selling them to Tortiya.",
+            "source_text": "金になるからって女の裸ばかり描いてトルティヤーに卸してた",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "annotation"
+            ],
+            "notes": "上下文和画面说明画裸女并卖画的是父亲；I 将此经历错归说话者本人，人物行动归属发生严重改变。原图专名为トルティヤーノ，包内日文漏了ノ，需修核参考。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0009",
+            "block_id": "tojime_no_siora:p0009:t010"
+          },
+          "candidate": {
+            "item": "item018-4",
+            "candidate": "He’d just draw naked women and sell them to tortilla makers for profit.",
+            "source_text": "金になるからって女の裸ばかり描いてトルティヤーに卸してた",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term",
+              "addition",
+              "annotation"
+            ],
+            "notes": "父亲画裸女挣钱的主干正确；把原图的トルティヤーノ解释成 tortilla makers，擅自给买家添加制饼职业。包内日文专名漏了末尾ノ，需修核参考。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0009",
+            "block_id": "tojime_no_siora:p0009:t010"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0010:t004",
+          "page_id": "tojime_no_siora:p0010",
+          "baseline": {
+            "item": "item019-3",
+            "candidate": "In the end, he ended up in debt from gambling and tossed himself into the river.",
+            "source_text": "挙句の果てに博打で借金こさえて川にドボン",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整表达最终赌博欠债并投河，口语性的 tossed himself 与原文叙述语气相容。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0010",
+            "block_id": "tojime_no_siora:p0010:t004"
+          },
+          "candidate": {
+            "item": "item019-4",
+            "candidate": "In the end, he racked up debts from gambling and ended up drowning in a river.",
+            "source_text": "挙句の果てに博打で借金こさえて川にドボン",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "addition"
+            ],
+            "notes": "赌博欠债后入河的事件正确；drowning 将「川にドボン」进一步解释为溺亡，原泡未直说死亡结果。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0010",
+            "block_id": "tojime_no_siora:p0010:t004"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0010:t005",
+          "page_id": "tojime_no_siora:p0010",
+          "baseline": {
+            "item": "item020-1",
+            "candidate": "\"What a terrible father, right?\"",
+            "source_text": "ひどい父親だろ?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对父亲的负面评价及向听者确认；外层引号不改变含义。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0010",
+            "block_id": "tojime_no_siora:p0010:t005"
+          },
+          "candidate": {
+            "item": "item020-3",
+            "candidate": "What a terrible father, right?",
+            "source_text": "ひどい父親だろ?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对父亲的负面评价及向听者确认。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0010",
+            "block_id": "tojime_no_siora:p0010:t005"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0011:t000",
+          "page_id": "tojime_no_siora:p0011",
+          "baseline": {
+            "item": "item021-4",
+            "candidate": "I’m sure you were overjoyed.",
+            "source_text": "さぞ嬉しかったことでしょう",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "结合下泡，原文推测父亲能在失明前画女儿而高兴；you were 将高兴者错换成听者，属严重人物指代错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0011",
+            "block_id": "tojime_no_siora:p0011:t000"
+          },
+          "candidate": {
+            "item": "item021-1",
+            "candidate": "It must have been a great joy for you.",
+            "source_text": "さぞ嬉しかったことでしょう",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "下泡说明高兴的是失明前能画女儿的父亲；for you 将感受错归正在听话的女儿，严重改变人物关系。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0011",
+            "block_id": "tojime_no_siora:p0011:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0011:t001",
+          "page_id": "tojime_no_siora:p0011",
+          "baseline": {
+            "item": "item022-4",
+            "candidate": "I was able to draw your daughter before I lost my sight.",
+            "source_text": "目が見えなくなる前に娘さんを描くことができて",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "父亲画自己的女儿，译成说话者失明前画听者的女儿；施事、失明者和亲属关系均错，属严重人物关系错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0011",
+            "block_id": "tojime_no_siora:p0011:t001"
+          },
+          "candidate": {
+            "item": "item022-2",
+            "candidate": "I was so happy that I could draw my daughter before I lost my sight.",
+            "source_text": "目が見えなくなる前に娘さんを描くことができて",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "addition"
+            ],
+            "notes": "原文说听者父亲的绘画经历，I/my 将父亲改成说话者，构成严重人物错误；另补入前泡的高兴感受。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0011",
+            "block_id": "tojime_no_siora:p0011:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0012:t000",
+          "page_id": "tojime_no_siora:p0012",
+          "baseline": {
+            "item": "item023-2",
+            "candidate": "Lene-san?",
+            "source_text": "レーネさん?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Lene 可作为レーネ的音译，保留称呼与问询；未依据未提供的英文定名扣分。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0012",
+            "block_id": "tojime_no_siora:p0012:t000"
+          },
+          "candidate": {
+            "item": "item023-1",
+            "candidate": "Rine-san?",
+            "source_text": "レーネさん?",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "保留呼唤和疑问，但 Rine 的元音与可见レーネ不一致；只按轻微译名问题记录，未查外部英文定名。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0012",
+            "block_id": "tojime_no_siora:p0012:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0012:t011",
+          "page_id": "tojime_no_siora:p0012",
+          "baseline": {
+            "item": "item024-4",
+            "candidate": "At that time, as proof of the crime...",
+            "source_text": "その時に罪の証にと...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "当时作为罪行证明的核心意义准确，未完句形式符合原泡。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0012",
+            "block_id": "tojime_no_siora:p0012:t011"
+          },
+          "candidate": {
+            "item": "item024-1",
+            "candidate": "At that time, as a mark of my guilt...",
+            "source_text": "その時に罪の証にと...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留当时、作为罪责标记及未说完的语气，可接上「这双眼睛」的前泡。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0012",
+            "block_id": "tojime_no_siora:p0012:t011"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0013:t002",
+          "page_id": "tojime_no_siora:p0013",
+          "baseline": {
+            "item": "item025-2",
+            "candidate": "How terrible...",
+            "source_text": "なんてひどい...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留对遭遇太糟糕的惊叹。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0013",
+            "block_id": "tojime_no_siora:p0013:t002"
+          },
+          "candidate": {
+            "item": "item025-1",
+            "candidate": "How cruel...",
+            "source_text": "なんてひどい...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "对毁眼遭遇的残酷性发出感叹，含义和语气均合适。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0013",
+            "block_id": "tojime_no_siora:p0013:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0013:t005",
+          "page_id": "tojime_no_siora:p0013",
+          "baseline": {
+            "item": "item026-3",
+            "candidate": "It’s not even a fraction of the tragedy your father went through.",
+            "source_text": "あなたの父親のかけらほども悲劇ではないんです",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达自己的遭遇远不及对方父亲悲惨，比较对象与否定均正确。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0013",
+            "block_id": "tojime_no_siora:p0013:t005"
+          },
+          "candidate": {
+            "item": "item026-2",
+            "candidate": "It’s not even a fraction of the tragedy your father faced.",
+            "source_text": "あなたの父親のかけらほども悲劇ではないんです",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达自己的遭遇远不及对方父亲悲惨，比较对象与否定均正确。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0013",
+            "block_id": "tojime_no_siora:p0013:t005"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0014:t000",
+          "page_id": "tojime_no_siora:p0014",
+          "baseline": {
+            "item": "item027-1",
+            "candidate": "I already have enough...",
+            "source_text": "私にはもう",
+            "faithfulness": 0,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "negation",
+              "addition"
+            ],
+            "notes": "后泡明确「只剩枪和闭着的眼睛」；I already have enough 却说已经足够，把匮乏的核心意思反转。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0014",
+            "block_id": "tojime_no_siora:p0014:t000"
+          },
+          "candidate": {
+            "item": "item027-3",
+            "candidate": "I have nothing left.",
+            "source_text": "私にはもう",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "addition"
+            ],
+            "notes": "符合全句的匮乏心境，但本泡仅「私にはもう」，完整否定来自后泡。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0014",
+            "block_id": "tojime_no_siora:p0014:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0014:t002",
+          "page_id": "tojime_no_siora:p0014",
+          "baseline": {
+            "item": "item028-3",
+            "candidate": "I’ll go prepare dinner.",
+            "source_text": "夕飯の準備してくる",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达离开去准备晚饭的行动。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0014",
+            "block_id": "tojime_no_siora:p0014:t002"
+          },
+          "candidate": {
+            "item": "item028-1",
+            "candidate": "I’ll go prepare dinner.",
+            "source_text": "夕飯の準備してくる",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达离开去准备晚饭的行动。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0014",
+            "block_id": "tojime_no_siora:p0014:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0015:t000",
+          "page_id": "tojime_no_siora:p0015",
+          "baseline": {
+            "item": "item029-4",
+            "candidate": "It’s definitely a lie...",
+            "source_text": "きっと嘘さ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留确信那是谎言的自我劝说和迟疑停顿。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0015",
+            "block_id": "tojime_no_siora:p0015:t000"
+          },
+          "candidate": {
+            "item": "item029-3",
+            "candidate": "It’s definitely a lie...",
+            "source_text": "きっと嘘さ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留确信那是谎言的自我劝说和迟疑停顿。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0015",
+            "block_id": "tojime_no_siora:p0015:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0015:t002",
+          "page_id": "tojime_no_siora:p0015",
+          "baseline": {
+            "item": "item030-1",
+            "candidate": "Of course it is...",
+            "source_text": "そうに決まってる...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "it 可承接前文的谎言判断，表达肯定就是这样。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0015",
+            "block_id": "tojime_no_siora:p0015:t002"
+          },
+          "candidate": {
+            "item": "item030-2",
+            "candidate": "It’s got to be a lie...",
+            "source_text": "そうに決まってる...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "将「そう」明确为前文的谎言，指代有上下文依据，确定语气正确。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0015",
+            "block_id": "tojime_no_siora:p0015:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0016:t002",
+          "page_id": "tojime_no_siora:p0016",
+          "baseline": {
+            "item": "item031-4",
+            "candidate": "Ah, it smells nice.",
+            "source_text": "あっいいかおり",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达突然闻到好闻气味，与下泡肉饼气味衔接自然。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0016",
+            "block_id": "tojime_no_siora:p0016:t002"
+          },
+          "candidate": {
+            "item": "item031-2",
+            "candidate": "Ah, it smells nice.",
+            "source_text": "あっいいかおり",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达突然闻到好闻气味，与下泡肉饼气味衔接自然。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0016",
+            "block_id": "tojime_no_siora:p0016:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0016:t003",
+          "page_id": "tojime_no_siora:p0016",
+          "baseline": {
+            "item": "item032-2",
+            "candidate": "It’s the smell of hamburgers.",
+            "source_text": "ハンバーグのにおいだ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "闻到食物气味的主干正确；ハンバーグ及上一页餐盘指汉堡肉饼，hamburgers 容易被理解成夹面包汉堡，属轻微菜名不精确。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0016",
+            "block_id": "tojime_no_siora:p0016:t003"
+          },
+          "candidate": {
+            "item": "item032-4",
+            "candidate": "It’s the smell of hamburgers.",
+            "source_text": "ハンバーグのにおいだ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "闻到食物气味的主干正确；ハンバーグ及上一页餐盘指汉堡肉饼，hamburgers 容易被理解成夹面包汉堡，属轻微菜名不精确。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0016",
+            "block_id": "tojime_no_siora:p0016:t003"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0017:t002",
+          "page_id": "tojime_no_siora:p0017",
+          "baseline": {
+            "item": "item033-4",
+            "candidate": "What’s with you all of a sudden?!",
+            "source_text": "いきなりなんだってのさ!",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留突然被抓住时的质问与愤怒语气。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0017",
+            "block_id": "tojime_no_siora:p0017:t002"
+          },
+          "candidate": {
+            "item": "item033-3",
+            "candidate": "What the hell is this all of a sudden?!",
+            "source_text": "いきなりなんだってのさ!",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达突然遭遇此事的愤怒质问；hell 与画面语气相称。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0017",
+            "block_id": "tojime_no_siora:p0017:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0017:t004",
+          "page_id": "tojime_no_siora:p0017",
+          "baseline": {
+            "item": "item034-3",
+            "candidate": "I think my little brother already explained the matter thoroughly.",
+            "source_text": "用件はうちの弟が散々伝えたと思うがね",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "弟弟已反复充分说明来意的主要信息完整，英文自然。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0017",
+            "block_id": "tojime_no_siora:p0017:t004"
+          },
+          "candidate": {
+            "item": "item034-2",
+            "candidate": "I think my little brother already explained the matter thoroughly.",
+            "source_text": "用件はうちの弟が散々伝えたと思うがね",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "弟弟已反复充分说明来意的主要信息完整，英文自然。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0017",
+            "block_id": "tojime_no_siora:p0017:t004"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0018:t007",
+          "page_id": "tojime_no_siora:p0018",
+          "baseline": {
+            "item": "item036-2",
+            "candidate": "Rejoice, Lene.",
+            "source_text": "よろこべレーネ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确保留命令对方高兴及对レーネ的称呼。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0018",
+            "block_id": "tojime_no_siora:p0018:t007"
+          },
+          "candidate": {
+            "item": "item036-1",
+            "candidate": "Rejoice, Lene.",
+            "source_text": "よろこべレーネ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确保留命令对方高兴及对レーネ的称呼。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0018",
+            "block_id": "tojime_no_siora:p0018:t007"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0019:t001",
+          "page_id": "tojime_no_siora:p0019",
+          "baseline": {
+            "item": "item037-1",
+            "candidate": "Hmph.",
+            "source_text": "ふっ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "tone"
+            ],
+            "notes": "图中女孩随即说ふざけんな；此处可能是开口停顿，Hmph 表达不满但未体现断续衔接。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0019",
+            "block_id": "tojime_no_siora:p0019:t001"
+          },
+          "candidate": {
+            "item": "item037-4",
+            "candidate": "Hmph.",
+            "source_text": "ふっ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "tone"
+            ],
+            "notes": "图中女孩随即说ふざけんな；此处可能是开口停顿，Hmph 表达不满但未体现断续衔接。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0019",
+            "block_id": "tojime_no_siora:p0019:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0019:t006",
+          "page_id": "tojime_no_siora:p0019",
+          "baseline": {
+            "item": "item038-3",
+            "candidate": "Even if I scream in this warehouse on the outskirts of town, no one’s gonna come.",
+            "source_text": "こんな街外れの倉庫で叫んだって誰も来やしないさ",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "画面是抓人者对女孩说你喊也没人来；I 把叫喊者改成说话人，人物关系错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0019",
+            "block_id": "tojime_no_siora:p0019:t006"
+          },
+          "candidate": {
+            "item": "item038-1",
+            "candidate": "Yelling in a warehouse on the outskirts of town isn’t gonna get anyone to come.",
+            "source_text": "こんな街外れの倉庫で叫んだって誰も来やしないさ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留城郊仓库即使叫喊也无人来的警告，未错误指定叫喊者。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0019",
+            "block_id": "tojime_no_siora:p0019:t006"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0020:t003",
+          "page_id": "tojime_no_siora:p0020",
+          "baseline": {
+            "item": "item039-1",
+            "candidate": "Wh...",
+            "source_text": "ど...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "与下一泡 What do you mean 的起音相连，保留震惊结巴。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0020",
+            "block_id": "tojime_no_siora:p0020:t003"
+          },
+          "candidate": {
+            "item": "item039-2",
+            "candidate": "Wh...",
+            "source_text": "ど...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "与下一泡 What do you mean 的起音相连，保留震惊结巴。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0020",
+            "block_id": "tojime_no_siora:p0020:t003"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0020:t004",
+          "page_id": "tojime_no_siora:p0020",
+          "baseline": {
+            "item": "item040-2",
+            "candidate": "What do you mean...",
+            "source_text": "どういう意味さ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对刚才暗示的追问，并保留停顿。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0020",
+            "block_id": "tojime_no_siora:p0020:t004"
+          },
+          "candidate": {
+            "item": "item040-4",
+            "candidate": "What do you mean...",
+            "source_text": "どういう意味さ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对刚才暗示的追问，并保留停顿。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0020",
+            "block_id": "tojime_no_siora:p0020:t004"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0021:t002",
+          "page_id": "tojime_no_siora:p0021",
+          "baseline": {
+            "item": "item041-4",
+            "candidate": "Wait a second... So, Father...",
+            "source_text": "待てよ...じゃあ父さんは...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整保留等等及对父亲的未完推问；Father 的称呼风格可接受。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0021",
+            "block_id": "tojime_no_siora:p0021:t002"
+          },
+          "candidate": {
+            "item": "item041-3",
+            "candidate": "Wait a minute... So Father...",
+            "source_text": "待てよ...じゃあ父さんは...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整保留等等及对父亲的未完推问；Father 的称呼风格可接受。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0021",
+            "block_id": "tojime_no_siora:p0021:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0021:t005",
+          "page_id": "tojime_no_siora:p0021",
+          "baseline": {
+            "item": "item042-3",
+            "candidate": "By now, you’re probably drawing some angel’s nude!!",
+            "source_text": "今頃は天使のヌードでも描いてるだろうさ!!",
+            "faithfulness": 2,
+            "naturalness": 2,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "前泡谈已死的父亲，原句画画者是父亲；you 改成面前女孩，关键人物指代错误。angel's nude 搭配生硬。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0021",
+            "block_id": "tojime_no_siora:p0021:t005"
+          },
+          "candidate": {
+            "item": "item042-2",
+            "candidate": "By now, he’s probably painting some angelic nudes!!",
+            "source_text": "今頃は天使のヌードでも描いてるだろうさ!!",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确承接已死的父亲，保留如今大概在画天使裸体的嘲讽。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0021",
+            "block_id": "tojime_no_siora:p0021:t005"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0022:t006",
+          "page_id": "tojime_no_siora:p0022",
+          "baseline": {
+            "item": "item043-1",
+            "candidate": "Ahhh...",
+            "source_text": "いやぁ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "可作为尴尬开场的拖长感叹，衔接深夜打扰的道歉。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0022",
+            "block_id": "tojime_no_siora:p0022:t006"
+          },
+          "candidate": {
+            "item": "item043-2",
+            "candidate": "I was just thinking...",
+            "source_text": "いやぁ",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "addition"
+            ],
+            "notes": "原文只是尴尬开场感叹，增添我刚在想的实义内容；尚非新增关键情节。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0022",
+            "block_id": "tojime_no_siora:p0022:t006"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0022:t007",
+          "page_id": "tojime_no_siora:p0022",
+          "baseline": {
+            "item": "item044-4",
+            "candidate": "Sorry for disturbing you so late at night...",
+            "source_text": "夜分遅くにすいません...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整自然地表达深夜前来打扰的歉意。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0022",
+            "block_id": "tojime_no_siora:p0022:t007"
+          },
+          "candidate": {
+            "item": "item044-3",
+            "candidate": "Excuse me for disturbing you so late at night...",
+            "source_text": "夜分遅くにすいません...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整自然地表达深夜前来打扰的歉意。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0022",
+            "block_id": "tojime_no_siora:p0022:t007"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0023:t006",
+          "page_id": "tojime_no_siora:p0023",
+          "baseline": {
+            "item": "item046-4",
+            "candidate": "Even if you try to push me...",
+            "source_text": "つっつけようったって...",
+            "faithfulness": 1,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "addition"
+            ],
+            "notes": "原句谈来者试图尾随；译成你推我，改变关键动作及人物关系。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0023",
+            "block_id": "tojime_no_siora:p0023:t006"
+          },
+          "candidate": {
+            "item": "item046-2",
+            "candidate": "Even if you try to touch it...",
+            "source_text": "つっつけようったって...",
+            "faithfulness": 1,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "omission",
+              "addition"
+            ],
+            "notes": "保留即使尝试的句式，但把跟踪换成触摸，丢失为何盲人能追到此处的关键话题。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0023",
+            "block_id": "tojime_no_siora:p0023:t006"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0024:t004",
+          "page_id": "tojime_no_siora:p0024",
+          "baseline": {
+            "item": "item047-3",
+            "candidate": "Please let us return peacefully.",
+            "source_text": "どうか穏便に帰して頂けませんか",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "结合来接レーネ的上下文，us 合理；保留请和平放人离开的请求。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0024",
+            "block_id": "tojime_no_siora:p0024:t004"
+          },
+          "candidate": {
+            "item": "item047-2",
+            "candidate": "Please, could you let us return peacefully?",
+            "source_text": "どうか穏便に帰して頂けませんか",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留委婉请求和平离开，并以 us 包含来接的レーネ。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0024",
+            "block_id": "tojime_no_siora:p0024:t004"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0024:t005",
+          "page_id": "tojime_no_siora:p0024",
+          "baseline": {
+            "item": "item048-4",
+            "candidate": "......",
+            "source_text": "......",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留沉默停顿；省略号不视为空译。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0024",
+            "block_id": "tojime_no_siora:p0024:t005"
+          },
+          "candidate": {
+            "item": "item048-2",
+            "candidate": "......",
+            "source_text": "......",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留沉默停顿；省略号不视为空译。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0024",
+            "block_id": "tojime_no_siora:p0024:t005"
+          }
+        }
+      ]
+    },
+    {
+      "baseline": "qwen-gold-c0",
+      "candidate": "vntl-gold-c0",
+      "expected_judgment_pairs": 48,
+      "coverage": {
+        "paired": 47,
+        "baseline_only": 1,
+        "candidate_only": 0,
+        "neither_complete": 0
+      },
+      "metrics": {
+        "faithfulness": {
+          "regions": 47,
+          "pages": 24,
+          "paired_judgments": 47,
+          "baseline": 2.4893617021276597,
+          "candidate": 3.3404255319148937,
+          "delta": 0.851063829787234,
+          "ci95": [
+            0.44680851063829785,
+            1.2447163120567362
+          ],
+          "unit": "page; reviewers averaged within each region",
+          "delta_direction": "candidate - baseline",
+          "samples": 2000,
+          "seed": 20261018,
+          "interval_status": "descriptive_small_sample"
+        },
+        "severe_error": {
+          "regions": 47,
+          "pages": 24,
+          "paired_judgments": 47,
+          "baseline": 0.3404255319148936,
+          "candidate": 0.19148936170212766,
+          "delta": -0.14893617021276595,
+          "ci95": [
+            -0.2826086956521739,
+            -0.020833333333333332
+          ],
+          "unit": "page; reviewers averaged within each region",
+          "delta_direction": "candidate - baseline",
+          "samples": 2000,
+          "seed": 20261018,
+          "interval_status": "descriptive_small_sample"
+        },
+        "naturalness": {
+          "regions": 47,
+          "pages": 24,
+          "paired_judgments": 47,
+          "baseline": 2.3617021276595747,
+          "candidate": 2.9361702127659575,
+          "delta": 0.574468085106383,
+          "ci95": [
+            0.3958333333333333,
+            0.7608695652173914
+          ],
+          "unit": "page; reviewers averaged within each region",
+          "delta_direction": "candidate - baseline",
+          "samples": 2000,
+          "seed": 20261018,
+          "interval_status": "descriptive_small_sample"
+        }
+      },
+      "severe_transitions": {
+        "both_severe": 6,
+        "resolved": 10,
+        "introduced": 3,
+        "neither_severe": 28
+      },
+      "tag_transitions": {
+        "omission": {
+          "both_flagged": 1,
+          "baseline_only": 7,
+          "candidate_only": 1
+        },
+        "negation": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 1
+        },
+        "reference": {
+          "both_flagged": 3,
+          "baseline_only": 5,
+          "candidate_only": 4
+        },
+        "name_term": {
+          "both_flagged": 3,
+          "baseline_only": 3,
+          "candidate_only": 0
+        },
+        "alignment": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "ocr_propagation": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "repetition": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "addition": {
+          "both_flagged": 2,
+          "baseline_only": 6,
+          "candidate_only": 0
+        },
+        "tone": {
+          "both_flagged": 2,
+          "baseline_only": 8,
+          "candidate_only": 0
+        },
+        "order": {
+          "both_flagged": 0,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "annotation": {
+          "both_flagged": 2,
+          "baseline_only": 0,
+          "candidate_only": 0
+        },
+        "other": {
+          "both_flagged": 0,
+          "baseline_only": 11,
+          "candidate_only": 0
+        }
+      },
+      "transitions_denominator": 47,
+      "paired_rows": [
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0001:t000",
+          "page_id": "tojime_no_siora:p0001",
+          "baseline": {
+            "item": "item001-1",
+            "candidate": "Chapter 12",
+            "source_text": "綴じ眼のシオラ",
+            "faithfulness": 0,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "omission",
+              "addition"
+            ],
+            "notes": "原图为作品题名「綴じ眼のシオラ」，译文改成“第12章”，漏掉题名并添加章节号。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0001",
+            "block_id": "tojime_no_siora:p0001:t000"
+          },
+          "candidate": {
+            "item": "item001-3",
+            "candidate": "The Sealed Eye of Shiora",
+            "source_text": "綴じ眼のシオラ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留シオラ及封闭眼睛的题名信息；英语题名表达通顺。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0001",
+            "block_id": "tojime_no_siora:p0001:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0001:t001",
+          "page_id": "tojime_no_siora:p0001",
+          "baseline": {
+            "item": "item002-1",
+            "candidate": "broken_eagle_mitsuki",
+            "source_text": "朽鷹みつき",
+            "faithfulness": 2,
+            "naturalness": 1,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "可见作者署名「朽鷹みつき」；mitsuki保留名字，但把姓写成broken_eagle并用下划线连接，不像正常作者译名。姓的确切读音未核实。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0001",
+            "block_id": "tojime_no_siora:p0001:t001"
+          },
+          "candidate": {
+            "item": "item002-2",
+            "candidate": "Kaku-taka Mitsuki",
+            "source_text": "朽鷹みつき",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "原图署名为「朽鷹みつき」，Mitsuki可核对；姓无读音标注，无法可靠确认Kaku-taka是否为作者采用的读法。",
+            "confidence": "low",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0001",
+            "block_id": "tojime_no_siora:p0001:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0002:t001",
+          "page_id": "tojime_no_siora:p0002",
+          "baseline": {
+            "item": "item003-4",
+            "candidate": "Don't say you don't know, right?",
+            "source_text": "知らないって言ってるだろっ",
+            "faithfulness": 1,
+            "naturalness": 2,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "tone"
+            ],
+            "notes": "原句是说话人强调“我说了我不知道”，译成要求对方“别说你不知道”，改换了说话立场与话语行为，构成严重错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0002",
+            "block_id": "tojime_no_siora:p0002:t001"
+          },
+          "candidate": {
+            "item": "item003-1",
+            "candidate": "I said I don’t know!",
+            "source_text": "知らないって言ってるだろっ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留“我都说了不知道”的强调和愤怒语气，符合原气泡。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0002",
+            "block_id": "tojime_no_siora:p0002:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0002:t003",
+          "page_id": "tojime_no_siora:p0002",
+          "baseline": {
+            "item": "item004-3",
+            "candidate": "So that's what it is, huh?",
+            "source_text": "そうは言ってもなぁ",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "other"
+            ],
+            "notes": "原句接对方否认债务，意为“话虽如此”；译成“原来是这么回事”改变为理解或确认，丢失让步关系。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0002",
+            "block_id": "tojime_no_siora:p0002:t003"
+          },
+          "candidate": {
+            "item": "item004-1",
+            "candidate": "Even so, huh?",
+            "source_text": "そうは言ってもなぁ",
+            "faithfulness": 4,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Even so保留“虽说如此／话虽这么说”的让步；句尾huh略生硬，但主要意义正确。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0002",
+            "block_id": "tojime_no_siora:p0002:t003"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0003:t001",
+          "page_id": "tojime_no_siora:p0003",
+          "baseline": {
+            "item": "item005-3",
+            "candidate": "The money I borrowed from Torriyano hasn't been returned to me yet.",
+            "source_text": "トルティヤーノに借りた金はちゃんと返して貰わねぇと",
+            "faithfulness": 1,
+            "naturalness": 2,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "other"
+            ],
+            "notes": "原句是催对方归还借款，译文却称“我借的钱尚未还给我”，借款人及收款关系颠倒，严重改变催债情节。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0003",
+            "block_id": "tojime_no_siora:p0003:t001"
+          },
+          "candidate": {
+            "item": "item005-4",
+            "candidate": "I’m gonna make sure you pay back the money you borrowed from Tortillano.",
+            "source_text": "トルティヤーノに借りた金はちゃんと返して貰わねぇと",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留向对方催还从トルティヤーノ借的钱；借款及还款方向正确，英语威胁口吻合适。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0003",
+            "block_id": "tojime_no_siora:p0003:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0003:t010",
+          "page_id": "tojime_no_siora:p0003",
+          "baseline": {
+            "item": "item006-3",
+            "candidate": "Ah!",
+            "source_text": "あっ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Ah!准确表达原气泡短促惊呼。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0003",
+            "block_id": "tojime_no_siora:p0003:t010"
+          },
+          "candidate": {
+            "item": "item006-1",
+            "candidate": "Ah.",
+            "source_text": "あっ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "あっ为跌倒瞬间的短促惊呼，Ah保留主要内容；句号只略减急促感。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0003",
+            "block_id": "tojime_no_siora:p0003:t010"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0004:t007",
+          "page_id": "tojime_no_siora:p0004",
+          "baseline": {
+            "item": "item007-4",
+            "candidate": "The blind closed eye...",
+            "source_text": "目の見えない閉じ眼が...",
+            "faithfulness": 3,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "保留blind及闭眼字面含义，但closed eye像指单只眼睛，未清楚表达作为人物称呼的「閉じ眼」。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0004",
+            "block_id": "tojime_no_siora:p0004:t007"
+          },
+          "candidate": {
+            "item": "item007-2",
+            "candidate": "Eyes closed, unable to see...",
+            "source_text": "目の見えない閉じ眼が...",
+            "faithfulness": 3,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "保留“看不见”，但把称呼一类人的「閉じ眼」写成眼睛闭着的状态；与下一泡“竟是枪手”衔接较生硬。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0004",
+            "block_id": "tojime_no_siora:p0004:t007"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0004:t008",
+          "page_id": "tojime_no_siora:p0004",
+          "baseline": {
+            "item": "item008-2",
+            "candidate": "Gunman too...?",
+            "source_text": "ガンマンだって...?",
+            "faithfulness": 3,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "addition",
+              "tone"
+            ],
+            "notes": "保留“枪手”，但too增加“也”的并列意味，だって在此是惊讶地复述对方身份。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0004",
+            "block_id": "tojime_no_siora:p0004:t008"
+          },
+          "candidate": {
+            "item": "item008-4",
+            "candidate": "A gunman...?",
+            "source_text": "ガンマンだって...?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "用疑问复述“枪手”，保留だって的惊讶确认意味。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0004",
+            "block_id": "tojime_no_siora:p0004:t008"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0005:t010",
+          "page_id": "tojime_no_siora:p0005",
+          "baseline": {
+            "item": "item009-2",
+            "candidate": "Girl?",
+            "source_text": "女か?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "简短询问保留“是女的？”的意思，省略冠词适合惊讶口语。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0005",
+            "block_id": "tojime_no_siora:p0005:t010"
+          },
+          "candidate": {
+            "item": "item009-4",
+            "candidate": "A girl?",
+            "source_text": "女か?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对性别的惊讶询问；girl符合画面中的年轻人物。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0005",
+            "block_id": "tojime_no_siora:p0005:t010"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0005:t016",
+          "page_id": "tojime_no_siora:p0005",
+          "baseline": {
+            "item": "item010-2",
+            "candidate": "Oh, just a little...!",
+            "source_text": "やっちょっと...!",
+            "faithfulness": 1,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "tone",
+              "other"
+            ],
+            "notes": "原句是被揭开遮眼物时的拒绝、制止，译成“哦，只要一点点”未表达叫停，可能读成配合或允许，严重改变该反应。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0005",
+            "block_id": "tojime_no_siora:p0005:t016"
+          },
+          "candidate": {
+            "item": "item010-1",
+            "candidate": "Hey, wait...!",
+            "source_text": "やっちょっと...!",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "画面中被扯开遮眼物时出声制止，Hey, wait保留“哎，等一下”的反应。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0005",
+            "block_id": "tojime_no_siora:p0005:t016"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0006:t002",
+          "page_id": "tojime_no_siora:p0006",
+          "baseline": {
+            "item": "item011-2",
+            "candidate": "You prick...",
+            "source_text": "てめぇ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "prick属于粗暴辱骂，保留てめぇ在此处的敌意；具体骂法差异不影响命题。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0006",
+            "block_id": "tojime_no_siora:p0006:t002"
+          },
+          "candidate": {
+            "item": "item011-1",
+            "candidate": "You bastard...",
+            "source_text": "てめぇ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "用英语辱骂表达てめぇ的粗暴称呼，符合紧接的愤怒反应。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0006",
+            "block_id": "tojime_no_siora:p0006:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0006:t003",
+          "page_id": "tojime_no_siora:p0006",
+          "baseline": {
+            "item": "item012-2",
+            "candidate": "?",
+            "source_text": "?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "原图该泡仅有问号，候选完整保留疑惑符号。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0006",
+            "block_id": "tojime_no_siora:p0006:t003"
+          },
+          "candidate": {
+            "item": "item012-3",
+            "candidate": "?",
+            "source_text": "?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "原图该泡仅有问号，候选完整保留疑惑符号。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0006",
+            "block_id": "tojime_no_siora:p0006:t003"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0007:t006",
+          "page_id": "tojime_no_siora:p0007",
+          "baseline": {
+            "item": "item013-2",
+            "candidate": "I'm the one-who-loved-Tortillaa-brothers, the biggest wild one in this town.",
+            "source_text": "奴はトルティヤー兄弟の片割れ、この街で一番の荒くれだよ",
+            "faithfulness": 1,
+            "naturalness": 1,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "name_term",
+              "addition",
+              "annotation"
+            ],
+            "notes": "原句说“他是兄弟之一、镇上最凶横的人”，译成“我是爱过这些兄弟的人”，主体颠倒且添加爱慕关系，构成严重错误。原图姓名为トルティヤーノ，包内转写少了ノ。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0007",
+            "block_id": "tojime_no_siora:p0007:t006"
+          },
+          "candidate": {
+            "item": "item013-1",
+            "candidate": "He’s one of the Tortiya brothers, the most notorious ruffian in this town.",
+            "source_text": "奴はトルティヤー兄弟の片割れ、この街で一番の荒くれだよ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term",
+              "annotation"
+            ],
+            "notes": "人物为兄弟之一、镇上最凶横的人均保留。原图可见「トルティヤーノ兄弟」，包内转写少了ノ；Tortiya也未保留这个尾音，按轻微名字差异处理。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0007",
+            "block_id": "tojime_no_siora:p0007:t006"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0007:t008",
+          "page_id": "tojime_no_siora:p0007",
+          "baseline": {
+            "item": "item014-2",
+            "candidate": "The big guy who was just there, about 7 feet tall, was the brother on the mafia side...",
+            "source_text": "さっきの7フィート程の巨漢が、マフィア兄弟の弟の方...",
+            "faithfulness": 2,
+            "naturalness": 2,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "other"
+            ],
+            "notes": "保留巨汉及约七英尺身高，但“黑手党那一边的兄弟”未表达“黑手党兄弟中的弟弟”，改变关键亲属关系。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0007",
+            "block_id": "tojime_no_siora:p0007:t008"
+          },
+          "candidate": {
+            "item": "item014-1",
+            "candidate": "That giant, about seven feet tall, from earlier...",
+            "source_text": "さっきの7フィート程の巨漢が、マフィア兄弟の弟の方...",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "omission"
+            ],
+            "notes": "保留刚才约七英尺高的巨汉，却完全漏掉“是黑手党兄弟中的弟弟”这一身份判断，遗漏该气泡核心命题。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0007",
+            "block_id": "tojime_no_siora:p0007:t008"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0008:t002",
+          "page_id": "tojime_no_siora:p0008",
+          "baseline": {
+            "item": "item015-2",
+            "candidate": "Na?",
+            "source_text": "なっ",
+            "faithfulness": 2,
+            "naturalness": 1,
+            "severe_error": false,
+            "tags": [
+              "tone",
+              "other"
+            ],
+            "notes": "Na?近似直接转写音节，英语中难表达此处“什——／啊？”的惊讶。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0008",
+            "block_id": "tojime_no_siora:p0008:t002"
+          },
+          "candidate": {
+            "item": "item015-3",
+            "candidate": "Nngh...",
+            "source_text": "なっ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "tone"
+            ],
+            "notes": "原图是被说中身体尺寸时的惊讶「なっ」，Nngh更像压抑呻吟，基本保留受惊反应但语气有偏差。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0008",
+            "block_id": "tojime_no_siora:p0008:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0008:t015",
+          "page_id": "tojime_no_siora:p0008",
+          "baseline": {
+            "item": "item016-2",
+            "candidate": "If you didn't want to be seen, wrap yourself in a towel.",
+            "source_text": "見られたくなかったらタオルでも巻いてな",
+            "faithfulness": 2,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "reference",
+              "other"
+            ],
+            "notes": "上下文指遮住眼部，wrap yourself in a towel易指裹身体；didn't与随后现在式命令搭配也略不自然。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0008",
+            "block_id": "tojime_no_siora:p0008:t015"
+          },
+          "candidate": {
+            "item": "item016-1",
+            "candidate": "If you don’t want to be seen, just wrap a towel around yourself or something.",
+            "source_text": "見られたくなかったらタオルでも巻いてな",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "reference"
+            ],
+            "notes": "前一泡明确限定「目元」，此处建议不愿被看见眼部就缠毛巾；around yourself易理解为裹住全身，改变遮盖部位，仍保留遮挡建议。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0008",
+            "block_id": "tojime_no_siora:p0008:t015"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0009:t002",
+          "page_id": "tojime_no_siora:p0009",
+          "baseline": {
+            "item": "item017-4",
+            "candidate": "Don't you know how to use the shower in someone else's house?",
+            "source_text": "人の家のシャワーじゃ勝手がわからないだろ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "tone"
+            ],
+            "notes": "基本提到不熟悉淋浴用法，但 Don't you know 更像责问；原文是体谅对方不会操作的推测。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0009",
+            "block_id": "tojime_no_siora:p0009:t002"
+          },
+          "candidate": {
+            "item": "item017-2",
+            "candidate": "You wouldn’t know how to use someone else’s shower, right?",
+            "source_text": "人の家のシャワーじゃ勝手がわからないだろ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留不熟悉别人家淋浴用法的推测，与提出帮忙洗澡的上下文相符。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0009",
+            "block_id": "tojime_no_siora:p0009:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0009:t010",
+          "page_id": "tojime_no_siora:p0009",
+          "baseline": {
+            "item": "item018-3",
+            "candidate": "Gold is what it's about, so he was just dumping Tortya with naked women sketches.",
+            "source_text": "金になるからって女の裸ばかり描いてトルティヤーに卸してた",
+            "faithfulness": 2,
+            "naturalness": 1,
+            "severe_error": true,
+            "tags": [
+              "other",
+              "annotation"
+            ],
+            "notes": "保留了父亲、钱和裸女画，但 dumping Tortya with sketches 无法表达把画供应给买家的交易，核心出售关系丢失；搭配也难懂。原图为トルティヤーノ，包内日文漏了ノ，需修核参考。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0009",
+            "block_id": "tojime_no_siora:p0009:t010"
+          },
+          "candidate": {
+            "item": "item018-1",
+            "candidate": "I was drawing naked women just to make money and selling them to Tortiya.",
+            "source_text": "金になるからって女の裸ばかり描いてトルティヤーに卸してた",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "annotation"
+            ],
+            "notes": "上下文和画面说明画裸女并卖画的是父亲；I 将此经历错归说话者本人，人物行动归属发生严重改变。原图专名为トルティヤーノ，包内日文漏了ノ，需修核参考。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0009",
+            "block_id": "tojime_no_siora:p0009:t010"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0010:t004",
+          "page_id": "tojime_no_siora:p0010",
+          "baseline": {
+            "item": "item019-1",
+            "candidate": "In the end, by gambling, he ended up owing money and jumped into the river.",
+            "source_text": "挙句の果てに博打で借金こさえて川にドボン",
+            "faithfulness": 4,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [],
+            "notes": "赌博欠债后跳河的事件和人物正确；In the end 与 ended up 重复，by gambling 插入位置稍生硬。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0010",
+            "block_id": "tojime_no_siora:p0010:t004"
+          },
+          "candidate": {
+            "item": "item019-3",
+            "candidate": "In the end, he ended up in debt from gambling and tossed himself into the river.",
+            "source_text": "挙句の果てに博打で借金こさえて川にドボン",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整表达最终赌博欠债并投河，口语性的 tossed himself 与原文叙述语气相容。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0010",
+            "block_id": "tojime_no_siora:p0010:t004"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0010:t005",
+          "page_id": "tojime_no_siora:p0010",
+          "baseline": {
+            "item": "item020-4",
+            "candidate": "Bad father, huh?",
+            "source_text": "ひどい父親だろ?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "简短口语表达仍保留坏父亲的评价和 huh 的确认语气。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0010",
+            "block_id": "tojime_no_siora:p0010:t005"
+          },
+          "candidate": {
+            "item": "item020-1",
+            "candidate": "\"What a terrible father, right?\"",
+            "source_text": "ひどい父親だろ?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对父亲的负面评价及向听者确认；外层引号不改变含义。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0010",
+            "block_id": "tojime_no_siora:p0010:t005"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0011:t000",
+          "page_id": "tojime_no_siora:p0011",
+          "baseline": {
+            "item": "item021-3",
+            "candidate": "It must have been wonderful.",
+            "source_text": "さぞ嬉しかったことでしょう",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留对那段经历的积极推测，未擅自指定错误的高兴者，可衔接下泡父亲画女儿的原因。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0011",
+            "block_id": "tojime_no_siora:p0011:t000"
+          },
+          "candidate": {
+            "item": "item021-4",
+            "candidate": "I’m sure you were overjoyed.",
+            "source_text": "さぞ嬉しかったことでしょう",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "结合下泡，原文推测父亲能在失明前画女儿而高兴；you were 将高兴者错换成听者，属严重人物指代错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0011",
+            "block_id": "tojime_no_siora:p0011:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0011:t001",
+          "page_id": "tojime_no_siora:p0011",
+          "baseline": {
+            "item": "item022-1",
+            "candidate": "Get to draw my daughter before I lose my sight.",
+            "source_text": "目が見えなくなる前に娘さんを描くことができて",
+            "faithfulness": 2,
+            "naturalness": 2,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "原文指听者的父亲在失明前画了女儿；my daughter 与 I lose 改成说话者本人的经历，施事和亲属关系严重错误；Get to 开头也生硬。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0011",
+            "block_id": "tojime_no_siora:p0011:t001"
+          },
+          "candidate": {
+            "item": "item022-4",
+            "candidate": "I was able to draw your daughter before I lost my sight.",
+            "source_text": "目が見えなくなる前に娘さんを描くことができて",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "父亲画自己的女儿，译成说话者失明前画听者的女儿；施事、失明者和亲属关系均错，属严重人物关系错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0011",
+            "block_id": "tojime_no_siora:p0011:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0012:t000",
+          "page_id": "tojime_no_siora:p0012",
+          "baseline": {
+            "item": "item023-4",
+            "candidate": "Renée?",
+            "source_text": "レーネさん?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Renée 是可接受的译名处理，呼唤功能和疑问语气保留；不把省略敬称单独视为意义错误。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0012",
+            "block_id": "tojime_no_siora:p0012:t000"
+          },
+          "candidate": {
+            "item": "item023-2",
+            "candidate": "Lene-san?",
+            "source_text": "レーネさん?",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Lene 可作为レーネ的音译，保留称呼与问询；未依据未提供的英文定名扣分。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0012",
+            "block_id": "tojime_no_siora:p0012:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0012:t011",
+          "page_id": "tojime_no_siora:p0012",
+          "baseline": {
+            "item": "item024-3",
+            "candidate": "That as proof of guilt...",
+            "source_text": "その時に罪の証にと...",
+            "faithfulness": 3,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "omission"
+            ],
+            "notes": "保留罪证含义，但没有清楚表达「那时」，That as 的片段衔接生硬。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0012",
+            "block_id": "tojime_no_siora:p0012:t011"
+          },
+          "candidate": {
+            "item": "item024-4",
+            "candidate": "At that time, as proof of the crime...",
+            "source_text": "その時に罪の証にと...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "当时作为罪行证明的核心意义准确，未完句形式符合原泡。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0012",
+            "block_id": "tojime_no_siora:p0012:t011"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0013:t002",
+          "page_id": "tojime_no_siora:p0013",
+          "baseline": {
+            "item": "item025-3",
+            "candidate": "Oh no...",
+            "source_text": "なんてひどい...",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "tone"
+            ],
+            "notes": "Oh no 保留负面惊讶，但弱化了原文对遭遇残酷或糟糕的明确评价。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0013",
+            "block_id": "tojime_no_siora:p0013:t002"
+          },
+          "candidate": {
+            "item": "item025-2",
+            "candidate": "How terrible...",
+            "source_text": "なんてひどい...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留对遭遇太糟糕的惊叹。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0013",
+            "block_id": "tojime_no_siora:p0013:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0013:t005",
+          "page_id": "tojime_no_siora:p0013",
+          "baseline": {
+            "item": "item026-4",
+            "candidate": "Not even a fraction as tragic as your father's remains.",
+            "source_text": "あなたの父親のかけらほども悲劇ではないんです",
+            "faithfulness": 2,
+            "naturalness": 2,
+            "severe_error": true,
+            "tags": [
+              "addition",
+              "other"
+            ],
+            "notes": "把表示程度的「かけらほども」误解成父亲的遗骸 remains，比较对象由父亲的遭遇变成遗骸，新增关键实体并破坏核心比喻。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0013",
+            "block_id": "tojime_no_siora:p0013:t005"
+          },
+          "candidate": {
+            "item": "item026-3",
+            "candidate": "It’s not even a fraction of the tragedy your father went through.",
+            "source_text": "あなたの父親のかけらほども悲劇ではないんです",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达自己的遭遇远不及对方父亲悲惨，比较对象与否定均正确。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0013",
+            "block_id": "tojime_no_siora:p0013:t005"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0014:t000",
+          "page_id": "tojime_no_siora:p0014",
+          "baseline": {
+            "item": "item027-2",
+            "candidate": "I don't have anything for me anymore.",
+            "source_text": "私にはもう",
+            "faithfulness": 3,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "addition"
+            ],
+            "notes": "大致保留失去所有的心境，但本泡仅「私にはもう」，译文提前补出否定且 anything for me 生硬。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0014",
+            "block_id": "tojime_no_siora:p0014:t000"
+          },
+          "candidate": {
+            "item": "item027-1",
+            "candidate": "I already have enough...",
+            "source_text": "私にはもう",
+            "faithfulness": 0,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "negation",
+              "addition"
+            ],
+            "notes": "后泡明确「只剩枪和闭着的眼睛」；I already have enough 却说已经足够，把匮乏的核心意思反转。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0014",
+            "block_id": "tojime_no_siora:p0014:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0014:t002",
+          "page_id": "tojime_no_siora:p0014",
+          "baseline": {
+            "item": "item028-2",
+            "candidate": "Okay, I'll prepare dinner.",
+            "source_text": "夕飯の準備してくる",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确传达要准备晚饭；Okay 仅是轻微话语衔接，不改变行动或人物。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0014",
+            "block_id": "tojime_no_siora:p0014:t002"
+          },
+          "candidate": {
+            "item": "item028-3",
+            "candidate": "I’ll go prepare dinner.",
+            "source_text": "夕飯の準備してくる",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达离开去准备晚饭的行动。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0014",
+            "block_id": "tojime_no_siora:p0014:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0015:t000",
+          "page_id": "tojime_no_siora:p0015",
+          "baseline": {
+            "item": "item029-2",
+            "candidate": "Surely it's a lie...",
+            "source_text": "きっと嘘さ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "Surely 自然表达「きっと」的确信及自我劝说，谎言判断完整。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0015",
+            "block_id": "tojime_no_siora:p0015:t000"
+          },
+          "candidate": {
+            "item": "item029-4",
+            "candidate": "It’s definitely a lie...",
+            "source_text": "きっと嘘さ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留确信那是谎言的自我劝说和迟疑停顿。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0015",
+            "block_id": "tojime_no_siora:p0015:t000"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0015:t002",
+          "page_id": "tojime_no_siora:p0015",
+          "baseline": {
+            "item": "item030-3",
+            "candidate": "So it's decided...",
+            "source_text": "そうに決まってる...",
+            "faithfulness": 1,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "other"
+            ],
+            "notes": "「に決まってる」是在确信前文所言是谎话；译成已经作出决定，原来的核心确信命题消失。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0015",
+            "block_id": "tojime_no_siora:p0015:t002"
+          },
+          "candidate": {
+            "item": "item030-1",
+            "candidate": "Of course it is...",
+            "source_text": "そうに決まってる...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "it 可承接前文的谎言判断，表达肯定就是这样。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0015",
+            "block_id": "tojime_no_siora:p0015:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0016:t002",
+          "page_id": "tojime_no_siora:p0016",
+          "baseline": {
+            "item": "item031-3",
+            "candidate": "Ah, good Kaori",
+            "source_text": "あっいいかおり",
+            "faithfulness": 1,
+            "naturalness": 2,
+            "severe_error": true,
+            "tags": [
+              "name_term",
+              "omission"
+            ],
+            "notes": "把「かおり」的香味误当人名 Kaori，闻到好气味的核心命题漏失；Ah, good Kaori 的称呼搭配也生硬。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0016",
+            "block_id": "tojime_no_siora:p0016:t002"
+          },
+          "candidate": {
+            "item": "item031-4",
+            "candidate": "Ah, it smells nice.",
+            "source_text": "あっいいかおり",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达突然闻到好闻气味，与下泡肉饼气味衔接自然。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0016",
+            "block_id": "tojime_no_siora:p0016:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0016:t003",
+          "page_id": "tojime_no_siora:p0016",
+          "baseline": {
+            "item": "item032-3",
+            "candidate": "The smell of hamburgers.",
+            "source_text": "ハンバーグのにおいだ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "名词短语在漫画对白中自然，气味判断正确；ハンバーグ更具体是汉堡肉饼，hamburgers 的菜名不够精确。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0016",
+            "block_id": "tojime_no_siora:p0016:t003"
+          },
+          "candidate": {
+            "item": "item032-2",
+            "candidate": "It’s the smell of hamburgers.",
+            "source_text": "ハンバーグのにおいだ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "name_term"
+            ],
+            "notes": "闻到食物气味的主干正确；ハンバーグ及上一页餐盘指汉堡肉饼，hamburgers 容易被理解成夹面包汉堡，属轻微菜名不精确。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0016",
+            "block_id": "tojime_no_siora:p0016:t003"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0017:t002",
+          "page_id": "tojime_no_siora:p0017",
+          "baseline": {
+            "item": "item033-2",
+            "candidate": "Wow, really?",
+            "source_text": "いきなりなんだってのさ!",
+            "faithfulness": 1,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "omission",
+              "tone"
+            ],
+            "notes": "原句质问对方为何突然这样；译成惊讶确认，漏掉对抓人行为的核心质问。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0017",
+            "block_id": "tojime_no_siora:p0017:t002"
+          },
+          "candidate": {
+            "item": "item033-4",
+            "candidate": "What’s with you all of a sudden?!",
+            "source_text": "いきなりなんだってのさ!",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留突然被抓住时的质问与愤怒语气。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0017",
+            "block_id": "tojime_no_siora:p0017:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0017:t004",
+          "page_id": "tojime_no_siora:p0017",
+          "baseline": {
+            "item": "item034-1",
+            "candidate": "Think my brother has relayed the matter well enough, I suppose.",
+            "source_text": "用件はうちの弟が散々伝えたと思うがね",
+            "faithfulness": 3,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "omission"
+            ],
+            "notes": "传达弟弟已充分说明来意；brother 未保留弟弟的年龄关系，Think 与 I suppose 重叠生硬。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0017",
+            "block_id": "tojime_no_siora:p0017:t004"
+          },
+          "candidate": {
+            "item": "item034-3",
+            "candidate": "I think my little brother already explained the matter thoroughly.",
+            "source_text": "用件はうちの弟が散々伝えたと思うがね",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "弟弟已反复充分说明来意的主要信息完整，英文自然。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0017",
+            "block_id": "tojime_no_siora:p0017:t004"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0018:t007",
+          "page_id": "tojime_no_siora:p0018",
+          "baseline": {
+            "item": "item036-4",
+            "candidate": "Yorokobere ne",
+            "source_text": "よろこべレーネ",
+            "faithfulness": 0,
+            "naturalness": 1,
+            "severe_error": true,
+            "tags": [
+              "omission",
+              "name_term"
+            ],
+            "notes": "仅把声音拼成非英语串，未表达高兴起来的命令，并混淆レーネ姓名边界。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0018",
+            "block_id": "tojime_no_siora:p0018:t007"
+          },
+          "candidate": {
+            "item": "item036-2",
+            "candidate": "Rejoice, Lene.",
+            "source_text": "よろこべレーネ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确保留命令对方高兴及对レーネ的称呼。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0018",
+            "block_id": "tojime_no_siora:p0018:t007"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0019:t001",
+          "page_id": "tojime_no_siora:p0019",
+          "baseline": {
+            "item": "item037-2",
+            "candidate": "Huh?",
+            "source_text": "ふっ",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "tone"
+            ],
+            "notes": "图中接下一泡ふざけんな，是愤怒开口；Huh? 更偏疑问或困惑，语气不够贴合。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0019",
+            "block_id": "tojime_no_siora:p0019:t001"
+          },
+          "candidate": {
+            "item": "item037-1",
+            "candidate": "Hmph.",
+            "source_text": "ふっ",
+            "faithfulness": 3,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [
+              "tone"
+            ],
+            "notes": "图中女孩随即说ふざけんな；此处可能是开口停顿，Hmph 表达不满但未体现断续衔接。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0019",
+            "block_id": "tojime_no_siora:p0019:t001"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0019:t006",
+          "page_id": "tojime_no_siora:p0019",
+          "baseline": {
+            "item": "item038-4",
+            "candidate": "Even if I shouted in this outskirts warehouse, nobody would come.",
+            "source_text": "こんな街外れの倉庫で叫んだって誰も来やしないさ",
+            "faithfulness": 2,
+            "naturalness": 2,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "把受威胁女孩的叫喊改为说话人 I，人物关系错误；outskirts warehouse 搭配也生硬。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0019",
+            "block_id": "tojime_no_siora:p0019:t006"
+          },
+          "candidate": {
+            "item": "item038-3",
+            "candidate": "Even if I scream in this warehouse on the outskirts of town, no one’s gonna come.",
+            "source_text": "こんな街外れの倉庫で叫んだって誰も来やしないさ",
+            "faithfulness": 2,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "画面是抓人者对女孩说你喊也没人来；I 把叫喊者改成说话人，人物关系错误。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0019",
+            "block_id": "tojime_no_siora:p0019:t006"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0020:t003",
+          "page_id": "tojime_no_siora:p0020",
+          "baseline": {
+            "item": "item039-4",
+            "candidate": "Do...",
+            "source_text": "ど...",
+            "faithfulness": 2,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "other"
+            ],
+            "notes": "保留停顿形式，但 Do 直搬日语起音，未自然衔接下一泡 What 的疑问。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0020",
+            "block_id": "tojime_no_siora:p0020:t003"
+          },
+          "candidate": {
+            "item": "item039-1",
+            "candidate": "Wh...",
+            "source_text": "ど...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "与下一泡 What do you mean 的起音相连，保留震惊结巴。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0020",
+            "block_id": "tojime_no_siora:p0020:t003"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0020:t004",
+          "page_id": "tojime_no_siora:p0020",
+          "baseline": {
+            "item": "item040-3",
+            "candidate": "What does that mean...?",
+            "source_text": "どういう意味さ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确询问刚才的话是什么意思，语义及迟疑语气合适。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0020",
+            "block_id": "tojime_no_siora:p0020:t004"
+          },
+          "candidate": {
+            "item": "item040-2",
+            "candidate": "What do you mean...",
+            "source_text": "どういう意味さ...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "准确表达对刚才暗示的追问，并保留停顿。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0020",
+            "block_id": "tojime_no_siora:p0020:t004"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0021:t002",
+          "page_id": "tojime_no_siora:p0021",
+          "baseline": {
+            "item": "item041-1",
+            "candidate": "Wait... so Father...?",
+            "source_text": "待てよ...じゃあ父さんは...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留等等、由此想到父亲及未说完的疑问；Father 的称呼风格可接受。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0021",
+            "block_id": "tojime_no_siora:p0021:t002"
+          },
+          "candidate": {
+            "item": "item041-4",
+            "candidate": "Wait a second... So, Father...",
+            "source_text": "待てよ...じゃあ父さんは...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整保留等等及对父亲的未完推问；Father 的称呼风格可接受。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0021",
+            "block_id": "tojime_no_siora:p0021:t002"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0021:t005",
+          "page_id": "tojime_no_siora:p0021",
+          "baseline": {
+            "item": "item042-1",
+            "candidate": "Now, they must be drawing angel nude sketches too!!",
+            "source_text": "今頃は天使のヌードでも描いてるだろうさ!!",
+            "faithfulness": 3,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "addition",
+              "tone"
+            ],
+            "notes": "保留父亲此刻画天使裸体的嘲讽；they 可作单数，不单凭此判指代错。too 无依据，must 比だろう更笃定，搭配略生硬。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0021",
+            "block_id": "tojime_no_siora:p0021:t005"
+          },
+          "candidate": {
+            "item": "item042-3",
+            "candidate": "By now, you’re probably drawing some angel’s nude!!",
+            "source_text": "今頃は天使のヌードでも描いてるだろうさ!!",
+            "faithfulness": 2,
+            "naturalness": 2,
+            "severe_error": true,
+            "tags": [
+              "reference"
+            ],
+            "notes": "前泡谈已死的父亲，原句画画者是父亲；you 改成面前女孩，关键人物指代错误。angel's nude 搭配生硬。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0021",
+            "block_id": "tojime_no_siora:p0021:t005"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0022:t006",
+          "page_id": "tojime_no_siora:p0022",
+          "baseline": {
+            "item": "item043-3",
+            "candidate": "Yeah aaa",
+            "source_text": "いやぁ",
+            "faithfulness": 2,
+            "naturalness": 1,
+            "severe_error": false,
+            "tags": [
+              "tone",
+              "other"
+            ],
+            "notes": "Yeah 偏向肯定回应，aaa 不是自然英语开场写法，未贴合随后的道歉。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0022",
+            "block_id": "tojime_no_siora:p0022:t006"
+          },
+          "candidate": {
+            "item": "item043-1",
+            "candidate": "Ahhh...",
+            "source_text": "いやぁ",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "可作为尴尬开场的拖长感叹，衔接深夜打扰的道歉。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0022",
+            "block_id": "tojime_no_siora:p0022:t006"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0022:t007",
+          "page_id": "tojime_no_siora:p0022",
+          "baseline": {
+            "item": "item044-2",
+            "candidate": "Sorry to disturb you so late at night...",
+            "source_text": "夜分遅くにすいません...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整自然地表达深夜前来打扰的歉意。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0022",
+            "block_id": "tojime_no_siora:p0022:t007"
+          },
+          "candidate": {
+            "item": "item044-4",
+            "candidate": "Sorry for disturbing you so late at night...",
+            "source_text": "夜分遅くにすいません...",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "完整自然地表达深夜前来打扰的歉意。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0022",
+            "block_id": "tojime_no_siora:p0022:t007"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0023:t005",
+          "page_id": "tojime_no_siora:p0023",
+          "baseline": {
+            "item": "item045-1",
+            "candidate": "Was it implanted?",
+            "source_text": "つけられたのか?",
+            "faithfulness": 0,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "addition",
+              "omission"
+            ],
+            "notes": "上下文问ビル是否被跟踪至此；implanted 凭空改成植入，丢失核心跟踪事件。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0023",
+            "block_id": "tojime_no_siora:p0023:t005"
+          },
+          "candidate": {
+            "item": "item045-4",
+            "candidate": "Did they do it to you?",
+            "source_text": "つけられたのか?",
+            "faithfulness": 1,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "omission"
+            ],
+            "notes": "仅保留有人对你做了什么的问法，漏掉上下文关键的被跟踪事件。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0023",
+            "block_id": "tojime_no_siora:p0023:t005"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0023:t006",
+          "page_id": "tojime_no_siora:p0023",
+          "baseline": {
+            "item": "item046-1",
+            "candidate": "Stick it anyway...",
+            "source_text": "つっつけようったって...",
+            "faithfulness": 0,
+            "naturalness": 2,
+            "severe_error": true,
+            "tags": [
+              "omission",
+              "addition"
+            ],
+            "notes": "原句结巴地反驳对方即使想跟踪也难以做到，并接他眼睛看不见；译成让人粘上去的命令，核心意思丢失。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0023",
+            "block_id": "tojime_no_siora:p0023:t006"
+          },
+          "candidate": {
+            "item": "item046-4",
+            "candidate": "Even if you try to push me...",
+            "source_text": "つっつけようったって...",
+            "faithfulness": 1,
+            "naturalness": 3,
+            "severe_error": true,
+            "tags": [
+              "reference",
+              "addition"
+            ],
+            "notes": "原句谈来者试图尾随；译成你推我，改变关键动作及人物关系。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0023",
+            "block_id": "tojime_no_siora:p0023:t006"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0024:t004",
+          "page_id": "tojime_no_siora:p0024",
+          "baseline": {
+            "item": "item047-4",
+            "candidate": "Could you kindly let me go in a peaceful manner?",
+            "source_text": "どうか穏便に帰して頂けませんか",
+            "faithfulness": 3,
+            "naturalness": 2,
+            "severe_error": false,
+            "tags": [
+              "reference"
+            ],
+            "notes": "保留和平放行请求，但上文是来接レーネ，me 缩小了同行对象；日语此泡省略对象，严重性不宜仅凭单泡扩大判断。in a peaceful manner 较生硬。",
+            "confidence": "medium",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0024",
+            "block_id": "tojime_no_siora:p0024:t004"
+          },
+          "candidate": {
+            "item": "item047-3",
+            "candidate": "Please let us return peacefully.",
+            "source_text": "どうか穏便に帰して頂けませんか",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "结合来接レーネ的上下文，us 合理；保留请和平放人离开的请求。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0024",
+            "block_id": "tojime_no_siora:p0024:t004"
+          }
+        },
+        {
+          "reviewer": "1",
+          "block_id": "tojime_no_siora:p0024:t005",
+          "page_id": "tojime_no_siora:p0024",
+          "baseline": {
+            "item": "item048-1",
+            "candidate": "......",
+            "source_text": "......",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留沉默停顿；省略号不视为空译。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0024",
+            "block_id": "tojime_no_siora:p0024:t005"
+          },
+          "candidate": {
+            "item": "item048-4",
+            "candidate": "......",
+            "source_text": "......",
+            "faithfulness": 4,
+            "naturalness": 3,
+            "severe_error": false,
+            "tags": [],
+            "notes": "保留沉默停顿；省略号不视为空译。",
+            "confidence": "high",
+            "human_reviewed": true,
+            "page_id": "tojime_no_siora:p0024",
+            "block_id": "tojime_no_siora:p0024:t005"
+          }
+        }
+      ]
+    }
+  ],
+
+  "ocr_suspicion_audit": [],
+  "protocol": {
+    "path": "research\\freezes\\stage9-human-analysis-v2\\protocol.json"
+  },
+  "ratings": [
+    {
+      "path": "research\\results\\human-R1-received\\source\\ratings_1.json"
+    }
+  ],
+  "seconds": 0.18329660000745207
+}

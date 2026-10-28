@@ -1,0 +1,2057 @@
+{
+  "schema_version": 1,
+  "runs": {
+    "vntl-gold-c0": {
+      "path": "research\\runs\\test24-vntl-gold0\\report.json",
+      "score": {
+        "schema_version": 1,
+        "condition": {
+          "stage": "translate",
+          "input": "gold",
+          "backend": "vntl",
+          "config": {
+            "work": "default",
+            "target_language": "en",
+            "device": "cuda:0",
+            "memory_policy": "staged",
+            "memory_db": "research\\runs\\test24-vntl-gold0\\terms.sqlite3",
+            "model_path": "best.pt",
+            "translation_backend": "vntl",
+            "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+            "llama_context_size": 2048,
+            "model_name": "Qwen/Qwen2.5-3B-Instruct",
+            "adapter_path": "",
+            "detection_conf": 0.5,
+            "detect_free_text": true,
+            "magi_model_path": "runtime\\magiv2",
+            "reading_direction": "rtl",
+            "translation_mode": "individual",
+            "group_size": 4,
+            "context_chars": 0,
+            "use_continuations": false,
+            "use_translation_history": false,
+            "max_new_tokens": 256,
+            "retries": 1,
+            "extract_terms": false,
+            "local_files_only": true,
+            "font_path": null,
+            "min_font_size": 12,
+            "max_font_size": 40,
+            "skip_inpaint": false,
+            "debug_mask": false,
+            "export_images": false
+          },
+          "terms": "disabled; independent empty database",
+          "order": "annotation index",
+          "crop": "reference text boxes, production OCR 4px padding; no bubble-margin shrink"
+        },
+        "selection": [
+          "tojime_no_siora:p0001",
+          "tojime_no_siora:p0002",
+          "tojime_no_siora:p0003",
+          "tojime_no_siora:p0004",
+          "tojime_no_siora:p0005",
+          "tojime_no_siora:p0006",
+          "tojime_no_siora:p0007",
+          "tojime_no_siora:p0008",
+          "tojime_no_siora:p0009",
+          "tojime_no_siora:p0010",
+          "tojime_no_siora:p0011",
+          "tojime_no_siora:p0012",
+          "tojime_no_siora:p0013",
+          "tojime_no_siora:p0014",
+          "tojime_no_siora:p0015",
+          "tojime_no_siora:p0016",
+          "tojime_no_siora:p0017",
+          "tojime_no_siora:p0018",
+          "tojime_no_siora:p0019",
+          "tojime_no_siora:p0020",
+          "tojime_no_siora:p0021",
+          "tojime_no_siora:p0022",
+          "tojime_no_siora:p0023",
+          "tojime_no_siora:p0024"
+        ],
+        "pages": 24,
+        "blocks": 224,
+        "works": 1,
+        "missing_pages": 0,
+        "missing_blocks": 0,
+        "translation_requested": true,
+        "by_book": {
+          "tojime_no_siora": {
+            "pages": 24,
+            "blocks": 224,
+            "chrf_pp": 30.46304911007034,
+            "eligible_blocks": 224,
+            "failed_blocks": 0
+          }
+        },
+        "limitations": [
+          "Scores and page-bootstrap intervals are conditional on the selected works; they do not estimate generalization to unseen works.",
+          "Page bootstrap does not model dependence between adjacent pages/scenes."
+        ],
+        "chrf_pp": 30.46304911007034,
+        "eligible_blocks": 224,
+        "failed_blocks": 0,
+        "work_macro_chrf_pp": 30.46304911007034,
+        "excluded_from_mt": 0,
+        "exclusion_rule": "Empty/whitespace-only gold Japanese or English; failures are NOT excluded",
+        "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "failed_fraction": 0.0
+      },
+      "timing": {
+        "load_seconds": 4.857786500004295,
+        "load_count": 1,
+        "wall_seconds": 102.56812150000042,
+        "warm_pages": 23,
+        "warm_mean_seconds": 4.155598091305127,
+        "warm_median_seconds": 4.675430499999493,
+        "warm_p95_seconds": 6.696921569995902,
+        "first_page_seconds": 6.021229799996945,
+        "device_peak_mib": 6510.0,
+        "requests": 218,
+        "retry_requests": 0
+      },
+      "model": {},
+      "hardware": {
+        "platform": "Windows-11-10.0.26220-SP0",
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main) [MSC v.1929 64 bit (AMD64)]",
+        "python_executable": ".venv\\Scripts\\python.exe",
+        "logical_cpus": 32,
+        "torch_package": "2.10.0+cu126",
+        "installed_ram_bytes": 17179869184
+      },
+      "gpu_devices": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+          "driver": "610.62",
+          "total_mib": 8188.0,
+          "used_mib": 1400.0
+        }
+      ],
+      "runtime_sessions": [
+        {
+          "seconds": 102.56812150000042,
+          "execution_device": null,
+          "model_load_seconds": {
+            "translation:vntl:E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf": 4.857786500004295
+          },
+          "model_load_counts": {
+            "translation:vntl:E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf": 1
+          },
+          "model_evictions": [],
+          "qwen_runtime": null,
+          "vntl_runtime": {
+            "backend": "vntl",
+            "model_file": "E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "requested_quantization": "Q4_K_M",
+            "model_bytes": 4920735744,
+            "context_size": 2048,
+            "command": [
+              "E:\\AI-Manga-Translator-runtime\\llama.cpp\\b11706\\llama-server.exe",
+              "--model",
+              "E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+              "--host",
+              "127.0.0.1",
+              "--port",
+              "9800",
+              "--device",
+              "CUDA0",
+              "--gpu-layers",
+              "99",
+              "--split-mode",
+              "none",
+              "--fit",
+              "off",
+              "--ctx-size",
+              "2048",
+              "--parallel",
+              "1",
+              "--batch-size",
+              "256",
+              "--ubatch-size",
+              "128",
+              "--flash-attn",
+              "on",
+              "--cache-ram",
+              "0",
+              "--threads",
+              "4",
+              "--threads-batch",
+              "4",
+              "--verbosity",
+              "4",
+              "--no-context-shift",
+              "--no-webui"
+            ],
+            "log_path": "data\\vntl\\llama-<id>.log",
+            "generation_calls": 218,
+            "generation_seconds": 93.27974599990557,
+            "temperature": 0,
+            "repeat_penalty": 1.0,
+            "load_seconds": 4.857786500004295,
+            "offloaded_layers": 33,
+            "quantization": "Q4_K - Medium",
+            "total_layers": 33,
+            "buffers": [
+              "0.01.715.244 I load_tensors: offloaded 33/33 layers to GPU",
+              "0.01.715.252 I load_tensors:   CPU_Mapped model buffer size =   281.81 MiB",
+              "0.01.715.253 I load_tensors:        CUDA0 model buffer size =  4403.49 MiB",
+              "0.04.162.713 I llama_context:  CUDA_Host  output buffer size =     0.49 MiB",
+              "0.04.165.489 I llama_kv_cache:      CUDA0 KV buffer size =   256.00 MiB",
+              "0.04.188.477 I sched_reserve:      CUDA0 compute buffer size =    29.50 MiB",
+              "0.04.188.487 I sched_reserve:  CUDA_Host compute buffer size =     8.50 MiB"
+            ],
+            "pid": 41952,
+            "last_timings": {
+              "cache_n": 55,
+              "prompt_n": 16,
+              "prompt_ms": 70.36,
+              "prompt_per_token_ms": 4.3975,
+              "prompt_per_second": 227.4019329164298,
+              "predicted_n": 12,
+              "predicted_ms": 273.14,
+              "predicted_per_token_ms": 24.83090909090909,
+              "predicted_per_second": 40.27238778648312
+            }
+          }
+        }
+      ],
+      "splits": [
+        "test"
+      ],
+      "books": [
+        "tojime_no_siora"
+      ],
+      "runtime_error": null,
+      "cancelled": false
+    },
+    "vntl-ocr-c0": {
+      "path": "research\\runs\\test24-vntl-ocr0\\report.json",
+      "score": {
+        "schema_version": 1,
+        "condition": {
+          "stage": "translate",
+          "input": "ocr",
+          "backend": "vntl",
+          "config": {
+            "work": "default",
+            "target_language": "en",
+            "device": "cuda:0",
+            "memory_policy": "staged",
+            "memory_db": "research\\runs\\test24-vntl-ocr0\\terms.sqlite3",
+            "model_path": "best.pt",
+            "translation_backend": "vntl",
+            "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+            "llama_context_size": 2048,
+            "model_name": "Qwen/Qwen2.5-3B-Instruct",
+            "adapter_path": "",
+            "detection_conf": 0.5,
+            "detect_free_text": true,
+            "magi_model_path": "runtime\\magiv2",
+            "reading_direction": "rtl",
+            "translation_mode": "individual",
+            "group_size": 4,
+            "context_chars": 0,
+            "use_continuations": false,
+            "use_translation_history": false,
+            "max_new_tokens": 256,
+            "retries": 1,
+            "extract_terms": false,
+            "local_files_only": true,
+            "font_path": null,
+            "min_font_size": 12,
+            "max_font_size": 40,
+            "skip_inpaint": false,
+            "debug_mask": false,
+            "export_images": false
+          },
+          "terms": "disabled; independent empty database",
+          "order": "annotation index; not human-verified reading order",
+          "crop": "text boxes, production OCR 4px padding; no bubble-margin shrink"
+        },
+        "selection": [
+          "tojime_no_siora:p0001",
+          "tojime_no_siora:p0002",
+          "tojime_no_siora:p0003",
+          "tojime_no_siora:p0004",
+          "tojime_no_siora:p0005",
+          "tojime_no_siora:p0006",
+          "tojime_no_siora:p0007",
+          "tojime_no_siora:p0008",
+          "tojime_no_siora:p0009",
+          "tojime_no_siora:p0010",
+          "tojime_no_siora:p0011",
+          "tojime_no_siora:p0012",
+          "tojime_no_siora:p0013",
+          "tojime_no_siora:p0014",
+          "tojime_no_siora:p0015",
+          "tojime_no_siora:p0016",
+          "tojime_no_siora:p0017",
+          "tojime_no_siora:p0018",
+          "tojime_no_siora:p0019",
+          "tojime_no_siora:p0020",
+          "tojime_no_siora:p0021",
+          "tojime_no_siora:p0022",
+          "tojime_no_siora:p0023",
+          "tojime_no_siora:p0024"
+        ],
+        "pages": 24,
+        "blocks": 224,
+        "works": 1,
+        "missing_pages": 0,
+        "missing_blocks": 0,
+        "translation_requested": true,
+        "by_book": {
+          "tojime_no_siora": {
+            "pages": 24,
+            "blocks": 224,
+            "cer_nfc": {
+              "normalization": "NFC",
+              "reference_characters": 2598,
+              "edit_errors": 266,
+              "cer": 0.10238645111624327,
+              "empty_reference_count": 0,
+              "empty_reference_insertions": 0,
+              "empty_reference_nonempty_predictions": 0,
+              "empty_reference_false_positive_rate": null,
+              "insertions_per_empty_reference": null
+            },
+            "cer_no_whitespace": {
+              "normalization": "NFC, remove Unicode whitespace",
+              "reference_characters": 2598,
+              "edit_errors": 266,
+              "cer": 0.10238645111624327,
+              "empty_reference_count": 0,
+              "empty_reference_insertions": 0,
+              "empty_reference_nonempty_predictions": 0,
+              "empty_reference_false_positive_rate": null,
+              "insertions_per_empty_reference": null
+            },
+            "cer_width_space": {
+              "normalization": "NFC; map U+FF01..U+FF5E to ASCII; remove Unicode whitespace; preserve other punctuation/kana",
+              "reference_characters": 2598,
+              "edit_errors": 49,
+              "cer": 0.018860662047729022,
+              "empty_reference_count": 0,
+              "empty_reference_insertions": 0,
+              "empty_reference_nonempty_predictions": 0,
+              "empty_reference_false_positive_rate": null,
+              "insertions_per_empty_reference": null,
+              "format_only_regions": 78,
+              "format_only_rule": "Raw strings differ but are identical after this normalization"
+            },
+            "format_only_regions": 78,
+            "chrf_pp": 30.81619028337369,
+            "eligible_blocks": 224,
+            "failed_blocks": 0
+          }
+        },
+        "limitations": [
+          "Scores and page-bootstrap intervals are conditional on the selected works; they do not estimate generalization to unseen works.",
+          "Page bootstrap does not model dependence between adjacent pages/scenes."
+        ],
+        "cer_nfc": {
+          "normalization": "NFC",
+          "reference_characters": 2598,
+          "edit_errors": 266,
+          "cer": 0.10238645111624327,
+          "empty_reference_count": 0,
+          "empty_reference_insertions": 0,
+          "empty_reference_nonempty_predictions": 0,
+          "empty_reference_false_positive_rate": null,
+          "insertions_per_empty_reference": null
+        },
+        "cer_no_whitespace": {
+          "normalization": "NFC, remove Unicode whitespace",
+          "reference_characters": 2598,
+          "edit_errors": 266,
+          "cer": 0.10238645111624327,
+          "empty_reference_count": 0,
+          "empty_reference_insertions": 0,
+          "empty_reference_nonempty_predictions": 0,
+          "empty_reference_false_positive_rate": null,
+          "insertions_per_empty_reference": null
+        },
+        "cer_width_space": {
+          "normalization": "NFC; map U+FF01..U+FF5E to ASCII; remove Unicode whitespace; preserve other punctuation/kana",
+          "reference_characters": 2598,
+          "edit_errors": 49,
+          "cer": 0.018860662047729022,
+          "empty_reference_count": 0,
+          "empty_reference_insertions": 0,
+          "empty_reference_nonempty_predictions": 0,
+          "empty_reference_false_positive_rate": null,
+          "insertions_per_empty_reference": null,
+          "format_only_regions": 78,
+          "format_only_rule": "Raw strings differ but are identical after this normalization"
+        },
+        "format_only_regions": 78,
+        "chrf_pp": 30.81619028337369,
+        "eligible_blocks": 224,
+        "failed_blocks": 0,
+        "work_macro_chrf_pp": 30.81619028337369,
+        "excluded_from_mt": 0,
+        "exclusion_rule": "Empty/whitespace-only gold Japanese or English; failures are NOT excluded",
+        "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "failed_fraction": 0.0
+      },
+      "timing": {
+        "load_seconds": 4.946399000000383,
+        "load_count": 1,
+        "wall_seconds": 99.3527568999998,
+        "warm_pages": 23,
+        "warm_mean_seconds": 4.035385099998561,
+        "warm_median_seconds": 4.55819270000211,
+        "warm_p95_seconds": 6.536779850001767,
+        "first_page_seconds": 5.948152299999492,
+        "device_peak_mib": 6209.0,
+        "requests": 216,
+        "retry_requests": 0
+      },
+      "model": {},
+      "hardware": {
+        "platform": "Windows-11-10.0.26220-SP0",
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main) [MSC v.1929 64 bit (AMD64)]",
+        "python_executable": ".venv\\Scripts\\python.exe",
+        "logical_cpus": 32,
+        "torch_package": "2.10.0+cu126",
+        "installed_ram_bytes": 17179869184
+      },
+      "gpu_devices": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+          "driver": "610.62",
+          "total_mib": 8188.0,
+          "used_mib": 1341.0
+        }
+      ],
+      "runtime_sessions": [
+        {
+          "seconds": 99.3527568999998,
+          "execution_device": null,
+          "model_load_seconds": {
+            "translation:vntl:E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf": 4.946399000000383
+          },
+          "model_load_counts": {
+            "translation:vntl:E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf": 1
+          },
+          "model_evictions": [],
+          "qwen_runtime": null,
+          "vntl_runtime": {
+            "backend": "vntl",
+            "model_file": "E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "requested_quantization": "Q4_K_M",
+            "model_bytes": 4920735744,
+            "context_size": 2048,
+            "command": [
+              "E:\\AI-Manga-Translator-runtime\\llama.cpp\\b11706\\llama-server.exe",
+              "--model",
+              "E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+              "--host",
+              "127.0.0.1",
+              "--port",
+              "9301",
+              "--device",
+              "CUDA0",
+              "--gpu-layers",
+              "99",
+              "--split-mode",
+              "none",
+              "--fit",
+              "off",
+              "--ctx-size",
+              "2048",
+              "--parallel",
+              "1",
+              "--batch-size",
+              "256",
+              "--ubatch-size",
+              "128",
+              "--flash-attn",
+              "on",
+              "--cache-ram",
+              "0",
+              "--threads",
+              "4",
+              "--threads-batch",
+              "4",
+              "--verbosity",
+              "4",
+              "--no-context-shift",
+              "--no-webui"
+            ],
+            "log_path": "data\\vntl\\llama-<id>.log",
+            "generation_calls": 216,
+            "generation_seconds": 90.73377689997142,
+            "temperature": 0,
+            "repeat_penalty": 1.0,
+            "load_seconds": 4.946399000000383,
+            "offloaded_layers": 33,
+            "quantization": "Q4_K - Medium",
+            "total_layers": 33,
+            "buffers": [
+              "0.01.648.577 I load_tensors: offloaded 33/33 layers to GPU",
+              "0.01.648.581 I load_tensors:   CPU_Mapped model buffer size =   281.81 MiB",
+              "0.01.648.582 I load_tensors:        CUDA0 model buffer size =  4403.49 MiB",
+              "0.04.452.980 I llama_context:  CUDA_Host  output buffer size =     0.49 MiB",
+              "0.04.454.243 I llama_kv_cache:      CUDA0 KV buffer size =   256.00 MiB",
+              "0.04.474.456 I sched_reserve:      CUDA0 compute buffer size =    29.50 MiB",
+              "0.04.474.461 I sched_reserve:  CUDA_Host compute buffer size =     8.50 MiB"
+            ],
+            "pid": 49976,
+            "last_timings": {
+              "cache_n": 55,
+              "prompt_n": 16,
+              "prompt_ms": 47.855,
+              "prompt_per_token_ms": 2.9909375,
+              "prompt_per_second": 334.34332880576744,
+              "predicted_n": 12,
+              "predicted_ms": 243.386,
+              "predicted_per_token_ms": 22.126,
+              "predicted_per_second": 45.195697369610414
+            }
+          }
+        }
+      ],
+      "splits": [
+        "test"
+      ],
+      "books": [
+        "tojime_no_siora"
+      ],
+      "runtime_error": null,
+      "cancelled": false
+    },
+    "vntl-gold-c1200": {
+      "path": "research\\runs\\test24-vntl-gold1200\\report.json",
+      "score": {
+        "schema_version": 1,
+        "condition": {
+          "stage": "translate",
+          "input": "gold",
+          "backend": "vntl",
+          "config": {
+            "work": "default",
+            "target_language": "en",
+            "device": "cuda:0",
+            "memory_policy": "staged",
+            "memory_db": "research\\runs\\test24-vntl-gold1200\\terms.sqlite3",
+            "model_path": "best.pt",
+            "translation_backend": "vntl",
+            "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+            "llama_context_size": 2048,
+            "model_name": "Qwen/Qwen2.5-3B-Instruct",
+            "adapter_path": "",
+            "detection_conf": 0.5,
+            "detect_free_text": true,
+            "magi_model_path": "runtime\\magiv2",
+            "reading_direction": "rtl",
+            "translation_mode": "individual",
+            "group_size": 4,
+            "context_chars": 1200,
+            "use_continuations": false,
+            "use_translation_history": false,
+            "max_new_tokens": 256,
+            "retries": 1,
+            "extract_terms": false,
+            "local_files_only": true,
+            "font_path": null,
+            "min_font_size": 12,
+            "max_font_size": 40,
+            "skip_inpaint": false,
+            "debug_mask": false,
+            "export_images": false
+          },
+          "terms": "disabled; independent empty database",
+          "order": "annotation index; not human-verified reading order",
+          "crop": "reference text boxes, production OCR 4px padding; no bubble-margin shrink"
+        },
+        "selection": [
+          "tojime_no_siora:p0001",
+          "tojime_no_siora:p0002",
+          "tojime_no_siora:p0003",
+          "tojime_no_siora:p0004",
+          "tojime_no_siora:p0005",
+          "tojime_no_siora:p0006",
+          "tojime_no_siora:p0007",
+          "tojime_no_siora:p0008",
+          "tojime_no_siora:p0009",
+          "tojime_no_siora:p0010",
+          "tojime_no_siora:p0011",
+          "tojime_no_siora:p0012",
+          "tojime_no_siora:p0013",
+          "tojime_no_siora:p0014",
+          "tojime_no_siora:p0015",
+          "tojime_no_siora:p0016",
+          "tojime_no_siora:p0017",
+          "tojime_no_siora:p0018",
+          "tojime_no_siora:p0019",
+          "tojime_no_siora:p0020",
+          "tojime_no_siora:p0021",
+          "tojime_no_siora:p0022",
+          "tojime_no_siora:p0023",
+          "tojime_no_siora:p0024"
+        ],
+        "pages": 24,
+        "blocks": 224,
+        "works": 1,
+        "missing_pages": 0,
+        "missing_blocks": 0,
+        "translation_requested": true,
+        "by_book": {
+          "tojime_no_siora": {
+            "pages": 24,
+            "blocks": 224,
+            "chrf_pp": 31.40929145022074,
+            "eligible_blocks": 224,
+            "failed_blocks": 0
+          }
+        },
+        "limitations": [
+          "Scores and page-bootstrap intervals are conditional on the selected works; they do not estimate generalization to unseen works.",
+          "Page bootstrap does not model dependence between adjacent pages/scenes."
+        ],
+        "chrf_pp": 31.40929145022074,
+        "eligible_blocks": 224,
+        "failed_blocks": 0,
+        "work_macro_chrf_pp": 31.40929145022074,
+        "excluded_from_mt": 0,
+        "exclusion_rule": "Empty/whitespace-only gold Japanese or English; failures are NOT excluded",
+        "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "failed_fraction": 0.0
+      },
+      "timing": {
+        "load_seconds": 3.5445758999994723,
+        "load_count": 1,
+        "wall_seconds": 106.29194190000271,
+        "warm_pages": 23,
+        "warm_mean_seconds": 4.386063126087918,
+        "warm_median_seconds": 5.097562300004938,
+        "warm_p95_seconds": 7.365802480000275,
+        "first_page_seconds": 4.994283500003803,
+        "device_peak_mib": 6123.0,
+        "requests": 219,
+        "retry_requests": 1
+      },
+      "model": {},
+      "hardware": {
+        "platform": "Windows-11-10.0.26220-SP0",
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main) [MSC v.1929 64 bit (AMD64)]",
+        "python_executable": ".venv\\Scripts\\python.exe",
+        "logical_cpus": 32,
+        "torch_package": "2.10.0+cu126",
+        "installed_ram_bytes": 17179869184
+      },
+      "gpu_devices": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+          "driver": "610.62",
+          "total_mib": 8188.0,
+          "used_mib": 1276.0
+        }
+      ],
+      "runtime_sessions": [
+        {
+          "seconds": 106.29194190000271,
+          "execution_device": null,
+          "model_load_seconds": {
+            "translation:vntl:E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf": 3.5445758999994723
+          },
+          "model_load_counts": {
+            "translation:vntl:E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf": 1
+          },
+          "model_evictions": [],
+          "qwen_runtime": null,
+          "vntl_runtime": {
+            "backend": "vntl",
+            "model_file": "E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "requested_quantization": "Q4_K_M",
+            "model_bytes": 4920735744,
+            "context_size": 2048,
+            "command": [
+              "E:\\AI-Manga-Translator-runtime\\llama.cpp\\b11706\\llama-server.exe",
+              "--model",
+              "E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+              "--host",
+              "127.0.0.1",
+              "--port",
+              "2833",
+              "--device",
+              "CUDA0",
+              "--gpu-layers",
+              "99",
+              "--split-mode",
+              "none",
+              "--fit",
+              "off",
+              "--ctx-size",
+              "2048",
+              "--parallel",
+              "1",
+              "--batch-size",
+              "256",
+              "--ubatch-size",
+              "128",
+              "--flash-attn",
+              "on",
+              "--cache-ram",
+              "0",
+              "--threads",
+              "4",
+              "--threads-batch",
+              "4",
+              "--verbosity",
+              "4",
+              "--no-context-shift",
+              "--no-webui"
+            ],
+            "log_path": "data\\vntl\\llama-<id>.log",
+            "generation_calls": 219,
+            "generation_seconds": 98.91520439995656,
+            "temperature": 0,
+            "repeat_penalty": 1.0,
+            "load_seconds": 3.5445758999994723,
+            "offloaded_layers": 33,
+            "quantization": "Q4_K - Medium",
+            "total_layers": 33,
+            "buffers": [
+              "0.01.494.217 I load_tensors: offloaded 33/33 layers to GPU",
+              "0.01.494.220 I load_tensors:   CPU_Mapped model buffer size =   281.81 MiB",
+              "0.01.494.221 I load_tensors:        CUDA0 model buffer size =  4403.49 MiB",
+              "0.03.164.153 I llama_context:  CUDA_Host  output buffer size =     0.49 MiB",
+              "0.03.165.209 I llama_kv_cache:      CUDA0 KV buffer size =   256.00 MiB",
+              "0.03.181.088 I sched_reserve:      CUDA0 compute buffer size =    29.50 MiB",
+              "0.03.181.094 I sched_reserve:  CUDA_Host compute buffer size =     8.50 MiB"
+            ],
+            "pid": 45940,
+            "last_timings": {
+              "cache_n": 293,
+              "prompt_n": 52,
+              "prompt_ms": 33.834,
+              "prompt_per_token_ms": 0.6506538461538462,
+              "prompt_per_second": 1536.9155287580538,
+              "predicted_n": 14,
+              "predicted_ms": 282.519,
+              "predicted_per_token_ms": 21.73223076923077,
+              "predicted_per_second": 46.014604327496556
+            }
+          }
+        }
+      ],
+      "splits": [
+        "test"
+      ],
+      "books": [
+        "tojime_no_siora"
+      ],
+      "runtime_error": null,
+      "cancelled": false
+    },
+    "qwen-gold-c0": {
+      "path": "research\\runs\\test24-qwen-gold0\\report.json",
+      "score": {
+        "schema_version": 1,
+        "condition": {
+          "stage": "translate",
+          "input": "gold",
+          "backend": "qwen",
+          "config": {
+            "work": "default",
+            "target_language": "en",
+            "device": "cuda:0",
+            "memory_policy": "staged",
+            "memory_db": "research\\runs\\test24-qwen-gold0\\terms.sqlite3",
+            "model_path": "best.pt",
+            "translation_backend": "qwen",
+            "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+            "llama_context_size": 2048,
+            "model_name": "Qwen/Qwen2.5-3B-Instruct",
+            "adapter_path": "",
+            "detection_conf": 0.5,
+            "detect_free_text": true,
+            "magi_model_path": "runtime\\magiv2",
+            "reading_direction": "rtl",
+            "translation_mode": "individual",
+            "group_size": 4,
+            "context_chars": 0,
+            "use_continuations": false,
+            "use_translation_history": false,
+            "max_new_tokens": 256,
+            "retries": 1,
+            "extract_terms": false,
+            "local_files_only": true,
+            "font_path": null,
+            "min_font_size": 12,
+            "max_font_size": 40,
+            "skip_inpaint": false,
+            "debug_mask": false,
+            "export_images": false
+          },
+          "terms": "disabled; independent empty database",
+          "order": "annotation index; not human-verified reading order",
+          "crop": "reference text boxes, production OCR 4px padding; no bubble-margin shrink"
+        },
+        "selection": [
+          "tojime_no_siora:p0001",
+          "tojime_no_siora:p0002",
+          "tojime_no_siora:p0003",
+          "tojime_no_siora:p0004",
+          "tojime_no_siora:p0005",
+          "tojime_no_siora:p0006",
+          "tojime_no_siora:p0007",
+          "tojime_no_siora:p0008",
+          "tojime_no_siora:p0009",
+          "tojime_no_siora:p0010",
+          "tojime_no_siora:p0011",
+          "tojime_no_siora:p0012",
+          "tojime_no_siora:p0013",
+          "tojime_no_siora:p0014",
+          "tojime_no_siora:p0015",
+          "tojime_no_siora:p0016",
+          "tojime_no_siora:p0017",
+          "tojime_no_siora:p0018",
+          "tojime_no_siora:p0019",
+          "tojime_no_siora:p0020",
+          "tojime_no_siora:p0021",
+          "tojime_no_siora:p0022",
+          "tojime_no_siora:p0023",
+          "tojime_no_siora:p0024"
+        ],
+        "pages": 24,
+        "blocks": 224,
+        "works": 1,
+        "missing_pages": 0,
+        "missing_blocks": 0,
+        "translation_requested": true,
+        "by_book": {
+          "tojime_no_siora": {
+            "pages": 24,
+            "blocks": 224,
+            "chrf_pp": 27.96629706681007,
+            "eligible_blocks": 224,
+            "failed_blocks": 1
+          }
+        },
+        "limitations": [
+          "Scores and page-bootstrap intervals are conditional on the selected works; they do not estimate generalization to unseen works.",
+          "Page bootstrap does not model dependence between adjacent pages/scenes."
+        ],
+        "chrf_pp": 27.96629706681007,
+        "eligible_blocks": 224,
+        "failed_blocks": 1,
+        "work_macro_chrf_pp": 27.96629706681007,
+        "excluded_from_mt": 0,
+        "exclusion_rule": "Empty/whitespace-only gold Japanese or English; failures are NOT excluded",
+        "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "failed_fraction": 0.004464285714285714
+      },
+      "timing": {
+        "load_seconds": 17.476960699998017,
+        "load_count": 1,
+        "wall_seconds": 153.67550070000289,
+        "warm_pages": 22,
+        "warm_mean_seconds": 5.39293363181853,
+        "warm_median_seconds": 5.208269149999978,
+        "warm_p95_seconds": 8.263925824996477,
+        "first_page_seconds": 23.61037980000401,
+        "device_peak_mib": 7512.0,
+        "requests": 224,
+        "retry_requests": 6
+      },
+      "model": {
+        "repository": "Qwen/Qwen2.5-3B-Instruct",
+        "snapshot": "~/.cache\\huggingface\\hub\\models--Qwen--Qwen2.5-3B-Instruct\\snapshots\\aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+      },
+      "hardware": {
+        "platform": "Windows-11-10.0.26220-SP0",
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main) [MSC v.1929 64 bit (AMD64)]",
+        "python_executable": ".venv\\Scripts\\python.exe",
+        "logical_cpus": 32,
+        "torch_package": "2.10.0+cu126",
+        "installed_ram_bytes": 17179869184
+      },
+      "gpu_devices": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+          "driver": "610.62",
+          "total_mib": 8188.0,
+          "used_mib": 1273.0
+        }
+      ],
+      "runtime_sessions": [
+        {
+          "seconds": 153.67550070000289,
+          "execution_device": "cuda:0",
+          "model_load_seconds": {
+            "translation:Qwen/Qwen2.5-3B-Instruct:": 17.476960699998017
+          },
+          "model_load_counts": {
+            "translation:Qwen/Qwen2.5-3B-Instruct:": 1
+          },
+          "model_evictions": [],
+          "qwen_runtime": {
+            "dtype": "torch.bfloat16",
+            "parameter_bytes_by_device": {
+              "cuda:0": 6171877376
+            },
+            "adapter_path": "",
+            "generation_config": {
+              "max_length": null,
+              "max_new_tokens": null,
+              "min_length": null,
+              "min_new_tokens": null,
+              "early_stopping": null,
+              "max_time": null,
+              "stop_strings": null,
+              "do_sample": true,
+              "num_beams": null,
+              "use_cache": null,
+              "cache_implementation": null,
+              "cache_config": null,
+              "max_cache_len": null,
+              "temperature": 0.7,
+              "top_k": 20,
+              "top_p": 0.8,
+              "min_p": null,
+              "top_h": null,
+              "typical_p": null,
+              "epsilon_cutoff": null,
+              "eta_cutoff": null,
+              "repetition_penalty": 1.05,
+              "encoder_repetition_penalty": null,
+              "length_penalty": null,
+              "no_repeat_ngram_size": null,
+              "bad_words_ids": null,
+              "renormalize_logits": null,
+              "forced_bos_token_id": null,
+              "forced_eos_token_id": null,
+              "remove_invalid_values": null,
+              "exponential_decay_length_penalty": null,
+              "suppress_tokens": null,
+              "begin_suppress_tokens": null,
+              "sequence_bias": null,
+              "token_healing": null,
+              "guidance_scale": null,
+              "watermarking_config": null,
+              "num_return_sequences": null,
+              "output_attentions": null,
+              "output_hidden_states": null,
+              "output_scores": null,
+              "output_logits": null,
+              "return_dict_in_generate": null,
+              "pad_token_id": 151643,
+              "bos_token_id": 151643,
+              "eos_token_id": [
+                151645,
+                151643
+              ],
+              "encoder_no_repeat_ngram_size": null,
+              "decoder_start_token_id": null,
+              "is_assistant": null,
+              "num_assistant_tokens": null,
+              "num_assistant_tokens_schedule": null,
+              "assistant_confidence_threshold": null,
+              "prompt_lookup_num_tokens": null,
+              "max_matching_ngram_size": null,
+              "assistant_early_exit": null,
+              "assistant_lookbehind": null,
+              "target_lookbehind": null,
+              "compile_config": null,
+              "disable_compile": null,
+              "continuous_batching_config": null,
+              "low_memory": null,
+              "penalty_alpha": null,
+              "dola_layers": null,
+              "diversity_penalty": null,
+              "num_beam_groups": null,
+              "constraints": null,
+              "force_words_ids": null,
+              "prefill_chunk_size": null,
+              "_from_model_config": null,
+              "transformers_version": "5.13.1"
+            },
+            "generation_overrides": {
+              "do_sample": false,
+              "max_new_tokens": 256,
+              "pad_token_id": 151643
+            }
+          },
+          "vntl_runtime": null
+        }
+      ],
+      "splits": [
+        "test"
+      ],
+      "books": [
+        "tojime_no_siora"
+      ],
+      "runtime_error": null,
+      "cancelled": false
+    }
+  },
+  "contrasts": [
+    {
+      "baseline": "vntl-gold-c0",
+      "candidate": "vntl-ocr-c0",
+      "recorded_changed_factors": [
+        "input"
+      ],
+      "metric": "work-macro corpus chrF++",
+      "delta_direction": "candidate - baseline",
+      "delta": 0.3531411733033494,
+      "ci95": [
+        -0.47215840126538333,
+        1.3208808646997587
+      ],
+      "bootstrap_mean_delta": 0.3244684337360887,
+      "samples": 2000,
+      "seed": 20261017,
+      "unit": "page",
+      "stratification": "book",
+      "paired": true,
+      "by_book_delta": {
+        "tojime_no_siora": 0.3531411733033494
+      },
+      "pages_per_book": {
+        "tojime_no_siora": 24
+      },
+      "excluded_pages_without_mt_pairs": 0,
+      "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "limitation": "Conditional on these works; pages within a scene may be dependent. One-page strata cannot estimate within-work sampling uncertainty. A nonzero interval is not proof of semantic correctness or broad generalization."
+    },
+    {
+      "baseline": "vntl-gold-c0",
+      "candidate": "vntl-gold-c1200",
+      "recorded_changed_factors": [
+        "config.context_chars"
+      ],
+      "metric": "work-macro corpus chrF++",
+      "delta_direction": "candidate - baseline",
+      "delta": 0.9462423401503983,
+      "ci95": [
+        -0.6423727746889477,
+        2.4610596707742247
+      ],
+      "bootstrap_mean_delta": 0.9168131547733793,
+      "samples": 2000,
+      "seed": 20261017,
+      "unit": "page",
+      "stratification": "book",
+      "paired": true,
+      "by_book_delta": {
+        "tojime_no_siora": 0.9462423401503983
+      },
+      "pages_per_book": {
+        "tojime_no_siora": 24
+      },
+      "excluded_pages_without_mt_pairs": 0,
+      "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "limitation": "Conditional on these works; pages within a scene may be dependent. One-page strata cannot estimate within-work sampling uncertainty. A nonzero interval is not proof of semantic correctness or broad generalization."
+    },
+    {
+      "baseline": "qwen-gold-c0",
+      "candidate": "vntl-gold-c0",
+      "recorded_changed_factors": [
+        "backend",
+        "config.translation_backend",
+        "model"
+      ],
+      "metric": "work-macro corpus chrF++",
+      "delta_direction": "candidate - baseline",
+      "delta": 2.496752043260269,
+      "ci95": [
+        0.7070418992266526,
+        4.502891308771871
+      ],
+      "bootstrap_mean_delta": 2.5301146827513943,
+      "samples": 2000,
+      "seed": 20261017,
+      "unit": "page",
+      "stratification": "book",
+      "paired": true,
+      "by_book_delta": {
+        "tojime_no_siora": 2.496752043260269
+      },
+      "pages_per_book": {
+        "tojime_no_siora": 24
+      },
+      "excluded_pages_without_mt_pairs": 0,
+      "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "limitation": "Conditional on these works; pages within a scene may be dependent. One-page strata cannot estimate within-work sampling uncertainty. A nonzero interval is not proof of semantic correctness or broad generalization."
+    }
+  ],
+  "review_count": 48,
+  "review_seed": 20261017,
+  "review_key": [
+    {
+      "item": "item001-1",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0001:t000"
+    },
+    {
+      "item": "item001-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0001:t000"
+    },
+    {
+      "item": "item001-3",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0001:t000"
+    },
+    {
+      "item": "item001-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0001:t000"
+    },
+    {
+      "item": "item002-1",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0001:t001"
+    },
+    {
+      "item": "item002-2",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0001:t001"
+    },
+    {
+      "item": "item002-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0001:t001"
+    },
+    {
+      "item": "item002-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0001:t001"
+    },
+    {
+      "item": "item003-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0002:t001"
+    },
+    {
+      "item": "item003-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0002:t001"
+    },
+    {
+      "item": "item003-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0002:t001"
+    },
+    {
+      "item": "item003-4",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0002:t001"
+    },
+    {
+      "item": "item004-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0002:t003"
+    },
+    {
+      "item": "item004-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0002:t003"
+    },
+    {
+      "item": "item004-3",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0002:t003"
+    },
+    {
+      "item": "item004-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0002:t003"
+    },
+    {
+      "item": "item005-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0003:t001"
+    },
+    {
+      "item": "item005-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0003:t001"
+    },
+    {
+      "item": "item005-3",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0003:t001"
+    },
+    {
+      "item": "item005-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0003:t001"
+    },
+    {
+      "item": "item006-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0003:t010"
+    },
+    {
+      "item": "item006-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0003:t010"
+    },
+    {
+      "item": "item006-3",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0003:t010"
+    },
+    {
+      "item": "item006-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0003:t010"
+    },
+    {
+      "item": "item007-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0004:t007"
+    },
+    {
+      "item": "item007-2",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0004:t007"
+    },
+    {
+      "item": "item007-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0004:t007"
+    },
+    {
+      "item": "item007-4",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0004:t007"
+    },
+    {
+      "item": "item008-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0004:t008"
+    },
+    {
+      "item": "item008-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0004:t008"
+    },
+    {
+      "item": "item008-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0004:t008"
+    },
+    {
+      "item": "item008-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0004:t008"
+    },
+    {
+      "item": "item009-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0005:t010"
+    },
+    {
+      "item": "item009-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0005:t010"
+    },
+    {
+      "item": "item009-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0005:t010"
+    },
+    {
+      "item": "item009-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0005:t010"
+    },
+    {
+      "item": "item010-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0005:t016"
+    },
+    {
+      "item": "item010-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0005:t016"
+    },
+    {
+      "item": "item010-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0005:t016"
+    },
+    {
+      "item": "item010-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0005:t016"
+    },
+    {
+      "item": "item011-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0006:t002"
+    },
+    {
+      "item": "item011-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0006:t002"
+    },
+    {
+      "item": "item011-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0006:t002"
+    },
+    {
+      "item": "item011-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0006:t002"
+    },
+    {
+      "item": "item012-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0006:t003"
+    },
+    {
+      "item": "item012-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0006:t003"
+    },
+    {
+      "item": "item012-3",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0006:t003"
+    },
+    {
+      "item": "item012-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0006:t003"
+    },
+    {
+      "item": "item013-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0007:t006"
+    },
+    {
+      "item": "item013-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0007:t006"
+    },
+    {
+      "item": "item013-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0007:t006"
+    },
+    {
+      "item": "item013-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0007:t006"
+    },
+    {
+      "item": "item014-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0007:t008"
+    },
+    {
+      "item": "item014-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0007:t008"
+    },
+    {
+      "item": "item014-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0007:t008"
+    },
+    {
+      "item": "item014-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0007:t008"
+    },
+    {
+      "item": "item015-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0008:t002"
+    },
+    {
+      "item": "item015-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0008:t002"
+    },
+    {
+      "item": "item015-3",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0008:t002"
+    },
+    {
+      "item": "item015-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0008:t002"
+    },
+    {
+      "item": "item016-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0008:t015"
+    },
+    {
+      "item": "item016-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0008:t015"
+    },
+    {
+      "item": "item016-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0008:t015"
+    },
+    {
+      "item": "item016-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0008:t015"
+    },
+    {
+      "item": "item017-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0009:t002"
+    },
+    {
+      "item": "item017-2",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0009:t002"
+    },
+    {
+      "item": "item017-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0009:t002"
+    },
+    {
+      "item": "item017-4",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0009:t002"
+    },
+    {
+      "item": "item018-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0009:t010"
+    },
+    {
+      "item": "item018-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0009:t010"
+    },
+    {
+      "item": "item018-3",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0009:t010"
+    },
+    {
+      "item": "item018-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0009:t010"
+    },
+    {
+      "item": "item019-1",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0010:t004"
+    },
+    {
+      "item": "item019-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0010:t004"
+    },
+    {
+      "item": "item019-3",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0010:t004"
+    },
+    {
+      "item": "item019-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0010:t004"
+    },
+    {
+      "item": "item020-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0010:t005"
+    },
+    {
+      "item": "item020-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0010:t005"
+    },
+    {
+      "item": "item020-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0010:t005"
+    },
+    {
+      "item": "item020-4",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0010:t005"
+    },
+    {
+      "item": "item021-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0011:t000"
+    },
+    {
+      "item": "item021-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0011:t000"
+    },
+    {
+      "item": "item021-3",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0011:t000"
+    },
+    {
+      "item": "item021-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0011:t000"
+    },
+    {
+      "item": "item022-1",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0011:t001"
+    },
+    {
+      "item": "item022-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0011:t001"
+    },
+    {
+      "item": "item022-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0011:t001"
+    },
+    {
+      "item": "item022-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0011:t001"
+    },
+    {
+      "item": "item023-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0012:t000"
+    },
+    {
+      "item": "item023-2",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0012:t000"
+    },
+    {
+      "item": "item023-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0012:t000"
+    },
+    {
+      "item": "item023-4",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0012:t000"
+    },
+    {
+      "item": "item024-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0012:t011"
+    },
+    {
+      "item": "item024-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0012:t011"
+    },
+    {
+      "item": "item024-3",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0012:t011"
+    },
+    {
+      "item": "item024-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0012:t011"
+    },
+    {
+      "item": "item025-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0013:t002"
+    },
+    {
+      "item": "item025-2",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0013:t002"
+    },
+    {
+      "item": "item025-3",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0013:t002"
+    },
+    {
+      "item": "item025-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0013:t002"
+    },
+    {
+      "item": "item026-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0013:t005"
+    },
+    {
+      "item": "item026-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0013:t005"
+    },
+    {
+      "item": "item026-3",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0013:t005"
+    },
+    {
+      "item": "item026-4",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0013:t005"
+    },
+    {
+      "item": "item027-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0014:t000"
+    },
+    {
+      "item": "item027-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0014:t000"
+    },
+    {
+      "item": "item027-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0014:t000"
+    },
+    {
+      "item": "item027-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0014:t000"
+    },
+    {
+      "item": "item028-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0014:t002"
+    },
+    {
+      "item": "item028-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0014:t002"
+    },
+    {
+      "item": "item028-3",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0014:t002"
+    },
+    {
+      "item": "item028-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0014:t002"
+    },
+    {
+      "item": "item029-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0015:t000"
+    },
+    {
+      "item": "item029-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0015:t000"
+    },
+    {
+      "item": "item029-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0015:t000"
+    },
+    {
+      "item": "item029-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0015:t000"
+    },
+    {
+      "item": "item030-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0015:t002"
+    },
+    {
+      "item": "item030-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0015:t002"
+    },
+    {
+      "item": "item030-3",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0015:t002"
+    },
+    {
+      "item": "item030-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0015:t002"
+    },
+    {
+      "item": "item031-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0016:t002"
+    },
+    {
+      "item": "item031-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0016:t002"
+    },
+    {
+      "item": "item031-3",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0016:t002"
+    },
+    {
+      "item": "item031-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0016:t002"
+    },
+    {
+      "item": "item032-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0016:t003"
+    },
+    {
+      "item": "item032-2",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0016:t003"
+    },
+    {
+      "item": "item032-3",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0016:t003"
+    },
+    {
+      "item": "item032-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0016:t003"
+    },
+    {
+      "item": "item033-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0017:t002"
+    },
+    {
+      "item": "item033-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0017:t002"
+    },
+    {
+      "item": "item033-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0017:t002"
+    },
+    {
+      "item": "item033-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0017:t002"
+    },
+    {
+      "item": "item034-1",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0017:t004"
+    },
+    {
+      "item": "item034-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0017:t004"
+    },
+    {
+      "item": "item034-3",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0017:t004"
+    },
+    {
+      "item": "item034-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0017:t004"
+    },
+    {
+      "item": "item035-1",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0018:t006"
+    },
+    {
+      "item": "item035-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0018:t006"
+    },
+    {
+      "item": "item035-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0018:t006"
+    },
+    {
+      "item": "item035-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0018:t006"
+    },
+    {
+      "item": "item036-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0018:t007"
+    },
+    {
+      "item": "item036-2",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0018:t007"
+    },
+    {
+      "item": "item036-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0018:t007"
+    },
+    {
+      "item": "item036-4",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0018:t007"
+    },
+    {
+      "item": "item037-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0019:t001"
+    },
+    {
+      "item": "item037-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0019:t001"
+    },
+    {
+      "item": "item037-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0019:t001"
+    },
+    {
+      "item": "item037-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0019:t001"
+    },
+    {
+      "item": "item038-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0019:t006"
+    },
+    {
+      "item": "item038-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0019:t006"
+    },
+    {
+      "item": "item038-3",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0019:t006"
+    },
+    {
+      "item": "item038-4",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0019:t006"
+    },
+    {
+      "item": "item039-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0020:t003"
+    },
+    {
+      "item": "item039-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0020:t003"
+    },
+    {
+      "item": "item039-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0020:t003"
+    },
+    {
+      "item": "item039-4",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0020:t003"
+    },
+    {
+      "item": "item040-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0020:t004"
+    },
+    {
+      "item": "item040-2",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0020:t004"
+    },
+    {
+      "item": "item040-3",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0020:t004"
+    },
+    {
+      "item": "item040-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0020:t004"
+    },
+    {
+      "item": "item041-1",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0021:t002"
+    },
+    {
+      "item": "item041-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0021:t002"
+    },
+    {
+      "item": "item041-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0021:t002"
+    },
+    {
+      "item": "item041-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0021:t002"
+    },
+    {
+      "item": "item042-1",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0021:t005"
+    },
+    {
+      "item": "item042-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0021:t005"
+    },
+    {
+      "item": "item042-3",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0021:t005"
+    },
+    {
+      "item": "item042-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0021:t005"
+    },
+    {
+      "item": "item043-1",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0022:t006"
+    },
+    {
+      "item": "item043-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0022:t006"
+    },
+    {
+      "item": "item043-3",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0022:t006"
+    },
+    {
+      "item": "item043-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0022:t006"
+    },
+    {
+      "item": "item044-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0022:t007"
+    },
+    {
+      "item": "item044-2",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0022:t007"
+    },
+    {
+      "item": "item044-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0022:t007"
+    },
+    {
+      "item": "item044-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0022:t007"
+    },
+    {
+      "item": "item045-1",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0023:t005"
+    },
+    {
+      "item": "item045-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0023:t005"
+    },
+    {
+      "item": "item045-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0023:t005"
+    },
+    {
+      "item": "item045-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0023:t005"
+    },
+    {
+      "item": "item046-1",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0023:t006"
+    },
+    {
+      "item": "item046-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0023:t006"
+    },
+    {
+      "item": "item046-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0023:t006"
+    },
+    {
+      "item": "item046-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0023:t006"
+    },
+    {
+      "item": "item047-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0024:t004"
+    },
+    {
+      "item": "item047-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0024:t004"
+    },
+    {
+      "item": "item047-3",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0024:t004"
+    },
+    {
+      "item": "item047-4",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0024:t004"
+    },
+    {
+      "item": "item048-1",
+      "system": "qwen-gold-c0",
+      "block_id": "tojime_no_siora:p0024:t005"
+    },
+    {
+      "item": "item048-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "tojime_no_siora:p0024:t005"
+    },
+    {
+      "item": "item048-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "tojime_no_siora:p0024:t005"
+    },
+    {
+      "item": "item048-4",
+      "system": "vntl-gold-c0",
+      "block_id": "tojime_no_siora:p0024:t005"
+    }
+  ]
+}

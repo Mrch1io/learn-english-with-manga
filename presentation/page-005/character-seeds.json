@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "source": "curated_demo",
+  "not_model_output": true,
+  "source_page_id": "tencho_isoro:p0005",
+  "work": "presentation:tencho_isoro",
+  "method": "Manual inspection of this bundled page's speech and visual context; not Magi output.",
+  "characters": [
+    {
+      "id": "presentation-demo:shopkeeper",
+      "name": "Shopkeeper"
+    },
+    {
+      "id": "presentation-demo:meru",
+      "name": "Meru"
+    }
+  ],
+  "bindings": [
+    {
+      "block_id": "presentation:tencho_isoro:p0005:t000",
+      "character_id": "presentation-demo:shopkeeper",
+      "reason": "The shopkeeper serves the meal."
+    },
+    {
+      "block_id": "presentation:tencho_isoro:p0005:t001",
+      "character_id": "presentation-demo:shopkeeper",
+      "reason": "The shopkeeper warns Meru about the hot food."
+    },
+    {
+      "block_id": "presentation:tencho_isoro:p0005:t002",
+      "character_id": "presentation-demo:meru",
+      "reason": "Meru reacts emotionally while eating."
+    },
+    {
+      "block_id": "presentation:tencho_isoro:p0005:t003",
+      "character_id": "presentation-demo:meru",
+      "reason": "Meru says the stomachache led to this welcome meal."
+    },
+    {
+      "block_id": "presentation:tencho_isoro:p0005:t004",
+      "character_id": "presentation-demo:shopkeeper",
+      "reason": "The shopkeeper questions Meru's comment."
+    },
+    {
+      "block_id": "presentation:tencho_isoro:p0005:t005",
+      "character_id": null,
+      "reason": "Untailed internal aside; leave unassigned rather than infer a speaker."
+    },
+    {
+      "block_id": "presentation:tencho_isoro:p0005:t006",
+      "character_id": "presentation-demo:meru",
+      "reason": "Meru thanks the shopkeeper with palms together after eating."
+    }
+  ]
+}

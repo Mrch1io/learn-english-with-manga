@@ -1,0 +1,833 @@
+{
+  "baseline": {
+    "path": "research\\freezes\\openmantra_v1_test.json"
+  },
+  "book_id": "rasetugari",
+  "bootstrap_samples": 2000,
+  "compatibility_note": "test_page_ids is only the legacy comparison API field; all dataset labels remain train.",
+  "conditions": {
+    "qwen-gold-c0": {
+      "backend": "qwen",
+      "config": {
+        "adapter_path": "",
+        "context_chars": 0,
+        "debug_mask": false,
+        "detect_free_text": true,
+        "detection_conf": 0.5,
+        "device": "cuda:0",
+        "export_images": false,
+        "extract_terms": false,
+        "font_path": null,
+        "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+        "group_size": 4,
+        "llama_context_size": 2048,
+        "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+        "local_files_only": true,
+        "magi_model_path": "runtime\\magiv2",
+        "max_font_size": 40,
+        "max_new_tokens": 256,
+        "memory_db": "<per-run-empty-database>",
+        "memory_policy": "staged",
+        "min_font_size": 12,
+        "model_name": "Qwen/Qwen2.5-3B-Instruct",
+        "model_path": "best.pt",
+        "reading_direction": "rtl",
+        "retries": 1,
+        "skip_inpaint": false,
+        "target_language": "en",
+        "translation_backend": "qwen",
+        "translation_mode": "individual",
+        "use_continuations": false,
+        "use_translation_history": false,
+        "work": "default"
+      },
+      "context_chars": 0,
+      "id": "qwen-gold-c0",
+      "input": "gold",
+      "model_files": {},
+      "model_identity": {
+        "repository": "Qwen/Qwen2.5-3B-Instruct",
+        "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "snapshot": "~/.cache\\huggingface\\hub\\models--Qwen--Qwen2.5-3B-Instruct\\snapshots\\aa8e72537993ba99e69dfaafa59ed015b17504d1"
+      }
+    },
+    "vntl-gold-c0": {
+      "backend": "vntl",
+      "config": {
+        "adapter_path": "",
+        "context_chars": 0,
+        "debug_mask": false,
+        "detect_free_text": true,
+        "detection_conf": 0.5,
+        "device": "cuda:0",
+        "export_images": false,
+        "extract_terms": false,
+        "font_path": null,
+        "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+        "group_size": 4,
+        "llama_context_size": 2048,
+        "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+        "local_files_only": true,
+        "magi_model_path": "runtime\\magiv2",
+        "max_font_size": 40,
+        "max_new_tokens": 256,
+        "memory_db": "<per-run-empty-database>",
+        "memory_policy": "staged",
+        "min_font_size": 12,
+        "model_name": "Qwen/Qwen2.5-3B-Instruct",
+        "model_path": "best.pt",
+        "reading_direction": "rtl",
+        "retries": 1,
+        "skip_inpaint": false,
+        "target_language": "en",
+        "translation_backend": "vntl",
+        "translation_mode": "individual",
+        "use_continuations": false,
+        "use_translation_history": false,
+        "work": "default"
+      },
+      "context_chars": 0,
+      "id": "vntl-gold-c0",
+      "input": "gold",
+      "model_files": {},
+      "model_identity": {}
+    },
+    "vntl-gold-c1200": {
+      "backend": "vntl",
+      "config": {
+        "adapter_path": "",
+        "context_chars": 1200,
+        "debug_mask": false,
+        "detect_free_text": true,
+        "detection_conf": 0.5,
+        "device": "cuda:0",
+        "export_images": false,
+        "extract_terms": false,
+        "font_path": null,
+        "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+        "group_size": 4,
+        "llama_context_size": 2048,
+        "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+        "local_files_only": true,
+        "magi_model_path": "runtime\\magiv2",
+        "max_font_size": 40,
+        "max_new_tokens": 256,
+        "memory_db": "<per-run-empty-database>",
+        "memory_policy": "staged",
+        "min_font_size": 12,
+        "model_name": "Qwen/Qwen2.5-3B-Instruct",
+        "model_path": "best.pt",
+        "reading_direction": "rtl",
+        "retries": 1,
+        "skip_inpaint": false,
+        "target_language": "en",
+        "translation_backend": "vntl",
+        "translation_mode": "individual",
+        "use_continuations": false,
+        "use_translation_history": false,
+        "work": "default"
+      },
+      "context_chars": 1200,
+      "id": "vntl-gold-c1200",
+      "input": "gold",
+      "model_files": {},
+      "model_identity": {}
+    },
+    "vntl-ocr-c0": {
+      "backend": "vntl",
+      "config": {
+        "adapter_path": "",
+        "context_chars": 0,
+        "debug_mask": false,
+        "detect_free_text": true,
+        "detection_conf": 0.5,
+        "device": "cuda:0",
+        "export_images": false,
+        "extract_terms": false,
+        "font_path": null,
+        "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+        "group_size": 4,
+        "llama_context_size": 2048,
+        "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+        "local_files_only": true,
+        "magi_model_path": "runtime\\magiv2",
+        "max_font_size": 40,
+        "max_new_tokens": 256,
+        "memory_db": "<per-run-empty-database>",
+        "memory_policy": "staged",
+        "min_font_size": 12,
+        "model_name": "Qwen/Qwen2.5-3B-Instruct",
+        "model_path": "best.pt",
+        "reading_direction": "rtl",
+        "retries": 1,
+        "skip_inpaint": false,
+        "target_language": "en",
+        "translation_backend": "vntl",
+        "translation_mode": "individual",
+        "use_continuations": false,
+        "use_translation_history": false,
+        "work": "default"
+      },
+      "context_chars": 0,
+      "id": "vntl-ocr-c0",
+      "input": "ocr",
+      "model_files": {},
+      "model_identity": {}
+    }
+  },
+  "dataset_split": "train",
+  "experiment": "riskflag_confirm",
+  "exposure_audit": {
+    "path": "research\\results\\riskflag-confirm\\exposure_audit_v2.json"
+  },
+  "failure_policy": "No CPU fallback or semantic retries; final done/partial/failed pages are never generated again; environment failures stop execution.",
+  "human_review": {
+    "actual_cases": 151,
+    "block_ids": [
+      "rasetugari:p0001:t000",
+      "rasetugari:p0001:t004",
+      "rasetugari:p0001:t005",
+      "rasetugari:p0002:t000",
+      "rasetugari:p0002:t001",
+      "rasetugari:p0002:t002",
+      "rasetugari:p0003:t001",
+      "rasetugari:p0004:t000",
+      "rasetugari:p0004:t001",
+      "rasetugari:p0004:t004",
+      "rasetugari:p0005:t003",
+      "rasetugari:p0005:t004",
+      "rasetugari:p0005:t005",
+      "rasetugari:p0006:t001",
+      "rasetugari:p0006:t002",
+      "rasetugari:p0006:t003",
+      "rasetugari:p0007:t000",
+      "rasetugari:p0007:t001",
+      "rasetugari:p0007:t002",
+      "rasetugari:p0008:t001",
+      "rasetugari:p0008:t003",
+      "rasetugari:p0008:t006",
+      "rasetugari:p0009:t000",
+      "rasetugari:p0009:t002",
+      "rasetugari:p0009:t003",
+      "rasetugari:p0010:t000",
+      "rasetugari:p0010:t002",
+      "rasetugari:p0010:t004",
+      "rasetugari:p0011:t001",
+      "rasetugari:p0011:t002",
+      "rasetugari:p0011:t004",
+      "rasetugari:p0012:t002",
+      "rasetugari:p0012:t003",
+      "rasetugari:p0012:t006",
+      "rasetugari:p0013:t000",
+      "rasetugari:p0013:t004",
+      "rasetugari:p0013:t006",
+      "rasetugari:p0014:t000",
+      "rasetugari:p0014:t007",
+      "rasetugari:p0014:t009",
+      "rasetugari:p0015:t000",
+      "rasetugari:p0015:t001",
+      "rasetugari:p0015:t003",
+      "rasetugari:p0016:t000",
+      "rasetugari:p0016:t001",
+      "rasetugari:p0016:t004",
+      "rasetugari:p0017:t000",
+      "rasetugari:p0017:t006",
+      "rasetugari:p0017:t008",
+      "rasetugari:p0018:t000",
+      "rasetugari:p0019:t001",
+      "rasetugari:p0019:t002",
+      "rasetugari:p0019:t005",
+      "rasetugari:p0020:t001",
+      "rasetugari:p0020:t003",
+      "rasetugari:p0020:t005",
+      "rasetugari:p0021:t002",
+      "rasetugari:p0021:t003",
+      "rasetugari:p0021:t004",
+      "rasetugari:p0022:t000",
+      "rasetugari:p0022:t001",
+      "rasetugari:p0022:t004",
+      "rasetugari:p0023:t002",
+      "rasetugari:p0023:t003",
+      "rasetugari:p0023:t004",
+      "rasetugari:p0024:t000",
+      "rasetugari:p0024:t001",
+      "rasetugari:p0024:t005",
+      "rasetugari:p0025:t001",
+      "rasetugari:p0025:t004",
+      "rasetugari:p0025:t005",
+      "rasetugari:p0026:t000",
+      "rasetugari:p0026:t002",
+      "rasetugari:p0026:t003",
+      "rasetugari:p0027:t001",
+      "rasetugari:p0027:t006",
+      "rasetugari:p0027:t007",
+      "rasetugari:p0028:t000",
+      "rasetugari:p0028:t002",
+      "rasetugari:p0028:t003",
+      "rasetugari:p0029:t001",
+      "rasetugari:p0029:t003",
+      "rasetugari:p0029:t007",
+      "rasetugari:p0030:t001",
+      "rasetugari:p0030:t004",
+      "rasetugari:p0030:t005",
+      "rasetugari:p0031:t003",
+      "rasetugari:p0031:t005",
+      "rasetugari:p0031:t006",
+      "rasetugari:p0032:t000",
+      "rasetugari:p0033:t001",
+      "rasetugari:p0033:t003",
+      "rasetugari:p0033:t004",
+      "rasetugari:p0034:t001",
+      "rasetugari:p0034:t002",
+      "rasetugari:p0034:t007",
+      "rasetugari:p0035:t001",
+      "rasetugari:p0035:t002",
+      "rasetugari:p0035:t006",
+      "rasetugari:p0036:t000",
+      "rasetugari:p0036:t001",
+      "rasetugari:p0036:t002",
+      "rasetugari:p0037:t002",
+      "rasetugari:p0037:t003",
+      "rasetugari:p0037:t004",
+      "rasetugari:p0038:t000",
+      "rasetugari:p0038:t001",
+      "rasetugari:p0038:t002",
+      "rasetugari:p0039:t000",
+      "rasetugari:p0039:t004",
+      "rasetugari:p0039:t007",
+      "rasetugari:p0040:t000",
+      "rasetugari:p0040:t006",
+      "rasetugari:p0040:t011",
+      "rasetugari:p0041:t002",
+      "rasetugari:p0041:t003",
+      "rasetugari:p0041:t004",
+      "rasetugari:p0042:t000",
+      "rasetugari:p0042:t004",
+      "rasetugari:p0042:t006",
+      "rasetugari:p0043:t000",
+      "rasetugari:p0043:t001",
+      "rasetugari:p0043:t002",
+      "rasetugari:p0044:t000",
+      "rasetugari:p0044:t001",
+      "rasetugari:p0044:t004",
+      "rasetugari:p0045:t004",
+      "rasetugari:p0045:t007",
+      "rasetugari:p0045:t010",
+      "rasetugari:p0046:t000",
+      "rasetugari:p0046:t008",
+      "rasetugari:p0046:t010",
+      "rasetugari:p0047:t000",
+      "rasetugari:p0047:t003",
+      "rasetugari:p0047:t007",
+      "rasetugari:p0048:t000",
+      "rasetugari:p0049:t000",
+      "rasetugari:p0050:t000",
+      "rasetugari:p0050:t001",
+      "rasetugari:p0051:t000",
+      "rasetugari:p0051:t001",
+      "rasetugari:p0051:t008",
+      "rasetugari:p0052:t001",
+      "rasetugari:p0052:t003",
+      "rasetugari:p0052:t006",
+      "rasetugari:p0053:t001",
+      "rasetugari:p0053:t002",
+      "rasetugari:p0053:t004",
+      "rasetugari:p0054:t000",
+      "rasetugari:p0054:t001",
+      "rasetugari:p0054:t003"
+    ],
+    "excluded": [
+      {
+        "block_id": "rasetugari:p0003:t000",
+        "reason": "empty_source_or_reference"
+      }
+    ],
+    "max_per_page": 3,
+    "per_page_counts": [
+      {
+        "eligible_count": 6,
+        "page_id": "rasetugari:p0001",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 8,
+        "page_id": "rasetugari:p0002",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 1,
+        "page_id": "rasetugari:p0003",
+        "selected_count": 1
+      },
+      {
+        "eligible_count": 6,
+        "page_id": "rasetugari:p0004",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 8,
+        "page_id": "rasetugari:p0005",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 5,
+        "page_id": "rasetugari:p0006",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 5,
+        "page_id": "rasetugari:p0007",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 7,
+        "page_id": "rasetugari:p0008",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 4,
+        "page_id": "rasetugari:p0009",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 6,
+        "page_id": "rasetugari:p0010",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 9,
+        "page_id": "rasetugari:p0011",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 8,
+        "page_id": "rasetugari:p0012",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 12,
+        "page_id": "rasetugari:p0013",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 10,
+        "page_id": "rasetugari:p0014",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 6,
+        "page_id": "rasetugari:p0015",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 5,
+        "page_id": "rasetugari:p0016",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 12,
+        "page_id": "rasetugari:p0017",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 1,
+        "page_id": "rasetugari:p0018",
+        "selected_count": 1
+      },
+      {
+        "eligible_count": 6,
+        "page_id": "rasetugari:p0019",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 8,
+        "page_id": "rasetugari:p0020",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 6,
+        "page_id": "rasetugari:p0021",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 5,
+        "page_id": "rasetugari:p0022",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 7,
+        "page_id": "rasetugari:p0023",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 7,
+        "page_id": "rasetugari:p0024",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 8,
+        "page_id": "rasetugari:p0025",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 6,
+        "page_id": "rasetugari:p0026",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 10,
+        "page_id": "rasetugari:p0027",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 7,
+        "page_id": "rasetugari:p0028",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 10,
+        "page_id": "rasetugari:p0029",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 7,
+        "page_id": "rasetugari:p0030",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 7,
+        "page_id": "rasetugari:p0031",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 1,
+        "page_id": "rasetugari:p0032",
+        "selected_count": 1
+      },
+      {
+        "eligible_count": 6,
+        "page_id": "rasetugari:p0033",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 8,
+        "page_id": "rasetugari:p0034",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 7,
+        "page_id": "rasetugari:p0035",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 3,
+        "page_id": "rasetugari:p0036",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 6,
+        "page_id": "rasetugari:p0037",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 3,
+        "page_id": "rasetugari:p0038",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 10,
+        "page_id": "rasetugari:p0039",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 12,
+        "page_id": "rasetugari:p0040",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 7,
+        "page_id": "rasetugari:p0041",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 7,
+        "page_id": "rasetugari:p0042",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 5,
+        "page_id": "rasetugari:p0043",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 5,
+        "page_id": "rasetugari:p0044",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 13,
+        "page_id": "rasetugari:p0045",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 11,
+        "page_id": "rasetugari:p0046",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 8,
+        "page_id": "rasetugari:p0047",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 1,
+        "page_id": "rasetugari:p0048",
+        "selected_count": 1
+      },
+      {
+        "eligible_count": 1,
+        "page_id": "rasetugari:p0049",
+        "selected_count": 1
+      },
+      {
+        "eligible_count": 2,
+        "page_id": "rasetugari:p0050",
+        "selected_count": 2
+      },
+      {
+        "eligible_count": 10,
+        "page_id": "rasetugari:p0051",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 7,
+        "page_id": "rasetugari:p0052",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 6,
+        "page_id": "rasetugari:p0053",
+        "selected_count": 3
+      },
+      {
+        "eligible_count": 6,
+        "page_id": "rasetugari:p0054",
+        "selected_count": 3
+      }
+    ],
+    "review_systems": [
+      "vntl-gold-c0"
+    ],
+    "review_tier": "minimum",
+    "rule": "Uniformly sample up to three nonempty source/reference IDs per page before predictions; no replacement.",
+    "second_reviewer": false,
+    "seed": 2026102001,
+    "short_pages": [
+      "rasetugari:p0003",
+      "rasetugari:p0018",
+      "rasetugari:p0032",
+      "rasetugari:p0048",
+      "rasetugari:p0049",
+      "rasetugari:p0050"
+    ],
+    "shuffle_seed": 2026102002
+  },
+  "image_index": {
+    "path": "research\\data\\openmantra\\image_files.json"
+  },
+  "manifest": {
+    "path": "research\\data\\openmantra\\manifest.json"
+  },
+  "ocr": {
+    "config": {
+      "adapter_path": "",
+      "context_chars": 0,
+      "debug_mask": false,
+      "detect_free_text": true,
+      "detection_conf": 0.5,
+      "device": "cuda:0",
+      "export_images": false,
+      "extract_terms": false,
+      "font_path": null,
+      "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+      "group_size": 4,
+      "llama_context_size": 2048,
+      "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+      "local_files_only": true,
+      "magi_model_path": "runtime\\magiv2",
+      "max_font_size": 40,
+      "max_new_tokens": 256,
+      "memory_db": "<per-run-empty-database>",
+      "memory_policy": "staged",
+      "min_font_size": 12,
+      "model_name": "Qwen/Qwen2.5-3B-Instruct",
+      "model_path": "best.pt",
+      "reading_direction": "rtl",
+      "retries": 1,
+      "skip_inpaint": false,
+      "target_language": "en",
+      "translation_backend": "vntl",
+      "translation_mode": "individual",
+      "use_continuations": false,
+      "use_translation_history": false,
+      "work": "default"
+    },
+    "development_report": {
+      "path": "research\\runs\\dev-ocr-40\\report.json"
+    },
+    "model_files": {},
+    "model_identity": {
+      "repository": "kha-white/manga-ocr-base",
+      "revision": "aa6573bd10b0d446cbf622e29c3e084914df9741",
+      "snapshot": "~/.cache\\huggingface\\hub\\models--kha-white--manga-ocr-base\\snapshots\\aa6573bd10b0d446cbf622e29c3e084914df9741"
+    },
+    "note": "Test OCR report is linked by subsequent translation runs, not known at freeze time."
+  },
+  "page_count": 54,
+  "page_ids": [
+    "rasetugari:p0001",
+    "rasetugari:p0002",
+    "rasetugari:p0003",
+    "rasetugari:p0004",
+    "rasetugari:p0005",
+    "rasetugari:p0006",
+    "rasetugari:p0007",
+    "rasetugari:p0008",
+    "rasetugari:p0009",
+    "rasetugari:p0010",
+    "rasetugari:p0011",
+    "rasetugari:p0012",
+    "rasetugari:p0013",
+    "rasetugari:p0014",
+    "rasetugari:p0015",
+    "rasetugari:p0016",
+    "rasetugari:p0017",
+    "rasetugari:p0018",
+    "rasetugari:p0019",
+    "rasetugari:p0020",
+    "rasetugari:p0021",
+    "rasetugari:p0022",
+    "rasetugari:p0023",
+    "rasetugari:p0024",
+    "rasetugari:p0025",
+    "rasetugari:p0026",
+    "rasetugari:p0027",
+    "rasetugari:p0028",
+    "rasetugari:p0029",
+    "rasetugari:p0030",
+    "rasetugari:p0031",
+    "rasetugari:p0032",
+    "rasetugari:p0033",
+    "rasetugari:p0034",
+    "rasetugari:p0035",
+    "rasetugari:p0036",
+    "rasetugari:p0037",
+    "rasetugari:p0038",
+    "rasetugari:p0039",
+    "rasetugari:p0040",
+    "rasetugari:p0041",
+    "rasetugari:p0042",
+    "rasetugari:p0043",
+    "rasetugari:p0044",
+    "rasetugari:p0045",
+    "rasetugari:p0046",
+    "rasetugari:p0047",
+    "rasetugari:p0048",
+    "rasetugari:p0049",
+    "rasetugari:p0050",
+    "rasetugari:p0051",
+    "rasetugari:p0052",
+    "rasetugari:p0053",
+    "rasetugari:p0054"
+  ],
+  "protocol": {
+    "path": "research\\results\\riskflag-confirm\\PROTOCOL.md"
+  },
+  "region_count": 359,
+  "run_order": [
+    "ocr",
+    "vntl-gold-c0",
+    "vntl-ocr-c0",
+    "vntl-gold-c1200",
+    "qwen-gold-c0"
+  ],
+  "runtime": {
+    "dependencies": {
+      "Pillow": "12.0.0",
+      "manga-ocr": "0.1.16",
+      "matplotlib": "3.11.0",
+      "sacrebleu": "2.6.0",
+      "torch": "2.10.0+cu126",
+      "transformers": "5.13.1",
+      "ultralytics": "8.4.178"
+    },
+    "executable": ".venv\\Scripts\\python.exe",
+    "python": "3.12.12 | packaged by Anaconda, Inc. | (main) [MSC v.1929 64 bit (AMD64)]"
+  },
+  "schema_version": 1,
+  "seeds": {
+    "bootstrap": 2026102003,
+    "selection": 2026102001,
+    "shuffle": 2026102002
+  },
+  "source_snapshot": "research\\freezes\\riskflag-confirm_source",
+  "split": {
+    "path": "research\\split.json"
+  },
+  "test_page_ids": [
+    "rasetugari:p0001",
+    "rasetugari:p0002",
+    "rasetugari:p0003",
+    "rasetugari:p0004",
+    "rasetugari:p0005",
+    "rasetugari:p0006",
+    "rasetugari:p0007",
+    "rasetugari:p0008",
+    "rasetugari:p0009",
+    "rasetugari:p0010",
+    "rasetugari:p0011",
+    "rasetugari:p0012",
+    "rasetugari:p0013",
+    "rasetugari:p0014",
+    "rasetugari:p0015",
+    "rasetugari:p0016",
+    "rasetugari:p0017",
+    "rasetugari:p0018",
+    "rasetugari:p0019",
+    "rasetugari:p0020",
+    "rasetugari:p0021",
+    "rasetugari:p0022",
+    "rasetugari:p0023",
+    "rasetugari:p0024",
+    "rasetugari:p0025",
+    "rasetugari:p0026",
+    "rasetugari:p0027",
+    "rasetugari:p0028",
+    "rasetugari:p0029",
+    "rasetugari:p0030",
+    "rasetugari:p0031",
+    "rasetugari:p0032",
+    "rasetugari:p0033",
+    "rasetugari:p0034",
+    "rasetugari:p0035",
+    "rasetugari:p0036",
+    "rasetugari:p0037",
+    "rasetugari:p0038",
+    "rasetugari:p0039",
+    "rasetugari:p0040",
+    "rasetugari:p0041",
+    "rasetugari:p0042",
+    "rasetugari:p0043",
+    "rasetugari:p0044",
+    "rasetugari:p0045",
+    "rasetugari:p0046",
+    "rasetugari:p0047",
+    "rasetugari:p0048",
+    "rasetugari:p0049",
+    "rasetugari:p0050",
+    "rasetugari:p0051",
+    "rasetugari:p0052",
+    "rasetugari:p0053",
+    "rasetugari:p0054"
+  ]
+}

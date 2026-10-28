@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source": "curated_demo",
+  "not_model_output": true,
+  "source_page_id": "tencho_isoro:p0004",
+  "work": "presentation:tencho_isoro",
+  "method": "Manual inspection of this bundled page's speech and visual context; not Magi output.",
+  "characters": [
+    {"id": "presentation-demo:shopkeeper", "name": "Shopkeeper"},
+    {"id": "presentation-demo:meru", "name": "Meru"}
+  ],
+  "bindings": [
+    {"block_id": "presentation:tencho_isoro:p0004:t000", "character_id": null, "reason": "Unattributed pause; leave unknown rather than assign from proximity alone."},
+    {"block_id": "presentation:tencho_isoro:p0004:t001", "character_id": "presentation-demo:shopkeeper", "reason": "The shopkeeper offers work in the shop."},
+    {"block_id": "presentation:tencho_isoro:p0004:t002", "character_id": "presentation-demo:meru", "reason": "Meru responds to the offer: Really!?"},
+    {"block_id": "presentation:tencho_isoro:p0004:t003", "character_id": "presentation-demo:shopkeeper", "reason": "The shopkeeper offers food and a bed."},
+    {"block_id": "presentation:tencho_isoro:p0004:t004", "character_id": "presentation-demo:meru", "reason": "Meru says the offer is more than enough."},
+    {"block_id": "presentation:tencho_isoro:p0004:t005", "character_id": "presentation-demo:meru", "reason": "Meru thanks the shopkeeper for helping."},
+    {"block_id": "presentation:tencho_isoro:p0004:t006", "character_id": "presentation-demo:shopkeeper", "reason": "The shopkeeper responds modestly to the thanks."},
+    {"block_id": "presentation:tencho_isoro:p0004:t007", "character_id": "presentation-demo:shopkeeper", "reason": "The shopkeeper asks Meru's name."},
+    {"block_id": "presentation:tencho_isoro:p0004:t008", "character_id": "presentation-demo:meru", "reason": "Meru identifies themself by name."},
+    {"block_id": "presentation:tencho_isoro:p0004:t009", "character_id": "presentation-demo:meru", "reason": "Meru asks how to help with the new job."},
+    {"block_id": "presentation:tencho_isoro:p0004:t010", "character_id": null, "reason": "Abrupt exclamation across the panel transition; intentionally left unassigned."},
+    {"block_id": "presentation:tencho_isoro:p0004:t011", "character_id": "presentation-demo:shopkeeper", "reason": "The shopkeeper tells Meru to start tomorrow."},
+    {"block_id": "presentation:tencho_isoro:p0004:t012", "character_id": "presentation-demo:shopkeeper", "reason": "The shopkeeper's adjoining note tells Meru to rest today."}
+  ]
+}

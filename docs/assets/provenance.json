@@ -1,0 +1,80 @@
+{
+  "sample": "VNTL translation and image export.",
+  "image_size": [
+    1280,
+    720
+  ],
+  "files": [
+    {
+      "file": "manga-original.jpg",
+      "sha256": "076b8725563c126f51c1d35dd63b6044fcba73f58da8a8aa59c199d8bcf362c9",
+      "bytes": 205233
+    },
+    {
+      "file": "manga-translated.png",
+      "sha256": "26555f52520e0b66190d218a33d84c3e1d693df2d4eb0eda05049e0b6fe5cf07",
+      "bytes": 963460
+    },
+    {
+      "file": "tojime-p0003-original.jpg",
+      "sha256": "3b6690134091e2c1ff9797fc8d4ec24d8211514736ace46f7f2f801c5fdf9eb9",
+      "bytes": 201309,
+      "sample": "OpenMantra tojime_no_siora 测试页 p0003（images/tojime_no_siora/ja/002.jpg）；SHA256 与页面记录的 input_sha256 一致。CC BY-NC 4.0。"
+    },
+    {
+      "file": "tojime-p0003-vntl.png",
+      "sha256": "7a013daf4ffbdd1895407f17d1a7d883aba92d49c684b3c21400040dae1fb2d9",
+      "bytes": 834882,
+      "sample": "本地冻结运行 test24-vntl-ocr0 的 page-0003.png：自动输出（Manga-OCR 输入、VNTL、无邻近上下文）；SHA256 与页面记录的 output_sha256 一致。"
+    },
+    {
+      "file": "app-reader.png",
+      "sha256": "5c6cccde34bc684d972be4bdf14938598489c58c9c2f9ea0ba828703004ce11c",
+      "bytes": 1383689,
+      "sample": ""
+    },
+    {
+      "file": "app-tasks.png",
+      "sha256": "3887edb853ea5358268ade942f0b71f59753dee6e41ad92c381bffbe41ad0fb5",
+      "bytes": 221110,
+      "sample": "任务窗口截图（输入与输出路径为空）。"
+    },
+    {
+      "file": "app-settings.png",
+      "sha256": "7ceaf21238a3cc0f0597ff8b05ebce94f0b88af53731c5f3401b689476aca22f",
+      "bytes": 109802,
+      "sample": "设置窗口截图。"
+    },
+    {
+      "file": "cleanup.png",
+      "sha256": "f7398896bc6e1b2f60b1666d68f3a6487a5ce6c2459fe1f30e8af59a9651b428",
+      "bytes": 551400,
+      "sample": "清字与排版对照（原图 / 旧译图 / 新结果，英文标注）"
+    },
+    {
+      "file": "chrf-delta.png",
+      "sha256": "920aa44a0196c14168e955b247e0b7c28fab2819c717abd60d974d8f48765b6c",
+      "bytes": 77042,
+      "sample": "两部作品的三组 chrF++ 差值及按页配对 bootstrap 95% 区间（英文标注）。"
+    },
+    {
+      "file": "comma-case.png",
+      "sha256": "2fa4a06461a270133bfbdff33acc8b4850447ca453bbd5890428261e5f5e6761",
+      "bytes": 687538,
+      "sample": "「はな、」+「せ...」案例图。"
+    },
+    {
+      "file": "risk-ranking.png",
+      "sha256": "bd42e8f03a90e580fe130e3277ca98af97d2e18207cc86bd789c5369c468f10d",
+      "bytes": 275186,
+      "sample": "风险排序的试点与新作品确认结果，来自本地风险提醒确认实验的已保存图表。"
+    },
+    {
+      "file": "api-errors.png",
+      "sha256": "464f5fa74db8e43810f985828491feb0693520025a3e4e057cbaad26d2ae651a",
+      "bytes": 392022,
+      "sample": "纯文本 API（qwen3.8-max）与本地 VNTL 在 24 个已见区域上的探索性对照"
+    }
+  ],
+  "scope": "manga-* / tojime-*: 已保存的翻译导出示例，不代表其他漫画的正确率；app-*: cleanup: 清字与排版对照，不代表翻译质量；chrf-delta: 自动指标的差值区间，不是语义正确率；comma-case: 单个已见案例的探索性复测；risk-ranking / api-errors: 已保存的实验结果。"
+}

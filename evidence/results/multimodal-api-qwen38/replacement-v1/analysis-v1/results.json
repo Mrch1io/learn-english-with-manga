@@ -1,0 +1,2168 @@
+{
+  "schema_version": 1,
+  "analysis_kind": "exploratory_paired_multimodal_pilot",
+  "configuration": {
+    "bootstrap_samples": 2000,
+    "bootstrap_seed": 2026102102,
+    "bootstrap_unit": "actual page_id",
+    "percentile_method": "linear 2.5/97.5 percentiles via research.score._percentile",
+    "rate_unit": "fraction",
+    "delta_direction": "candidate_minus_control",
+    "rng_rule": "Restart fixed seed for each metric/contrast; sort page_id and target_id first",
+    "pair_eligibility": "Both responses ok and both severe_error observed; tag contrasts additionally require both tag labels observed",
+    "missing_rule": "Null remains missing; failures/not_run never enter rate denominators",
+    "bootstrap_scope": "Pages containing eligible observations for that metric; preserves all eligible within-page regions and paired arms",
+    "ci_limitations": "Single-page intervals are degenerate; page resampling does not model reviewer error"
+  },
+  "totals": {
+    "regions": 24,
+    "rows": 72,
+    "pages": 23,
+    "cohorts": {
+      "severe": 12,
+      "normal": 12
+    }
+  },
+  "arms": {
+    "A": {
+      "N": 24,
+      "valid": 24,
+      "failed": 0,
+      "not_run": 0,
+      "fields": {
+        "severe_error": {
+          "assessed": 24,
+          "true": 2,
+          "false": 22,
+          "missing": 0,
+          "missing_on_valid": 0,
+          "labels_ignored_on_invalid_response": 0,
+          "rate": 0.08333333333333333,
+          "ci95": [
+            0.0,
+            0.21739130434782608
+          ],
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined"
+        },
+        "reference": {
+          "assessed": 24,
+          "true": 2,
+          "false": 22,
+          "missing": 0,
+          "missing_on_valid": 0,
+          "labels_ignored_on_invalid_response": 0,
+          "rate": 0.08333333333333333,
+          "ci95": [
+            0.0,
+            0.21739130434782608
+          ],
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined"
+        },
+        "alignment": {
+          "assessed": 24,
+          "true": 0,
+          "false": 24,
+          "missing": 0,
+          "missing_on_valid": 0,
+          "labels_ignored_on_invalid_response": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined"
+        },
+        "action_direction": {
+          "assessed": 24,
+          "true": 1,
+          "false": 23,
+          "missing": 0,
+          "missing_on_valid": 0,
+          "labels_ignored_on_invalid_response": 0,
+          "rate": 0.041666666666666664,
+          "ci95": [
+            0.0,
+            0.13043478260869565
+          ],
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined"
+        }
+      }
+    },
+    "B": {
+      "N": 24,
+      "valid": 24,
+      "failed": 0,
+      "not_run": 0,
+      "fields": {
+        "severe_error": {
+          "assessed": 24,
+          "true": 3,
+          "false": 21,
+          "missing": 0,
+          "missing_on_valid": 0,
+          "labels_ignored_on_invalid_response": 0,
+          "rate": 0.125,
+          "ci95": [
+            0.0,
+            0.2608695652173913
+          ],
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined"
+        },
+        "reference": {
+          "assessed": 24,
+          "true": 3,
+          "false": 21,
+          "missing": 0,
+          "missing_on_valid": 0,
+          "labels_ignored_on_invalid_response": 0,
+          "rate": 0.125,
+          "ci95": [
+            0.0,
+            0.2608695652173913
+          ],
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined"
+        },
+        "alignment": {
+          "assessed": 24,
+          "true": 0,
+          "false": 24,
+          "missing": 0,
+          "missing_on_valid": 0,
+          "labels_ignored_on_invalid_response": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined"
+        },
+        "action_direction": {
+          "assessed": 24,
+          "true": 1,
+          "false": 23,
+          "missing": 0,
+          "missing_on_valid": 0,
+          "labels_ignored_on_invalid_response": 0,
+          "rate": 0.041666666666666664,
+          "ci95": [
+            0.0,
+            0.13043478260869565
+          ],
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined"
+        }
+      }
+    },
+    "VNTL": {
+      "N": 24,
+      "valid": 24,
+      "failed": 0,
+      "not_run": 0,
+      "fields": {
+        "severe_error": {
+          "assessed": 24,
+          "true": 14,
+          "false": 10,
+          "missing": 0,
+          "missing_on_valid": 0,
+          "labels_ignored_on_invalid_response": 0,
+          "rate": 0.5833333333333334,
+          "ci95": [
+            0.4,
+            0.7602307692307679
+          ],
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined"
+        },
+        "reference": {
+          "assessed": 24,
+          "true": 12,
+          "false": 12,
+          "missing": 0,
+          "missing_on_valid": 0,
+          "labels_ignored_on_invalid_response": 0,
+          "rate": 0.5,
+          "ci95": [
+            0.30434782608695654,
+            0.6956521739130435
+          ],
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined"
+        },
+        "alignment": {
+          "assessed": 24,
+          "true": 0,
+          "false": 24,
+          "missing": 0,
+          "missing_on_valid": 0,
+          "labels_ignored_on_invalid_response": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined"
+        },
+        "action_direction": {
+          "assessed": 24,
+          "true": 1,
+          "false": 23,
+          "missing": 0,
+          "missing_on_valid": 0,
+          "labels_ignored_on_invalid_response": 0,
+          "rate": 0.041666666666666664,
+          "ci95": [
+            0.0,
+            0.13043478260869565
+          ],
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined"
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "B_vs_A": {
+      "left": "A",
+      "right": "B",
+      "descriptive": false,
+      "delta_direction": "right_minus_left",
+      "fields": {
+        "severe_error": {
+          "total_regions": 24,
+          "complete_pairs": 24,
+          "excluded_invalid_response": 0,
+          "excluded_missing_severity": 0,
+          "excluded_missing_field": 0,
+          "missing_left": 0,
+          "missing_right": 0,
+          "left_true": 2,
+          "right_true": 3,
+          "left_rate": 0.08333333333333333,
+          "right_rate": 0.125,
+          "delta": 0.041666666666666664,
+          "ci95": {
+            "left_rate": [
+              0.0,
+              0.21739130434782608
+            ],
+            "right_rate": [
+              0.0,
+              0.2608695652173913
+            ],
+            "delta": [
+              0.0,
+              0.13043478260869565
+            ]
+          },
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined",
+          "repair_count": 0,
+          "degradation_count": 1,
+          "net_reduction": -1,
+          "repairs": [],
+          "degradations": [
+            {
+              "target_id": "rasetugari:p0007:t001",
+              "page_id": "rasetugari:p0007",
+              "cohort": "normal",
+              "source_text": "さま...",
+              "field": "severe_error",
+              "left": {
+                "arm": "A",
+                "item": "item057",
+                "candidate": "...sama...",
+                "notes": "图中「にい…」「さま…」合成对兄长的呼唤；本泡仅后半敬称，...sama...保留该音节，属于未本地化表达，未另造人物或动作；未展示前泡英文，不据此断言跨泡错配。",
+                "label": false
+              },
+              "right": {
+                "arm": "B",
+                "item": "item060",
+                "candidate": "Lord...",
+                "notes": "图中女孩分两泡呼唤「にい…さま…」，对象是兄长；本泡后半敬称被独立译成Lord，人物称谓理解有误，判为人物指代错误及严重错误。未展示前泡英文，不评价完整呼唤的英文组合。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_errors": [
+            {
+              "target_id": "rasetugari:p0026:t003",
+              "page_id": "rasetugari:p0026",
+              "cohort": "severe",
+              "source_text": "幻術とはいえ妹の顔を...",
+              "field": "severe_error",
+              "left": {
+                "arm": "A",
+                "item": "item065",
+                "candidate": "Even if it's an illusion, to use my sister's face...",
+                "notes": "此泡是呉葉看到宏也劈开妹妹幻象的内心语「幻術とはいえ妹の顔を…」，接「凄まじき意志」；my sister错把妹妹归给呉葉，to use又把劈砍幻象改成利用妹妹面孔。属于人物指代及动作内容错误，未出现明确施受双方互换。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item041",
+                "candidate": "Even if it's an illusion, my sister's face...",
+                "notes": "本泡是呉葉看着持刀少年和妹妹幻象的内心反应，「妹の顔」指少年的妹妹。my sister's face将妹妹关系改成呉葉自己的，关键亲属指向错误。",
+                "label": true
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0023:t006",
+              "page_id": "tojime_no_siora:p0023",
+              "cohort": "severe",
+              "source_text": "つっつけようったって...",
+              "field": "severe_error",
+              "left": {
+                "arm": "A",
+                "item": "item058",
+                "candidate": "Even if I tried to poke it...",
+                "notes": "上泡问「つけられたのか」，本泡结巴「つっ つけようったって…」是反驳盲人如何跟踪自己；poke it误成戳物，I又把潜在跟踪者改为说话者，跟踪的动作和参与者关系均错。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item043",
+                "candidate": "I tried to follow it, but...",
+                "notes": "承接兄长问ビル「つけられたのか」，比尔以盲人看不见为由反驳怎能尾随自己。「つっつけようったって…」不是比尔去跟踪东西；I tried to follow it改换追踪者与被追踪者，并把假设反驳写成实际尝试。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_error_count": 2,
+          "both_clear_count": 21
+        },
+        "reference": {
+          "total_regions": 24,
+          "complete_pairs": 24,
+          "excluded_invalid_response": 0,
+          "excluded_missing_severity": 0,
+          "excluded_missing_field": 0,
+          "missing_left": 0,
+          "missing_right": 0,
+          "left_true": 2,
+          "right_true": 3,
+          "left_rate": 0.08333333333333333,
+          "right_rate": 0.125,
+          "delta": 0.041666666666666664,
+          "ci95": {
+            "left_rate": [
+              0.0,
+              0.21739130434782608
+            ],
+            "right_rate": [
+              0.0,
+              0.2608695652173913
+            ],
+            "delta": [
+              0.0,
+              0.13043478260869565
+            ]
+          },
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined",
+          "repair_count": 0,
+          "degradation_count": 1,
+          "net_reduction": -1,
+          "repairs": [],
+          "degradations": [
+            {
+              "target_id": "rasetugari:p0007:t001",
+              "page_id": "rasetugari:p0007",
+              "cohort": "normal",
+              "source_text": "さま...",
+              "field": "reference",
+              "left": {
+                "arm": "A",
+                "item": "item057",
+                "candidate": "...sama...",
+                "notes": "图中「にい…」「さま…」合成对兄长的呼唤；本泡仅后半敬称，...sama...保留该音节，属于未本地化表达，未另造人物或动作；未展示前泡英文，不据此断言跨泡错配。",
+                "label": false
+              },
+              "right": {
+                "arm": "B",
+                "item": "item060",
+                "candidate": "Lord...",
+                "notes": "图中女孩分两泡呼唤「にい…さま…」，对象是兄长；本泡后半敬称被独立译成Lord，人物称谓理解有误，判为人物指代错误及严重错误。未展示前泡英文，不评价完整呼唤的英文组合。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_errors": [
+            {
+              "target_id": "rasetugari:p0026:t003",
+              "page_id": "rasetugari:p0026",
+              "cohort": "severe",
+              "source_text": "幻術とはいえ妹の顔を...",
+              "field": "reference",
+              "left": {
+                "arm": "A",
+                "item": "item065",
+                "candidate": "Even if it's an illusion, to use my sister's face...",
+                "notes": "此泡是呉葉看到宏也劈开妹妹幻象的内心语「幻術とはいえ妹の顔を…」，接「凄まじき意志」；my sister错把妹妹归给呉葉，to use又把劈砍幻象改成利用妹妹面孔。属于人物指代及动作内容错误，未出现明确施受双方互换。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item041",
+                "candidate": "Even if it's an illusion, my sister's face...",
+                "notes": "本泡是呉葉看着持刀少年和妹妹幻象的内心反应，「妹の顔」指少年的妹妹。my sister's face将妹妹关系改成呉葉自己的，关键亲属指向错误。",
+                "label": true
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0023:t006",
+              "page_id": "tojime_no_siora:p0023",
+              "cohort": "severe",
+              "source_text": "つっつけようったって...",
+              "field": "reference",
+              "left": {
+                "arm": "A",
+                "item": "item058",
+                "candidate": "Even if I tried to poke it...",
+                "notes": "上泡问「つけられたのか」，本泡结巴「つっ つけようったって…」是反驳盲人如何跟踪自己；poke it误成戳物，I又把潜在跟踪者改为说话者，跟踪的动作和参与者关系均错。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item043",
+                "candidate": "I tried to follow it, but...",
+                "notes": "承接兄长问ビル「つけられたのか」，比尔以盲人看不见为由反驳怎能尾随自己。「つっつけようったって…」不是比尔去跟踪东西；I tried to follow it改换追踪者与被追踪者，并把假设反驳写成实际尝试。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_error_count": 2,
+          "both_clear_count": 21
+        },
+        "alignment": {
+          "total_regions": 24,
+          "complete_pairs": 24,
+          "excluded_invalid_response": 0,
+          "excluded_missing_severity": 0,
+          "excluded_missing_field": 0,
+          "missing_left": 0,
+          "missing_right": 0,
+          "left_true": 0,
+          "right_true": 0,
+          "left_rate": 0.0,
+          "right_rate": 0.0,
+          "delta": 0.0,
+          "ci95": {
+            "left_rate": [
+              0.0,
+              0.0
+            ],
+            "right_rate": [
+              0.0,
+              0.0
+            ],
+            "delta": [
+              0.0,
+              0.0
+            ]
+          },
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined",
+          "repair_count": 0,
+          "degradation_count": 0,
+          "net_reduction": 0,
+          "repairs": [],
+          "degradations": [],
+          "persistent_errors": [],
+          "persistent_error_count": 0,
+          "both_clear_count": 24
+        },
+        "action_direction": {
+          "total_regions": 24,
+          "complete_pairs": 24,
+          "excluded_invalid_response": 0,
+          "excluded_missing_severity": 0,
+          "excluded_missing_field": 0,
+          "missing_left": 0,
+          "missing_right": 0,
+          "left_true": 1,
+          "right_true": 1,
+          "left_rate": 0.041666666666666664,
+          "right_rate": 0.041666666666666664,
+          "delta": 0.0,
+          "ci95": {
+            "left_rate": [
+              0.0,
+              0.13043478260869565
+            ],
+            "right_rate": [
+              0.0,
+              0.13043478260869565
+            ],
+            "delta": [
+              0.0,
+              0.0
+            ]
+          },
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined",
+          "repair_count": 0,
+          "degradation_count": 0,
+          "net_reduction": 0,
+          "repairs": [],
+          "degradations": [],
+          "persistent_errors": [
+            {
+              "target_id": "tojime_no_siora:p0023:t006",
+              "page_id": "tojime_no_siora:p0023",
+              "cohort": "severe",
+              "source_text": "つっつけようったって...",
+              "field": "action_direction",
+              "left": {
+                "arm": "A",
+                "item": "item058",
+                "candidate": "Even if I tried to poke it...",
+                "notes": "上泡问「つけられたのか」，本泡结巴「つっ つけようったって…」是反驳盲人如何跟踪自己；poke it误成戳物，I又把潜在跟踪者改为说话者，跟踪的动作和参与者关系均错。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item043",
+                "candidate": "I tried to follow it, but...",
+                "notes": "承接兄长问ビル「つけられたのか」，比尔以盲人看不见为由反驳怎能尾随自己。「つっつけようったって…」不是比尔去跟踪东西；I tried to follow it改换追踪者与被追踪者，并把假设反驳写成实际尝试。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_error_count": 1,
+          "both_clear_count": 23
+        }
+      }
+    },
+    "A_vs_VNTL": {
+      "left": "VNTL",
+      "right": "A",
+      "descriptive": true,
+      "delta_direction": "right_minus_left",
+      "fields": {
+        "severe_error": {
+          "total_regions": 24,
+          "complete_pairs": 24,
+          "excluded_invalid_response": 0,
+          "excluded_missing_severity": 0,
+          "excluded_missing_field": 0,
+          "missing_left": 0,
+          "missing_right": 0,
+          "left_true": 14,
+          "right_true": 2,
+          "left_rate": 0.5833333333333334,
+          "right_rate": 0.08333333333333333,
+          "delta": -0.5,
+          "ci95": {
+            "left_rate": [
+              0.4,
+              0.7602307692307679
+            ],
+            "right_rate": [
+              0.0,
+              0.21739130434782608
+            ],
+            "delta": [
+              -0.6923076923076923,
+              -0.30434782608695654
+            ]
+          },
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined",
+          "repair_count": 12,
+          "degradation_count": 0,
+          "net_reduction": 12,
+          "repairs": [
+            {
+              "target_id": "rasetugari:p0005:t003",
+              "page_id": "rasetugari:p0005",
+              "cohort": "severe",
+              "source_text": "家族を悪鬼に喰われて以来",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item042",
+                "candidate": "Ever since my family was devoured by demons.",
+                "notes": "画面两位旁观者谈论远处少年，邻泡使用「本人」「奴」；「家族を悪鬼に喰われて以来」指少年的家人。my family错误改成旁观说话者自己的家人，改变人物背景。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item024",
+                "candidate": "Ever since his family was devoured by demons",
+                "notes": "「家族を悪鬼に喰われて以来」对应Ever since his family was devoured by demons，保留家族受害、恶鬼施害及时间起点；日文未明确标示恶鬼数量。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0007:t001",
+              "page_id": "rasetugari:p0007",
+              "cohort": "normal",
+              "source_text": "さま...",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item034",
+                "candidate": "\"Sam...",
+                "notes": "本泡「さま…」与前泡「にい…」合成对兄长的呼唤「兄様」。Sam…将敬称片段写成无根据的人名，称呼有错，判为严重错误。未展示前泡英文，不评价整段英文的跨泡组合。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item057",
+                "candidate": "...sama...",
+                "notes": "图中「にい…」「さま…」合成对兄长的呼唤；本泡仅后半敬称，...sama...保留该音节，属于未本地化表达，未另造人物或动作；未展示前泡英文，不据此断言跨泡错配。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0008:t006",
+              "page_id": "rasetugari:p0008",
+              "cohort": "severe",
+              "source_text": "和音を...!!",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item037",
+                "candidate": "Harmony...!!",
+                "notes": "原图「和音」有かずね注音，是与父亲、母亲并列的家人姓名。Harmony把具体人物和音误作抽象的和谐，丢失关键受害者指向。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item023",
+                "candidate": "Kazune...!!",
+                "notes": "原图振假名为かずね，Kazune对应「和音」。在「よくも…父上を…母上を…」后的悲愤省略句中，仅保留姓名和停顿可以衔接，未将受害者或施害者颠倒。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0024:t001",
+              "page_id": "rasetugari:p0024",
+              "cohort": "severe",
+              "source_text": "憎しみを育てた",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item068",
+                "candidate": "I nurtured hatred.",
+                "notes": "原文承前泡「よくぞここまで」，恶鬼是在赞许宏也把仇恨养到如此程度；I nurtured hatred改成恶鬼自述，改变培育仇恨的主体。判人物指代错误，未发生明确施受双方对调。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item013",
+                "candidate": "You've nurtured your hatred",
+                "notes": "恶鬼对眼前人物说「よくぞここまで／憎しみを育てた」；You've nurtured your hatred保留养大仇恨的动作及其所有者。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0041:t003",
+              "page_id": "rasetugari:p0041",
+              "cohort": "severe",
+              "source_text": "こちとら平安の世より式神を続けて千年だ",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item012",
+                "candidate": "\"Over here, we’ve been continuing the tradition of shikigami for a thousand years since the Heian era.\"",
+                "notes": "「こちとら…式神を続けて千年だ」由画中式神自述本人已经当了一千年式神；we've been continuing the tradition改成群体延续式神传统，改变了主体及用于对比百年对手的本人经历。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item030",
+                "candidate": "I've been a shikigami for a thousand years, ever since the Heian era.",
+                "notes": "原图呉葉说自己从平安时代起已当式神一千年；译文完整保留I、shikigami、a thousand years和Heian era，时间及主体正确。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0042:t004",
+              "page_id": "rasetugari:p0042",
+              "cohort": "severe",
+              "source_text": "この身に刻まれた匂いで家族のことを思い出せ",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item071",
+                "candidate": "I can recall my family through the scent etched into my being.",
+                "notes": "呉葉以自己身上的气味命宏也「家族のことを思い出せ」；I can recall my family把接受命令的人、家人的归属和祈使改成呉葉自述回忆，核心指代和说话意图错误；未发生明确施受双方互换。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item051",
+                "candidate": "Remember your family by the scent etched into this body.",
+                "notes": "呉葉抱住宏也，以「この身に刻まれた匂い」命他「家族のことを思い出せ」；Remember your family及this body保留命令和身体归属。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0049:t000",
+              "page_id": "rasetugari:p0049",
+              "cohort": "severe",
+              "source_text": "想いを見失わぬ",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item066",
+                "candidate": "Don’t lose sight of your feelings.",
+                "notes": "「想いを見失わぬ」是否定陈述，画面是宏也决意不迷失自己的感情；Don’t lose sight of your feelings改成对他人的劝告，改变主体和表态意图。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item007",
+                "candidate": "Not losing sight of one's feelings",
+                "notes": "「想いを見失わぬ」的否定和不失去信念/情感的意思保留。one's及分词片段使本人宣言较弱，但没有明确换成他人的情感或反转意图。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0051:t008",
+              "page_id": "rasetugari:p0051",
+              "cohort": "severe",
+              "source_text": "しばらくは尻に敷かせてもらわんとな",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item032",
+                "candidate": "For a while, I’ll have to let you boss me around.",
+                "notes": "原图呉葉骑在对方背上说这是惩罚，「尻に敷かせてもらわんとな」指由她继续压制、支配对方。let you boss me around却变成她让对方支配自己，人物施受关系颠倒。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item052",
+                "candidate": "I'll have you under my thumb for a while.",
+                "notes": "呉葉骑在宏也背上，以「尻に敷かせてもらわんとな」说要压他一阵；under my thumb准确表达由她管束他的关系。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0053:t002",
+              "page_id": "rasetugari:p0053",
+              "cohort": "normal",
+              "source_text": "平安の世より在藤に仕えて",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item002",
+                "candidate": "Serving the Fujiwara family since the Heian era.",
+                "notes": "原图写「在藤に仕えて」，指说话人自平安时代起侍奉在藤一方；Fujiwara把效忠对象替换成藤原家，包内没有此改名依据。时间和侍奉方向保留，身份对象被改写。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item035",
+                "candidate": "I have served Zaitou since the Heian era",
+                "notes": "「平安の世より在藤に仕えて」由呉葉陈述自平安时代侍奉在藤家系的经历，主语和侍奉关系正确。原图在藤旁为替代注音「お前ら」，Zaitou的姓氏读法尚未核实；本条未判为人物或动作指代错误。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0007:t008",
+              "page_id": "tojime_no_siora:p0007",
+              "cohort": "severe",
+              "source_text": "さっきの7フィート程の巨漢が、マフィア兄弟の弟の方...",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item017",
+                "candidate": "That giant, about seven feet tall, from earlier...",
+                "notes": "只翻译「さっきの7フィート程の巨漢」，完全遗漏「マフィア兄弟の弟の方」这一确认对方身份的核心谓语；没有将该巨汉指成另一人物，也未见译入其他气泡的证据。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item055",
+                "candidate": "So that giant from earlier, about seven feet tall, is the younger of the mafia brothers...",
+                "notes": "「さっきの7フィート程の巨漢」「弟の方」均译出，所指仍为先前出现的黑帮弟弟，未改变人物或关系。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0019:t006",
+              "page_id": "tojime_no_siora:p0019",
+              "cohort": "severe",
+              "source_text": "こんな街外れの倉庫で叫んだって誰も来やしないさ",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item069",
+                "candidate": "Even if I scream in this warehouse on the outskirts of town, no one’s gonna come.",
+                "notes": "图中レーネ求救后，绑架者说「叫んだって誰も来やしない」；I scream把尖叫的人从レーネ改成绑架者，改变原本对受害者的威胁。属于行动者指代错误，尖叫本身不存在施受双方对调。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item056",
+                "candidate": "No one's coming even if you scream in a warehouse this far out of town.",
+                "notes": "原文是对レーネ说在偏远仓库喊也无人来；you、no one及偏远地点正确，this far out of town属于可接受措辞。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0021:t005",
+              "page_id": "tojime_no_siora:p0021",
+              "cohort": "severe",
+              "source_text": "今頃は天使のヌードでも描いてるだろうさ!!",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item025",
+                "candidate": "By now, you’re probably drawing some angel’s nude!!",
+                "notes": "前后泡明确谈论被送往阴间的父亲；「今頃は…描いてる」省略的主语是父亲。译文you把画画的人改成现场听话者，改变核心人物指向。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item070",
+                "candidate": "He's probably drawing nude angels by now!!",
+                "notes": "紧接「あの世に送ってやった」嘲讽她父亲，「今頃は天使のヌードでも描いてる」即他现今大概在画裸体天使；人称和讽刺命题正确。",
+                "label": false
+              }
+            }
+          ],
+          "degradations": [],
+          "persistent_errors": [
+            {
+              "target_id": "rasetugari:p0026:t003",
+              "page_id": "rasetugari:p0026",
+              "cohort": "severe",
+              "source_text": "幻術とはいえ妹の顔を...",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item067",
+                "candidate": "Even if it’s an illusion, my sister’s face...",
+                "notes": "原泡是呉葉旁观宏也劈开妹妹幻象时所想，妹是宏也的妹妹；my sister把亲属归属移到说话者，关键人物指代错误。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item065",
+                "candidate": "Even if it's an illusion, to use my sister's face...",
+                "notes": "此泡是呉葉看到宏也劈开妹妹幻象的内心语「幻術とはいえ妹の顔を…」，接「凄まじき意志」；my sister错把妹妹归给呉葉，to use又把劈砍幻象改成利用妹妹面孔。属于人物指代及动作内容错误，未出现明确施受双方互换。",
+                "label": true
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0023:t006",
+              "page_id": "tojime_no_siora:p0023",
+              "cohort": "severe",
+              "source_text": "つっつけようったって...",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item048",
+                "candidate": "Even if you try to push me...",
+                "notes": "前泡「つけられたのか」问被尾随，后泡「こいつは眼が…」解释对方失明；本泡仍在谈尾随可能性。push me把追踪改成推搡，改变核心动作；未见明确施受对调或内容挪至另一气泡的证据。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item058",
+                "candidate": "Even if I tried to poke it...",
+                "notes": "上泡问「つけられたのか」，本泡结巴「つっ つけようったって…」是反驳盲人如何跟踪自己；poke it误成戳物，I又把潜在跟踪者改为说话者，跟踪的动作和参与者关系均错。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_error_count": 2,
+          "both_clear_count": 10
+        },
+        "reference": {
+          "total_regions": 24,
+          "complete_pairs": 24,
+          "excluded_invalid_response": 0,
+          "excluded_missing_severity": 0,
+          "excluded_missing_field": 0,
+          "missing_left": 0,
+          "missing_right": 0,
+          "left_true": 12,
+          "right_true": 2,
+          "left_rate": 0.5,
+          "right_rate": 0.08333333333333333,
+          "delta": -0.4166666666666667,
+          "ci95": {
+            "left_rate": [
+              0.30434782608695654,
+              0.6956521739130435
+            ],
+            "right_rate": [
+              0.0,
+              0.21739130434782608
+            ],
+            "delta": [
+              -0.64,
+              -0.17391304347826086
+            ]
+          },
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined",
+          "repair_count": 11,
+          "degradation_count": 1,
+          "net_reduction": 10,
+          "repairs": [
+            {
+              "target_id": "rasetugari:p0005:t003",
+              "page_id": "rasetugari:p0005",
+              "cohort": "severe",
+              "source_text": "家族を悪鬼に喰われて以来",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item042",
+                "candidate": "Ever since my family was devoured by demons.",
+                "notes": "画面两位旁观者谈论远处少年，邻泡使用「本人」「奴」；「家族を悪鬼に喰われて以来」指少年的家人。my family错误改成旁观说话者自己的家人，改变人物背景。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item024",
+                "candidate": "Ever since his family was devoured by demons",
+                "notes": "「家族を悪鬼に喰われて以来」对应Ever since his family was devoured by demons，保留家族受害、恶鬼施害及时间起点；日文未明确标示恶鬼数量。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0007:t001",
+              "page_id": "rasetugari:p0007",
+              "cohort": "normal",
+              "source_text": "さま...",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item034",
+                "candidate": "\"Sam...",
+                "notes": "本泡「さま…」与前泡「にい…」合成对兄长的呼唤「兄様」。Sam…将敬称片段写成无根据的人名，称呼有错，判为严重错误。未展示前泡英文，不评价整段英文的跨泡组合。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item057",
+                "candidate": "...sama...",
+                "notes": "图中「にい…」「さま…」合成对兄长的呼唤；本泡仅后半敬称，...sama...保留该音节，属于未本地化表达，未另造人物或动作；未展示前泡英文，不据此断言跨泡错配。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0008:t006",
+              "page_id": "rasetugari:p0008",
+              "cohort": "severe",
+              "source_text": "和音を...!!",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item037",
+                "candidate": "Harmony...!!",
+                "notes": "原图「和音」有かずね注音，是与父亲、母亲并列的家人姓名。Harmony把具体人物和音误作抽象的和谐，丢失关键受害者指向。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item023",
+                "candidate": "Kazune...!!",
+                "notes": "原图振假名为かずね，Kazune对应「和音」。在「よくも…父上を…母上を…」后的悲愤省略句中，仅保留姓名和停顿可以衔接，未将受害者或施害者颠倒。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0024:t001",
+              "page_id": "rasetugari:p0024",
+              "cohort": "severe",
+              "source_text": "憎しみを育てた",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item068",
+                "candidate": "I nurtured hatred.",
+                "notes": "原文承前泡「よくぞここまで」，恶鬼是在赞许宏也把仇恨养到如此程度；I nurtured hatred改成恶鬼自述，改变培育仇恨的主体。判人物指代错误，未发生明确施受双方对调。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item013",
+                "candidate": "You've nurtured your hatred",
+                "notes": "恶鬼对眼前人物说「よくぞここまで／憎しみを育てた」；You've nurtured your hatred保留养大仇恨的动作及其所有者。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0041:t003",
+              "page_id": "rasetugari:p0041",
+              "cohort": "severe",
+              "source_text": "こちとら平安の世より式神を続けて千年だ",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item012",
+                "candidate": "\"Over here, we’ve been continuing the tradition of shikigami for a thousand years since the Heian era.\"",
+                "notes": "「こちとら…式神を続けて千年だ」由画中式神自述本人已经当了一千年式神；we've been continuing the tradition改成群体延续式神传统，改变了主体及用于对比百年对手的本人经历。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item030",
+                "candidate": "I've been a shikigami for a thousand years, ever since the Heian era.",
+                "notes": "原图呉葉说自己从平安时代起已当式神一千年；译文完整保留I、shikigami、a thousand years和Heian era，时间及主体正确。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0042:t004",
+              "page_id": "rasetugari:p0042",
+              "cohort": "severe",
+              "source_text": "この身に刻まれた匂いで家族のことを思い出せ",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item071",
+                "candidate": "I can recall my family through the scent etched into my being.",
+                "notes": "呉葉以自己身上的气味命宏也「家族のことを思い出せ」；I can recall my family把接受命令的人、家人的归属和祈使改成呉葉自述回忆，核心指代和说话意图错误；未发生明确施受双方互换。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item051",
+                "candidate": "Remember your family by the scent etched into this body.",
+                "notes": "呉葉抱住宏也，以「この身に刻まれた匂い」命他「家族のことを思い出せ」；Remember your family及this body保留命令和身体归属。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0049:t000",
+              "page_id": "rasetugari:p0049",
+              "cohort": "severe",
+              "source_text": "想いを見失わぬ",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item066",
+                "candidate": "Don’t lose sight of your feelings.",
+                "notes": "「想いを見失わぬ」是否定陈述，画面是宏也决意不迷失自己的感情；Don’t lose sight of your feelings改成对他人的劝告，改变主体和表态意图。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item007",
+                "candidate": "Not losing sight of one's feelings",
+                "notes": "「想いを見失わぬ」的否定和不失去信念/情感的意思保留。one's及分词片段使本人宣言较弱，但没有明确换成他人的情感或反转意图。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0051:t008",
+              "page_id": "rasetugari:p0051",
+              "cohort": "severe",
+              "source_text": "しばらくは尻に敷かせてもらわんとな",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item032",
+                "candidate": "For a while, I’ll have to let you boss me around.",
+                "notes": "原图呉葉骑在对方背上说这是惩罚，「尻に敷かせてもらわんとな」指由她继续压制、支配对方。let you boss me around却变成她让对方支配自己，人物施受关系颠倒。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item052",
+                "candidate": "I'll have you under my thumb for a while.",
+                "notes": "呉葉骑在宏也背上，以「尻に敷かせてもらわんとな」说要压他一阵；under my thumb准确表达由她管束他的关系。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0053:t002",
+              "page_id": "rasetugari:p0053",
+              "cohort": "normal",
+              "source_text": "平安の世より在藤に仕えて",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item002",
+                "candidate": "Serving the Fujiwara family since the Heian era.",
+                "notes": "原图写「在藤に仕えて」，指说话人自平安时代起侍奉在藤一方；Fujiwara把效忠对象替换成藤原家，包内没有此改名依据。时间和侍奉方向保留，身份对象被改写。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item035",
+                "candidate": "I have served Zaitou since the Heian era",
+                "notes": "「平安の世より在藤に仕えて」由呉葉陈述自平安时代侍奉在藤家系的经历，主语和侍奉关系正确。原图在藤旁为替代注音「お前ら」，Zaitou的姓氏读法尚未核实；本条未判为人物或动作指代错误。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0019:t006",
+              "page_id": "tojime_no_siora:p0019",
+              "cohort": "severe",
+              "source_text": "こんな街外れの倉庫で叫んだって誰も来やしないさ",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item069",
+                "candidate": "Even if I scream in this warehouse on the outskirts of town, no one’s gonna come.",
+                "notes": "图中レーネ求救后，绑架者说「叫んだって誰も来やしない」；I scream把尖叫的人从レーネ改成绑架者，改变原本对受害者的威胁。属于行动者指代错误，尖叫本身不存在施受双方对调。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item056",
+                "candidate": "No one's coming even if you scream in a warehouse this far out of town.",
+                "notes": "原文是对レーネ说在偏远仓库喊也无人来；you、no one及偏远地点正确，this far out of town属于可接受措辞。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0021:t005",
+              "page_id": "tojime_no_siora:p0021",
+              "cohort": "severe",
+              "source_text": "今頃は天使のヌードでも描いてるだろうさ!!",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item025",
+                "candidate": "By now, you’re probably drawing some angel’s nude!!",
+                "notes": "前后泡明确谈论被送往阴间的父亲；「今頃は…描いてる」省略的主语是父亲。译文you把画画的人改成现场听话者，改变核心人物指向。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item070",
+                "candidate": "He's probably drawing nude angels by now!!",
+                "notes": "紧接「あの世に送ってやった」嘲讽她父亲，「今頃は天使のヌードでも描いてる」即他现今大概在画裸体天使；人称和讽刺命题正确。",
+                "label": false
+              }
+            }
+          ],
+          "degradations": [
+            {
+              "target_id": "tojime_no_siora:p0023:t006",
+              "page_id": "tojime_no_siora:p0023",
+              "cohort": "severe",
+              "source_text": "つっつけようったって...",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item048",
+                "candidate": "Even if you try to push me...",
+                "notes": "前泡「つけられたのか」问被尾随，后泡「こいつは眼が…」解释对方失明；本泡仍在谈尾随可能性。push me把追踪改成推搡，改变核心动作；未见明确施受对调或内容挪至另一气泡的证据。",
+                "label": false
+              },
+              "right": {
+                "arm": "A",
+                "item": "item058",
+                "candidate": "Even if I tried to poke it...",
+                "notes": "上泡问「つけられたのか」，本泡结巴「つっ つけようったって…」是反驳盲人如何跟踪自己；poke it误成戳物，I又把潜在跟踪者改为说话者，跟踪的动作和参与者关系均错。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_errors": [
+            {
+              "target_id": "rasetugari:p0026:t003",
+              "page_id": "rasetugari:p0026",
+              "cohort": "severe",
+              "source_text": "幻術とはいえ妹の顔を...",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item067",
+                "candidate": "Even if it’s an illusion, my sister’s face...",
+                "notes": "原泡是呉葉旁观宏也劈开妹妹幻象时所想，妹是宏也的妹妹；my sister把亲属归属移到说话者，关键人物指代错误。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item065",
+                "candidate": "Even if it's an illusion, to use my sister's face...",
+                "notes": "此泡是呉葉看到宏也劈开妹妹幻象的内心语「幻術とはいえ妹の顔を…」，接「凄まじき意志」；my sister错把妹妹归给呉葉，to use又把劈砍幻象改成利用妹妹面孔。属于人物指代及动作内容错误，未出现明确施受双方互换。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_error_count": 1,
+          "both_clear_count": 11
+        },
+        "alignment": {
+          "total_regions": 24,
+          "complete_pairs": 24,
+          "excluded_invalid_response": 0,
+          "excluded_missing_severity": 0,
+          "excluded_missing_field": 0,
+          "missing_left": 0,
+          "missing_right": 0,
+          "left_true": 0,
+          "right_true": 0,
+          "left_rate": 0.0,
+          "right_rate": 0.0,
+          "delta": 0.0,
+          "ci95": {
+            "left_rate": [
+              0.0,
+              0.0
+            ],
+            "right_rate": [
+              0.0,
+              0.0
+            ],
+            "delta": [
+              0.0,
+              0.0
+            ]
+          },
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined",
+          "repair_count": 0,
+          "degradation_count": 0,
+          "net_reduction": 0,
+          "repairs": [],
+          "degradations": [],
+          "persistent_errors": [],
+          "persistent_error_count": 0,
+          "both_clear_count": 24
+        },
+        "action_direction": {
+          "total_regions": 24,
+          "complete_pairs": 24,
+          "excluded_invalid_response": 0,
+          "excluded_missing_severity": 0,
+          "excluded_missing_field": 0,
+          "missing_left": 0,
+          "missing_right": 0,
+          "left_true": 1,
+          "right_true": 1,
+          "left_rate": 0.041666666666666664,
+          "right_rate": 0.041666666666666664,
+          "delta": 0.0,
+          "ci95": {
+            "left_rate": [
+              0.0,
+              0.13043478260869565
+            ],
+            "right_rate": [
+              0.0,
+              0.13043478260869565
+            ],
+            "delta": [
+              -0.125,
+              0.125
+            ]
+          },
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined",
+          "repair_count": 1,
+          "degradation_count": 1,
+          "net_reduction": 0,
+          "repairs": [
+            {
+              "target_id": "rasetugari:p0051:t008",
+              "page_id": "rasetugari:p0051",
+              "cohort": "severe",
+              "source_text": "しばらくは尻に敷かせてもらわんとな",
+              "field": "action_direction",
+              "left": {
+                "arm": "VNTL",
+                "item": "item032",
+                "candidate": "For a while, I’ll have to let you boss me around.",
+                "notes": "原图呉葉骑在对方背上说这是惩罚，「尻に敷かせてもらわんとな」指由她继续压制、支配对方。let you boss me around却变成她让对方支配自己，人物施受关系颠倒。",
+                "label": true
+              },
+              "right": {
+                "arm": "A",
+                "item": "item052",
+                "candidate": "I'll have you under my thumb for a while.",
+                "notes": "呉葉骑在宏也背上，以「尻に敷かせてもらわんとな」说要压他一阵；under my thumb准确表达由她管束他的关系。",
+                "label": false
+              }
+            }
+          ],
+          "degradations": [
+            {
+              "target_id": "tojime_no_siora:p0023:t006",
+              "page_id": "tojime_no_siora:p0023",
+              "cohort": "severe",
+              "source_text": "つっつけようったって...",
+              "field": "action_direction",
+              "left": {
+                "arm": "VNTL",
+                "item": "item048",
+                "candidate": "Even if you try to push me...",
+                "notes": "前泡「つけられたのか」问被尾随，后泡「こいつは眼が…」解释对方失明；本泡仍在谈尾随可能性。push me把追踪改成推搡，改变核心动作；未见明确施受对调或内容挪至另一气泡的证据。",
+                "label": false
+              },
+              "right": {
+                "arm": "A",
+                "item": "item058",
+                "candidate": "Even if I tried to poke it...",
+                "notes": "上泡问「つけられたのか」，本泡结巴「つっ つけようったって…」是反驳盲人如何跟踪自己；poke it误成戳物，I又把潜在跟踪者改为说话者，跟踪的动作和参与者关系均错。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_errors": [],
+          "persistent_error_count": 0,
+          "both_clear_count": 22
+        }
+      }
+    },
+    "B_vs_VNTL": {
+      "left": "VNTL",
+      "right": "B",
+      "descriptive": true,
+      "delta_direction": "right_minus_left",
+      "fields": {
+        "severe_error": {
+          "total_regions": 24,
+          "complete_pairs": 24,
+          "excluded_invalid_response": 0,
+          "excluded_missing_severity": 0,
+          "excluded_missing_field": 0,
+          "missing_left": 0,
+          "missing_right": 0,
+          "left_true": 14,
+          "right_true": 3,
+          "left_rate": 0.5833333333333334,
+          "right_rate": 0.125,
+          "delta": -0.4583333333333333,
+          "ci95": {
+            "left_rate": [
+              0.4,
+              0.7602307692307679
+            ],
+            "right_rate": [
+              0.0,
+              0.2608695652173913
+            ],
+            "delta": [
+              -0.6521739130434783,
+              -0.2690217391304359
+            ]
+          },
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined",
+          "repair_count": 11,
+          "degradation_count": 0,
+          "net_reduction": 11,
+          "repairs": [
+            {
+              "target_id": "rasetugari:p0005:t003",
+              "page_id": "rasetugari:p0005",
+              "cohort": "severe",
+              "source_text": "家族を悪鬼に喰われて以来",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item042",
+                "candidate": "Ever since my family was devoured by demons.",
+                "notes": "画面两位旁观者谈论远处少年，邻泡使用「本人」「奴」；「家族を悪鬼に喰われて以来」指少年的家人。my family错误改成旁观说话者自己的家人，改变人物背景。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item063",
+                "candidate": "Ever since his family was devoured by a demon",
+                "notes": "旁观者谈宏也「家族を悪鬼に喰われて以来」；his family was devoured by a demon正确表达家人遭恶鬼吞食及时间起点。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0008:t006",
+              "page_id": "rasetugari:p0008",
+              "cohort": "severe",
+              "source_text": "和音を...!!",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item037",
+                "candidate": "Harmony...!!",
+                "notes": "原图「和音」有かずね注音，是与父亲、母亲并列的家人姓名。Harmony把具体人物和音误作抽象的和谐，丢失关键受害者指向。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item019",
+                "candidate": "Kazune...!!",
+                "notes": "原图振假名为かずね，Kazune对应「和音」。在「よくも…父上を…母上を…」后的悲愤省略句中，仅保留姓名和停顿可以衔接，未将受害者或施害者颠倒。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0024:t001",
+              "page_id": "rasetugari:p0024",
+              "cohort": "severe",
+              "source_text": "憎しみを育てた",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item068",
+                "candidate": "I nurtured hatred.",
+                "notes": "原文承前泡「よくぞここまで」，恶鬼是在赞许宏也把仇恨养到如此程度；I nurtured hatred改成恶鬼自述，改变培育仇恨的主体。判人物指代错误，未发生明确施受双方对调。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item046",
+                "candidate": "You've nurtured your hatred",
+                "notes": "「よくぞここまで」接「憎しみを育てた」是恶鬼对少年积累仇恨的称许；You've nurtured your hatred正确还原被省略的第二人称主语及仇恨对象。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0041:t003",
+              "page_id": "rasetugari:p0041",
+              "cohort": "severe",
+              "source_text": "こちとら平安の世より式神を続けて千年だ",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item012",
+                "candidate": "\"Over here, we’ve been continuing the tradition of shikigami for a thousand years since the Heian era.\"",
+                "notes": "「こちとら…式神を続けて千年だ」由画中式神自述本人已经当了一千年式神；we've been continuing the tradition改成群体延续式神传统，改变了主体及用于对比百年对手的本人经历。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item053",
+                "candidate": "I've been a shikigami since the Heian period—a thousand years.",
+                "notes": "「平安の世より式神を続けて千年」对应自平安时代当式神一千年；主体、时长和身份均正确。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0042:t004",
+              "page_id": "rasetugari:p0042",
+              "cohort": "severe",
+              "source_text": "この身に刻まれた匂いで家族のことを思い出せ",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item071",
+                "candidate": "I can recall my family through the scent etched into my being.",
+                "notes": "呉葉以自己身上的气味命宏也「家族のことを思い出せ」；I can recall my family把接受命令的人、家人的归属和祈使改成呉葉自述回忆，核心指代和说话意图错误；未发生明确施受双方互换。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item003",
+                "candidate": "Remember your family by the scent刻ed into this body",
+                "notes": "「この身に刻まれた匂いで家族のことを思い出せ」要求对方凭说话人身上的气味回想家人；remember your family、this body保留对象和指令。刻ed是明显的中英混写，但未反转或遗漏这一核心命题。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0049:t000",
+              "page_id": "rasetugari:p0049",
+              "cohort": "severe",
+              "source_text": "想いを見失わぬ",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item066",
+                "candidate": "Don’t lose sight of your feelings.",
+                "notes": "「想いを見失わぬ」是否定陈述，画面是宏也决意不迷失自己的感情；Don’t lose sight of your feelings改成对他人的劝告，改变主体和表态意图。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item021",
+                "candidate": "I won't lose sight of my feelings",
+                "notes": "画中人物本人说「想いを見失わぬ」，I won't lose sight of my feelings明确表达其决意，否定与情感归属相符。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0051:t008",
+              "page_id": "rasetugari:p0051",
+              "cohort": "severe",
+              "source_text": "しばらくは尻に敷かせてもらわんとな",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item032",
+                "candidate": "For a while, I’ll have to let you boss me around.",
+                "notes": "原图呉葉骑在对方背上说这是惩罚，「尻に敷かせてもらわんとな」指由她继续压制、支配对方。let you boss me around却变成她让对方支配自己，人物施受关系颠倒。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item064",
+                "candidate": "I'll be keeping you under my thumb for a while.",
+                "notes": "原文为呉葉要「尻に敷く」宏也一阵；keeping you under my thumb准确保留管束方向，未把受支配者与支配者互换。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0053:t002",
+              "page_id": "rasetugari:p0053",
+              "cohort": "normal",
+              "source_text": "平安の世より在藤に仕えて",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item002",
+                "candidate": "Serving the Fujiwara family since the Heian era.",
+                "notes": "原图写「在藤に仕えて」，指说话人自平安时代起侍奉在藤一方；Fujiwara把效忠对象替换成藤原家，包内没有此改名依据。时间和侍奉方向保留，身份对象被改写。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item010",
+                "candidate": "I have served the Arito family since the Heian period",
+                "notes": "I have served…since the Heian period保留「平安の世より…に仕えて」及说话人侍奉在藤一方的关系。原图在藤旁为「お前ら」的替代读法，Arito的姓名罗马字读法尚未核实；本条未判为人物或动作指代错误。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0007:t008",
+              "page_id": "tojime_no_siora:p0007",
+              "cohort": "severe",
+              "source_text": "さっきの7フィート程の巨漢が、マフィア兄弟の弟の方...",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item017",
+                "candidate": "That giant, about seven feet tall, from earlier...",
+                "notes": "只翻译「さっきの7フィート程の巨漢」，完全遗漏「マフィア兄弟の弟の方」这一确认对方身份的核心谓语；没有将该巨汉指成另一人物，也未见译入其他气泡的证据。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item020",
+                "candidate": "So that giant from earlier, about seven feet tall, is the younger of the mafia brothers...",
+                "notes": "译文完整保留「さっき」「7フィート程の巨漢」及「マフィア兄弟の弟の方」，弟弟身份、身高与前述人物的对应均准确。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0019:t006",
+              "page_id": "tojime_no_siora:p0019",
+              "cohort": "severe",
+              "source_text": "こんな街外れの倉庫で叫んだって誰も来やしないさ",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item069",
+                "candidate": "Even if I scream in this warehouse on the outskirts of town, no one’s gonna come.",
+                "notes": "图中レーネ求救后，绑架者说「叫んだって誰も来やしない」；I scream把尖叫的人从レーネ改成绑架者，改变原本对受害者的威胁。属于行动者指代错误，尖叫本身不存在施受双方对调。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item050",
+                "candidate": "No one's going to come even if you scream in a warehouse on the outskirts of town like this.",
+                "notes": "「叫んだって誰も来やしない」是绑架者告知レーネ尖叫无用；you、无人会来及城郊仓库均对应原图和原文。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0021:t005",
+              "page_id": "tojime_no_siora:p0021",
+              "cohort": "severe",
+              "source_text": "今頃は天使のヌードでも描いてるだろうさ!!",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item025",
+                "candidate": "By now, you’re probably drawing some angel’s nude!!",
+                "notes": "前后泡明确谈论被送往阴间的父亲；「今頃は…描いてる」省略的主语是父亲。译文you把画画的人改成现场听话者，改变核心人物指向。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item036",
+                "candidate": "He's probably drawing nudes of angels by now!!",
+                "notes": "前泡已说将失明画家父亲送往阴间；He's probably drawing nudes of angels by now正确承接父亲，保留嘲讽其在彼岸画天使裸体的意思。",
+                "label": false
+              }
+            }
+          ],
+          "degradations": [],
+          "persistent_errors": [
+            {
+              "target_id": "rasetugari:p0007:t001",
+              "page_id": "rasetugari:p0007",
+              "cohort": "normal",
+              "source_text": "さま...",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item034",
+                "candidate": "\"Sam...",
+                "notes": "本泡「さま…」与前泡「にい…」合成对兄长的呼唤「兄様」。Sam…将敬称片段写成无根据的人名，称呼有错，判为严重错误。未展示前泡英文，不评价整段英文的跨泡组合。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item060",
+                "candidate": "Lord...",
+                "notes": "图中女孩分两泡呼唤「にい…さま…」，对象是兄长；本泡后半敬称被独立译成Lord，人物称谓理解有误，判为人物指代错误及严重错误。未展示前泡英文，不评价完整呼唤的英文组合。",
+                "label": true
+              }
+            },
+            {
+              "target_id": "rasetugari:p0026:t003",
+              "page_id": "rasetugari:p0026",
+              "cohort": "severe",
+              "source_text": "幻術とはいえ妹の顔を...",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item067",
+                "candidate": "Even if it’s an illusion, my sister’s face...",
+                "notes": "原泡是呉葉旁观宏也劈开妹妹幻象时所想，妹是宏也的妹妹；my sister把亲属归属移到说话者，关键人物指代错误。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item041",
+                "candidate": "Even if it's an illusion, my sister's face...",
+                "notes": "本泡是呉葉看着持刀少年和妹妹幻象的内心反应，「妹の顔」指少年的妹妹。my sister's face将妹妹关系改成呉葉自己的，关键亲属指向错误。",
+                "label": true
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0023:t006",
+              "page_id": "tojime_no_siora:p0023",
+              "cohort": "severe",
+              "source_text": "つっつけようったって...",
+              "field": "severe_error",
+              "left": {
+                "arm": "VNTL",
+                "item": "item048",
+                "candidate": "Even if you try to push me...",
+                "notes": "前泡「つけられたのか」问被尾随，后泡「こいつは眼が…」解释对方失明；本泡仍在谈尾随可能性。push me把追踪改成推搡，改变核心动作；未见明确施受对调或内容挪至另一气泡的证据。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item043",
+                "candidate": "I tried to follow it, but...",
+                "notes": "承接兄长问ビル「つけられたのか」，比尔以盲人看不见为由反驳怎能尾随自己。「つっつけようったって…」不是比尔去跟踪东西；I tried to follow it改换追踪者与被追踪者，并把假设反驳写成实际尝试。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_error_count": 3,
+          "both_clear_count": 10
+        },
+        "reference": {
+          "total_regions": 24,
+          "complete_pairs": 24,
+          "excluded_invalid_response": 0,
+          "excluded_missing_severity": 0,
+          "excluded_missing_field": 0,
+          "missing_left": 0,
+          "missing_right": 0,
+          "left_true": 12,
+          "right_true": 3,
+          "left_rate": 0.5,
+          "right_rate": 0.125,
+          "delta": -0.375,
+          "ci95": {
+            "left_rate": [
+              0.30434782608695654,
+              0.6956521739130435
+            ],
+            "right_rate": [
+              0.0,
+              0.2608695652173913
+            ],
+            "delta": [
+              -0.6,
+              -0.16666666666666666
+            ]
+          },
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined",
+          "repair_count": 10,
+          "degradation_count": 1,
+          "net_reduction": 9,
+          "repairs": [
+            {
+              "target_id": "rasetugari:p0005:t003",
+              "page_id": "rasetugari:p0005",
+              "cohort": "severe",
+              "source_text": "家族を悪鬼に喰われて以来",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item042",
+                "candidate": "Ever since my family was devoured by demons.",
+                "notes": "画面两位旁观者谈论远处少年，邻泡使用「本人」「奴」；「家族を悪鬼に喰われて以来」指少年的家人。my family错误改成旁观说话者自己的家人，改变人物背景。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item063",
+                "candidate": "Ever since his family was devoured by a demon",
+                "notes": "旁观者谈宏也「家族を悪鬼に喰われて以来」；his family was devoured by a demon正确表达家人遭恶鬼吞食及时间起点。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0008:t006",
+              "page_id": "rasetugari:p0008",
+              "cohort": "severe",
+              "source_text": "和音を...!!",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item037",
+                "candidate": "Harmony...!!",
+                "notes": "原图「和音」有かずね注音，是与父亲、母亲并列的家人姓名。Harmony把具体人物和音误作抽象的和谐，丢失关键受害者指向。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item019",
+                "candidate": "Kazune...!!",
+                "notes": "原图振假名为かずね，Kazune对应「和音」。在「よくも…父上を…母上を…」后的悲愤省略句中，仅保留姓名和停顿可以衔接，未将受害者或施害者颠倒。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0024:t001",
+              "page_id": "rasetugari:p0024",
+              "cohort": "severe",
+              "source_text": "憎しみを育てた",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item068",
+                "candidate": "I nurtured hatred.",
+                "notes": "原文承前泡「よくぞここまで」，恶鬼是在赞许宏也把仇恨养到如此程度；I nurtured hatred改成恶鬼自述，改变培育仇恨的主体。判人物指代错误，未发生明确施受双方对调。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item046",
+                "candidate": "You've nurtured your hatred",
+                "notes": "「よくぞここまで」接「憎しみを育てた」是恶鬼对少年积累仇恨的称许；You've nurtured your hatred正确还原被省略的第二人称主语及仇恨对象。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0041:t003",
+              "page_id": "rasetugari:p0041",
+              "cohort": "severe",
+              "source_text": "こちとら平安の世より式神を続けて千年だ",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item012",
+                "candidate": "\"Over here, we’ve been continuing the tradition of shikigami for a thousand years since the Heian era.\"",
+                "notes": "「こちとら…式神を続けて千年だ」由画中式神自述本人已经当了一千年式神；we've been continuing the tradition改成群体延续式神传统，改变了主体及用于对比百年对手的本人经历。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item053",
+                "candidate": "I've been a shikigami since the Heian period—a thousand years.",
+                "notes": "「平安の世より式神を続けて千年」对应自平安时代当式神一千年；主体、时长和身份均正确。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0042:t004",
+              "page_id": "rasetugari:p0042",
+              "cohort": "severe",
+              "source_text": "この身に刻まれた匂いで家族のことを思い出せ",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item071",
+                "candidate": "I can recall my family through the scent etched into my being.",
+                "notes": "呉葉以自己身上的气味命宏也「家族のことを思い出せ」；I can recall my family把接受命令的人、家人的归属和祈使改成呉葉自述回忆，核心指代和说话意图错误；未发生明确施受双方互换。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item003",
+                "candidate": "Remember your family by the scent刻ed into this body",
+                "notes": "「この身に刻まれた匂いで家族のことを思い出せ」要求对方凭说话人身上的气味回想家人；remember your family、this body保留对象和指令。刻ed是明显的中英混写，但未反转或遗漏这一核心命题。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0049:t000",
+              "page_id": "rasetugari:p0049",
+              "cohort": "severe",
+              "source_text": "想いを見失わぬ",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item066",
+                "candidate": "Don’t lose sight of your feelings.",
+                "notes": "「想いを見失わぬ」是否定陈述，画面是宏也决意不迷失自己的感情；Don’t lose sight of your feelings改成对他人的劝告，改变主体和表态意图。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item021",
+                "candidate": "I won't lose sight of my feelings",
+                "notes": "画中人物本人说「想いを見失わぬ」，I won't lose sight of my feelings明确表达其决意，否定与情感归属相符。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0051:t008",
+              "page_id": "rasetugari:p0051",
+              "cohort": "severe",
+              "source_text": "しばらくは尻に敷かせてもらわんとな",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item032",
+                "candidate": "For a while, I’ll have to let you boss me around.",
+                "notes": "原图呉葉骑在对方背上说这是惩罚，「尻に敷かせてもらわんとな」指由她继续压制、支配对方。let you boss me around却变成她让对方支配自己，人物施受关系颠倒。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item064",
+                "candidate": "I'll be keeping you under my thumb for a while.",
+                "notes": "原文为呉葉要「尻に敷く」宏也一阵；keeping you under my thumb准确保留管束方向，未把受支配者与支配者互换。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "rasetugari:p0053:t002",
+              "page_id": "rasetugari:p0053",
+              "cohort": "normal",
+              "source_text": "平安の世より在藤に仕えて",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item002",
+                "candidate": "Serving the Fujiwara family since the Heian era.",
+                "notes": "原图写「在藤に仕えて」，指说话人自平安时代起侍奉在藤一方；Fujiwara把效忠对象替换成藤原家，包内没有此改名依据。时间和侍奉方向保留，身份对象被改写。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item010",
+                "candidate": "I have served the Arito family since the Heian period",
+                "notes": "I have served…since the Heian period保留「平安の世より…に仕えて」及说话人侍奉在藤一方的关系。原图在藤旁为「お前ら」的替代读法，Arito的姓名罗马字读法尚未核实；本条未判为人物或动作指代错误。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0019:t006",
+              "page_id": "tojime_no_siora:p0019",
+              "cohort": "severe",
+              "source_text": "こんな街外れの倉庫で叫んだって誰も来やしないさ",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item069",
+                "candidate": "Even if I scream in this warehouse on the outskirts of town, no one’s gonna come.",
+                "notes": "图中レーネ求救后，绑架者说「叫んだって誰も来やしない」；I scream把尖叫的人从レーネ改成绑架者，改变原本对受害者的威胁。属于行动者指代错误，尖叫本身不存在施受双方对调。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item050",
+                "candidate": "No one's going to come even if you scream in a warehouse on the outskirts of town like this.",
+                "notes": "「叫んだって誰も来やしない」是绑架者告知レーネ尖叫无用；you、无人会来及城郊仓库均对应原图和原文。",
+                "label": false
+              }
+            },
+            {
+              "target_id": "tojime_no_siora:p0021:t005",
+              "page_id": "tojime_no_siora:p0021",
+              "cohort": "severe",
+              "source_text": "今頃は天使のヌードでも描いてるだろうさ!!",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item025",
+                "candidate": "By now, you’re probably drawing some angel’s nude!!",
+                "notes": "前后泡明确谈论被送往阴间的父亲；「今頃は…描いてる」省略的主语是父亲。译文you把画画的人改成现场听话者，改变核心人物指向。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item036",
+                "candidate": "He's probably drawing nudes of angels by now!!",
+                "notes": "前泡已说将失明画家父亲送往阴间；He's probably drawing nudes of angels by now正确承接父亲，保留嘲讽其在彼岸画天使裸体的意思。",
+                "label": false
+              }
+            }
+          ],
+          "degradations": [
+            {
+              "target_id": "tojime_no_siora:p0023:t006",
+              "page_id": "tojime_no_siora:p0023",
+              "cohort": "severe",
+              "source_text": "つっつけようったって...",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item048",
+                "candidate": "Even if you try to push me...",
+                "notes": "前泡「つけられたのか」问被尾随，后泡「こいつは眼が…」解释对方失明；本泡仍在谈尾随可能性。push me把追踪改成推搡，改变核心动作；未见明确施受对调或内容挪至另一气泡的证据。",
+                "label": false
+              },
+              "right": {
+                "arm": "B",
+                "item": "item043",
+                "candidate": "I tried to follow it, but...",
+                "notes": "承接兄长问ビル「つけられたのか」，比尔以盲人看不见为由反驳怎能尾随自己。「つっつけようったって…」不是比尔去跟踪东西；I tried to follow it改换追踪者与被追踪者，并把假设反驳写成实际尝试。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_errors": [
+            {
+              "target_id": "rasetugari:p0007:t001",
+              "page_id": "rasetugari:p0007",
+              "cohort": "normal",
+              "source_text": "さま...",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item034",
+                "candidate": "\"Sam...",
+                "notes": "本泡「さま…」与前泡「にい…」合成对兄长的呼唤「兄様」。Sam…将敬称片段写成无根据的人名，称呼有错，判为严重错误。未展示前泡英文，不评价整段英文的跨泡组合。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item060",
+                "candidate": "Lord...",
+                "notes": "图中女孩分两泡呼唤「にい…さま…」，对象是兄长；本泡后半敬称被独立译成Lord，人物称谓理解有误，判为人物指代错误及严重错误。未展示前泡英文，不评价完整呼唤的英文组合。",
+                "label": true
+              }
+            },
+            {
+              "target_id": "rasetugari:p0026:t003",
+              "page_id": "rasetugari:p0026",
+              "cohort": "severe",
+              "source_text": "幻術とはいえ妹の顔を...",
+              "field": "reference",
+              "left": {
+                "arm": "VNTL",
+                "item": "item067",
+                "candidate": "Even if it’s an illusion, my sister’s face...",
+                "notes": "原泡是呉葉旁观宏也劈开妹妹幻象时所想，妹是宏也的妹妹；my sister把亲属归属移到说话者，关键人物指代错误。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item041",
+                "candidate": "Even if it's an illusion, my sister's face...",
+                "notes": "本泡是呉葉看着持刀少年和妹妹幻象的内心反应，「妹の顔」指少年的妹妹。my sister's face将妹妹关系改成呉葉自己的，关键亲属指向错误。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_error_count": 2,
+          "both_clear_count": 11
+        },
+        "alignment": {
+          "total_regions": 24,
+          "complete_pairs": 24,
+          "excluded_invalid_response": 0,
+          "excluded_missing_severity": 0,
+          "excluded_missing_field": 0,
+          "missing_left": 0,
+          "missing_right": 0,
+          "left_true": 0,
+          "right_true": 0,
+          "left_rate": 0.0,
+          "right_rate": 0.0,
+          "delta": 0.0,
+          "ci95": {
+            "left_rate": [
+              0.0,
+              0.0
+            ],
+            "right_rate": [
+              0.0,
+              0.0
+            ],
+            "delta": [
+              0.0,
+              0.0
+            ]
+          },
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined",
+          "repair_count": 0,
+          "degradation_count": 0,
+          "net_reduction": 0,
+          "repairs": [],
+          "degradations": [],
+          "persistent_errors": [],
+          "persistent_error_count": 0,
+          "both_clear_count": 24
+        },
+        "action_direction": {
+          "total_regions": 24,
+          "complete_pairs": 24,
+          "excluded_invalid_response": 0,
+          "excluded_missing_severity": 0,
+          "excluded_missing_field": 0,
+          "missing_left": 0,
+          "missing_right": 0,
+          "left_true": 1,
+          "right_true": 1,
+          "left_rate": 0.041666666666666664,
+          "right_rate": 0.041666666666666664,
+          "delta": 0.0,
+          "ci95": {
+            "left_rate": [
+              0.0,
+              0.13043478260869565
+            ],
+            "right_rate": [
+              0.0,
+              0.13043478260869565
+            ],
+            "delta": [
+              -0.125,
+              0.125
+            ]
+          },
+          "pages": 23,
+          "bootstrap_replicates": 2000,
+          "ci_status": "defined",
+          "repair_count": 1,
+          "degradation_count": 1,
+          "net_reduction": 0,
+          "repairs": [
+            {
+              "target_id": "rasetugari:p0051:t008",
+              "page_id": "rasetugari:p0051",
+              "cohort": "severe",
+              "source_text": "しばらくは尻に敷かせてもらわんとな",
+              "field": "action_direction",
+              "left": {
+                "arm": "VNTL",
+                "item": "item032",
+                "candidate": "For a while, I’ll have to let you boss me around.",
+                "notes": "原图呉葉骑在对方背上说这是惩罚，「尻に敷かせてもらわんとな」指由她继续压制、支配对方。let you boss me around却变成她让对方支配自己，人物施受关系颠倒。",
+                "label": true
+              },
+              "right": {
+                "arm": "B",
+                "item": "item064",
+                "candidate": "I'll be keeping you under my thumb for a while.",
+                "notes": "原文为呉葉要「尻に敷く」宏也一阵；keeping you under my thumb准确保留管束方向，未把受支配者与支配者互换。",
+                "label": false
+              }
+            }
+          ],
+          "degradations": [
+            {
+              "target_id": "tojime_no_siora:p0023:t006",
+              "page_id": "tojime_no_siora:p0023",
+              "cohort": "severe",
+              "source_text": "つっつけようったって...",
+              "field": "action_direction",
+              "left": {
+                "arm": "VNTL",
+                "item": "item048",
+                "candidate": "Even if you try to push me...",
+                "notes": "前泡「つけられたのか」问被尾随，后泡「こいつは眼が…」解释对方失明；本泡仍在谈尾随可能性。push me把追踪改成推搡，改变核心动作；未见明确施受对调或内容挪至另一气泡的证据。",
+                "label": false
+              },
+              "right": {
+                "arm": "B",
+                "item": "item043",
+                "candidate": "I tried to follow it, but...",
+                "notes": "承接兄长问ビル「つけられたのか」，比尔以盲人看不见为由反驳怎能尾随自己。「つっつけようったって…」不是比尔去跟踪东西；I tried to follow it改换追踪者与被追踪者，并把假设反驳写成实际尝试。",
+                "label": true
+              }
+            }
+          ],
+          "persistent_errors": [],
+          "persistent_error_count": 0,
+          "both_clear_count": 22
+        }
+      }
+    }
+  },
+  "normal_controls": {
+    "N": 12,
+    "expected": 12,
+    "complete_pairs": 12,
+    "b_assessed": 12,
+    "a_assessed": 12,
+    "a_severe_count": 0,
+    "a_severe_errors": [],
+    "new_severe_count": 1,
+    "new_severe_errors": [
+      {
+        "target_id": "rasetugari:p0007:t001",
+        "page_id": "rasetugari:p0007",
+        "cohort": "normal",
+        "arm": "B",
+        "item": "item060",
+        "source_text": "さま...",
+        "candidate": "Lord...",
+        "severe_error": true,
+        "notes": "图中女孩分两泡呼唤「にい…さま…」，对象是兄长；本泡后半敬称被独立译成Lord，人物称谓理解有误，判为人物指代错误及严重错误。未展示前泡英文，不评价完整呼唤的英文组合。"
+      }
+    ],
+    "missing_pair_ids": [],
+    "all_complete": true
+  },
+  "advancement": {
+    "passed": false,
+    "status": "not_met",
+    "conditions": {
+      "exact_24_regions": true,
+      "exact_12_normal": true,
+      "at_least_20_complete_pairs": true,
+      "all_normal_pairs_complete": true,
+      "net_reduction_at_least_3": false,
+      "no_new_severe_in_normal": false
+    },
+    "failed_conditions": [
+      "net_reduction_at_least_3",
+      "no_new_severe_in_normal"
+    ],
+    "complete_pairs": 24,
+    "net_reduction": -1,
+    "normal_new_severe": 1,
+    "conclusion": null,
+    "interpretation": "Exploratory engineering progression only; not statistical confirmation or evidence of local-model effectiveness"
+  }
+}

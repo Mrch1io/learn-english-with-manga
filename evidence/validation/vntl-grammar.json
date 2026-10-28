@@ -1,0 +1,92 @@
+{
+  "method": "native grammar sampler, vocabulary only; no translation inference",
+  "vocabulary_load_seconds": 0.281472,
+  "cases": [
+    {
+      "case": "canonical",
+      "expected": true,
+      "accepted": true,
+      "seconds": 0.011483
+    },
+    {
+      "case": "shortened",
+      "expected": false,
+      "accepted": false,
+      "seconds": 0.000182
+    },
+    {
+      "case": "wrong-bubble",
+      "expected": false,
+      "accepted": false,
+      "seconds": 0.000535
+    },
+    {
+      "case": "name-order-source",
+      "expected": true,
+      "accepted": true,
+      "seconds": 0.000767
+    },
+    {
+      "case": "name-order-reversed",
+      "expected": true,
+      "accepted": true,
+      "seconds": 0.000415
+    },
+    {
+      "case": "inside-word",
+      "expected": false,
+      "accepted": false,
+      "seconds": 0.00012
+    },
+    {
+      "case": "word-boundary",
+      "expected": true,
+      "accepted": true,
+      "seconds": 0.00019
+    },
+    {
+      "case": "four-terms",
+      "expected": true,
+      "accepted": true,
+      "seconds": 0.00146
+    },
+    {
+      "case": "apostrophe",
+      "expected": true,
+      "accepted": true,
+      "seconds": 0.00087
+    },
+    {
+      "case": "apostrophe-missing",
+      "expected": false,
+      "accepted": false,
+      "seconds": 0.000371
+    },
+    {
+      "case": "contained-locks",
+      "expected": true,
+      "accepted": true,
+      "seconds": 0.001134
+    },
+    {
+      "case": "latin-suffix",
+      "expected": false,
+      "accepted": false,
+      "seconds": 0.000161
+    },
+    {
+      "case": "latin-prefix",
+      "expected": false,
+      "accepted": false,
+      "seconds": 0.000138
+    },
+    {
+      "case": "japanese-with-canonical-name",
+      "expected": true,
+      "accepted": true,
+      "seconds": 0.000246,
+      "production_validator_rejects_japanese": true
+    }
+  ],
+  "all_passed": true
+}

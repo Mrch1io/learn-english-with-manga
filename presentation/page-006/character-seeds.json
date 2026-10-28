@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "source": "curated_demo",
+  "not_model_output": true,
+  "source_page_id": "tencho_isoro:p0006",
+  "work": "presentation:tencho_isoro",
+  "method": "Manual inspection of this bundled page's speech and visual context; not Magi output.",
+  "characters": [
+    {
+      "id": "presentation-demo:shopkeeper",
+      "name": "Shopkeeper"
+    },
+    {
+      "id": "presentation-demo:meru",
+      "name": "Meru"
+    }
+  ],
+  "bindings": [
+    {
+      "block_id": "presentation:tencho_isoro:p0006:t000",
+      "character_id": "presentation-demo:meru",
+      "reason": "Meru promises to help while unpacking."
+    },
+    {
+      "block_id": "presentation:tencho_isoro:p0006:t001",
+      "character_id": "presentation-demo:meru",
+      "reason": "Meru looks through the bag for an alarm clock."
+    },
+    {
+      "block_id": "presentation:tencho_isoro:p0006:t002",
+      "character_id": "presentation-demo:shopkeeper",
+      "reason": "The shopkeeper asks about Meru's frog-shaped clock."
+    },
+    {
+      "block_id": "presentation:tencho_isoro:p0006:t003",
+      "character_id": "presentation-demo:meru",
+      "reason": "Meru answers the question about frogs."
+    },
+    {
+      "block_id": "presentation:tencho_isoro:p0006:t004",
+      "character_id": "presentation-demo:meru",
+      "reason": "The bedtime speech bubble points toward Meru's sleeping area."
+    }
+  ]
+}

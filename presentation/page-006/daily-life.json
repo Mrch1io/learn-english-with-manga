@@ -1,0 +1,265 @@
+{
+  "schema_version": 2,
+  "input_path": "original.jpg",
+  "input_sha256": "3cdcb88c046e7c35e947b144f6876981f008146b0b65107fbb7ad2e7cf889039",
+  "output_path": "daily-life.png",
+  "output_sha256": "caab20193baf25a449e2c6f62d9b6af971a789c781d92158bd18a368fabad7a1",
+  "image_size": [
+    824,
+    1170
+  ],
+  "exported": true,
+  "status": "done",
+  "work": "presentation:tencho_isoro",
+  "target_language": "en",
+  "config": {
+    "work": "presentation:tencho_isoro",
+    "translation_backend": "vntl",
+    "target_language": "en",
+    "device": "cuda:0",
+    "memory_policy": "staged",
+    "local_files_only": true,
+    "export_images": true,
+    "font_path": null,
+    "min_font_size": 12,
+    "max_font_size": 26
+  },
+  "blocks": [
+    {
+      "box": [
+        349,
+        90,
+        430,
+        264
+      ],
+      "source_text": "ボクいっぱい役に立てるようにがんばるんだ",
+      "translated_text": "I'll do my best to help out!",
+      "block_id": "presentation:tencho_isoro:p0006:t000",
+      "status": "translated",
+      "error": "",
+      "safe_box": [
+        352,
+        93,
+        427,
+        261
+      ],
+      "metadata": {
+        "presentation_fixture": true,
+        "translation_source": "curated_demo",
+        "safe_box_candidates": [
+          [
+            352,
+            93,
+            427,
+            261
+          ]
+        ],
+        "safe_region_method": "supplied_interior",
+        "cleanup": {
+          "background": "light",
+          "polarity_source": "bubble_background",
+          "method": "curated_white_bubble_mask",
+          "masked_pixels": 4217,
+          "rejected_components": 0,
+          "uniform_interior_constraint": true,
+          "max_dilation_px": 2
+        }
+      },
+      "reading_order": 0
+    },
+    {
+      "box": [
+        106,
+        235,
+        179,
+        324
+      ],
+      "source_text": "えと目覚まし時計…",
+      "translated_text": "Let's see... My alarm clock...",
+      "block_id": "presentation:tencho_isoro:p0006:t001",
+      "status": "translated",
+      "error": "",
+      "safe_box": [
+        109,
+        238,
+        176,
+        321
+      ],
+      "metadata": {
+        "presentation_fixture": true,
+        "translation_source": "curated_demo",
+        "safe_box_candidates": [
+          [
+            109,
+            238,
+            176,
+            321
+          ]
+        ],
+        "safe_region_method": "supplied_interior",
+        "cleanup": {
+          "background": "light",
+          "polarity_source": "bubble_background",
+          "method": "curated_white_bubble_mask",
+          "masked_pixels": 2021,
+          "rejected_components": 0,
+          "uniform_interior_constraint": true,
+          "max_dilation_px": 2
+        }
+      },
+      "reading_order": 1
+    },
+    {
+      "box": [
+        160,
+        396,
+        218,
+        536
+      ],
+      "source_text": "カエル好きなのか？",
+      "translated_text": "Do you like frogs?",
+      "block_id": "presentation:tencho_isoro:p0006:t002",
+      "status": "translated",
+      "error": "",
+      "safe_box": [
+        163,
+        399,
+        215,
+        533
+      ],
+      "metadata": {
+        "presentation_fixture": true,
+        "translation_source": "curated_demo",
+        "safe_box_candidates": [
+          [
+            163,
+            399,
+            215,
+            533
+          ]
+        ],
+        "safe_region_method": "supplied_interior",
+        "cleanup": {
+          "background": "light",
+          "polarity_source": "bubble_background",
+          "method": "curated_white_bubble_mask",
+          "masked_pixels": 2179,
+          "rejected_components": 0,
+          "uniform_interior_constraint": true,
+          "max_dilation_px": 2
+        }
+      },
+      "reading_order": 2
+    },
+    {
+      "box": [
+        132,
+        611,
+        173,
+        672
+      ],
+      "source_text": "うん",
+      "translated_text": "Yep!",
+      "block_id": "presentation:tencho_isoro:p0006:t003",
+      "status": "translated",
+      "error": "",
+      "safe_box": [
+        135,
+        614,
+        170,
+        669
+      ],
+      "metadata": {
+        "presentation_fixture": true,
+        "translation_source": "curated_demo",
+        "safe_box_candidates": [
+          [
+            135,
+            614,
+            170,
+            669
+          ]
+        ],
+        "safe_region_method": "supplied_interior",
+        "cleanup": {
+          "background": "light",
+          "polarity_source": "bubble_background",
+          "method": "curated_white_bubble_mask",
+          "masked_pixels": 450,
+          "rejected_components": 0,
+          "uniform_interior_constraint": true,
+          "max_dilation_px": 2
+        }
+      },
+      "reading_order": 3
+    },
+    {
+      "box": [
+        639,
+        922,
+        696,
+        1009
+      ],
+      "source_text": "おやすみなさい",
+      "translated_text": "Good night.",
+      "block_id": "presentation:tencho_isoro:p0006:t004",
+      "status": "translated",
+      "error": "",
+      "safe_box": [
+        642,
+        925,
+        693,
+        1006
+      ],
+      "metadata": {
+        "presentation_fixture": true,
+        "translation_source": "curated_demo",
+        "safe_box_candidates": [
+          [
+            642,
+            925,
+            693,
+            1006
+          ]
+        ],
+        "safe_region_method": "supplied_interior",
+        "cleanup": {
+          "background": "light",
+          "polarity_source": "bubble_background",
+          "method": "curated_white_bubble_mask",
+          "masked_pixels": 1492,
+          "rejected_components": 0,
+          "uniform_interior_constraint": true,
+          "max_dilation_px": 2
+        }
+      },
+      "reading_order": 4
+    }
+  ],
+  "clean_image": {
+    "file": "daily-life.clean.png",
+    "sha256": "a78fe23b8e930885e1dd1ea27d3d08c4020a6065de399f382bc70d68fecab420",
+    "cleaned_block_ids": [
+      "presentation:tencho_isoro:p0006:t000",
+      "presentation:tencho_isoro:p0006:t001",
+      "presentation:tencho_isoro:p0006:t002",
+      "presentation:tencho_isoro:p0006:t003",
+      "presentation:tencho_isoro:p0006:t004"
+    ]
+  },
+  "presentation_fixture": {
+    "title": "Tencho Isoro · A new beginning",
+    "source_dataset": "OpenMantra",
+    "source_page_id": "tencho_isoro:p0006",
+    "source_url": "https://github.com/mantra-inc/open-mantra-dataset",
+    "source_image": "images/tencho_isoro/ja/005.jpg",
+    "revision": "59341ad922284a8be219b7784feb5a79779a1447",
+    "license": "CC BY-NC 4.0",
+    "purpose": "Curated desktop UI showcase; excluded from research datasets and evaluation.",
+    "translation_source": "curated_demo",
+    "not_model_output": true,
+    "translation_provenance": "Not model predictions or a measured pipeline result.",
+    "image_processing": "graphics.prepare_layout / glyph masks / render with explicitly curated white-bubble fills. Not an automatic cleanup quality claim.",
+    "artwork_note": "Illustration and decorative sound-effect lettering remain unchanged outside the selected dialogue masks. See the parent directory LICENSE.txt and NOTICE.txt."
+  }
+}

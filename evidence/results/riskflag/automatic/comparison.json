@@ -1,0 +1,4229 @@
+{
+  "schema_version": 1,
+  "runs": {
+    "vntl-gold-c0": {
+      "path": "research\\results\\riskflag-confirm\\runs\\vntl-gold-c0\\report.json",
+      "score": {
+        "schema_version": 1,
+        "condition": {
+          "stage": "translate",
+          "input": "gold",
+          "backend": "vntl",
+          "config": {
+            "work": "default",
+            "target_language": "en",
+            "device": "cuda:0",
+            "memory_policy": "staged",
+            "memory_db": "research\\results\\riskflag-confirm\\runs\\vntl-gold-c0\\terms.sqlite3",
+            "model_path": "best.pt",
+            "translation_backend": "vntl",
+            "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+            "llama_context_size": 2048,
+            "model_name": "Qwen/Qwen2.5-3B-Instruct",
+            "adapter_path": "",
+            "detection_conf": 0.5,
+            "detect_free_text": true,
+            "magi_model_path": "runtime\\magiv2",
+            "reading_direction": "rtl",
+            "translation_mode": "individual",
+            "group_size": 4,
+            "context_chars": 0,
+            "use_continuations": false,
+            "use_translation_history": false,
+            "max_new_tokens": 256,
+            "retries": 1,
+            "extract_terms": false,
+            "local_files_only": true,
+            "font_path": null,
+            "min_font_size": 12,
+            "max_font_size": 40,
+            "skip_inpaint": false,
+            "debug_mask": false,
+            "export_images": false
+          },
+          "terms": "disabled; independent empty database",
+          "order": "annotation index; not human-verified reading order",
+          "crop": "reference text boxes, production OCR 4px padding; no bubble-margin shrink"
+        },
+        "selection": [
+          "rasetugari:p0001",
+          "rasetugari:p0002",
+          "rasetugari:p0003",
+          "rasetugari:p0004",
+          "rasetugari:p0005",
+          "rasetugari:p0006",
+          "rasetugari:p0007",
+          "rasetugari:p0008",
+          "rasetugari:p0009",
+          "rasetugari:p0010",
+          "rasetugari:p0011",
+          "rasetugari:p0012",
+          "rasetugari:p0013",
+          "rasetugari:p0014",
+          "rasetugari:p0015",
+          "rasetugari:p0016",
+          "rasetugari:p0017",
+          "rasetugari:p0018",
+          "rasetugari:p0019",
+          "rasetugari:p0020",
+          "rasetugari:p0021",
+          "rasetugari:p0022",
+          "rasetugari:p0023",
+          "rasetugari:p0024",
+          "rasetugari:p0025",
+          "rasetugari:p0026",
+          "rasetugari:p0027",
+          "rasetugari:p0028",
+          "rasetugari:p0029",
+          "rasetugari:p0030",
+          "rasetugari:p0031",
+          "rasetugari:p0032",
+          "rasetugari:p0033",
+          "rasetugari:p0034",
+          "rasetugari:p0035",
+          "rasetugari:p0036",
+          "rasetugari:p0037",
+          "rasetugari:p0038",
+          "rasetugari:p0039",
+          "rasetugari:p0040",
+          "rasetugari:p0041",
+          "rasetugari:p0042",
+          "rasetugari:p0043",
+          "rasetugari:p0044",
+          "rasetugari:p0045",
+          "rasetugari:p0046",
+          "rasetugari:p0047",
+          "rasetugari:p0048",
+          "rasetugari:p0049",
+          "rasetugari:p0050",
+          "rasetugari:p0051",
+          "rasetugari:p0052",
+          "rasetugari:p0053",
+          "rasetugari:p0054"
+        ],
+        "pages": 54,
+        "blocks": 359,
+        "works": 1,
+        "missing_pages": 0,
+        "missing_blocks": 0,
+        "translation_requested": true,
+        "by_book": {
+          "rasetugari": {
+            "pages": 54,
+            "blocks": 359,
+            "chrf_pp": 29.772864240860418,
+            "eligible_blocks": 358,
+            "failed_blocks": 3
+          }
+        },
+        "limitations": [
+          "Scores and page-bootstrap intervals are conditional on the selected works; they do not estimate generalization to unseen works.",
+          "Page bootstrap does not model dependence between adjacent pages/scenes."
+        ],
+        "chrf_pp": 29.772864240860418,
+        "eligible_blocks": 358,
+        "failed_blocks": 3,
+        "work_macro_chrf_pp": 29.772864240860418,
+        "excluded_from_mt": 1,
+        "exclusion_rule": "Empty/whitespace-only gold Japanese or English; failures are NOT excluded",
+        "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "failed_fraction": 0.008379888268156424
+      },
+      "timing": {
+        "load_seconds": 10.385360400017817,
+        "load_count": 1,
+        "wall_seconds": 187.48064849997172,
+        "warm_pages": 50,
+        "warm_mean_seconds": 2.78747304399265,
+        "warm_median_seconds": 2.6399279500183184,
+        "warm_p95_seconds": 4.911054075020365,
+        "first_page_seconds": 13.822667799948249,
+        "device_peak_mib": 6535.0,
+        "requests": 358,
+        "retry_requests": 3
+      },
+      "model": {},
+      "hardware": {
+        "platform": "Windows-11-10.0.26220-SP0",
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main) [MSC v.1929 64 bit (AMD64)]",
+        "python_executable": ".venv\\Scripts\\python.exe",
+        "logical_cpus": 32,
+        "torch_package": "2.10.0+cu126",
+        "installed_ram_bytes": 17179869184
+      },
+      "gpu_devices": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+          "driver": "610.62",
+          "total_mib": 8188.0,
+          "used_mib": 1917.0
+        }
+      ],
+      "runtime_sessions": [
+        {
+          "seconds": 187.48064849997172,
+          "execution_device": null,
+          "model_load_seconds": {
+            "translation:vntl:E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf": 10.385360400017817
+          },
+          "model_load_counts": {
+            "translation:vntl:E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf": 1
+          },
+          "model_evictions": [],
+          "qwen_runtime": null,
+          "vntl_runtime": {
+            "backend": "vntl",
+            "model_file": "E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "requested_quantization": "Q4_K_M",
+            "model_bytes": 4920735744,
+            "context_size": 2048,
+            "command": [
+              "E:\\AI-Manga-Translator-runtime\\llama.cpp\\b11706\\llama-server.exe",
+              "--model",
+              "E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+              "--host",
+              "127.0.0.1",
+              "--port",
+              "2283",
+              "--device",
+              "CUDA0",
+              "--gpu-layers",
+              "99",
+              "--split-mode",
+              "none",
+              "--fit",
+              "off",
+              "--ctx-size",
+              "2048",
+              "--parallel",
+              "1",
+              "--batch-size",
+              "256",
+              "--ubatch-size",
+              "128",
+              "--flash-attn",
+              "on",
+              "--cache-ram",
+              "0",
+              "--threads",
+              "4",
+              "--threads-batch",
+              "4",
+              "--verbosity",
+              "4",
+              "--no-context-shift",
+              "--no-webui"
+            ],
+            "log_path": "data\\vntl\\llama-<id>.log",
+            "generation_calls": 358,
+            "generation_seconds": 167.7808991993079,
+            "temperature": 0,
+            "repeat_penalty": 1.0,
+            "load_seconds": 10.385360400017817,
+            "offloaded_layers": 33,
+            "quantization": "Q4_K - Medium",
+            "total_layers": 33,
+            "buffers": [
+              "0.01.999.989 I load_tensors: offloaded 33/33 layers to GPU",
+              "0.01.999.995 I load_tensors:   CPU_Mapped model buffer size =   281.81 MiB",
+              "0.01.999.997 I load_tensors:        CUDA0 model buffer size =  4403.49 MiB",
+              "0.09.396.665 I llama_context:  CUDA_Host  output buffer size =     0.49 MiB",
+              "0.09.400.139 I llama_kv_cache:      CUDA0 KV buffer size =   256.00 MiB",
+              "0.09.448.728 I sched_reserve:      CUDA0 compute buffer size =    29.50 MiB",
+              "0.09.448.739 I sched_reserve:  CUDA_Host compute buffer size =     8.50 MiB"
+            ],
+            "pid": 35144,
+            "last_timings": {
+              "cache_n": 55,
+              "prompt_n": 20,
+              "prompt_ms": 92.04,
+              "prompt_per_token_ms": 4.602,
+              "prompt_per_second": 217.29682746631897,
+              "predicted_n": 17,
+              "predicted_ms": 401.547,
+              "predicted_per_token_ms": 25.0966875,
+              "predicted_per_second": 39.845895997230706
+            }
+          }
+        }
+      ],
+      "splits": [
+        "train"
+      ],
+      "books": [
+        "rasetugari"
+      ],
+      "runtime_error": null,
+      "cancelled": false
+    },
+    "vntl-ocr-c0": {
+      "path": "research\\results\\riskflag-confirm\\runs\\vntl-ocr-c0\\report.json",
+      "score": {
+        "schema_version": 1,
+        "condition": {
+          "stage": "translate",
+          "input": "ocr",
+          "backend": "vntl",
+          "config": {
+            "work": "default",
+            "target_language": "en",
+            "device": "cuda:0",
+            "memory_policy": "staged",
+            "memory_db": "research\\results\\riskflag-confirm\\runs\\vntl-ocr-c0\\terms.sqlite3",
+            "model_path": "best.pt",
+            "translation_backend": "vntl",
+            "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+            "llama_context_size": 2048,
+            "model_name": "Qwen/Qwen2.5-3B-Instruct",
+            "adapter_path": "",
+            "detection_conf": 0.5,
+            "detect_free_text": true,
+            "magi_model_path": "runtime\\magiv2",
+            "reading_direction": "rtl",
+            "translation_mode": "individual",
+            "group_size": 4,
+            "context_chars": 0,
+            "use_continuations": false,
+            "use_translation_history": false,
+            "max_new_tokens": 256,
+            "retries": 1,
+            "extract_terms": false,
+            "local_files_only": true,
+            "font_path": null,
+            "min_font_size": 12,
+            "max_font_size": 40,
+            "skip_inpaint": false,
+            "debug_mask": false,
+            "export_images": false
+          },
+          "terms": "disabled; independent empty database",
+          "order": "annotation index; not human-verified reading order",
+          "crop": "reference text boxes, production OCR 4px padding; no bubble-margin shrink"
+        },
+        "selection": [
+          "rasetugari:p0001",
+          "rasetugari:p0002",
+          "rasetugari:p0003",
+          "rasetugari:p0004",
+          "rasetugari:p0005",
+          "rasetugari:p0006",
+          "rasetugari:p0007",
+          "rasetugari:p0008",
+          "rasetugari:p0009",
+          "rasetugari:p0010",
+          "rasetugari:p0011",
+          "rasetugari:p0012",
+          "rasetugari:p0013",
+          "rasetugari:p0014",
+          "rasetugari:p0015",
+          "rasetugari:p0016",
+          "rasetugari:p0017",
+          "rasetugari:p0018",
+          "rasetugari:p0019",
+          "rasetugari:p0020",
+          "rasetugari:p0021",
+          "rasetugari:p0022",
+          "rasetugari:p0023",
+          "rasetugari:p0024",
+          "rasetugari:p0025",
+          "rasetugari:p0026",
+          "rasetugari:p0027",
+          "rasetugari:p0028",
+          "rasetugari:p0029",
+          "rasetugari:p0030",
+          "rasetugari:p0031",
+          "rasetugari:p0032",
+          "rasetugari:p0033",
+          "rasetugari:p0034",
+          "rasetugari:p0035",
+          "rasetugari:p0036",
+          "rasetugari:p0037",
+          "rasetugari:p0038",
+          "rasetugari:p0039",
+          "rasetugari:p0040",
+          "rasetugari:p0041",
+          "rasetugari:p0042",
+          "rasetugari:p0043",
+          "rasetugari:p0044",
+          "rasetugari:p0045",
+          "rasetugari:p0046",
+          "rasetugari:p0047",
+          "rasetugari:p0048",
+          "rasetugari:p0049",
+          "rasetugari:p0050",
+          "rasetugari:p0051",
+          "rasetugari:p0052",
+          "rasetugari:p0053",
+          "rasetugari:p0054"
+        ],
+        "pages": 54,
+        "blocks": 359,
+        "works": 1,
+        "missing_pages": 0,
+        "missing_blocks": 0,
+        "translation_requested": true,
+        "by_book": {
+          "rasetugari": {
+            "pages": 54,
+            "blocks": 359,
+            "cer_nfc": {
+              "normalization": "NFC",
+              "reference_characters": 2926,
+              "edit_errors": 423,
+              "cer": 0.14456596035543404,
+              "empty_reference_count": 1,
+              "empty_reference_insertions": 4,
+              "empty_reference_nonempty_predictions": 1,
+              "empty_reference_false_positive_rate": 1.0,
+              "insertions_per_empty_reference": 4.0
+            },
+            "cer_no_whitespace": {
+              "normalization": "NFC, remove Unicode whitespace",
+              "reference_characters": 2925,
+              "edit_errors": 422,
+              "cer": 0.14427350427350427,
+              "empty_reference_count": 1,
+              "empty_reference_insertions": 4,
+              "empty_reference_nonempty_predictions": 1,
+              "empty_reference_false_positive_rate": 1.0,
+              "insertions_per_empty_reference": 4.0
+            },
+            "cer_width_space": {
+              "normalization": "NFC; map U+FF01..U+FF5E to ASCII; remove Unicode whitespace; preserve other punctuation/kana",
+              "reference_characters": 2925,
+              "edit_errors": 141,
+              "cer": 0.048205128205128206,
+              "empty_reference_count": 1,
+              "empty_reference_insertions": 4,
+              "empty_reference_nonempty_predictions": 1,
+              "empty_reference_false_positive_rate": 1.0,
+              "insertions_per_empty_reference": 4.0,
+              "format_only_regions": 85,
+              "format_only_rule": "Raw strings differ but are identical after this normalization"
+            },
+            "format_only_regions": 85,
+            "chrf_pp": 29.298217761710955,
+            "eligible_blocks": 358,
+            "failed_blocks": 3
+          }
+        },
+        "limitations": [
+          "Scores and page-bootstrap intervals are conditional on the selected works; they do not estimate generalization to unseen works.",
+          "Page bootstrap does not model dependence between adjacent pages/scenes."
+        ],
+        "cer_nfc": {
+          "normalization": "NFC",
+          "reference_characters": 2926,
+          "edit_errors": 423,
+          "cer": 0.14456596035543404,
+          "empty_reference_count": 1,
+          "empty_reference_insertions": 4,
+          "empty_reference_nonempty_predictions": 1,
+          "empty_reference_false_positive_rate": 1.0,
+          "insertions_per_empty_reference": 4.0
+        },
+        "cer_no_whitespace": {
+          "normalization": "NFC, remove Unicode whitespace",
+          "reference_characters": 2925,
+          "edit_errors": 422,
+          "cer": 0.14427350427350427,
+          "empty_reference_count": 1,
+          "empty_reference_insertions": 4,
+          "empty_reference_nonempty_predictions": 1,
+          "empty_reference_false_positive_rate": 1.0,
+          "insertions_per_empty_reference": 4.0
+        },
+        "cer_width_space": {
+          "normalization": "NFC; map U+FF01..U+FF5E to ASCII; remove Unicode whitespace; preserve other punctuation/kana",
+          "reference_characters": 2925,
+          "edit_errors": 141,
+          "cer": 0.048205128205128206,
+          "empty_reference_count": 1,
+          "empty_reference_insertions": 4,
+          "empty_reference_nonempty_predictions": 1,
+          "empty_reference_false_positive_rate": 1.0,
+          "insertions_per_empty_reference": 4.0,
+          "format_only_regions": 85,
+          "format_only_rule": "Raw strings differ but are identical after this normalization"
+        },
+        "format_only_regions": 85,
+        "chrf_pp": 29.298217761710955,
+        "eligible_blocks": 358,
+        "failed_blocks": 3,
+        "work_macro_chrf_pp": 29.298217761710955,
+        "excluded_from_mt": 1,
+        "exclusion_rule": "Empty/whitespace-only gold Japanese or English; failures are NOT excluded",
+        "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "failed_fraction": 0.008379888268156424
+      },
+      "timing": {
+        "load_seconds": 0,
+        "load_count": 0,
+        "wall_seconds": 207.43866980000166,
+        "warm_pages": 51,
+        "warm_mean_seconds": 3.146705247056625,
+        "warm_median_seconds": 3.297232199984137,
+        "warm_p95_seconds": 5.392909200018039,
+        "first_page_seconds": 3.190208400017582,
+        "device_peak_mib": 6664.0,
+        "requests": 358,
+        "retry_requests": 4
+      },
+      "model": {},
+      "hardware": {
+        "platform": "Windows-11-10.0.26220-SP0",
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main) [MSC v.1929 64 bit (AMD64)]",
+        "python_executable": ".venv\\Scripts\\python.exe",
+        "logical_cpus": 32,
+        "torch_package": "2.10.0+cu126",
+        "installed_ram_bytes": 17179869184
+      },
+      "gpu_devices": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+          "driver": "610.62",
+          "total_mib": 8188.0,
+          "used_mib": 6402.0
+        }
+      ],
+      "runtime_sessions": [
+        {
+          "seconds": 207.43866980000166,
+          "execution_device": null,
+          "model_load_seconds": {},
+          "model_load_counts": {},
+          "model_evictions": [],
+          "qwen_runtime": null,
+          "vntl_runtime": {
+            "backend": "vntl",
+            "model_file": "E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "requested_quantization": "Q4_K_M",
+            "model_bytes": 4920735744,
+            "context_size": 2048,
+            "command": [
+              "E:\\AI-Manga-Translator-runtime\\llama.cpp\\b11706\\llama-server.exe",
+              "--model",
+              "E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+              "--host",
+              "127.0.0.1",
+              "--port",
+              "2283",
+              "--device",
+              "CUDA0",
+              "--gpu-layers",
+              "99",
+              "--split-mode",
+              "none",
+              "--fit",
+              "off",
+              "--ctx-size",
+              "2048",
+              "--parallel",
+              "1",
+              "--batch-size",
+              "256",
+              "--ubatch-size",
+              "128",
+              "--flash-attn",
+              "on",
+              "--cache-ram",
+              "0",
+              "--threads",
+              "4",
+              "--threads-batch",
+              "4",
+              "--verbosity",
+              "4",
+              "--no-context-shift",
+              "--no-webui"
+            ],
+            "log_path": "data\\vntl\\llama-<id>.log",
+            "generation_calls": 716,
+            "generation_seconds": 366.6009799995227,
+            "temperature": 0,
+            "repeat_penalty": 1.0,
+            "load_seconds": 10.385360400017817,
+            "offloaded_layers": 33,
+            "quantization": "Q4_K - Medium",
+            "total_layers": 33,
+            "buffers": [
+              "0.01.999.989 I load_tensors: offloaded 33/33 layers to GPU",
+              "0.01.999.995 I load_tensors:   CPU_Mapped model buffer size =   281.81 MiB",
+              "0.01.999.997 I load_tensors:        CUDA0 model buffer size =  4403.49 MiB",
+              "0.09.396.665 I llama_context:  CUDA_Host  output buffer size =     0.49 MiB",
+              "0.09.400.139 I llama_kv_cache:      CUDA0 KV buffer size =   256.00 MiB",
+              "0.09.448.728 I sched_reserve:      CUDA0 compute buffer size =    29.50 MiB",
+              "0.09.448.739 I sched_reserve:  CUDA_Host compute buffer size =     8.50 MiB"
+            ],
+            "pid": 35144,
+            "last_timings": {
+              "cache_n": 55,
+              "prompt_n": 20,
+              "prompt_ms": 58.147,
+              "prompt_per_token_ms": 2.90735,
+              "prompt_per_second": 343.95583607064856,
+              "predicted_n": 17,
+              "predicted_ms": 352.744,
+              "predicted_per_token_ms": 22.0465,
+              "predicted_per_second": 45.35867371238064
+            }
+          }
+        }
+      ],
+      "splits": [
+        "train"
+      ],
+      "books": [
+        "rasetugari"
+      ],
+      "runtime_error": null,
+      "cancelled": false
+    },
+    "vntl-gold-c1200": {
+      "path": "research\\results\\riskflag-confirm\\runs\\vntl-gold-c1200\\report.json",
+      "score": {
+        "schema_version": 1,
+        "condition": {
+          "stage": "translate",
+          "input": "gold",
+          "backend": "vntl",
+          "config": {
+            "work": "default",
+            "target_language": "en",
+            "device": "cuda:0",
+            "memory_policy": "staged",
+            "memory_db": "research\\results\\riskflag-confirm\\runs\\vntl-gold-c1200\\terms.sqlite3",
+            "model_path": "best.pt",
+            "translation_backend": "vntl",
+            "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+            "llama_context_size": 2048,
+            "model_name": "Qwen/Qwen2.5-3B-Instruct",
+            "adapter_path": "",
+            "detection_conf": 0.5,
+            "detect_free_text": true,
+            "magi_model_path": "runtime\\magiv2",
+            "reading_direction": "rtl",
+            "translation_mode": "individual",
+            "group_size": 4,
+            "context_chars": 1200,
+            "use_continuations": false,
+            "use_translation_history": false,
+            "max_new_tokens": 256,
+            "retries": 1,
+            "extract_terms": false,
+            "local_files_only": true,
+            "font_path": null,
+            "min_font_size": 12,
+            "max_font_size": 40,
+            "skip_inpaint": false,
+            "debug_mask": false,
+            "export_images": false
+          },
+          "terms": "disabled; independent empty database",
+          "order": "annotation index; not human-verified reading order",
+          "crop": "reference text boxes, production OCR 4px padding; no bubble-margin shrink"
+        },
+        "selection": [
+          "rasetugari:p0001",
+          "rasetugari:p0002",
+          "rasetugari:p0003",
+          "rasetugari:p0004",
+          "rasetugari:p0005",
+          "rasetugari:p0006",
+          "rasetugari:p0007",
+          "rasetugari:p0008",
+          "rasetugari:p0009",
+          "rasetugari:p0010",
+          "rasetugari:p0011",
+          "rasetugari:p0012",
+          "rasetugari:p0013",
+          "rasetugari:p0014",
+          "rasetugari:p0015",
+          "rasetugari:p0016",
+          "rasetugari:p0017",
+          "rasetugari:p0018",
+          "rasetugari:p0019",
+          "rasetugari:p0020",
+          "rasetugari:p0021",
+          "rasetugari:p0022",
+          "rasetugari:p0023",
+          "rasetugari:p0024",
+          "rasetugari:p0025",
+          "rasetugari:p0026",
+          "rasetugari:p0027",
+          "rasetugari:p0028",
+          "rasetugari:p0029",
+          "rasetugari:p0030",
+          "rasetugari:p0031",
+          "rasetugari:p0032",
+          "rasetugari:p0033",
+          "rasetugari:p0034",
+          "rasetugari:p0035",
+          "rasetugari:p0036",
+          "rasetugari:p0037",
+          "rasetugari:p0038",
+          "rasetugari:p0039",
+          "rasetugari:p0040",
+          "rasetugari:p0041",
+          "rasetugari:p0042",
+          "rasetugari:p0043",
+          "rasetugari:p0044",
+          "rasetugari:p0045",
+          "rasetugari:p0046",
+          "rasetugari:p0047",
+          "rasetugari:p0048",
+          "rasetugari:p0049",
+          "rasetugari:p0050",
+          "rasetugari:p0051",
+          "rasetugari:p0052",
+          "rasetugari:p0053",
+          "rasetugari:p0054"
+        ],
+        "pages": 54,
+        "blocks": 359,
+        "works": 1,
+        "missing_pages": 0,
+        "missing_blocks": 0,
+        "translation_requested": true,
+        "by_book": {
+          "rasetugari": {
+            "pages": 54,
+            "blocks": 359,
+            "chrf_pp": 29.60265676659577,
+            "eligible_blocks": 358,
+            "failed_blocks": 3
+          }
+        },
+        "limitations": [
+          "Scores and page-bootstrap intervals are conditional on the selected works; they do not estimate generalization to unseen works.",
+          "Page bootstrap does not model dependence between adjacent pages/scenes."
+        ],
+        "chrf_pp": 29.60265676659577,
+        "eligible_blocks": 358,
+        "failed_blocks": 3,
+        "work_macro_chrf_pp": 29.60265676659577,
+        "excluded_from_mt": 1,
+        "exclusion_rule": "Empty/whitespace-only gold Japanese or English; failures are NOT excluded",
+        "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "failed_fraction": 0.008379888268156424
+      },
+      "timing": {
+        "load_seconds": 0,
+        "load_count": 0,
+        "wall_seconds": 200.17227589996764,
+        "warm_pages": 51,
+        "warm_mean_seconds": 3.1734630235336154,
+        "warm_median_seconds": 2.860460099996999,
+        "warm_p95_seconds": 5.969370050006546,
+        "first_page_seconds": 2.8114650000352412,
+        "device_peak_mib": 6651.0,
+        "requests": 359,
+        "retry_requests": 4
+      },
+      "model": {},
+      "hardware": {
+        "platform": "Windows-11-10.0.26220-SP0",
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main) [MSC v.1929 64 bit (AMD64)]",
+        "python_executable": ".venv\\Scripts\\python.exe",
+        "logical_cpus": 32,
+        "torch_package": "2.10.0+cu126",
+        "installed_ram_bytes": 17179869184
+      },
+      "gpu_devices": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+          "driver": "610.62",
+          "total_mib": 8188.0,
+          "used_mib": 6297.0
+        }
+      ],
+      "runtime_sessions": [
+        {
+          "seconds": 200.17227589996764,
+          "execution_device": null,
+          "model_load_seconds": {},
+          "model_load_counts": {},
+          "model_evictions": [],
+          "qwen_runtime": null,
+          "vntl_runtime": {
+            "backend": "vntl",
+            "model_file": "E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "requested_quantization": "Q4_K_M",
+            "model_bytes": 4920735744,
+            "context_size": 2048,
+            "command": [
+              "E:\\AI-Manga-Translator-runtime\\llama.cpp\\b11706\\llama-server.exe",
+              "--model",
+              "E:\\AI-Manga-Translator-runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+              "--host",
+              "127.0.0.1",
+              "--port",
+              "2283",
+              "--device",
+              "CUDA0",
+              "--gpu-layers",
+              "99",
+              "--split-mode",
+              "none",
+              "--fit",
+              "off",
+              "--ctx-size",
+              "2048",
+              "--parallel",
+              "1",
+              "--batch-size",
+              "256",
+              "--ubatch-size",
+              "128",
+              "--flash-attn",
+              "on",
+              "--cache-ram",
+              "0",
+              "--threads",
+              "4",
+              "--threads-batch",
+              "4",
+              "--verbosity",
+              "4",
+              "--no-context-shift",
+              "--no-webui"
+            ],
+            "log_path": "data\\vntl\\llama-<id>.log",
+            "generation_calls": 1075,
+            "generation_seconds": 556.78514469933,
+            "temperature": 0,
+            "repeat_penalty": 1.0,
+            "load_seconds": 10.385360400017817,
+            "offloaded_layers": 33,
+            "quantization": "Q4_K - Medium",
+            "total_layers": 33,
+            "buffers": [
+              "0.01.999.989 I load_tensors: offloaded 33/33 layers to GPU",
+              "0.01.999.995 I load_tensors:   CPU_Mapped model buffer size =   281.81 MiB",
+              "0.01.999.997 I load_tensors:        CUDA0 model buffer size =  4403.49 MiB",
+              "0.09.396.665 I llama_context:  CUDA_Host  output buffer size =     0.49 MiB",
+              "0.09.400.139 I llama_kv_cache:      CUDA0 KV buffer size =   256.00 MiB",
+              "0.09.448.728 I sched_reserve:      CUDA0 compute buffer size =    29.50 MiB",
+              "0.09.448.739 I sched_reserve:  CUDA_Host compute buffer size =     8.50 MiB"
+            ],
+            "pid": 35144,
+            "last_timings": {
+              "cache_n": 129,
+              "prompt_n": 44,
+              "prompt_ms": 42.943,
+              "prompt_per_token_ms": 0.9759772727272726,
+              "prompt_per_second": 1024.614023240109,
+              "predicted_n": 19,
+              "predicted_ms": 418.866,
+              "predicted_per_token_ms": 23.270333333333333,
+              "predicted_per_second": 42.973170417269486
+            }
+          }
+        }
+      ],
+      "splits": [
+        "train"
+      ],
+      "books": [
+        "rasetugari"
+      ],
+      "runtime_error": null,
+      "cancelled": false
+    },
+    "qwen-gold-c0": {
+      "path": "research\\results\\riskflag-confirm\\runs\\qwen-gold-c0\\report.json",
+      "score": {
+        "schema_version": 1,
+        "condition": {
+          "stage": "translate",
+          "input": "gold",
+          "backend": "qwen",
+          "config": {
+            "work": "default",
+            "target_language": "en",
+            "device": "cuda:0",
+            "memory_policy": "staged",
+            "memory_db": "research\\results\\riskflag-confirm\\runs\\qwen-gold-c0\\terms.sqlite3",
+            "model_path": "best.pt",
+            "translation_backend": "qwen",
+            "gguf_path": "runtime\\vntl\\vntl-llama3-8b-v2-hf.Q4_K_M.gguf",
+            "llama_server_path": "runtime\\llama.cpp\\b11706\\llama-server.exe",
+            "llama_context_size": 2048,
+            "model_name": "Qwen/Qwen2.5-3B-Instruct",
+            "adapter_path": "",
+            "detection_conf": 0.5,
+            "detect_free_text": true,
+            "magi_model_path": "runtime\\magiv2",
+            "reading_direction": "rtl",
+            "translation_mode": "individual",
+            "group_size": 4,
+            "context_chars": 0,
+            "use_continuations": false,
+            "use_translation_history": false,
+            "max_new_tokens": 256,
+            "retries": 1,
+            "extract_terms": false,
+            "local_files_only": true,
+            "font_path": null,
+            "min_font_size": 12,
+            "max_font_size": 40,
+            "skip_inpaint": false,
+            "debug_mask": false,
+            "export_images": false
+          },
+          "terms": "disabled; independent empty database",
+          "order": "annotation index; not human-verified reading order",
+          "crop": "reference text boxes, production OCR 4px padding; no bubble-margin shrink"
+        },
+        "selection": [
+          "rasetugari:p0001",
+          "rasetugari:p0002",
+          "rasetugari:p0003",
+          "rasetugari:p0004",
+          "rasetugari:p0005",
+          "rasetugari:p0006",
+          "rasetugari:p0007",
+          "rasetugari:p0008",
+          "rasetugari:p0009",
+          "rasetugari:p0010",
+          "rasetugari:p0011",
+          "rasetugari:p0012",
+          "rasetugari:p0013",
+          "rasetugari:p0014",
+          "rasetugari:p0015",
+          "rasetugari:p0016",
+          "rasetugari:p0017",
+          "rasetugari:p0018",
+          "rasetugari:p0019",
+          "rasetugari:p0020",
+          "rasetugari:p0021",
+          "rasetugari:p0022",
+          "rasetugari:p0023",
+          "rasetugari:p0024",
+          "rasetugari:p0025",
+          "rasetugari:p0026",
+          "rasetugari:p0027",
+          "rasetugari:p0028",
+          "rasetugari:p0029",
+          "rasetugari:p0030",
+          "rasetugari:p0031",
+          "rasetugari:p0032",
+          "rasetugari:p0033",
+          "rasetugari:p0034",
+          "rasetugari:p0035",
+          "rasetugari:p0036",
+          "rasetugari:p0037",
+          "rasetugari:p0038",
+          "rasetugari:p0039",
+          "rasetugari:p0040",
+          "rasetugari:p0041",
+          "rasetugari:p0042",
+          "rasetugari:p0043",
+          "rasetugari:p0044",
+          "rasetugari:p0045",
+          "rasetugari:p0046",
+          "rasetugari:p0047",
+          "rasetugari:p0048",
+          "rasetugari:p0049",
+          "rasetugari:p0050",
+          "rasetugari:p0051",
+          "rasetugari:p0052",
+          "rasetugari:p0053",
+          "rasetugari:p0054"
+        ],
+        "pages": 54,
+        "blocks": 359,
+        "works": 1,
+        "missing_pages": 0,
+        "missing_blocks": 0,
+        "translation_requested": true,
+        "by_book": {
+          "rasetugari": {
+            "pages": 54,
+            "blocks": 359,
+            "chrf_pp": 24.005106590730552,
+            "eligible_blocks": 358,
+            "failed_blocks": 11
+          }
+        },
+        "limitations": [
+          "Scores and page-bootstrap intervals are conditional on the selected works; they do not estimate generalization to unseen works.",
+          "Page bootstrap does not model dependence between adjacent pages/scenes."
+        ],
+        "chrf_pp": 24.005106590730552,
+        "eligible_blocks": 358,
+        "failed_blocks": 11,
+        "work_macro_chrf_pp": 24.005106590730552,
+        "excluded_from_mt": 1,
+        "exclusion_rule": "Empty/whitespace-only gold Japanese or English; failures are NOT excluded",
+        "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "failed_fraction": 0.030726256983240222
+      },
+      "timing": {
+        "load_seconds": 12.421472600020934,
+        "load_count": 1,
+        "wall_seconds": 285.1925272999797,
+        "warm_pages": 43,
+        "warm_mean_seconds": 4.105856141861972,
+        "warm_median_seconds": 3.8325588000006974,
+        "warm_p95_seconds": 7.520283119968371,
+        "first_page_seconds": 18.945793899998534,
+        "device_peak_mib": 7651.0,
+        "requests": 379,
+        "retry_requests": 24
+      },
+      "model": {
+        "repository": "Qwen/Qwen2.5-3B-Instruct",
+        "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "snapshot": "~/.cache\\huggingface\\hub\\models--Qwen--Qwen2.5-3B-Instruct\\snapshots\\aa8e72537993ba99e69dfaafa59ed015b17504d1"
+      },
+      "hardware": {
+        "platform": "Windows-11-10.0.26220-SP0",
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main) [MSC v.1929 64 bit (AMD64)]",
+        "python_executable": ".venv\\Scripts\\python.exe",
+        "logical_cpus": 32,
+        "torch_package": "2.10.0+cu126",
+        "installed_ram_bytes": 17179869184
+      },
+      "gpu_devices": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+          "driver": "610.62",
+          "total_mib": 8188.0,
+          "used_mib": 1636.0
+        }
+      ],
+      "runtime_sessions": [
+        {
+          "seconds": 285.1925272999797,
+          "execution_device": "cuda:0",
+          "model_load_seconds": {
+            "translation:Qwen/Qwen2.5-3B-Instruct:": 12.421472600020934
+          },
+          "model_load_counts": {
+            "translation:Qwen/Qwen2.5-3B-Instruct:": 1
+          },
+          "model_evictions": [],
+          "qwen_runtime": {
+            "dtype": "torch.bfloat16",
+            "parameter_bytes_by_device": {
+              "cuda:0": 6171877376
+            },
+            "adapter_path": "",
+            "generation_config": {
+              "max_length": null,
+              "max_new_tokens": null,
+              "min_length": null,
+              "min_new_tokens": null,
+              "early_stopping": null,
+              "max_time": null,
+              "stop_strings": null,
+              "do_sample": true,
+              "num_beams": null,
+              "use_cache": null,
+              "cache_implementation": null,
+              "cache_config": null,
+              "max_cache_len": null,
+              "temperature": 0.7,
+              "top_k": 20,
+              "top_p": 0.8,
+              "min_p": null,
+              "top_h": null,
+              "typical_p": null,
+              "epsilon_cutoff": null,
+              "eta_cutoff": null,
+              "repetition_penalty": 1.05,
+              "encoder_repetition_penalty": null,
+              "length_penalty": null,
+              "no_repeat_ngram_size": null,
+              "bad_words_ids": null,
+              "renormalize_logits": null,
+              "forced_bos_token_id": null,
+              "forced_eos_token_id": null,
+              "remove_invalid_values": null,
+              "exponential_decay_length_penalty": null,
+              "suppress_tokens": null,
+              "begin_suppress_tokens": null,
+              "sequence_bias": null,
+              "token_healing": null,
+              "guidance_scale": null,
+              "watermarking_config": null,
+              "num_return_sequences": null,
+              "output_attentions": null,
+              "output_hidden_states": null,
+              "output_scores": null,
+              "output_logits": null,
+              "return_dict_in_generate": null,
+              "pad_token_id": 151643,
+              "bos_token_id": 151643,
+              "eos_token_id": [
+                151645,
+                151643
+              ],
+              "encoder_no_repeat_ngram_size": null,
+              "decoder_start_token_id": null,
+              "is_assistant": null,
+              "num_assistant_tokens": null,
+              "num_assistant_tokens_schedule": null,
+              "assistant_confidence_threshold": null,
+              "prompt_lookup_num_tokens": null,
+              "max_matching_ngram_size": null,
+              "assistant_early_exit": null,
+              "assistant_lookbehind": null,
+              "target_lookbehind": null,
+              "compile_config": null,
+              "disable_compile": null,
+              "continuous_batching_config": null,
+              "low_memory": null,
+              "penalty_alpha": null,
+              "dola_layers": null,
+              "diversity_penalty": null,
+              "num_beam_groups": null,
+              "constraints": null,
+              "force_words_ids": null,
+              "prefill_chunk_size": null,
+              "_from_model_config": null,
+              "transformers_version": "5.13.1"
+            },
+            "generation_overrides": {
+              "do_sample": false,
+              "max_new_tokens": 256,
+              "pad_token_id": 151643
+            }
+          },
+          "vntl_runtime": null
+        }
+      ],
+      "splits": [
+        "train"
+      ],
+      "books": [
+        "rasetugari"
+      ],
+      "runtime_error": null,
+      "cancelled": false
+    }
+  },
+  "contrasts": [
+    {
+      "baseline": "vntl-gold-c0",
+      "candidate": "vntl-ocr-c0",
+      "recorded_changed_factors": [
+        "input"
+      ],
+      "metric": "work-macro corpus chrF++",
+      "delta_direction": "candidate - baseline",
+      "delta": -0.4746464791494631,
+      "ci95": [
+        -1.8408838185709429,
+        0.4771372030662384
+      ],
+      "bootstrap_mean_delta": -0.46779370181715396,
+      "samples": 2000,
+      "seed": 2026102003,
+      "unit": "page",
+      "stratification": "book",
+      "paired": true,
+      "by_book_delta": {
+        "rasetugari": -0.4746464791494631
+      },
+      "pages_per_book": {
+        "rasetugari": 54
+      },
+      "excluded_pages_without_mt_pairs": 0,
+      "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "limitation": "Conditional on these works; pages within a scene may be dependent. One-page strata cannot estimate within-work sampling uncertainty. A nonzero interval is not proof of semantic correctness or broad generalization."
+    },
+    {
+      "baseline": "vntl-gold-c0",
+      "candidate": "vntl-gold-c1200",
+      "recorded_changed_factors": [
+        "config.context_chars"
+      ],
+      "metric": "work-macro corpus chrF++",
+      "delta_direction": "candidate - baseline",
+      "delta": -0.17020747426464666,
+      "ci95": [
+        -1.2063722367159748,
+        0.81127429413542
+      ],
+      "bootstrap_mean_delta": -0.17887315426132994,
+      "samples": 2000,
+      "seed": 2026102003,
+      "unit": "page",
+      "stratification": "book",
+      "paired": true,
+      "by_book_delta": {
+        "rasetugari": -0.17020747426464666
+      },
+      "pages_per_book": {
+        "rasetugari": 54
+      },
+      "excluded_pages_without_mt_pairs": 0,
+      "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "limitation": "Conditional on these works; pages within a scene may be dependent. One-page strata cannot estimate within-work sampling uncertainty. A nonzero interval is not proof of semantic correctness or broad generalization."
+    },
+    {
+      "baseline": "qwen-gold-c0",
+      "candidate": "vntl-gold-c0",
+      "recorded_changed_factors": [
+        "backend",
+        "config.translation_backend",
+        "model"
+      ],
+      "metric": "work-macro corpus chrF++",
+      "delta_direction": "candidate - baseline",
+      "delta": 5.767757650129866,
+      "ci95": [
+        3.8725611122115557,
+        7.55512783676369
+      ],
+      "bootstrap_mean_delta": 5.749412511447957,
+      "samples": 2000,
+      "seed": 2026102003,
+      "unit": "page",
+      "stratification": "book",
+      "paired": true,
+      "by_book_delta": {
+        "rasetugari": 5.767757650129866
+      },
+      "pages_per_book": {
+        "rasetugari": 54
+      },
+      "excluded_pages_without_mt_pairs": 0,
+      "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "limitation": "Conditional on these works; pages within a scene may be dependent. One-page strata cannot estimate within-work sampling uncertainty. A nonzero interval is not proof of semantic correctness or broad generalization."
+    }
+  ],
+  "review_count": 151,
+  "review_seed": 2026102003,
+  "review_key": [
+    {
+      "item": "item001-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0001:t000"
+    },
+    {
+      "item": "item001-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0001:t000"
+    },
+    {
+      "item": "item001-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0001:t000"
+    },
+    {
+      "item": "item001-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0001:t000"
+    },
+    {
+      "item": "item002-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0001:t004"
+    },
+    {
+      "item": "item002-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0001:t004"
+    },
+    {
+      "item": "item002-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0001:t004"
+    },
+    {
+      "item": "item002-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0001:t004"
+    },
+    {
+      "item": "item003-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0001:t005"
+    },
+    {
+      "item": "item003-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0001:t005"
+    },
+    {
+      "item": "item003-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0001:t005"
+    },
+    {
+      "item": "item003-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0001:t005"
+    },
+    {
+      "item": "item004-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0002:t000"
+    },
+    {
+      "item": "item004-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0002:t000"
+    },
+    {
+      "item": "item004-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0002:t000"
+    },
+    {
+      "item": "item004-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0002:t000"
+    },
+    {
+      "item": "item005-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0002:t001"
+    },
+    {
+      "item": "item005-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0002:t001"
+    },
+    {
+      "item": "item005-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0002:t001"
+    },
+    {
+      "item": "item005-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0002:t001"
+    },
+    {
+      "item": "item006-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0002:t002"
+    },
+    {
+      "item": "item006-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0002:t002"
+    },
+    {
+      "item": "item006-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0002:t002"
+    },
+    {
+      "item": "item006-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0002:t002"
+    },
+    {
+      "item": "item007-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0003:t001"
+    },
+    {
+      "item": "item007-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0003:t001"
+    },
+    {
+      "item": "item007-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0003:t001"
+    },
+    {
+      "item": "item007-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0003:t001"
+    },
+    {
+      "item": "item008-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0004:t000"
+    },
+    {
+      "item": "item008-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0004:t000"
+    },
+    {
+      "item": "item008-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0004:t000"
+    },
+    {
+      "item": "item008-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0004:t000"
+    },
+    {
+      "item": "item009-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0004:t001"
+    },
+    {
+      "item": "item009-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0004:t001"
+    },
+    {
+      "item": "item009-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0004:t001"
+    },
+    {
+      "item": "item009-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0004:t001"
+    },
+    {
+      "item": "item010-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0004:t004"
+    },
+    {
+      "item": "item010-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0004:t004"
+    },
+    {
+      "item": "item010-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0004:t004"
+    },
+    {
+      "item": "item010-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0004:t004"
+    },
+    {
+      "item": "item011-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0005:t003"
+    },
+    {
+      "item": "item011-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0005:t003"
+    },
+    {
+      "item": "item011-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0005:t003"
+    },
+    {
+      "item": "item011-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0005:t003"
+    },
+    {
+      "item": "item012-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0005:t004"
+    },
+    {
+      "item": "item012-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0005:t004"
+    },
+    {
+      "item": "item012-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0005:t004"
+    },
+    {
+      "item": "item012-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0005:t004"
+    },
+    {
+      "item": "item013-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0005:t005"
+    },
+    {
+      "item": "item013-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0005:t005"
+    },
+    {
+      "item": "item013-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0005:t005"
+    },
+    {
+      "item": "item013-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0005:t005"
+    },
+    {
+      "item": "item014-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0006:t001"
+    },
+    {
+      "item": "item014-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0006:t001"
+    },
+    {
+      "item": "item014-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0006:t001"
+    },
+    {
+      "item": "item014-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0006:t001"
+    },
+    {
+      "item": "item015-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0006:t002"
+    },
+    {
+      "item": "item015-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0006:t002"
+    },
+    {
+      "item": "item015-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0006:t002"
+    },
+    {
+      "item": "item015-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0006:t002"
+    },
+    {
+      "item": "item016-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0006:t003"
+    },
+    {
+      "item": "item016-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0006:t003"
+    },
+    {
+      "item": "item016-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0006:t003"
+    },
+    {
+      "item": "item016-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0006:t003"
+    },
+    {
+      "item": "item017-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0007:t000"
+    },
+    {
+      "item": "item017-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0007:t000"
+    },
+    {
+      "item": "item017-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0007:t000"
+    },
+    {
+      "item": "item017-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0007:t000"
+    },
+    {
+      "item": "item018-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0007:t001"
+    },
+    {
+      "item": "item018-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0007:t001"
+    },
+    {
+      "item": "item018-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0007:t001"
+    },
+    {
+      "item": "item018-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0007:t001"
+    },
+    {
+      "item": "item019-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0007:t002"
+    },
+    {
+      "item": "item019-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0007:t002"
+    },
+    {
+      "item": "item019-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0007:t002"
+    },
+    {
+      "item": "item019-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0007:t002"
+    },
+    {
+      "item": "item020-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0008:t001"
+    },
+    {
+      "item": "item020-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0008:t001"
+    },
+    {
+      "item": "item020-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0008:t001"
+    },
+    {
+      "item": "item020-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0008:t001"
+    },
+    {
+      "item": "item021-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0008:t003"
+    },
+    {
+      "item": "item021-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0008:t003"
+    },
+    {
+      "item": "item021-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0008:t003"
+    },
+    {
+      "item": "item021-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0008:t003"
+    },
+    {
+      "item": "item022-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0008:t006"
+    },
+    {
+      "item": "item022-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0008:t006"
+    },
+    {
+      "item": "item022-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0008:t006"
+    },
+    {
+      "item": "item022-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0008:t006"
+    },
+    {
+      "item": "item023-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0009:t000"
+    },
+    {
+      "item": "item023-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0009:t000"
+    },
+    {
+      "item": "item023-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0009:t000"
+    },
+    {
+      "item": "item023-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0009:t000"
+    },
+    {
+      "item": "item024-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0009:t002"
+    },
+    {
+      "item": "item024-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0009:t002"
+    },
+    {
+      "item": "item024-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0009:t002"
+    },
+    {
+      "item": "item024-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0009:t002"
+    },
+    {
+      "item": "item025-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0009:t003"
+    },
+    {
+      "item": "item025-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0009:t003"
+    },
+    {
+      "item": "item025-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0009:t003"
+    },
+    {
+      "item": "item025-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0009:t003"
+    },
+    {
+      "item": "item026-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0010:t000"
+    },
+    {
+      "item": "item026-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0010:t000"
+    },
+    {
+      "item": "item026-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0010:t000"
+    },
+    {
+      "item": "item026-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0010:t000"
+    },
+    {
+      "item": "item027-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0010:t002"
+    },
+    {
+      "item": "item027-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0010:t002"
+    },
+    {
+      "item": "item027-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0010:t002"
+    },
+    {
+      "item": "item027-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0010:t002"
+    },
+    {
+      "item": "item028-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0010:t004"
+    },
+    {
+      "item": "item028-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0010:t004"
+    },
+    {
+      "item": "item028-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0010:t004"
+    },
+    {
+      "item": "item028-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0010:t004"
+    },
+    {
+      "item": "item029-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0011:t001"
+    },
+    {
+      "item": "item029-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0011:t001"
+    },
+    {
+      "item": "item029-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0011:t001"
+    },
+    {
+      "item": "item029-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0011:t001"
+    },
+    {
+      "item": "item030-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0011:t002"
+    },
+    {
+      "item": "item030-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0011:t002"
+    },
+    {
+      "item": "item030-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0011:t002"
+    },
+    {
+      "item": "item030-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0011:t002"
+    },
+    {
+      "item": "item031-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0011:t004"
+    },
+    {
+      "item": "item031-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0011:t004"
+    },
+    {
+      "item": "item031-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0011:t004"
+    },
+    {
+      "item": "item031-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0011:t004"
+    },
+    {
+      "item": "item032-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0012:t002"
+    },
+    {
+      "item": "item032-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0012:t002"
+    },
+    {
+      "item": "item032-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0012:t002"
+    },
+    {
+      "item": "item032-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0012:t002"
+    },
+    {
+      "item": "item033-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0012:t003"
+    },
+    {
+      "item": "item033-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0012:t003"
+    },
+    {
+      "item": "item033-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0012:t003"
+    },
+    {
+      "item": "item033-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0012:t003"
+    },
+    {
+      "item": "item034-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0012:t006"
+    },
+    {
+      "item": "item034-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0012:t006"
+    },
+    {
+      "item": "item034-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0012:t006"
+    },
+    {
+      "item": "item034-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0012:t006"
+    },
+    {
+      "item": "item035-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0013:t000"
+    },
+    {
+      "item": "item035-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0013:t000"
+    },
+    {
+      "item": "item035-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0013:t000"
+    },
+    {
+      "item": "item035-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0013:t000"
+    },
+    {
+      "item": "item036-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0013:t004"
+    },
+    {
+      "item": "item036-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0013:t004"
+    },
+    {
+      "item": "item036-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0013:t004"
+    },
+    {
+      "item": "item036-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0013:t004"
+    },
+    {
+      "item": "item037-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0013:t006"
+    },
+    {
+      "item": "item037-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0013:t006"
+    },
+    {
+      "item": "item037-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0013:t006"
+    },
+    {
+      "item": "item037-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0013:t006"
+    },
+    {
+      "item": "item038-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0014:t000"
+    },
+    {
+      "item": "item038-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0014:t000"
+    },
+    {
+      "item": "item038-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0014:t000"
+    },
+    {
+      "item": "item038-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0014:t000"
+    },
+    {
+      "item": "item039-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0014:t007"
+    },
+    {
+      "item": "item039-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0014:t007"
+    },
+    {
+      "item": "item039-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0014:t007"
+    },
+    {
+      "item": "item039-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0014:t007"
+    },
+    {
+      "item": "item040-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0014:t009"
+    },
+    {
+      "item": "item040-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0014:t009"
+    },
+    {
+      "item": "item040-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0014:t009"
+    },
+    {
+      "item": "item040-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0014:t009"
+    },
+    {
+      "item": "item041-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0015:t000"
+    },
+    {
+      "item": "item041-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0015:t000"
+    },
+    {
+      "item": "item041-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0015:t000"
+    },
+    {
+      "item": "item041-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0015:t000"
+    },
+    {
+      "item": "item042-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0015:t001"
+    },
+    {
+      "item": "item042-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0015:t001"
+    },
+    {
+      "item": "item042-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0015:t001"
+    },
+    {
+      "item": "item042-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0015:t001"
+    },
+    {
+      "item": "item043-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0015:t003"
+    },
+    {
+      "item": "item043-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0015:t003"
+    },
+    {
+      "item": "item043-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0015:t003"
+    },
+    {
+      "item": "item043-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0015:t003"
+    },
+    {
+      "item": "item044-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0016:t000"
+    },
+    {
+      "item": "item044-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0016:t000"
+    },
+    {
+      "item": "item044-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0016:t000"
+    },
+    {
+      "item": "item044-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0016:t000"
+    },
+    {
+      "item": "item045-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0016:t001"
+    },
+    {
+      "item": "item045-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0016:t001"
+    },
+    {
+      "item": "item045-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0016:t001"
+    },
+    {
+      "item": "item045-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0016:t001"
+    },
+    {
+      "item": "item046-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0016:t004"
+    },
+    {
+      "item": "item046-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0016:t004"
+    },
+    {
+      "item": "item046-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0016:t004"
+    },
+    {
+      "item": "item046-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0016:t004"
+    },
+    {
+      "item": "item047-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0017:t000"
+    },
+    {
+      "item": "item047-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0017:t000"
+    },
+    {
+      "item": "item047-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0017:t000"
+    },
+    {
+      "item": "item047-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0017:t000"
+    },
+    {
+      "item": "item048-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0017:t006"
+    },
+    {
+      "item": "item048-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0017:t006"
+    },
+    {
+      "item": "item048-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0017:t006"
+    },
+    {
+      "item": "item048-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0017:t006"
+    },
+    {
+      "item": "item049-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0017:t008"
+    },
+    {
+      "item": "item049-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0017:t008"
+    },
+    {
+      "item": "item049-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0017:t008"
+    },
+    {
+      "item": "item049-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0017:t008"
+    },
+    {
+      "item": "item050-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0018:t000"
+    },
+    {
+      "item": "item050-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0018:t000"
+    },
+    {
+      "item": "item050-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0018:t000"
+    },
+    {
+      "item": "item050-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0018:t000"
+    },
+    {
+      "item": "item051-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0019:t001"
+    },
+    {
+      "item": "item051-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0019:t001"
+    },
+    {
+      "item": "item051-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0019:t001"
+    },
+    {
+      "item": "item051-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0019:t001"
+    },
+    {
+      "item": "item052-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0019:t002"
+    },
+    {
+      "item": "item052-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0019:t002"
+    },
+    {
+      "item": "item052-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0019:t002"
+    },
+    {
+      "item": "item052-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0019:t002"
+    },
+    {
+      "item": "item053-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0019:t005"
+    },
+    {
+      "item": "item053-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0019:t005"
+    },
+    {
+      "item": "item053-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0019:t005"
+    },
+    {
+      "item": "item053-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0019:t005"
+    },
+    {
+      "item": "item054-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0020:t001"
+    },
+    {
+      "item": "item054-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0020:t001"
+    },
+    {
+      "item": "item054-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0020:t001"
+    },
+    {
+      "item": "item054-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0020:t001"
+    },
+    {
+      "item": "item055-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0020:t003"
+    },
+    {
+      "item": "item055-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0020:t003"
+    },
+    {
+      "item": "item055-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0020:t003"
+    },
+    {
+      "item": "item055-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0020:t003"
+    },
+    {
+      "item": "item056-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0020:t005"
+    },
+    {
+      "item": "item056-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0020:t005"
+    },
+    {
+      "item": "item056-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0020:t005"
+    },
+    {
+      "item": "item056-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0020:t005"
+    },
+    {
+      "item": "item057-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0021:t002"
+    },
+    {
+      "item": "item057-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0021:t002"
+    },
+    {
+      "item": "item057-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0021:t002"
+    },
+    {
+      "item": "item057-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0021:t002"
+    },
+    {
+      "item": "item058-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0021:t003"
+    },
+    {
+      "item": "item058-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0021:t003"
+    },
+    {
+      "item": "item058-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0021:t003"
+    },
+    {
+      "item": "item058-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0021:t003"
+    },
+    {
+      "item": "item059-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0021:t004"
+    },
+    {
+      "item": "item059-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0021:t004"
+    },
+    {
+      "item": "item059-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0021:t004"
+    },
+    {
+      "item": "item059-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0021:t004"
+    },
+    {
+      "item": "item060-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0022:t000"
+    },
+    {
+      "item": "item060-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0022:t000"
+    },
+    {
+      "item": "item060-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0022:t000"
+    },
+    {
+      "item": "item060-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0022:t000"
+    },
+    {
+      "item": "item061-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0022:t001"
+    },
+    {
+      "item": "item061-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0022:t001"
+    },
+    {
+      "item": "item061-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0022:t001"
+    },
+    {
+      "item": "item061-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0022:t001"
+    },
+    {
+      "item": "item062-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0022:t004"
+    },
+    {
+      "item": "item062-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0022:t004"
+    },
+    {
+      "item": "item062-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0022:t004"
+    },
+    {
+      "item": "item062-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0022:t004"
+    },
+    {
+      "item": "item063-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0023:t002"
+    },
+    {
+      "item": "item063-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0023:t002"
+    },
+    {
+      "item": "item063-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0023:t002"
+    },
+    {
+      "item": "item063-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0023:t002"
+    },
+    {
+      "item": "item064-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0023:t003"
+    },
+    {
+      "item": "item064-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0023:t003"
+    },
+    {
+      "item": "item064-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0023:t003"
+    },
+    {
+      "item": "item064-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0023:t003"
+    },
+    {
+      "item": "item065-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0023:t004"
+    },
+    {
+      "item": "item065-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0023:t004"
+    },
+    {
+      "item": "item065-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0023:t004"
+    },
+    {
+      "item": "item065-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0023:t004"
+    },
+    {
+      "item": "item066-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0024:t000"
+    },
+    {
+      "item": "item066-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0024:t000"
+    },
+    {
+      "item": "item066-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0024:t000"
+    },
+    {
+      "item": "item066-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0024:t000"
+    },
+    {
+      "item": "item067-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0024:t001"
+    },
+    {
+      "item": "item067-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0024:t001"
+    },
+    {
+      "item": "item067-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0024:t001"
+    },
+    {
+      "item": "item067-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0024:t001"
+    },
+    {
+      "item": "item068-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0024:t005"
+    },
+    {
+      "item": "item068-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0024:t005"
+    },
+    {
+      "item": "item068-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0024:t005"
+    },
+    {
+      "item": "item068-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0024:t005"
+    },
+    {
+      "item": "item069-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0025:t001"
+    },
+    {
+      "item": "item069-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0025:t001"
+    },
+    {
+      "item": "item069-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0025:t001"
+    },
+    {
+      "item": "item069-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0025:t001"
+    },
+    {
+      "item": "item070-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0025:t004"
+    },
+    {
+      "item": "item070-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0025:t004"
+    },
+    {
+      "item": "item070-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0025:t004"
+    },
+    {
+      "item": "item070-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0025:t004"
+    },
+    {
+      "item": "item071-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0025:t005"
+    },
+    {
+      "item": "item071-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0025:t005"
+    },
+    {
+      "item": "item071-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0025:t005"
+    },
+    {
+      "item": "item071-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0025:t005"
+    },
+    {
+      "item": "item072-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0026:t000"
+    },
+    {
+      "item": "item072-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0026:t000"
+    },
+    {
+      "item": "item072-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0026:t000"
+    },
+    {
+      "item": "item072-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0026:t000"
+    },
+    {
+      "item": "item073-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0026:t002"
+    },
+    {
+      "item": "item073-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0026:t002"
+    },
+    {
+      "item": "item073-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0026:t002"
+    },
+    {
+      "item": "item073-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0026:t002"
+    },
+    {
+      "item": "item074-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0026:t003"
+    },
+    {
+      "item": "item074-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0026:t003"
+    },
+    {
+      "item": "item074-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0026:t003"
+    },
+    {
+      "item": "item074-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0026:t003"
+    },
+    {
+      "item": "item075-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0027:t001"
+    },
+    {
+      "item": "item075-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0027:t001"
+    },
+    {
+      "item": "item075-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0027:t001"
+    },
+    {
+      "item": "item075-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0027:t001"
+    },
+    {
+      "item": "item076-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0027:t006"
+    },
+    {
+      "item": "item076-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0027:t006"
+    },
+    {
+      "item": "item076-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0027:t006"
+    },
+    {
+      "item": "item076-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0027:t006"
+    },
+    {
+      "item": "item077-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0027:t007"
+    },
+    {
+      "item": "item077-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0027:t007"
+    },
+    {
+      "item": "item077-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0027:t007"
+    },
+    {
+      "item": "item077-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0027:t007"
+    },
+    {
+      "item": "item078-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0028:t000"
+    },
+    {
+      "item": "item078-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0028:t000"
+    },
+    {
+      "item": "item078-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0028:t000"
+    },
+    {
+      "item": "item078-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0028:t000"
+    },
+    {
+      "item": "item079-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0028:t002"
+    },
+    {
+      "item": "item079-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0028:t002"
+    },
+    {
+      "item": "item079-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0028:t002"
+    },
+    {
+      "item": "item079-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0028:t002"
+    },
+    {
+      "item": "item080-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0028:t003"
+    },
+    {
+      "item": "item080-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0028:t003"
+    },
+    {
+      "item": "item080-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0028:t003"
+    },
+    {
+      "item": "item080-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0028:t003"
+    },
+    {
+      "item": "item081-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0029:t001"
+    },
+    {
+      "item": "item081-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0029:t001"
+    },
+    {
+      "item": "item081-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0029:t001"
+    },
+    {
+      "item": "item081-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0029:t001"
+    },
+    {
+      "item": "item082-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0029:t003"
+    },
+    {
+      "item": "item082-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0029:t003"
+    },
+    {
+      "item": "item082-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0029:t003"
+    },
+    {
+      "item": "item082-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0029:t003"
+    },
+    {
+      "item": "item083-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0029:t007"
+    },
+    {
+      "item": "item083-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0029:t007"
+    },
+    {
+      "item": "item083-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0029:t007"
+    },
+    {
+      "item": "item083-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0029:t007"
+    },
+    {
+      "item": "item084-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0030:t001"
+    },
+    {
+      "item": "item084-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0030:t001"
+    },
+    {
+      "item": "item084-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0030:t001"
+    },
+    {
+      "item": "item084-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0030:t001"
+    },
+    {
+      "item": "item085-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0030:t004"
+    },
+    {
+      "item": "item085-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0030:t004"
+    },
+    {
+      "item": "item085-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0030:t004"
+    },
+    {
+      "item": "item085-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0030:t004"
+    },
+    {
+      "item": "item086-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0030:t005"
+    },
+    {
+      "item": "item086-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0030:t005"
+    },
+    {
+      "item": "item086-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0030:t005"
+    },
+    {
+      "item": "item086-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0030:t005"
+    },
+    {
+      "item": "item087-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0031:t003"
+    },
+    {
+      "item": "item087-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0031:t003"
+    },
+    {
+      "item": "item087-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0031:t003"
+    },
+    {
+      "item": "item087-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0031:t003"
+    },
+    {
+      "item": "item088-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0031:t005"
+    },
+    {
+      "item": "item088-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0031:t005"
+    },
+    {
+      "item": "item088-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0031:t005"
+    },
+    {
+      "item": "item088-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0031:t005"
+    },
+    {
+      "item": "item089-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0031:t006"
+    },
+    {
+      "item": "item089-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0031:t006"
+    },
+    {
+      "item": "item089-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0031:t006"
+    },
+    {
+      "item": "item089-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0031:t006"
+    },
+    {
+      "item": "item090-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0032:t000"
+    },
+    {
+      "item": "item090-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0032:t000"
+    },
+    {
+      "item": "item090-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0032:t000"
+    },
+    {
+      "item": "item090-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0032:t000"
+    },
+    {
+      "item": "item091-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0033:t001"
+    },
+    {
+      "item": "item091-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0033:t001"
+    },
+    {
+      "item": "item091-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0033:t001"
+    },
+    {
+      "item": "item091-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0033:t001"
+    },
+    {
+      "item": "item092-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0033:t003"
+    },
+    {
+      "item": "item092-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0033:t003"
+    },
+    {
+      "item": "item092-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0033:t003"
+    },
+    {
+      "item": "item092-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0033:t003"
+    },
+    {
+      "item": "item093-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0033:t004"
+    },
+    {
+      "item": "item093-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0033:t004"
+    },
+    {
+      "item": "item093-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0033:t004"
+    },
+    {
+      "item": "item093-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0033:t004"
+    },
+    {
+      "item": "item094-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0034:t001"
+    },
+    {
+      "item": "item094-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0034:t001"
+    },
+    {
+      "item": "item094-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0034:t001"
+    },
+    {
+      "item": "item094-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0034:t001"
+    },
+    {
+      "item": "item095-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0034:t002"
+    },
+    {
+      "item": "item095-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0034:t002"
+    },
+    {
+      "item": "item095-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0034:t002"
+    },
+    {
+      "item": "item095-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0034:t002"
+    },
+    {
+      "item": "item096-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0034:t007"
+    },
+    {
+      "item": "item096-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0034:t007"
+    },
+    {
+      "item": "item096-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0034:t007"
+    },
+    {
+      "item": "item096-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0034:t007"
+    },
+    {
+      "item": "item097-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0035:t001"
+    },
+    {
+      "item": "item097-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0035:t001"
+    },
+    {
+      "item": "item097-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0035:t001"
+    },
+    {
+      "item": "item097-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0035:t001"
+    },
+    {
+      "item": "item098-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0035:t002"
+    },
+    {
+      "item": "item098-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0035:t002"
+    },
+    {
+      "item": "item098-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0035:t002"
+    },
+    {
+      "item": "item098-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0035:t002"
+    },
+    {
+      "item": "item099-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0035:t006"
+    },
+    {
+      "item": "item099-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0035:t006"
+    },
+    {
+      "item": "item099-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0035:t006"
+    },
+    {
+      "item": "item099-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0035:t006"
+    },
+    {
+      "item": "item100-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0036:t000"
+    },
+    {
+      "item": "item100-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0036:t000"
+    },
+    {
+      "item": "item100-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0036:t000"
+    },
+    {
+      "item": "item100-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0036:t000"
+    },
+    {
+      "item": "item101-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0036:t001"
+    },
+    {
+      "item": "item101-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0036:t001"
+    },
+    {
+      "item": "item101-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0036:t001"
+    },
+    {
+      "item": "item101-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0036:t001"
+    },
+    {
+      "item": "item102-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0036:t002"
+    },
+    {
+      "item": "item102-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0036:t002"
+    },
+    {
+      "item": "item102-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0036:t002"
+    },
+    {
+      "item": "item102-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0036:t002"
+    },
+    {
+      "item": "item103-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0037:t002"
+    },
+    {
+      "item": "item103-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0037:t002"
+    },
+    {
+      "item": "item103-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0037:t002"
+    },
+    {
+      "item": "item103-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0037:t002"
+    },
+    {
+      "item": "item104-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0037:t003"
+    },
+    {
+      "item": "item104-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0037:t003"
+    },
+    {
+      "item": "item104-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0037:t003"
+    },
+    {
+      "item": "item104-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0037:t003"
+    },
+    {
+      "item": "item105-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0037:t004"
+    },
+    {
+      "item": "item105-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0037:t004"
+    },
+    {
+      "item": "item105-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0037:t004"
+    },
+    {
+      "item": "item105-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0037:t004"
+    },
+    {
+      "item": "item106-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0038:t000"
+    },
+    {
+      "item": "item106-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0038:t000"
+    },
+    {
+      "item": "item106-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0038:t000"
+    },
+    {
+      "item": "item106-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0038:t000"
+    },
+    {
+      "item": "item107-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0038:t001"
+    },
+    {
+      "item": "item107-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0038:t001"
+    },
+    {
+      "item": "item107-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0038:t001"
+    },
+    {
+      "item": "item107-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0038:t001"
+    },
+    {
+      "item": "item108-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0038:t002"
+    },
+    {
+      "item": "item108-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0038:t002"
+    },
+    {
+      "item": "item108-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0038:t002"
+    },
+    {
+      "item": "item108-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0038:t002"
+    },
+    {
+      "item": "item109-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0039:t000"
+    },
+    {
+      "item": "item109-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0039:t000"
+    },
+    {
+      "item": "item109-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0039:t000"
+    },
+    {
+      "item": "item109-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0039:t000"
+    },
+    {
+      "item": "item110-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0039:t004"
+    },
+    {
+      "item": "item110-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0039:t004"
+    },
+    {
+      "item": "item110-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0039:t004"
+    },
+    {
+      "item": "item110-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0039:t004"
+    },
+    {
+      "item": "item111-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0039:t007"
+    },
+    {
+      "item": "item111-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0039:t007"
+    },
+    {
+      "item": "item111-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0039:t007"
+    },
+    {
+      "item": "item111-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0039:t007"
+    },
+    {
+      "item": "item112-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0040:t000"
+    },
+    {
+      "item": "item112-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0040:t000"
+    },
+    {
+      "item": "item112-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0040:t000"
+    },
+    {
+      "item": "item112-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0040:t000"
+    },
+    {
+      "item": "item113-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0040:t006"
+    },
+    {
+      "item": "item113-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0040:t006"
+    },
+    {
+      "item": "item113-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0040:t006"
+    },
+    {
+      "item": "item113-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0040:t006"
+    },
+    {
+      "item": "item114-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0040:t011"
+    },
+    {
+      "item": "item114-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0040:t011"
+    },
+    {
+      "item": "item114-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0040:t011"
+    },
+    {
+      "item": "item114-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0040:t011"
+    },
+    {
+      "item": "item115-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0041:t002"
+    },
+    {
+      "item": "item115-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0041:t002"
+    },
+    {
+      "item": "item115-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0041:t002"
+    },
+    {
+      "item": "item115-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0041:t002"
+    },
+    {
+      "item": "item116-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0041:t003"
+    },
+    {
+      "item": "item116-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0041:t003"
+    },
+    {
+      "item": "item116-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0041:t003"
+    },
+    {
+      "item": "item116-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0041:t003"
+    },
+    {
+      "item": "item117-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0041:t004"
+    },
+    {
+      "item": "item117-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0041:t004"
+    },
+    {
+      "item": "item117-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0041:t004"
+    },
+    {
+      "item": "item117-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0041:t004"
+    },
+    {
+      "item": "item118-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0042:t000"
+    },
+    {
+      "item": "item118-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0042:t000"
+    },
+    {
+      "item": "item118-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0042:t000"
+    },
+    {
+      "item": "item118-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0042:t000"
+    },
+    {
+      "item": "item119-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0042:t004"
+    },
+    {
+      "item": "item119-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0042:t004"
+    },
+    {
+      "item": "item119-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0042:t004"
+    },
+    {
+      "item": "item119-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0042:t004"
+    },
+    {
+      "item": "item120-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0042:t006"
+    },
+    {
+      "item": "item120-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0042:t006"
+    },
+    {
+      "item": "item120-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0042:t006"
+    },
+    {
+      "item": "item120-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0042:t006"
+    },
+    {
+      "item": "item121-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0043:t000"
+    },
+    {
+      "item": "item121-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0043:t000"
+    },
+    {
+      "item": "item121-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0043:t000"
+    },
+    {
+      "item": "item121-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0043:t000"
+    },
+    {
+      "item": "item122-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0043:t001"
+    },
+    {
+      "item": "item122-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0043:t001"
+    },
+    {
+      "item": "item122-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0043:t001"
+    },
+    {
+      "item": "item122-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0043:t001"
+    },
+    {
+      "item": "item123-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0043:t002"
+    },
+    {
+      "item": "item123-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0043:t002"
+    },
+    {
+      "item": "item123-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0043:t002"
+    },
+    {
+      "item": "item123-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0043:t002"
+    },
+    {
+      "item": "item124-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0044:t000"
+    },
+    {
+      "item": "item124-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0044:t000"
+    },
+    {
+      "item": "item124-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0044:t000"
+    },
+    {
+      "item": "item124-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0044:t000"
+    },
+    {
+      "item": "item125-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0044:t001"
+    },
+    {
+      "item": "item125-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0044:t001"
+    },
+    {
+      "item": "item125-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0044:t001"
+    },
+    {
+      "item": "item125-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0044:t001"
+    },
+    {
+      "item": "item126-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0044:t004"
+    },
+    {
+      "item": "item126-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0044:t004"
+    },
+    {
+      "item": "item126-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0044:t004"
+    },
+    {
+      "item": "item126-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0044:t004"
+    },
+    {
+      "item": "item127-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0045:t004"
+    },
+    {
+      "item": "item127-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0045:t004"
+    },
+    {
+      "item": "item127-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0045:t004"
+    },
+    {
+      "item": "item127-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0045:t004"
+    },
+    {
+      "item": "item128-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0045:t007"
+    },
+    {
+      "item": "item128-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0045:t007"
+    },
+    {
+      "item": "item128-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0045:t007"
+    },
+    {
+      "item": "item128-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0045:t007"
+    },
+    {
+      "item": "item129-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0045:t010"
+    },
+    {
+      "item": "item129-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0045:t010"
+    },
+    {
+      "item": "item129-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0045:t010"
+    },
+    {
+      "item": "item129-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0045:t010"
+    },
+    {
+      "item": "item130-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0046:t000"
+    },
+    {
+      "item": "item130-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0046:t000"
+    },
+    {
+      "item": "item130-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0046:t000"
+    },
+    {
+      "item": "item130-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0046:t000"
+    },
+    {
+      "item": "item131-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0046:t008"
+    },
+    {
+      "item": "item131-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0046:t008"
+    },
+    {
+      "item": "item131-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0046:t008"
+    },
+    {
+      "item": "item131-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0046:t008"
+    },
+    {
+      "item": "item132-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0046:t010"
+    },
+    {
+      "item": "item132-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0046:t010"
+    },
+    {
+      "item": "item132-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0046:t010"
+    },
+    {
+      "item": "item132-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0046:t010"
+    },
+    {
+      "item": "item133-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0047:t000"
+    },
+    {
+      "item": "item133-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0047:t000"
+    },
+    {
+      "item": "item133-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0047:t000"
+    },
+    {
+      "item": "item133-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0047:t000"
+    },
+    {
+      "item": "item134-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0047:t003"
+    },
+    {
+      "item": "item134-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0047:t003"
+    },
+    {
+      "item": "item134-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0047:t003"
+    },
+    {
+      "item": "item134-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0047:t003"
+    },
+    {
+      "item": "item135-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0047:t007"
+    },
+    {
+      "item": "item135-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0047:t007"
+    },
+    {
+      "item": "item135-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0047:t007"
+    },
+    {
+      "item": "item135-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0047:t007"
+    },
+    {
+      "item": "item136-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0048:t000"
+    },
+    {
+      "item": "item136-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0048:t000"
+    },
+    {
+      "item": "item136-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0048:t000"
+    },
+    {
+      "item": "item136-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0048:t000"
+    },
+    {
+      "item": "item137-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0049:t000"
+    },
+    {
+      "item": "item137-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0049:t000"
+    },
+    {
+      "item": "item137-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0049:t000"
+    },
+    {
+      "item": "item137-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0049:t000"
+    },
+    {
+      "item": "item138-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0050:t000"
+    },
+    {
+      "item": "item138-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0050:t000"
+    },
+    {
+      "item": "item138-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0050:t000"
+    },
+    {
+      "item": "item138-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0050:t000"
+    },
+    {
+      "item": "item139-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0050:t001"
+    },
+    {
+      "item": "item139-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0050:t001"
+    },
+    {
+      "item": "item139-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0050:t001"
+    },
+    {
+      "item": "item139-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0050:t001"
+    },
+    {
+      "item": "item140-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0051:t000"
+    },
+    {
+      "item": "item140-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0051:t000"
+    },
+    {
+      "item": "item140-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0051:t000"
+    },
+    {
+      "item": "item140-4",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0051:t000"
+    },
+    {
+      "item": "item141-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0051:t001"
+    },
+    {
+      "item": "item141-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0051:t001"
+    },
+    {
+      "item": "item141-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0051:t001"
+    },
+    {
+      "item": "item141-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0051:t001"
+    },
+    {
+      "item": "item142-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0051:t008"
+    },
+    {
+      "item": "item142-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0051:t008"
+    },
+    {
+      "item": "item142-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0051:t008"
+    },
+    {
+      "item": "item142-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0051:t008"
+    },
+    {
+      "item": "item143-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0052:t001"
+    },
+    {
+      "item": "item143-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0052:t001"
+    },
+    {
+      "item": "item143-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0052:t001"
+    },
+    {
+      "item": "item143-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0052:t001"
+    },
+    {
+      "item": "item144-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0052:t003"
+    },
+    {
+      "item": "item144-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0052:t003"
+    },
+    {
+      "item": "item144-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0052:t003"
+    },
+    {
+      "item": "item144-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0052:t003"
+    },
+    {
+      "item": "item145-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0052:t006"
+    },
+    {
+      "item": "item145-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0052:t006"
+    },
+    {
+      "item": "item145-3",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0052:t006"
+    },
+    {
+      "item": "item145-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0052:t006"
+    },
+    {
+      "item": "item146-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0053:t001"
+    },
+    {
+      "item": "item146-2",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0053:t001"
+    },
+    {
+      "item": "item146-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0053:t001"
+    },
+    {
+      "item": "item146-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0053:t001"
+    },
+    {
+      "item": "item147-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0053:t002"
+    },
+    {
+      "item": "item147-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0053:t002"
+    },
+    {
+      "item": "item147-3",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0053:t002"
+    },
+    {
+      "item": "item147-4",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0053:t002"
+    },
+    {
+      "item": "item148-1",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0053:t004"
+    },
+    {
+      "item": "item148-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0053:t004"
+    },
+    {
+      "item": "item148-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0053:t004"
+    },
+    {
+      "item": "item148-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0053:t004"
+    },
+    {
+      "item": "item149-1",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0054:t000"
+    },
+    {
+      "item": "item149-2",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0054:t000"
+    },
+    {
+      "item": "item149-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0054:t000"
+    },
+    {
+      "item": "item149-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0054:t000"
+    },
+    {
+      "item": "item150-1",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0054:t001"
+    },
+    {
+      "item": "item150-2",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0054:t001"
+    },
+    {
+      "item": "item150-3",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0054:t001"
+    },
+    {
+      "item": "item150-4",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0054:t001"
+    },
+    {
+      "item": "item151-1",
+      "system": "vntl-gold-c1200",
+      "block_id": "rasetugari:p0054:t003"
+    },
+    {
+      "item": "item151-2",
+      "system": "qwen-gold-c0",
+      "block_id": "rasetugari:p0054:t003"
+    },
+    {
+      "item": "item151-3",
+      "system": "vntl-gold-c0",
+      "block_id": "rasetugari:p0054:t003"
+    },
+    {
+      "item": "item151-4",
+      "system": "vntl-ocr-c0",
+      "block_id": "rasetugari:p0054:t003"
+    }
+  ]
+}

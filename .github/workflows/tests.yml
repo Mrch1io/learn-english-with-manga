@@ -1,0 +1,45 @@
+name: Offline tests
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-2022
+    timeout-minutes: 30
+    env:
+      PYTHONUTF8: "1"
+      CUDA_VISIBLE_DEVICES: "-1"
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Create clean environment
+        run: python -m venv .venv
+      - name: Install dependencies
+        run: .venv\Scripts\python -m pip install --no-cache-dir --disable-pip-version-check -r requirements.txt
+      - name: Check dependencies
+        run: .venv\Scripts\python -m pip check
+      - name: Verify CUDA packages
+        run: >-
+          .venv\Scripts\python -c "import torch, torchvision;
+          print('torch', torch.__version__, 'torchvision', torchvision.__version__, 'CUDA', torch.version.cuda);
+          assert torch.version.cuda == '12.6';
+          assert torch.__version__.endswith('+cu126');
+          assert torchvision.__version__.endswith('+cu126')"
+      - name: Set display resolution
+        shell: powershell
+        run: |
+          Set-DisplayResolution -Width 1920 -Height 1080 -Force
+          Add-Type -AssemblyName System.Windows.Forms
+          [System.Windows.Forms.Screen]::PrimaryScreen.Bounds
+      - name: Run offline tests
+        env:
+          HF_HOME: ${{ runner.temp }}/huggingface
+          TORCH_HOME: ${{ runner.temp }}/torch
+        run: .venv\Scripts\python -m tools.test

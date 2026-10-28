@@ -1,0 +1,45 @@
+{
+  "inputs": [
+    {
+      "path": "research\\freezes\\riskflag-confirm.json"
+    },
+    {
+      "path": "research\\results\\riskflag-confirm\\PROTOCOL.md"
+    },
+    {
+      "path": "research\\results\\riskflag-confirm\\blind_review\\pack.json"
+    },
+    {
+      "path": "research\\results\\riskflag-confirm\\private_review_comparison.json"
+    },
+    {
+      "path": "research\\results\\riskflag-confirm\\automatic\\risk_scores.json"
+    },
+    {
+      "path": "research\\results\\riskflag-confirm\\blind_review\\ratings_R1.json"
+    },
+    {
+      "path": "research\\results\\riskflag-confirm\\runs\\qwen-gold-c0\\report.json"
+    },
+    {
+      "path": "research\\results\\riskflag-confirm\\runs\\vntl-gold-c0\\report.json"
+    },
+    {
+      "path": "research\\results\\riskflag-confirm\\runs\\vntl-gold-c1200\\report.json"
+    },
+    {
+      "path": "research\\results\\riskflag-confirm\\runs\\vntl-ocr-c0\\report.json"
+    }
+  ],
+  "sources": [
+    {
+      "path": "research\\riskflag_confirm.py"
+    },
+    {
+      "path": "research\\risk_flag_pilot.py"
+    },
+    {
+      "path": "tests\\test_riskflag_confirm.py"
+    }
+  ]
+}

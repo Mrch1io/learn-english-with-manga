@@ -1,0 +1,57 @@
+{
+  "scope": "CPU grouping + comma normalization; six repeated lexical cases; no translation",
+  "blocks": 2000,
+  "pairs": 1000,
+  "sources_preserved": true,
+  "dictionary": {
+    "fugashi": "1.5.2",
+    "unidic_lite": "1.0.8"
+  },
+  "first_scan_seconds": 0.05605939999804832,
+  "warm_median_seconds": 0.018118899999535643,
+  "warm_seconds": [
+    0.01728680000815075,
+    0.018118899999535643,
+    0.0183277000032831,
+    0.019313199998578057,
+    0.01672600000165403
+  ],
+  "token_cache": {
+    "hits": 9992,
+    "misses": 10,
+    "maxsize": 512,
+    "currsize": 10
+  },
+  "examples": [
+    {
+      "left": "はな、",
+      "right": "せ...",
+      "translation_input": "はなせ..."
+    },
+    {
+      "left": "たべ，",
+      "right": "る！",
+      "translation_input": "たべる！"
+    },
+    {
+      "left": "あな,",
+      "right": "た？",
+      "translation_input": "あなた？"
+    },
+    {
+      "left": "はな、",
+      "right": "そう...",
+      "translation_input": "はな、そう..."
+    },
+    {
+      "left": "そう、",
+      "right": "だね...",
+      "translation_input": "そう、だね..."
+    },
+    {
+      "left": "あれ、",
+      "right": "これ",
+      "translation_input": "あれ、これ"
+    }
+  ]
+}

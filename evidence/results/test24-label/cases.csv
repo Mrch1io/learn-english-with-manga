@@ -1,0 +1,225 @@
+﻿page_id,block_id,source_text,ocr_text,reference_text,translated_text,status,normalized_edit_errors,automatic_label
+tojime_no_siora:p0001,tojime_no_siora:p0001:t000,綴じ眼のシオラ,綴じ眼のシボラ,bound eye siora,,recognized,1,character_difference
+tojime_no_siora:p0001,tojime_no_siora:p0001:t001,朽鷹みつき,朽鷹みつき,Mitsuki Kuchitaka,,recognized,0,exact
+tojime_no_siora:p0002,tojime_no_siora:p0002:t000,だからっ,だからっ,I'm telling you!!,,recognized,0,exact
+tojime_no_siora:p0002,tojime_no_siora:p0002:t001,知らないって言ってるだろっ,知らないって言ってるだろっ,I don't know what you're talking about!,,recognized,0,exact
+tojime_no_siora:p0002,tojime_no_siora:p0002:t002,そんな借金なんて!,そんな借金なんて！,i don't owe you!,,recognized,0,format_only
+tojime_no_siora:p0002,tojime_no_siora:p0002:t003,そうは言ってもなぁ,そうは言ってもなぁ,"well, I'm sorry...",,recognized,0,exact
+tojime_no_siora:p0002,tojime_no_siora:p0002:t004,レーネ...,レーネ：,lene...,,recognized,3,character_difference
+tojime_no_siora:p0003,tojime_no_siora:p0003:t000,こっちにゃ借用書があんだよ,こっちにゃ借用書があんだよ,we've got proof here...,,recognized,0,exact
+tojime_no_siora:p0003,tojime_no_siora:p0003:t001,トルティヤーノに借りた金はちゃんと返して貰わねぇと,トルティヤーノに借りた金はちゃんと返して貰わねぇと,You know we need you to pay us back...,,recognized,0,exact
+tojime_no_siora:p0003,tojime_no_siora:p0003:t002,知るもんかっ,知るもんかっ,how should I know!?,,recognized,0,exact
+tojime_no_siora:p0003,tojime_no_siora:p0003:t003,父親がカジノで作った借金なんて...,父親がカジノで作った借金なんて．．．,how should I know about my father's debt in casinos...,,recognized,0,format_only
+tojime_no_siora:p0003,tojime_no_siora:p0003:t004,あのぉ,あのぉ,excuse me...,,recognized,0,exact
+tojime_no_siora:p0003,tojime_no_siora:p0003:t005,もしやトルティヤーノ一家の方でしょうか,もしやトルティヤーノ一家の方でしょうか,are you a member of the Tortillano family?,,recognized,0,exact
+tojime_no_siora:p0003,tojime_no_siora:p0003:t006,あ?,あ？,huh?,,recognized,0,format_only
+tojime_no_siora:p0003,tojime_no_siora:p0003:t007,取り込み中だ出直しやがれ!,取り込み中だ出直しやがれ！,we're having a conversation here! Get lost!,,recognized,0,format_only
+tojime_no_siora:p0003,tojime_no_siora:p0003:t008,え、あっあのっ...,え、あっあのっ．．．,"uh, um...",,recognized,0,format_only
+tojime_no_siora:p0003,tojime_no_siora:p0003:t009,待ってくださーー,待ってくださー,Please...! Wait...,,recognized,1,character_difference
+tojime_no_siora:p0003,tojime_no_siora:p0003:t010,あっ,あっ,ah!,,recognized,0,exact
+tojime_no_siora:p0003,tojime_no_siora:p0003:t011,がっ,がっ,guh!,,recognized,0,exact
+tojime_no_siora:p0004,tojime_no_siora:p0004:t000,てってめぇ...!,てってめぇ．．．！,"hey, you...",,recognized,0,format_only
+tojime_no_siora:p0004,tojime_no_siora:p0004:t001,すいません...っ目の見えない「閉じ眼」なものでつい転んでじゃって,すいません．．．っ目の見えない「閉じ眼なものでつい転んでじゃって,"i'm sorry, i can't see, I am a ""closed-eyes""...",,recognized,1,character_difference
+tojime_no_siora:p0004,tojime_no_siora:p0004:t002,閉じ眼がマフィアに何の用だコラァ!!,閉じ眼がマフィアに何の用だコラァ！！,so what does a closed-eyes want from the likes of us!,,recognized,0,format_only
+tojime_no_siora:p0004,tojime_no_siora:p0004:t003,え、ええと...,ええと．．．,uh...,,recognized,2,character_difference
+tojime_no_siora:p0004,tojime_no_siora:p0004:t004,流しのガンマンをしているシオラと申します,流しのガンマンをしているシオラと申します,"I'm siora, a gunman",,recognized,0,exact
+tojime_no_siora:p0004,tojime_no_siora:p0004:t005,ここら一帯を仕切るトルティヤー一家の名が聞こえたので,ここら一帯を仕切るトルティヤーノ一家の名が聞こえたので,I heard that you Tortillanos are in charge around here,,recognized,1,character_difference
+tojime_no_siora:p0004,tojime_no_siora:p0004:t006,用心棒として雇っていただけないかと...,用心棒として雇っていただけないかと．．．,so i was wondering if you could hire me as a bodyguard...,,recognized,0,format_only
+tojime_no_siora:p0004,tojime_no_siora:p0004:t007,目の見えない閉じ眼が...,目の見えない閉じ眼が．．．,so a closed-eyes is...,,recognized,0,format_only
+tojime_no_siora:p0004,tojime_no_siora:p0004:t008,ガンマンだって...?,ガンマンだって．．．？,a gunman...?,,recognized,0,format_only
+tojime_no_siora:p0004,tojime_no_siora:p0004:t009,おう...,おう．．．,well...,,recognized,0,format_only
+tojime_no_siora:p0005,tojime_no_siora:p0005:t000,マフィア舐めんのも大概にしやがれ,マフィア舐めんのも大概にしやがれ,Don't mess with us.,,recognized,0,exact
+tojime_no_siora:p0005,tojime_no_siora:p0005:t001,あっ,あっ,ah..,,recognized,0,exact
+tojime_no_siora:p0005,tojime_no_siora:p0005:t002,閉じ眼が用心棒だ?,閉じ眼が用心棒だ？,closed-eyes for a bodyguard?,,recognized,0,format_only
+tojime_no_siora:p0005,tojime_no_siora:p0005:t003,腰の銃でイかれた脳みそぶちまけてみるか?,腰の銃でイかれた脳みそぶちまけてみるか？,do you want me to shoot your brains out?!,,recognized,0,format_only
+tojime_no_siora:p0005,tojime_no_siora:p0005:t004,あ?,あ？,huh?,,recognized,0,format_only
+tojime_no_siora:p0005,tojime_no_siora:p0005:t005,あ、あの...,あ、あの．．．,er...,,recognized,0,format_only
+tojime_no_siora:p0005,tojime_no_siora:p0005:t006,ちょっとやめてよ!こんなとこで!,ちょっとやめてよ！こんなとこで！,"hey, just please stop!",,recognized,0,format_only
+tojime_no_siora:p0005,tojime_no_siora:p0005:t007,...,．．．,...,,recognized,0,format_only
+tojime_no_siora:p0005,tojime_no_siora:p0005:t008,ん?,ん？,huh?,,recognized,0,format_only
+tojime_no_siora:p0005,tojime_no_siora:p0005:t009,お前もしかして,お前もしかして,are you...,,recognized,0,exact
+tojime_no_siora:p0005,tojime_no_siora:p0005:t010,女か?,女か？,a girl?,,recognized,0,format_only
+tojime_no_siora:p0005,tojime_no_siora:p0005:t011,えっはい...そうですけど...,えっはい．．．そうですけど．．．,"yes, but so...?",,recognized,0,format_only
+tojime_no_siora:p0005,tojime_no_siora:p0005:t012,ほぉ,ほぉ,oh well...,,recognized,0,exact
+tojime_no_siora:p0005,tojime_no_siora:p0005:t013,面見せてみろ,面見せてみろ,let's take a look at your face.,,recognized,0,exact
+tojime_no_siora:p0005,tojime_no_siora:p0005:t014,えっ,えっ,hey!,,recognized,0,exact
+tojime_no_siora:p0005,tojime_no_siora:p0005:t015,閉じ眼でも器量が良けりゃ貿い手は...,閉じ眼でも器量が良けりゃ買い手は．．．,"If you have good qualities, your eyes wouldn't be a concern",,recognized,1,character_difference
+tojime_no_siora:p0005,tojime_no_siora:p0005:t016,やっちょっと...!,やっちょっと．．．！,"hey, wait!",,recognized,0,format_only
+tojime_no_siora:p0006,tojime_no_siora:p0006:t000,ーー!?,―！？,?!,,recognized,2,character_difference
+tojime_no_siora:p0006,tojime_no_siora:p0006:t001,なんだこりゃあ...,なんだこりゃあ．．．,what the...,,recognized,0,format_only
+tojime_no_siora:p0006,tojime_no_siora:p0006:t002,てめぇ...,てめぇ．．．,you...,,recognized,0,format_only
+tojime_no_siora:p0006,tojime_no_siora:p0006:t003,?,？,?,,recognized,0,format_only
+tojime_no_siora:p0006,tojime_no_siora:p0006:t004,なんてもん見せやがるっ!!,なんてもん見せやがるっ！！,what is this!!,,recognized,0,format_only
+tojime_no_siora:p0006,tojime_no_siora:p0006:t005,ひっひどい!,ひっひどい！,how dare you!,,recognized,0,format_only
+tojime_no_siora:p0006,tojime_no_siora:p0006:t006,大丈夫かいあんたっ,大丈夫かいあんたっ,are you all right?!,,recognized,0,exact
+tojime_no_siora:p0006,tojime_no_siora:p0006:t007,今日は帰ってやる,今日は帰ってやる,i'll leave for today.,,recognized,0,exact
+tojime_no_siora:p0007,tojime_no_siora:p0007:t000,だがいつまでもこうしてられると思うなよ,だがいつまでもこうしてられると思うなよ,but don't think you can stay like this forever.,,recognized,0,exact
+tojime_no_siora:p0007,tojime_no_siora:p0007:t001,レーネ,レーネ,lene,,recognized,0,exact
+tojime_no_siora:p0007,tojime_no_siora:p0007:t002,馬鹿か,馬鹿か,are you nuts?,,recognized,0,exact
+tojime_no_siora:p0007,tojime_no_siora:p0007:t003,アンタは,アンタは,you...,,recognized,0,exact
+tojime_no_siora:p0007,tojime_no_siora:p0007:t004,撃ち合いで成り上がったトルティヤー一家に銃の腕を買えだ?,撃ち合いで成り上がったトルティヤーノ一家に銃の腕を買えだ？,The Tortillanos are notorious for their gun fights! did you really think that they would hire you? ,,recognized,1,character_difference
+tojime_no_siora:p0007,tojime_no_siora:p0007:t005,挙句の果てにビル・トルティヤーにケンカを売るなんて,挙句の果てにビル・トルティヤーノにケンカを売るなんて,"and  picking a fight with ""the"" bill tortillano?",,recognized,1,character_difference
+tojime_no_siora:p0007,tojime_no_siora:p0007:t006,奴はトルティヤー兄弟の片割れ、この街で一番の荒くれだよ,奴はトルティヤーノ兄弟の片割れ、この街で一番の荒くれだよ,"he's one half of the Tortillano brothers, and the most violent in town.",,recognized,1,character_difference
+tojime_no_siora:p0007,tojime_no_siora:p0007:t007,なるほど,なるほど,i see.,,recognized,0,exact
+tojime_no_siora:p0007,tojime_no_siora:p0007:t008,さっきの7フィート程の巨漢が、マフィア兄弟の弟の方...,さっきの７フィート程の巨漢が、マフィア兄弟の弟の方．．．,so that 7-feet-tall guy is the younger one of the mafia brothers.,,recognized,0,format_only
+tojime_no_siora:p0007,tojime_no_siora:p0007:t009,そうさ!,そうさ！,that's right!,,recognized,0,format_only
+tojime_no_siora:p0007,tojime_no_siora:p0007:t010,悪いこた言わないからさっさと街から...,悪いこた言わないからさっさと街から．．．,so you'd better get out of this town as soon as possible.,,recognized,0,format_only
+tojime_no_siora:p0007,tojime_no_siora:p0007:t011,...ん?確かにビルの背丈はそのくらいだが,．．．ん？確かにビルの背丈はそのくらいだが,"...wait a second. Bill's height is actually around 7, but",,recognized,0,format_only
+tojime_no_siora:p0007,tojime_no_siora:p0007:t012,目が見えないのになんで正確にわかるんだ...?,目が見えないのになんで正確にわかるんだ．．．？,How do you know when you can't see anything...?,,recognized,0,format_only
+tojime_no_siora:p0008,tojime_no_siora:p0008:t000,声がする方向と足音の重さで大体わかりますよ,声がする方向と足音の重さで大体わかりますよ,I can tell from whereabouts of the voice and how heavy the footsteps sounded.,,recognized,0,exact
+tojime_no_siora:p0008,tojime_no_siora:p0008:t001,あなたは五・七フィートの身長に比べ体重が少々重めスリーサイズは...,あなたは五・七フィートの身長に比べ体重が少々重め,"you're 5 feet 7, you're slightly heavier than your height's average",,recognized,10,character_difference
+tojime_no_siora:p0008,tojime_no_siora:p0008:t002,なっ,なっ,what?!,,recognized,0,exact
+tojime_no_siora:p0008,tojime_no_siora:p0008:t003,そこまでわかんのかよっ,そこまでわかんのかよっ,how do you know that much!,,recognized,0,exact
+tojime_no_siora:p0008,tojime_no_siora:p0008:t004,冗談ですよ,冗談ですよ,I'm just kidding.,,recognized,0,exact
+tojime_no_siora:p0008,tojime_no_siora:p0008:t005,...こりてねーな,．．．こりてねーな,Don't say that again.,,recognized,0,format_only
+tojime_no_siora:p0008,tojime_no_siora:p0008:t006,ははっ,ははっ,"ha, ha.",,recognized,0,exact
+tojime_no_siora:p0008,tojime_no_siora:p0008:t007,では私はそろそろ,では私はそろそろ,"well, i should get going.",,recognized,0,exact
+tojime_no_siora:p0008,tojime_no_siora:p0008:t008,今晩の宿を探さないと...,今晩の宿を探さないと．．．,I need to find a place to stay tonight.,,recognized,0,format_only
+tojime_no_siora:p0008,tojime_no_siora:p0008:t009,いたっ,いたっ,ouch.,,recognized,0,exact
+tojime_no_siora:p0008,tojime_no_siora:p0008:t010,...,．．．,...,,recognized,0,format_only
+tojime_no_siora:p0008,tojime_no_siora:p0008:t011,あーもうっ,あーもうっ,"ugh, fine!",,recognized,0,exact
+tojime_no_siora:p0008,tojime_no_siora:p0008:t012,厄介払いのお礼だ,厄介払いのお礼だ,I guess I have a lot to thank for.,,recognized,0,exact
+tojime_no_siora:p0008,tojime_no_siora:p0008:t013,まずはその薄汚れた格好をなんとかするよ,まずはその薄汚れた格好をなんとかするよ,"first, we need to do something about your dirty clothes.",,recognized,0,exact
+tojime_no_siora:p0008,tojime_no_siora:p0008:t014,目元,見え,your eyes.,,recognized,2,character_difference
+tojime_no_siora:p0008,tojime_no_siora:p0008:t015,見られたくなかったらタオルでも巻いてな,見られたくなかったらタオルでも巻いてな,"if you don't want me to see them, cover them with a towel.",,recognized,0,exact
+tojime_no_siora:p0009,tojime_no_siora:p0009:t000,あっありがとうございますっ,あっありがとうございますっ,well... thank you.,,recognized,0,exact
+tojime_no_siora:p0009,tojime_no_siora:p0009:t001,洗ってやるよ,洗ってやるよ,just leave everything to me.,,recognized,0,exact
+tojime_no_siora:p0009,tojime_no_siora:p0009:t002,人の家のシャワーじゃ勝手がわからないだろ,人の家のシャワーじゃ勝手がわからないだろ,"you don't know how to shower in someone else's house, do you?",,recognized,0,exact
+tojime_no_siora:p0009,tojime_no_siora:p0009:t003,...あの,．．．あの,um...,,recognized,0,format_only
+tojime_no_siora:p0009,tojime_no_siora:p0009:t004,閉じ眼の扱いにずいぶん慣れてらっしゃるんですね,閉じ眼の扱いにずいぶん慣れてらっしゃるんですね,you seem really used to treating closed-eyes people like me ,,recognized,0,exact
+tojime_no_siora:p0009,tojime_no_siora:p0009:t005,ああ...,ああ．．．,ah...,,recognized,0,format_only
+tojime_no_siora:p0009,tojime_no_siora:p0009:t006,うちの父親も目が悪かったんだ,うちの父親も目が悪かったんだ,"my father's sights weren't good, either.",,recognized,0,exact
+tojime_no_siora:p0009,tojime_no_siora:p0009:t007,いや...,いや．．．,no...,,recognized,0,format_only
+tojime_no_siora:p0009,tojime_no_siora:p0009:t008,正確には悪くなっていったのさ,正確には悪くなっていったのさ,"It gradually got worse, to be exact",,recognized,0,exact
+tojime_no_siora:p0009,tojime_no_siora:p0009:t009,ひどい父親さ...しがない絵描きでね,ひどい父親さ．．．しがない絵描きでね,he wasn't a good father. he was just a plain old painter.,,recognized,0,format_only
+tojime_no_siora:p0009,tojime_no_siora:p0009:t010,金になるからって女の裸ばかり描いてトルティヤーに卸してた,金になるからって女の裸ばかり描いてトルティヤーノに卸してた,he kept drawing naked woman to sell them to the tortillanos.,,recognized,1,character_difference
+tojime_no_siora:p0010,tojime_no_siora:p0010:t000,だけど病気でどんどん目が悪くなっていってね,だけど病気でどんどん目が悪くなっていってね,but his eyes got worse and worse.,,recognized,0,exact
+tojime_no_siora:p0010,tojime_no_siora:p0010:t001,絵描きなりにショックだったんだろう,絵描きなりにショックだったんだろう,he must have been in so much pain.,,recognized,0,exact
+tojime_no_siora:p0010,tojime_no_siora:p0010:t002,仕事が減って金もなくなって焼きが回ったのか,仕事が減って金もなくなって焼きが回ったのか,"He had less job, less money and ",,recognized,0,exact
+tojime_no_siora:p0010,tojime_no_siora:p0010:t003,私をモデルにしようとする始末さ,私をモデルにしようとする始末さ, he even tried to use me as the model for his paintings,,recognized,0,exact
+tojime_no_siora:p0010,tojime_no_siora:p0010:t004,挙句の果てに博打で借金こさえて川にドボン,挙句の果てに博打で借金こさえて川にドボン,"in the end he made debt from gambling, and he dove into the river.",,recognized,0,exact
+tojime_no_siora:p0010,tojime_no_siora:p0010:t005,ひどい父親だろ?,ひどい父親だろ？,"worst father ever, huh?",,recognized,0,format_only
+tojime_no_siora:p0010,tojime_no_siora:p0010:t006,...結局,．．．結局,so...,,recognized,0,format_only
+tojime_no_siora:p0010,tojime_no_siora:p0010:t007,レーネさんはモデルに?,レーネさんはモデルに？,did you model for him?,,recognized,0,format_only
+tojime_no_siora:p0010,tojime_no_siora:p0010:t008,...ああ,．．．ああ,yeah...,,recognized,0,format_only
+tojime_no_siora:p0010,tojime_no_siora:p0010:t009,しつこいもんだったからさ,しつこいもんだったからさ,he was so persistent.,,recognized,0,exact
+tojime_no_siora:p0010,tojime_no_siora:p0010:t010,私なんか描いても大した金にならなかっただろうけど...,私なんか描いても大した金にならなかっただろうけど．．．,"I don't think I made him much money, though.",,recognized,0,format_only
+tojime_no_siora:p0010,tojime_no_siora:p0010:t011,そう...,そう．．．,well...,,recognized,0,format_only
+tojime_no_siora:p0010,tojime_no_siora:p0010:t012,それはよかった...,それはよかった．．．,I'm glad...,,recognized,0,format_only
+tojime_no_siora:p0011,tojime_no_siora:p0011:t000,さぞ嬉しかったことでしょう,さぞ嬉しかったことでしょう,he must have been really happy,,recognized,0,exact
+tojime_no_siora:p0011,tojime_no_siora:p0011:t001,目が見えなくなる前に娘さんを描くことができて,目が見えなくなる前に娘さんを描くことができて,to be able to draw his daughter before he lost his sights completely.,,recognized,0,exact
+tojime_no_siora:p0012,tojime_no_siora:p0012:t000,レーネさん?,レーネさん？,lene?,,recognized,0,format_only
+tojime_no_siora:p0012,tojime_no_siora:p0012:t001,なっなんでもないよ,なっなんでもないよ,"no, it's nothing.",,recognized,0,exact
+tojime_no_siora:p0012,tojime_no_siora:p0012:t002,背中は終わりだ,背中は終わりだ,I'm done with you're back.,,recognized,0,exact
+tojime_no_siora:p0012,tojime_no_siora:p0012:t003,ほらこっち向きな,ほらこっち向きな,"come on, turn around.",,recognized,0,exact
+tojime_no_siora:p0012,tojime_no_siora:p0012:t004,それよりアンタはどうなのさ,それよりアンタはどうなのさ,"by the way, what about you?",,recognized,0,exact
+tojime_no_siora:p0012,tojime_no_siora:p0012:t005,なんで銃なんか持って旅してんだい,なんで銃なんか持って旅してんだい,why did you take your gun with you?,,recognized,0,exact
+tojime_no_siora:p0012,tojime_no_siora:p0012:t006,その眼だって...,その眼だって．．．,and those eyes...,,recognized,0,format_only
+tojime_no_siora:p0012,tojime_no_siora:p0012:t007,大したことじゃありませんよ,大したことじゃありませんよ,it's no big deal.,,recognized,0,exact
+tojime_no_siora:p0012,tojime_no_siora:p0012:t008,親を殺したマフィアを撃ち殺したんです,親を殺したマフィアを撃ち殺しだんです,I killed a mafia who killed my parents.,,recognized,1,character_difference
+tojime_no_siora:p0012,tojime_no_siora:p0012:t009,その咎で故郷を追い出されました,その咎で故郷を追い出されました,and that's how I was kicked out of my hometown.,,recognized,0,exact
+tojime_no_siora:p0012,tojime_no_siora:p0012:t010,この眼は,この眼は,and these eyes...,,recognized,0,exact
+tojime_no_siora:p0012,tojime_no_siora:p0012:t011,その時に罪の証にと...,その時に罪の証にと．．,are proof of sin.,,recognized,1,character_difference
+tojime_no_siora:p0013,tojime_no_siora:p0013:t000,...,．．．,... ,,recognized,0,format_only
+tojime_no_siora:p0013,tojime_no_siora:p0013:t001,眼を潰されたっていうかい...?,眼を潰されたっていうかい．．．？,and that's how you were made blind...?,,recognized,0,format_only
+tojime_no_siora:p0013,tojime_no_siora:p0013:t002,なんてひどい...,なんてひどい．．,how terrible...,,recognized,1,character_difference
+tojime_no_siora:p0013,tojime_no_siora:p0013:t003,アンタは親の仇を討っただけじゃないか!,アンタは親の仇を討っただけじゃないか！,all you did was avenge your family!,,recognized,0,format_only
+tojime_no_siora:p0013,tojime_no_siora:p0013:t004,何もひどいことなんてありませんよレーネさん,何もひどいことなんてありませんよレーネさん,There's nothing terrible about this.,,recognized,0,exact
+tojime_no_siora:p0013,tojime_no_siora:p0013:t005,あなたの父親のかけらほども悲劇ではないんです,あなたの父親のかけらほども悲劇ではないんです,it's not half as tragic as your father's story.,,recognized,0,exact
+tojime_no_siora:p0013,tojime_no_siora:p0013:t006,私は自ら望んで血を求めた外道,私は自ら望んで血を求めた外道,I wanted blood.,,recognized,0,exact
+tojime_no_siora:p0013,tojime_no_siora:p0013:t007,そんな奴は何をされたって文句は言えない,そんな奴は何をされたって文句は言えない,People like me don't have a say in how we are treated.,,recognized,0,exact
+tojime_no_siora:p0013,tojime_no_siora:p0013:t008,なんでアンタは銃を捨てない!,なんでアンタは銃を捨てない！,why don't you put the gun down!,,recognized,0,format_only
+tojime_no_siora:p0013,tojime_no_siora:p0013:t009,そんな目にあってまで!!,そんな目にあってまで！！,look what happened to you!,,recognized,0,format_only
+tojime_no_siora:p0013,tojime_no_siora:p0013:t010,でもっ,でもっ,but...,,recognized,0,exact
+tojime_no_siora:p0013,tojime_no_siora:p0013:t011,だったら...,だったら．．,then...,,recognized,1,character_difference
+tojime_no_siora:p0013,tojime_no_siora:p0013:t012,捨てる?,捨てる？,put down...?,,recognized,0,format_only
+tojime_no_siora:p0014,tojime_no_siora:p0014:t000,私にはもう,私にはもう,what else would I have left?,,recognized,0,exact
+tojime_no_siora:p0014,tojime_no_siora:p0014:t001,銃と閉じ眼しかないというのに,銃と閉じ眼しかないというのに,if I put down my guns...?,,recognized,0,exact
+tojime_no_siora:p0014,tojime_no_siora:p0014:t002,夕飯の準備してくる,夕飯の準備してくる,I'll go prepare dinner.,,recognized,0,exact
+tojime_no_siora:p0014,tojime_no_siora:p0014:t003,何か不便があったら呼んでくれ,何か不便があったら呼んでくれ,tell me if you have inconvenience.,,recognized,0,exact
+tojime_no_siora:p0015,tojime_no_siora:p0015:t000,きっと嘘さ...,きっと嘘さ．．．,she must be lying.,,recognized,0,format_only
+tojime_no_siora:p0015,tojime_no_siora:p0015:t001,乞食が気を惹くためにつくような嘘,乞食が気を惹くためにつくような嘘,just like a beggar calling for attention,,recognized,0,exact
+tojime_no_siora:p0015,tojime_no_siora:p0015:t002,そうに決まってる...,そうに決まってる．．,"yes, it's got to be...",,recognized,1,character_difference
+tojime_no_siora:p0015,tojime_no_siora:p0015:t003,!,！,!,,recognized,0,format_only
+tojime_no_siora:p0015,tojime_no_siora:p0015:t004,も、もうあがったのかい?,もうあがったのかい？,you're done already?,,recognized,2,character_difference
+tojime_no_siora:p0015,tojime_no_siora:p0015:t005,こっちも今できたとこだ,こっちも今できたとこだ,I'm just in time.,,recognized,0,exact
+tojime_no_siora:p0015,tojime_no_siora:p0015:t006,いま席に案内をーー,いま席に案内を――,i'll guide you to your seat...,,recognized,2,character_difference
+tojime_no_siora:p0016,tojime_no_siora:p0016:t000,ー‼,―！！,!!,,recognized,3,character_difference
+tojime_no_siora:p0016,tojime_no_siora:p0016:t001,レーネさーん今あがりましたー,レーネさーん今あがりましたー,I'm done!,,recognized,0,exact
+tojime_no_siora:p0016,tojime_no_siora:p0016:t002,あっいいかおり,あっいいかおり,"oh, it smells good.",,recognized,0,exact
+tojime_no_siora:p0016,tojime_no_siora:p0016:t003,ハンバーグのにおいだ,ハンバーグのにおいだ,I can smell hamburg steaks.,,recognized,0,exact
+tojime_no_siora:p0016,tojime_no_siora:p0016:t004,あれ?,あれ？,huh?,,recognized,0,format_only
+tojime_no_siora:p0016,tojime_no_siora:p0016:t005,レーネさーん,レーネさーん,lene?,,recognized,0,exact
+tojime_no_siora:p0017,tojime_no_siora:p0017:t000,くそっ,くそっ,shit!,,recognized,0,exact
+tojime_no_siora:p0017,tojime_no_siora:p0017:t001,離してよっ,離してよっ,let go of me!,,recognized,0,exact
+tojime_no_siora:p0017,tojime_no_siora:p0017:t002,いきなりなんだってのさ!,いきなりなんだってのさ！,what do you want!,,recognized,0,format_only
+tojime_no_siora:p0017,tojime_no_siora:p0017:t003,そう喚くなよレーネ,そう喚くなよレーネ,"hey, calm down.",,recognized,0,exact
+tojime_no_siora:p0017,tojime_no_siora:p0017:t004,用件はうちの弟が散々伝えたと思うがね,用件はうちの弟が散々伝えたと思うがね,I think my brother told you what I want.,,recognized,0,exact
+tojime_no_siora:p0017,tojime_no_siora:p0017:t005,だからってここまでされる謂れはないよ,だからってここまでされる謂れはないよ,that doesn't give you the reason to go this far,,recognized,0,exact
+tojime_no_siora:p0017,tojime_no_siora:p0017:t006,ドン.トルティヤー!!,ドン・トルティヤーノ！！,don tortillano !!,,recognized,2,character_difference
+tojime_no_siora:p0018,tojime_no_siora:p0018:t000,やれやれ,やれやれ,"well, well...",,recognized,0,exact
+tojime_no_siora:p0018,tojime_no_siora:p0018:t001,その男勝りな性格はなんとかならんのかね,その男勝りな性格はなんとかならんのかね,what's with your manly personality?,,recognized,0,exact
+tojime_no_siora:p0018,tojime_no_siora:p0018:t002,まあいい,まあいい,anyway.,,recognized,0,exact
+tojime_no_siora:p0018,tojime_no_siora:p0018:t003,そんな君にも買い手がついたんだ,そんな君にも買い手がついたんだ,you've got a buyer.,,recognized,0,exact
+tojime_no_siora:p0018,tojime_no_siora:p0018:t004,買い手...?,買い手．．．？,buyer...?,,recognized,0,format_only
+tojime_no_siora:p0018,tojime_no_siora:p0018:t005,君のお父上の絵を買われた方が君のことをえらく気に入ってね,君のお父上の絵を買われた方が君のことをえらく気に入ってね,a customer who bought your father's picture really likes you.,,recognized,0,exact
+tojime_no_siora:p0018,tojime_no_siora:p0018:t006,モデルになった君をぜひ買いたいと,モデルになった君をぜひ買いたいと,"he told me that he wanted you, because you were the model.",,recognized,0,exact
+tojime_no_siora:p0018,tojime_no_siora:p0018:t007,よろこべレーネ,よろこべレーネ,you'd better be happy.,,recognized,0,exact
+tojime_no_siora:p0018,tojime_no_siora:p0018:t008,あと数刻で買い手が到着したら借金はチャラだ,あと数刻で買い手が到着したら借金はチャラだ,"the buyer arrives in a few hours, by which time you'll be debt-free",,recognized,0,exact
+tojime_no_siora:p0018,tojime_no_siora:p0018:t009,もっとも,もっとも,of course,,recognized,0,exact
+tojime_no_siora:p0019,tojime_no_siora:p0019:t000,出荷先でどういう扱いを受けるかはわからんがね,出荷先でどういう扱いを受けるかはわからんがね,i don't know for sure how the buyer will treat you.,,recognized,0,exact
+tojime_no_siora:p0019,tojime_no_siora:p0019:t001,ふっ,ふっ,wha...,,recognized,0,exact
+tojime_no_siora:p0019,tojime_no_siora:p0019:t002,ふざけんなっ!,ふざけんなっ！,stop joking with me...!,,recognized,0,format_only
+tojime_no_siora:p0019,tojime_no_siora:p0019:t003,だっ誰かーー!!,だっ誰か――！！,s-someone...!,,recognized,2,character_difference
+tojime_no_siora:p0019,tojime_no_siora:p0019:t004,はっ,はっ,ha,,recognized,0,exact
+tojime_no_siora:p0019,tojime_no_siora:p0019:t005,無駄だよレーネ,無駄だよレーネ,"it's no use, lene.",,recognized,0,exact
+tojime_no_siora:p0019,tojime_no_siora:p0019:t006,こんな街外れの倉庫で叫んだって誰も来やしないさ,こんな街外れの倉庫で叫んだって誰も来やしないさ,no one would hear you  in this off-town storage.,,recognized,0,exact
+tojime_no_siora:p0020,tojime_no_siora:p0020:t000,まったく,まったく,"oh well,",,recognized,0,exact
+tojime_no_siora:p0020,tojime_no_siora:p0020:t001,マヌケは何をされても文句は言えんなぁ,マヌケは何をされても文句は言えんなぁ,look how pathetic you are.,,recognized,0,exact
+tojime_no_siora:p0020,tojime_no_siora:p0020:t002,お父上も目を患わなければ生かしておいたものを,お父上も目を患わなければ生かしておいたものを,and your father. if his eyes weren't so bad I would have let him survive...,,recognized,0,exact
+tojime_no_siora:p0020,tojime_no_siora:p0020:t003,ど...,ど．．．,what the...,,recognized,0,format_only
+tojime_no_siora:p0020,tojime_no_siora:p0020:t004,どういう意味さ...,どういう意味さ．．,what's that supposed to mean?,,recognized,1,character_difference
+tojime_no_siora:p0020,tojime_no_siora:p0020:t005,もう会うこともないだろうから教えてやろう,もう会うこともないだろうから教えてやろう,might as well tell you before we won't see each other again for good,,recognized,0,exact
+tojime_no_siora:p0020,tojime_no_siora:p0020:t006,君の父親は目を悪くして困っていたからね,君の父親は目を悪くして困っていたからね,"because your father was suffering from his blindness,",,recognized,0,exact
+tojime_no_siora:p0020,tojime_no_siora:p0020:t007,治療費の足しに次の絵を高く買ってやろうと言ったんだ,治療費の足しに次の絵を高く買ってやろうと言ったんだ,I offered to buy his picture at a higher price than usual.,,recognized,0,exact
+tojime_no_siora:p0020,tojime_no_siora:p0020:t008,口約束だけじゃ不安だろうから契約書も用意してやった,口約束だけじゃ不安だろうから契約書も用意してやった,"for his convenience, I prepared him a contract",,recognized,0,exact
+tojime_no_siora:p0020,tojime_no_siora:p0020:t009,ただ私もうっかりしていてね,ただ私もうっかりしていてね,"but, oops, my bad.",,recognized,0,exact
+tojime_no_siora:p0020,tojime_no_siora:p0020:t010,ちょっと紙を間違えてしまった,ちょっと紙を間違えてしまった,i got the wrong kind of paper.,,recognized,0,exact
+tojime_no_siora:p0020,tojime_no_siora:p0020:t011,まさか目が悪かった彼にも気づけまい,まさか目が悪かった彼にも気づけまい,"with his eyes, it was impossible for him to notice",,recognized,0,exact
+tojime_no_siora:p0021,tojime_no_siora:p0021:t000,自分がサインした契約書が,自分がサインした契約書が,"the contract paper he signed,",,recognized,0,exact
+tojime_no_siora:p0021,tojime_no_siora:p0021:t001,多額の借用書だったなんて,多額の借用書だったなんて,was an IOU for billions.,,recognized,0,exact
+tojime_no_siora:p0021,tojime_no_siora:p0021:t002,待てよ...じゃあ父さんは...,待てよ．．．じゃあ父さんは．．．,"wait, then was my father...",,recognized,0,format_only
+tojime_no_siora:p0021,tojime_no_siora:p0021:t003,視力を無くした画家になんの価値がある?,視力を無くした画家になんの価値がある？,do you think a painter without sight is valuable enough?,,recognized,0,format_only
+tojime_no_siora:p0021,tojime_no_siora:p0021:t004,可哀想だからあの世に送ってやったよ!,可哀想だからあの世に送ってやったよ！,i couldn't help but take his non-valuable life!,,recognized,0,format_only
+tojime_no_siora:p0021,tojime_no_siora:p0021:t005,今頃は天使のヌードでも描いてるだろうさ!!,今頃は天使のヌードでも描いてるだろうさ！！,he'd probably be drawing pictures of angel nude now!,,recognized,0,format_only
+tojime_no_siora:p0022,tojime_no_siora:p0022:t000,あ?,あ？,huh?,,recognized,0,format_only
+tojime_no_siora:p0022,tojime_no_siora:p0022:t001,ててっ,ててっ,ouch!,,recognized,0,exact
+tojime_no_siora:p0022,tojime_no_siora:p0022:t002,思ったより窓が高かった...,思ったより窓が高かった．．．,the window was higher than i thought.,,recognized,0,format_only
+tojime_no_siora:p0022,tojime_no_siora:p0022:t003,おい...,おい．．．,hey...,,recognized,0,format_only
+tojime_no_siora:p0022,tojime_no_siora:p0022:t004,なんだこいつ...,なんだこいつ．．．,who's this...?,,recognized,0,format_only
+tojime_no_siora:p0022,tojime_no_siora:p0022:t005,シオラッ!?,シオラッ！？,siora?!,,recognized,0,format_only
+tojime_no_siora:p0022,tojime_no_siora:p0022:t006,いやぁ,いやぁ,hey,,recognized,0,exact
+tojime_no_siora:p0022,tojime_no_siora:p0022:t007,夜分遅くにすいません...,夜分遅くにすいません．．．,sorry to visit you this late at night.,,recognized,0,format_only
+tojime_no_siora:p0023,tojime_no_siora:p0023:t000,こちらにいるレーネさんを,こちらにいるレーネさんを,I just wanted to...,,recognized,0,exact
+tojime_no_siora:p0023,tojime_no_siora:p0023:t001,迎えにあがったのですが...,迎えにあがったのですが．．．,pick her up...,,recognized,0,format_only
+tojime_no_siora:p0023,tojime_no_siora:p0023:t002,あっ兄貴!,あっ兄貴！,don!,,recognized,0,format_only
+tojime_no_siora:p0023,tojime_no_siora:p0023:t003,こいつさっき俺が報告した妙な閉じ眼だ!,こいつさっき俺が報告した妙な閉じ眼だ！,this kid is the closed eyes I told you about!,,recognized,0,format_only
+tojime_no_siora:p0023,tojime_no_siora:p0023:t004,なんだビル,なんだビル,bill...,,recognized,0,exact
+tojime_no_siora:p0023,tojime_no_siora:p0023:t005,つけられたのか?,つけられたのか？,were you followed by him?,,recognized,0,format_only
+tojime_no_siora:p0023,tojime_no_siora:p0023:t006,つっつけようったって...,つっつけようったって．．．,but it can't be possible...,,recognized,0,format_only
+tojime_no_siora:p0023,tojime_no_siora:p0023:t007,こいつは眼が...,こいつは眼が．．．,his eyes are...,,recognized,0,format_only
+tojime_no_siora:p0023,tojime_no_siora:p0023:t008,匂いですよ,匂いですよ,it's the smell.,,recognized,0,exact
+tojime_no_siora:p0023,tojime_no_siora:p0023:t009,レーネさんが作ったハンバーグの美味しそうな香り,レーネさんが作ったハンバーグの美味しそうな香り,the smell of Hamburg steak she made.,,recognized,0,exact
+tojime_no_siora:p0023,tojime_no_siora:p0023:t010,それを辿ってここまで来てみたら...,それを辿ってここまで来てみたら．．．,I followed the scent and came here...,,recognized,0,format_only
+tojime_no_siora:p0024,tojime_no_siora:p0024:t000,腐肉を煮詰めたような臭いが充満していて,腐肉を煮詰めたような臭いが充満していて,but this place is filled with a filthy odor.,,recognized,0,exact
+tojime_no_siora:p0024,tojime_no_siora:p0024:t001,大変気分が悪い,大変気分が悪い,"gosh, i might not feel very well.",,recognized,0,exact
+tojime_no_siora:p0024,tojime_no_siora:p0024:t002,このままではせっかくの夕飯も冷めてしまう,このままではせっかくの夕飯も冷めてしまう,and the dinner will get cold if we don't hurry.,,recognized,0,exact
+tojime_no_siora:p0024,tojime_no_siora:p0024:t003,お互い銃を抜くことなく,お互い銃を抜くことなく,please let us go in peace.,,recognized,0,exact
+tojime_no_siora:p0024,tojime_no_siora:p0024:t004,どうか穏便に帰して頂けませんか,どうか穏便に帰して頂けませんか,it's for the both of us.,,recognized,0,exact
+tojime_no_siora:p0024,tojime_no_siora:p0024:t005,......,．．．,......,,recognized,3,character_difference
+tojime_no_siora:p0024,tojime_no_siora:p0024:t006,ビル,ビル,bill...,,recognized,0,exact
+tojime_no_siora:p0024,tojime_no_siora:p0024:t007,おう,おう,yeah.,,recognized,0,exact
+tojime_no_siora:p0024,tojime_no_siora:p0024:t008,状況が全く見えてないマヌケには,状況が全く見えてないマヌケには,"I guess this kid can't ""see"" the situation she's in.",,recognized,0,exact
+tojime_no_siora:p0024,tojime_no_siora:p0024:t009,鉛弾で思い知らせてやらねばな,鉛弾で思い知らせてやらねばな,we have to let her know.,,recognized,0,exact
+tojime_no_siora:p0024,tojime_no_siora:p0024:t010,閉じ眼如きが舐めたロききやがって,閉じ眼如きが舐めた口ききやがって,this is for making fun of us.,,recognized,1,character_difference
+tojime_no_siora:p0024,tojime_no_siora:p0024:t011,シオラッ!!,シオラッ！！,siora!!,,recognized,0,format_only

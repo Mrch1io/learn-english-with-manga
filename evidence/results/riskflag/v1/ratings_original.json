@@ -1,0 +1,1866 @@
+{
+  "schema_version": 1,
+  "reviewer": "R1",
+  "reviewer_kind": "human",
+  "rows": [
+    {
+      "item": "item001",
+      "candidate": "I’m a purebred hater of demons.",
+      "source_text": "生粋の鬼嫌いだ",
+      "faithfulness": 2,
+      "naturalness": 2,
+      "severe_error": true,
+      "tags": [
+        "reference",
+        "other"
+      ],
+      "notes": "该泡仍是旁人评价在藤厌恶恶鬼，应为他；I’m改成说话者自述。purebred hater也较生硬。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item002",
+      "candidate": "Kuyatake Mitsuki",
+      "source_text": "朽鷹みつき",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "图中是作者署名朽鷹みつき，没有姓氏振假名。",
+      "reviewer_confidence": "high"
+    },
+    {
+      "item": "item003",
+      "candidate": "Even if I’m weaker than you in strength,",
+      "source_text": "力でお前に劣るとしても",
+      "faithfulness": 4,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [],
+      "notes": "即使力量不如对方的让步对应；weaker…in strength略重复，但不影响意思。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item004",
+      "candidate": "The sound of civilization echoed.",
+      "source_text": "文明開化の音が響き",
+      "faithfulness": 3,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "other"
+      ],
+      "notes": "文明開化指近代文明开化；译文保留文明之声，但弱化变革背景，sound of civilization 搭配略生硬。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item005",
+      "candidate": "Inoue...?",
+      "source_text": "在藤...?",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "对在藤姓氏的惊疑，Inoue不符前页ありとう读音；省略号、问句保留。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item006",
+      "candidate": "S-stop it!",
+      "source_text": "やっやめろ!",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "阻止恶鬼的呼喊与口吃均保留。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item007",
+      "candidate": "...",
+      "source_text": "...",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "保留原泡省略号与沉默。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item008",
+      "candidate": "Stop...",
+      "source_text": "やめろ...",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "请求恶鬼停止，Stop与省略号均对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item009",
+      "candidate": "Playing around.",
+      "source_text": "戯けが",
+      "faithfulness": 2,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "tone",
+        "other"
+      ],
+      "notes": "戯けが是在骂对方蠢货；Playing around改成玩闹这一行为，失去明确的斥骂对象和语气。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item010",
+      "candidate": "*sniff*",
+      "source_text": "とくと",
+      "faithfulness": 0,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "alignment",
+        "addition",
+        "other"
+      ],
+      "notes": "とくと是后泡味わう的程度副词，意为好好地、充分地；sniff无依据添加嗅闻动作。单片丢失程度词，不能据此断言后泡核心威胁已漏掉。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item011",
+      "candidate": "Nội",
+      "source_text": "の",
+      "faithfulness": 0,
+      "naturalness": 1,
+      "severe_error": false,
+      "tags": [
+        "alignment",
+        "other"
+      ],
+      "notes": "此の接上一片こ，合为この；Nội既不是相应英语，也不是该日语音节的常规转写。实义斥骂在下一页，不据此判整句已完全丢失。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item012",
+      "candidate": "Look at the grave shrouded in mist.",
+      "source_text": "璋気にまみれた墓前を見ろ",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term",
+        "annotation"
+      ],
+      "notes": "图上是瘴気，参考串为璋気。mist只剩普通雾气，弱化墓前被恶鬼邪气污染、引发责备的含义；未直接反转人物动作。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item013",
+      "candidate": "...What is it?",
+      "source_text": "...なんだ",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "被叫名字后询问何事，What is it及前置省略号对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item014",
+      "candidate": "In the master's hour of crisis.",
+      "source_text": "主の危機に",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "主人遇险这一前提保留，与下一泡不能倒下相接。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item015",
+      "candidate": "In Fujito.",
+      "source_text": "在藤",
+      "faithfulness": 1,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "name_term",
+        "addition"
+      ],
+      "notes": "原句只是叫在藤这个姓氏；In Fujito把称呼拆成介词加似地名的片段，词性与读音均不对。没有独立的实质命题可判人物行动反转。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item016",
+      "candidate": "\"Hey!\"",
+      "source_text": "ばっ",
+      "faithfulness": 1,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "alignment",
+        "tone"
+      ],
+      "notes": "图中ばっ与下一泡馬鹿な构成吃惊的结巴；Hey变成招呼，未保留结巴起音。下一泡仍有惊愕内容，本片段不单判严重。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item017",
+      "candidate": "The source of evil, the obsession, spreads throughout the world.",
+      "source_text": "悪鬼の源たる妄執は世に蔓延るのだ",
+      "faithfulness": 3,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "name_term",
+        "other"
+      ],
+      "notes": "妄执是恶鬼的来源、并蔓延世间的意思基本保留；evil 把具体恶鬼泛化，the source of evil, the obsession 表达生硬。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item018",
+      "candidate": "Woba?",
+      "source_text": "呉葉か",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "呉葉为本作人物名，前页振假名くれは；Woba读音错误，呼唤对象可由画面恢复，未另判人物关系反转。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item019",
+      "candidate": "So, then—",
+      "source_text": "そうかならーー",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "听到还能坚持后的承接，So, then—保留后续请求的引入。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item020",
+      "candidate": "Chitose’s feelings...",
+      "source_text": "千歳の想いが",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "reference",
+        "name_term"
+      ],
+      "notes": "千歳虽读ちとせ，但承接上句早千年，是千年来的感情；Chitose’s误认成另一个人的姓名所有格，改掉感情来源和千年跨度。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item021",
+      "candidate": "Y-you are...",
+      "source_text": "お、お前は...",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "面对鬼化自身的惊问，结巴和未完句保留。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item022",
+      "candidate": "It’s like a demon.",
+      "source_text": "まるで鬼のようだ",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "reference"
+      ],
+      "notes": "此句承接“宏也，你的眼睛”，是在担心他的眼神如鬼；It’s like a demon未明确承接eyes，指代稍模糊，但保留核心比喻。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item023",
+      "candidate": "That wish.",
+      "source_text": "その願い",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "指对方要吃掉自己的愿望；That wish保留名词片段，后泡补充不会实现。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item024",
+      "candidate": "Kuh...",
+      "source_text": "かっ...",
+      "faithfulness": 3,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "tone"
+      ],
+      "notes": "图中かっ接后续かかかっ笑声；Kuh易读成疼痛闷哼，笑声色彩较弱，尚未新增情节。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item025",
+      "candidate": "I couldn’t protect you that day when you were ambushed.",
+      "source_text": "あの日不意を突かれてお前たちを守れなかったこと",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "reference"
+      ],
+      "notes": "未能保护对方及其家人的自责保留；原句自然承接说话者自己被突袭、措手不及，英文明确改为you were ambushed，焦点有偏移。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item026",
+      "candidate": "*snort*",
+      "source_text": "キヒッ",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "tone"
+      ],
+      "notes": "キヒッ与下一泡连成恶鬼的尖笑；snort可含短促笑声，但音色较像哼鼻，原本阴森发笑的表现减弱。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item027",
+      "candidate": "This is impossible.",
+      "source_text": "こりゃかなわん",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "tone",
+        "other"
+      ],
+      "notes": "微笑着承认拿呉葉没办法、比不过她；This is impossible泛成事情不可能，丢掉对象及带亲昵的认输口吻。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item028",
+      "candidate": "Hana,",
+      "source_text": "はな、",
+      "faithfulness": 1,
+      "naturalness": 2,
+      "severe_error": true,
+      "tags": [
+        "omission",
+        "alignment"
+      ],
+      "notes": "はな、与下一片せ连成離せ“放开我”。Hana,／Se…仅留下音节，整体请求未译出。",
+      "reviewer_confidence": "high"
+    },
+    {
+      "item": "item029",
+      "candidate": "I’m going to take Aito—",
+      "source_text": "俺は在藤をーー",
+      "faithfulness": 3,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "name_term",
+        "addition"
+      ],
+      "notes": "原片段为“我把在藤——”，后泡接想如何吃掉他；take提前补了含混动词，且在藤应读Aritou而非Aito。施受方向仍保留。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item030",
+      "candidate": "I’m well aware of the frailty of a child’s resolve at this point.",
+      "source_text": "今さら小童の軟弱さなど承知の上だ",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "reference",
+        "other"
+      ],
+      "notes": "明知对方软弱的安慰保留；原话小童是当面对宏也的称呼，a child’s resolve偏成一般儿童意志的论断，并缩窄软弱的范围。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item031",
+      "candidate": "I already know.",
+      "source_text": "もう知った",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "承接妄执的滋味，表示已经领教，I already know对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item032",
+      "candidate": "",
+      "source_text": "ーーた",
+      "faithfulness": 0,
+      "naturalness": null,
+      "severe_error": false,
+      "tags": [
+        "omission"
+      ],
+      "notes": "候选为空，按规则忠实度0、自然度N/A。原片只是下一泡助けて的结巴起音た，单片缺失不等于整句求救被漏掉，严重错误暂判否。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item033",
+      "candidate": "It looks absolutely delicious!!",
+      "source_text": "最高に旨そうだ!!",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "承接对方的妄执，评价看起来无比美味；程度与恶鬼食物比喻保留。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item034",
+      "candidate": "Did you throw yourself in front of me to distract the master from me?",
+      "source_text": "身を挺して主の気を俺から逸らしたか",
+      "faithfulness": 4,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [],
+      "notes": "以身体挡刀使主人注意力离开恶鬼，动作和目的对应；重复from me及the master略生硬。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item035",
+      "candidate": "Kawakagamaru",
+      "source_text": "華鏡丸",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "华镜丸前页读作かきょうまる，Kawakagamaru不符读音。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item036",
+      "candidate": "This wound and the revenge I swore to my deceased family...",
+      "source_text": "この手の傷と亡き家族に誓った仇討ち供養",
+      "faithfulness": 3,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "omission",
+        "other"
+      ],
+      "notes": "复仇誓言和亡故家人保留；原句把手伤与亡亲作为立誓对象，并有供养含义，译文把伤与复仇并列且省去祭奠意味。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item037",
+      "candidate": "Mother.",
+      "source_text": "母上",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "在幻境中叫母亲，Mother对应母上。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item038",
+      "candidate": "Alright, tomorrow’s the day for cleaning the graves!",
+      "source_text": "さて明日は墓掃除だ!",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "annotation"
+      ],
+      "notes": "明天去扫墓的安排完整。参考串さて明日は中的起首さて已在相邻标注单列，图上该泡只出现一次；候选只说一次Alright，不判重复译文。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item039",
+      "candidate": "Hurry up and show your face...",
+      "source_text": "早くお顔を...",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "希望家人快摘面具露出脸，补出show是英语所需的动作，符合前泡和画面。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item040",
+      "candidate": "How dare you...",
+      "source_text": "よくも...",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "面对家人被害的愤怒责斥，How dare you准确保留未完语气。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item041",
+      "candidate": "I don’t have anything left.",
+      "source_text": "俺にはもう",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "alignment",
+        "addition",
+        "other"
+      ],
+      "notes": "俺にはもう应跨泡接“不再有资格使役你”。anything left将限定的资格扩大为一无所有；后泡英文未在此包展示。",
+      "reviewer_confidence": "medium"
+    },
+    {
+      "item": "item042",
+      "candidate": "Kagemaru—!!",
+      "source_text": "華鏡丸ーー!!",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "华镜丸前页振假名かきょうまる，Kagemaru漏掉关键读音；呼喊情绪保留。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item043",
+      "candidate": "You dare interfere with this Kagaribi-maru, which has lived for a hundred years!!",
+      "source_text": "百年を生きるこの華鏡丸の邪魔をするか!!",
+      "faithfulness": 3,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "name_term",
+        "other"
+      ],
+      "notes": "活了百年的自夸及质问对方干涉保留；华镜丸应为Kakyomaru，Kagaribi-maru不符。自称this…which也较生硬。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item044",
+      "candidate": "Enjoy it to the fullest!!",
+      "source_text": "思う存分味わうがいい!!",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "让敌人尽情品尝痛苦的讥讽，Enjoy it to the fullest可在画面中表达该威胁，不按字面误判为友善邀请。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item045",
+      "candidate": "This is not some obsession!",
+      "source_text": "これは妄執などではない!",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "强烈否认这是妄执，This is not some obsession保留否定和轻蔑语气。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item046",
+      "candidate": "Leftovers.",
+      "source_text": "喰い残しか",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "把幸存者称为没吃完的剩食；Leftovers保留残酷比喻。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item047",
+      "candidate": "\"Why don’t you stop?\"",
+      "source_text": "やめにしないか",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "呉葉劝对方停止这种祭扫方式，Why don’t you stop保留劝阻；外层引号不改变意思。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item048",
+      "candidate": "How about this kind of idea?",
+      "source_text": "こういう趣向はどうだ?",
+      "faithfulness": 3,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "other"
+      ],
+      "notes": "恶鬼提出新的戏弄花样，后图变成妹妹。kind of idea意思较泛、措辞生硬，但提议的新花样仍可理解。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item049",
+      "candidate": "And then...",
+      "source_text": "そして...",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "other"
+      ],
+      "notes": "承接上一页“不要忘记”而添加另一件事，そして是而且；And then稍偏时间先后，但不影响主要关系。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item050",
+      "candidate": "Hiroya",
+      "source_text": "宏也",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "宏也译为Hiroya，与此前姓名振假名对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item051",
+      "candidate": "...As you wish.",
+      "source_text": "...御意",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "御意为恭敬遵命；As you wish保留服从语气，省略号也在。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item052",
+      "candidate": "Hiroya",
+      "source_text": "宏也",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "呉葉呼唤宏也，Hiroya对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item053",
+      "candidate": "So it’s a complete wipeout...?",
+      "source_text": "それが全滅だと...?",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "对全灭结果的惊问保留，wipeout与画面战况相符。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item054",
+      "candidate": "Inoue...",
+      "source_text": "在藤...",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "呼唤在藤，前文读音ありとう；Inoue为不对应的姓氏读法。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item055",
+      "candidate": "Don’t lose sight of your feelings.",
+      "source_text": "想いを見失わぬ",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "reference",
+        "alignment",
+        "other"
+      ],
+      "notes": "与前页俺はもう连成“我不会再迷失本心”的自身誓言。Don’t…your feelings变成对他人的劝告，也无法续接上一候选I’ve already，核心人称和说话意图改变。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item056",
+      "candidate": "Don’t get cocky after just a hundred years, Hakyōmaru.",
+      "source_text": "百年程度で調子づくなよ華鏡丸",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "斥对方不过百年就自大，年数和语气对应；Hakyōmaru首音不符かきょうまる。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item057",
+      "candidate": "Serving the Fujiwara family since the Heian era.",
+      "source_text": "平安の世より在藤に仕えて",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "自平安时代服侍这一家族的关系、时间保留；在藤不是Fujiwara，家名错误。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item058",
+      "candidate": "Ko",
+      "source_text": "こ",
+      "faithfulness": 1,
+      "naturalness": 1,
+      "severe_error": false,
+      "tags": [
+        "omission",
+        "alignment"
+      ],
+      "notes": "こ与下一泡の、再下一页痴れ者连成この痴れ者“你这个蠢货”。Ko只保留音节，未表达指示、斥骂连接；单片无独立实质命题。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item059",
+      "candidate": "Ah...",
+      "source_text": "ああ...",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "看到诅咒燃烧消失的发声，Ah保留。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item060",
+      "candidate": "Brother-sama...",
+      "source_text": "兄さま...",
+      "faithfulness": 4,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [],
+      "notes": "兄さま是带敬意的哥哥称呼；Brother-sama保留亲属关系与敬称，混用英语和日语后缀稍生硬。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item061",
+      "candidate": "The \"Goku En\" of Wu-ya, which I honed to bury you.",
+      "source_text": "貴様を葬るために身につけた呉葉の「極焔」",
+      "faithfulness": 3,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "name_term",
+        "other"
+      ],
+      "notes": "为消灭对方而练成火焰招式的目的保留；呉葉应为Kureha而非Wu-ya，The Goku En of…结构也生硬。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item062",
+      "candidate": "Harmony...",
+      "source_text": "和音...",
+      "faithfulness": 1,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "reference",
+        "name_term"
+      ],
+      "notes": "和音是妹妹Kazune；此处与父亲、母亲并列呼唤，Harmony错误变成抽象名词，关键人物所指丢失。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item063",
+      "candidate": "Huh!?",
+      "source_text": "ーっ!?",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "突然受击或局势改变时惊愕，Huh!?对应原图惊叹问号和促音。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item064",
+      "candidate": "The light of humanity covers the world.",
+      "source_text": "人の灯が世を覆うほど",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "omission"
+      ],
+      "notes": "保留人类灯火覆盖世界；漏掉ほど与下一句构成的“越……越……”关系。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item065",
+      "candidate": "It’s been a while since I’ve been to the Imperial Capital.",
+      "source_text": "久々にに帝都に来てみれば",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "annotation"
+      ],
+      "notes": "久别再到帝都的时间背景保留，英文可在已到达现场时这样说。参考串久々にに多一个に，图上只见久々に。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item066",
+      "candidate": "111111!?",
+      "source_text": "一一一一!?",
+      "faithfulness": 0,
+      "naturalness": 1,
+      "severe_error": false,
+      "tags": [
+        "annotation",
+        "other"
+      ],
+      "notes": "原图为连续横线及惊叹问号，表达突发惊愕；参考串一一一一不应当数词。111111!?成为无意义数字串；没有可确认被反转的实质命题。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item067",
+      "candidate": "It won’t be that easy.",
+      "source_text": "そう容易くはない",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "承接十年积怨，表示不会轻易被击败或了结；It won’t be that easy保留否定与挑衅。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item068",
+      "candidate": "O...ni...",
+      "source_text": "お...に...",
+      "faithfulness": 4,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [],
+      "notes": "お…に…是鬼的断续发音；O…ni…保留该读法，英文略依赖后泡Demon及作品语境。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item069",
+      "candidate": "Even if it’s an illusion, my sister’s face...",
+      "source_text": "幻術とはいえ妹の顔を...",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "reference"
+      ],
+      "notes": "该内心话由呉葉所想，妹指宏也的妹妹；my sister变成呉葉自己的妹妹，亲属关系错误。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item070",
+      "candidate": "What are you planning to do?",
+      "source_text": "何をするつもりだ",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "恶鬼看出对方要有所行动并询问意图，译文准确。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item071",
+      "candidate": "It’s not something you can just take so easily.",
+      "source_text": "そう簡単に取れるものではない",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "other"
+      ],
+      "notes": "承接十年前下的诅咒，取れる指解除、去掉。take没有off/away，成了不容易取得该物，改变“诅咒难以解除”的关键命题。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item072",
+      "candidate": "It’s looking quite delicious now.",
+      "source_text": "随分と旨そうになりおった",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "承接十年前没吃掉的小童，评价如今长得很可口；it可体现恶鬼把对方当食物的口吻，未反转动作关系。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item073",
+      "candidate": "Well done, to have come this far.",
+      "source_text": "よくぞここまで",
+      "faithfulness": 4,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [],
+      "notes": "与下一泡憎しみを育てた连读，是赞叹仇恨养到这种程度；come this far可作程度表达，语序略生硬。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item074",
+      "candidate": "The feelings that were in your heart...",
+      "source_text": "その心にあった想いを",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "承接“千万不要忘记”，指对方心里曾有的情感；英文名词片段对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item075",
+      "candidate": "AAAAAAA",
+      "source_text": "あああああ",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "长声嘶喊，英文连续A保留发声。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item076",
+      "candidate": "When the blade of hatred pierced me and the obsession of revenge took hold of you—",
+      "source_text": "憎悪の刃が俺を貫き復讐の妄執がお前を支配したときーー",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "other"
+      ],
+      "notes": "原句为尚待发生的条件：当仇恨之刃刺穿我、复仇执念支配你时。pierced/took hold写成过去发生，改变后续鬼化的条件与时间关系。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item077",
+      "candidate": "Even now, I feel like I’m being burned alive with frustration.",
+      "source_text": "今でも悔しさに身を焼かれそうだ",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "至今被悔恨灼烧的比喻与时间均保留；burned alive是可理解的强化表达。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item078",
+      "candidate": "You must become a demon and merge with me, Aito!!",
+      "source_text": "お前は悪鬼となり果て俺と一つになるのだ在藤ぃ!!",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term",
+        "tone"
+      ],
+      "notes": "成为恶鬼并与说话者合一的关键结果保留；must把预告的必然结果写成必须如此，另有Aito姓氏读音误差。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item079",
+      "candidate": "Obsession can overwhelm all feelings.",
+      "source_text": "妄執はあらゆる想いを覆ってしまう",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "妄执会覆盖其他感情，overwhelm all feelings保留作用与范围。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item080",
+      "candidate": "—Woroba",
+      "source_text": "ーー呉葉",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "呼唤呉葉，应读Kureha；Woroba不符已经可见的振假名。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item081",
+      "candidate": "It’s completely flavorless.",
+      "source_text": "まるで歯ごたえがない",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "other"
+      ],
+      "notes": "歯ごたえ在刚击败讨伐士的语境指毫无挑战，也借吃人的口吻双关；flavorless仅说没有味道，错失战斗强弱评价。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item082",
+      "candidate": "Stop it—",
+      "source_text": "やめーー",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "恶鬼试图阻止烧除手伤上的诅咒，Stop it及中断对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item083",
+      "candidate": "But it’s not entirely wrong.",
+      "source_text": "だがあながち間違いじゃない",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "对前文鬼神比喻作“也不完全错”的转折，译文保留否定范围。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item084",
+      "candidate": "Ah...",
+      "source_text": "あ...",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "宏也见呉葉倒下后震惊发声，Ah保留。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item085",
+      "candidate": "You fool!!",
+      "source_text": "痴れ者がぁ!!",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "呉葉拳击唤醒宏也并骂他愚蠢，You fool对应强烈斥责。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item086",
+      "candidate": "The scars on this hand, carved ten years ago.",
+      "source_text": "十年前に刻まれたこの手の傷",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "指十年前在这只手上留下的伤，时间、部位与伤痕均对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item087",
+      "candidate": "Let’s go, Kuroha.",
+      "source_text": "行くぞ呉葉",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "出发的命令保留；呉葉应为Kureha，Kuroha读音有误。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item088",
+      "candidate": "It was a bit tough, but...",
+      "source_text": "少々堪えたがな",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "承认处理伤势确实有些吃力，It was a bit tough保留让步、轻描淡写的口气。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item089",
+      "candidate": "I’m done.",
+      "source_text": "もうやめだ",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "表明到此为止、不再沉醉仇恨，I’m done符合语境。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item090",
+      "candidate": "\"Sam...",
+      "source_text": "さま...",
+      "faithfulness": 2,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "name_term",
+        "alignment",
+        "other"
+      ],
+      "notes": "此处是にい…さま…中的敬称后半，不是人名Sam；Sam截错罗马字，并带多余开引号。需与上一泡连读核查。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item091",
+      "candidate": "Who the hell is that!?",
+      "source_text": "何奴!?",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "恶鬼遭突然袭击后问来者何人，英语惊问符合画面；the hell是相称的愤怒语气。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item092",
+      "candidate": "Such an offering...",
+      "source_text": "そのような供え物...",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "对这种供品的迟疑指责，Such an offering保留片段和省略号。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item093",
+      "candidate": "I’ve already...",
+      "source_text": "俺はもう",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "alignment",
+        "other"
+      ],
+      "notes": "本页俺はもう需跨页接想いを見失わぬ，合为不会再迷失本心。I’ve already预设完成时，不易接后页否定誓言；本片尚无否定词，未单判为否定反转。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item094",
+      "candidate": "That’s Aritou!!",
+      "source_text": "あの在藤か!!",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "reference"
+      ],
+      "notes": "Aritou读音正确；原句是对面质问“你就是那个在藤吗”，That’s改为第三人称辨认，直接称呼与疑问口气略弱。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item095",
+      "candidate": "Demon... I’ll kill you!",
+      "source_text": "鬼...殺す!",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "把眼前对象当作鬼并要杀死，Demon…I’ll kill you保留称呼、施受与威胁。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item096",
+      "candidate": "Nii...",
+      "source_text": "にい...",
+      "faithfulness": 3,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "与下一泡さま连成にいさま，妹妹在叫哥哥。Nii保留日语发音片段，但未给英文读者明确的亲属称呼。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item097",
+      "candidate": "Kaka...",
+      "source_text": "かかかっ",
+      "faithfulness": 4,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [],
+      "notes": "持续发笑的拟声基本保留；Kaka在英文里不如Ha ha直观，但仍可结合画面理解。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item098",
+      "candidate": "Give me.",
+      "source_text": "くれ",
+      "faithfulness": 0,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "name_term",
+        "alignment",
+        "other"
+      ],
+      "notes": "くれ与下一泡はっ连成受伤者呉葉的名字Kureha；Give me误作索取命令，核心说话意图与对象均改变。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item099",
+      "candidate": "This unending hatred, this endless grudge.",
+      "source_text": "この上なき憎悪を果てしなき怨睦を",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "annotation",
+        "other"
+      ],
+      "notes": "恨与怨的两种情绪保留；この上なき是无以复加，unending改成时间无尽。图上怨嗟在参考串录为怨睦，单独记录字形疑点。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item100",
+      "candidate": "For a while, I’ll have to let you boss me around.",
+      "source_text": "しばらくは尻に敷かせてもらわんとな",
+      "faithfulness": 1,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "reference"
+      ],
+      "notes": "呉葉说接下来要让宏也受自己管、被自己压住；I’ll have to let you boss me around把谁管谁完全颠倒。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item101",
+      "candidate": "Seems like that guy from Aito did it again all by himself.",
+      "source_text": "また在藤の奴が一人でやっちまったらしい",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term",
+        "addition"
+      ],
+      "notes": "旁人谈论在藤又独自解决恶鬼；主体事件保留，但在藤是姓氏，from Aito误作来自某地。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item102",
+      "candidate": "That pain won’t fade easily, you know.",
+      "source_text": "その痛み容易には引かんぞ",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "疼痛不会轻易退去的威胁，否定和程度均保留。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item103",
+      "candidate": "Kureha",
+      "source_text": "呉葉",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "呼唤呉葉，Kureha与已见振假名一致。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item104",
+      "candidate": "Ugh...",
+      "source_text": "ぐっ...",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "呉葉中刀后的痛哼，Ugh与表情、伤势相符。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item105",
+      "candidate": "AAAAAAAAH",
+      "source_text": "あああああああああ",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "长声悲痛尖叫，英文大写呼喊对应，没有新增命题。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item106",
+      "candidate": "\"Over here, we’ve been continuing the tradition of shikigami for a thousand years since the Heian era.\"",
+      "source_text": "こちとら平安の世より式神を続けて千年だ",
+      "faithfulness": 2,
+      "naturalness": 2,
+      "severe_error": true,
+      "tags": [
+        "reference",
+        "addition",
+        "other"
+      ],
+      "notes": "呉葉说自己自平安时代起当式神已有千年；we与continuing the tradition改成群体传承传统，丢掉本人存活、服役千年的关键事实。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item107",
+      "candidate": "A mere shikigami trying to put up a fight.",
+      "source_text": "式神風情が悪あがきを",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "tone"
+      ],
+      "notes": "式神身份与轻蔑口气保留；悪あがき含徒劳挣扎，put up a fight对此层意思稍弱。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item108",
+      "candidate": "Understood.",
+      "source_text": "了解した",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "接受紧急增援命令的答复，Understood对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item109",
+      "candidate": "You’re running out of things to say, and that’s what you come up with?!",
+      "source_text": "お前言うに事欠いてそれかぁーー!!",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "other"
+      ],
+      "notes": "言うに事欠いて是“那么多可说的，偏说这个”的责备；running out of things to say按字面写成没话可说。后半责怪内容仍对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item110",
+      "candidate": "I nurtured hatred.",
+      "source_text": "憎しみを育てた",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "reference"
+      ],
+      "notes": "恶鬼在称赞对方把仇恨养大，主语是你。I nurtured改成恶鬼自述养恨，关键感情归属反转。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item111",
+      "candidate": "When I defeated Kagemaru, I tried to look cool.",
+      "source_text": "華鏡丸を討ったときには見栄を張ったが",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "omission",
+        "name_term"
+      ],
+      "notes": "讨敌时逞强、摆出好看姿态的意思保留；华镜丸读音不是Kagemaru，句尾が与下文的转折也弱化。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item112",
+      "candidate": "Hah...",
+      "source_text": "はっ...",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "被勒住时的短促喘声，也可能接随后はな、せ的结巴起音；Hah保留短促发声。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item113",
+      "candidate": "....",
+      "source_text": "....",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "原泡沉默省略号完整保留。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item114",
+      "candidate": "My blade won’t dull now.",
+      "source_text": "今さら俺の刀は鈍らぬ",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "other"
+      ],
+      "notes": "原句承接幻术，表示此刻不会因此迟疑挥刀；blade won’t dull偏向刀刃物理变钝，决意不动摇的比喻稍弱。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item115",
+      "candidate": "Oh...",
+      "source_text": "おっ...",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "tone"
+      ],
+      "notes": "图中是握住疼痛手伤、即将长声喊叫的短促呻吟；Oh可以表示惊觉，但痛苦发声的色彩较弱。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item116",
+      "candidate": "\"Hate, hate, hate!\"",
+      "source_text": "憎め憎め",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "原句怂恿受害者恨自己；英文重复Hate传达相同命令。多一次修辞重复不构成新的情节。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item117",
+      "candidate": "Se...",
+      "source_text": "せ...",
+      "faithfulness": 1,
+      "naturalness": 1,
+      "severe_error": true,
+      "tags": [
+        "omission",
+        "alignment"
+      ],
+      "notes": "与上一片はな合成放开我的命令；Se…单独无英语含义。两片整体丢失请求，但本行只占末尾音节。裁剪与分割：原文「離せ」被拆成「はな、」和「せ...」两个片段，导致每片都缺乏完整的词义上下文。这可能是问题的重要来源。",
+      "reviewer_confidence": "high"
+    },
+    {
+      "item": "item118",
+      "candidate": "The taste of what you wasted.",
+      "source_text": "お前が無駄にしたものの味",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "指对方浪费掉的仇恨、妄执之味，名词片段与后页品尝命令连贯。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item119",
+      "candidate": "Evil demons are spreading havoc!",
+      "source_text": "悪鬼発生被害拡大中!",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "other"
+      ],
+      "notes": "出现恶鬼且损害正在扩大的警报基本保留；英文合并成正在肆虐，并用复数demons，具体出现信息较弱。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item120",
+      "candidate": "It must have been that day.",
+      "source_text": "きっとあの日に違いない",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "叙述者将心中生鬼追溯到那一天，must have been保留推断与过去时间。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item121",
+      "candidate": "Aah!",
+      "source_text": "ああっ",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "震惊转为更强的喊声，Aah!对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item122",
+      "candidate": "Inoue-san...",
+      "source_text": "在藤ぃ...",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term",
+        "addition",
+        "tone"
+      ],
+      "notes": "在藤被误读为Inoue；原句拖长尾音ぃ的挑衅不含敬称，添加-san使语气发生变化。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item123",
+      "candidate": "Kureha",
+      "source_text": "呉葉",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "图上呉葉旁有くれは振假名；Kureha对应正确。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item124",
+      "candidate": "However",
+      "source_text": "しかし",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "转折词しかし译为However，承接后续赞叹，意思对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item125",
+      "candidate": "Swallowed—",
+      "source_text": "呑み込まれーー",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "即将被吞没的未完内心话，Swallowed—保留被动动作和打断。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item126",
+      "candidate": "What a waste...",
+      "source_text": "くだらん...",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "other"
+      ],
+      "notes": "恶鬼讥讽这一幕无聊荒唐；What a waste偏向可惜、浪费，轻蔑仍在但评价角度不同。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item127",
+      "candidate": "Kawakagamaru",
+      "source_text": "華鏡丸",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "原图明确标かきょうまる，可转写Kakyomaru/Kakyoumaru；Kawakagamaru不符振假名。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item128",
+      "candidate": "Look.",
+      "source_text": "見ろ",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "让宏也看自己，Look保留简短命令，后泡再限定只看自己。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item129",
+      "candidate": "That’s why I’m here.",
+      "source_text": "そんなときのために私がいる",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "前句说人会迷路，此句说自己正是为这种时候陪在身边；That’s why I’m here对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item130",
+      "candidate": "I’ll always be by your side.",
+      "source_text": "私がいつもそばにいることを",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "一直陪在对方身边的安慰与承诺保留，可与前页不要忘记相连。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item131",
+      "candidate": "That’s ridiculous...",
+      "source_text": "馬鹿な...",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "对十二名精锐全灭表示不敢置信，That’s ridiculous可表达该惊愕。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item132",
+      "candidate": "I see...",
+      "source_text": "なるほど...",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "理解呉葉的心意后回应なるほど，I see与表情对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item133",
+      "candidate": "Inoue Hiroya",
+      "source_text": "在藤宏也",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term"
+      ],
+      "notes": "宏也的Hiroya对应，但在藤不是Inoue；前文姓名振假名为ありとう。自报身份时姓氏译错。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item134",
+      "candidate": "How dare you talk about family love with that mouth of yours.",
+      "source_text": "どの口で家族愛を語る",
+      "faithfulness": 4,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [],
+      "notes": "反问如此残忍的人何来脸面谈家人之爱，How dare you保留讥讽；with that mouth of yours略直译但可懂。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item135",
+      "candidate": "It’s all in your head.",
+      "source_text": "お前の一人相撲だ",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "other"
+      ],
+      "notes": "一人相撲指对方独自折腾、自己不再受其牵制；It’s all in your head偏成一切只是想象，未准确传达较量已单方面落空。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item136",
+      "candidate": "I’ll devour you!!",
+      "source_text": "お前を喰らってやる!!",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "恶鬼扬言吞噬对方，主客体和威胁完整。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item137",
+      "candidate": "Every time I defeat an evil demon,",
+      "source_text": "悪鬼を討つたびに",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "reference"
+      ],
+      "notes": "呉葉在责问宏也每次讨鬼便供奉手指；I将被责问者的行为改成说话者自己的行为。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item138",
+      "candidate": "The enemy of the family I’ve waited ten years for.",
+      "source_text": "十年待った家族の仇だ",
+      "faithfulness": 2,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "other"
+      ],
+      "notes": "应为等了十年的报仇对象、杀害自己家人的仇敌。英文family I’ve waited ten years for容易读成等待家人十年，修饰关系不清；未明确另造新事件。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item139",
+      "candidate": "I can recall my family through the scent etched into my being.",
+      "source_text": "この身に刻まれた匂いで家族のことを思い出せ",
+      "faithfulness": 1,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "reference",
+        "other"
+      ],
+      "notes": "呉葉让宏也通过自己身上的气味想起宏也的家人；译文变成说话者能回想自己的家人，命令、回忆者及家人归属均改变。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item140",
+      "candidate": "That is—",
+      "source_text": "それはーー",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "それは为引出回忆时间的未完片段；That is—保留悬停，后文that day补足所指。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item141",
+      "candidate": "Hey, Hiroya—",
+      "source_text": "なあ、宏也ーー",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "叫住宏也的招呼被打断，Hey, Hiroya和破折号对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item142",
+      "candidate": "With the next strike—",
+      "source_text": "次の一太刀でーー",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "预告下一刀发生的结果，With the next strike与未完破折号对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item143",
+      "candidate": "Haha.",
+      "source_text": "ははっ",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "呉葉回应质疑前短笑，Haha保留。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item144",
+      "candidate": "Huh?",
+      "source_text": "おや?",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "恶鬼发现幸存者时的轻微惊疑，Huh对应。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item145",
+      "candidate": "Heavyweight",
+      "source_text": "重い",
+      "faithfulness": 2,
+      "naturalness": 2,
+      "severe_error": false,
+      "tags": [
+        "other"
+      ],
+      "notes": "背着呉葉抱怨她重，应为Heavy/You’re heavy；Heavyweight变成重量级人物或选手称谓，仍有重量联想但表达不准确。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item146",
+      "candidate": "Harmony...!!",
+      "source_text": "和音を...!!",
+      "faithfulness": 1,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "reference",
+        "name_term"
+      ],
+      "notes": "图上和音有かずね振假名，是被害妹妹Kazune。Harmony把受害者姓名变成抽象的和谐，丢失关键人物所指。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item147",
+      "candidate": "The sinister aura of the demon drifting nearby.",
+      "source_text": "辺りを漂う悪鬼の璋気",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "annotation"
+      ],
+      "notes": "图上可见瘴気，参考串录成璋気。英文表达恶鬼在周围残留的阴森气息，意思对应；参考字形疑点单独记录。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item148",
+      "candidate": "What a fool.",
+      "source_text": "馬鹿な",
+      "faithfulness": 1,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "tone",
+        "other"
+      ],
+      "notes": "恶鬼惊讶已经被砍的呉葉为何还能行动，馬鹿な是不可能、难以置信。What a fool变成骂人，核心说话意图改变。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item149",
+      "candidate": "Hiroya, you're too excited. Calm down a bit.",
+      "source_text": "宏也興奮しすぎだ少し落ち着け",
+      "faithfulness": 4,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [],
+      "notes": "呉葉提醒宏也太激动、稍微冷静，称呼和劝告完整。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item150",
+      "candidate": "Ever since my family was devoured by demons.",
+      "source_text": "家族を悪鬼に喰われて以来",
+      "faithfulness": 2,
+      "naturalness": 3,
+      "severe_error": true,
+      "tags": [
+        "reference"
+      ],
+      "notes": "画面是旁人谈论在藤的经历，家族指他的家人。my family改成说话者自己的家人，关键人物归属错误。",
+      "reviewer_confidence": null
+    },
+    {
+      "item": "item151",
+      "candidate": "I am grateful to you, who have served the successive heads of the Aito family as a shikigami.",
+      "source_text": "式神として代々の在藤当主に仕えできたお前には感謝している",
+      "faithfulness": 3,
+      "naturalness": 3,
+      "severe_error": false,
+      "tags": [
+        "name_term",
+        "annotation"
+      ],
+      "notes": "感谢式神历代服侍家主的关系完整；姓氏在藤在前页标有读音，Aito读法有误。图中文字为仕えてきた，参考串仕えできた有录入疑点。",
+      "reviewer_confidence": null
+    }
+  ]
+}

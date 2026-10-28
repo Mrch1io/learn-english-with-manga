@@ -1,0 +1,47 @@
+Daily-life presentation fixture
+
+Manga source: tencho_isoro, page 4 (images/tencho_isoro/ja/003.jpg).
+The reading sample also includes consecutive pages 5 and 6
+(images/tencho_isoro/ja/004.jpg and images/tencho_isoro/ja/005.jpg), bundled
+under page-005/ and page-006/. The same license and curation boundaries below
+apply to all three pages. Each page records its own source and character seeds.
+The original on-page creator credit is preserved unchanged in original.jpg,
+daily-life.clean.png and daily-life.png.
+
+Source: OpenMantra dataset, mantra-inc/open-mantra-dataset
+https://github.com/mantra-inc/open-mantra-dataset
+Pinned revision: 59341ad922284a8be219b7784feb5a79779a1447
+Original image:
+https://github.com/mantra-inc/open-mantra-dataset/blob/59341ad922284a8be219b7784feb5a79779a1447/images/tencho_isoro/ja/003.jpg
+
+License: Creative Commons Attribution-NonCommercial 4.0 International.
+The complete source license is included in LICENSE.txt.
+https://creativecommons.org/licenses/by-nc/4.0/
+
+Dataset citation:
+Ryota Hinami, Shonosuke Ishiwatari, Kazuhiko Yasuda and Yusuke Matsui.
+Towards Fully Automated Manga Translation. AAAI, 2021.
+https://arxiv.org/abs/2012.14271
+
+Modifications in this fixture:
+- The current project glyph masks and typesetter were used with explicitly
+  curated white-bubble fills. This does not claim automatic cleanup performance
+  on this page.
+- The adjacent exclamation was separated from one Japanese source span, and
+  the small final handwritten note was added as a presentation text region.
+- Sound effects and artwork outside the selected dialogue masks remain intact.
+- Shopkeeper and Meru are curated demonstration identities, manually associated
+  with eleven clear dialogue regions in character-seeds.json. These labels are
+  not Magi detections, embeddings or model predictions. The initial ellipsis
+  and abrupt exclamation remain unassigned because their attribution is less
+  certain. No voice or speaker style is preselected.
+
+This fixture is excluded from research inputs, training and evaluation.
+The editable application copy is created under data/presentation-demo and uses
+its own memory.sqlite3; reopening it preserves user corrections.
+Missing curated characters/bindings are added only for this exact original and
+demo scope. Existing names, voices and all bindings (including an explicit
+Unknown choice, whether confirmed or not) always take precedence. Source text
+or geometry changed by the user is not given a new default binding.
+All three pages share this isolated character database. Adding continuation
+pages never replaces the original single-page session or any saved page edits.
